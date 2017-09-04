@@ -1,0 +1,11 @@
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Service\bin\Debug\Ecm.Service.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Service\bin\Debug\Ecm.Service.pdb
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Service\bin\Debug\Ecm.Domain.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Service\bin\Debug\FastJSON.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Service\bin\Debug\GoobizFrame.Profile.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Service\bin\Debug\Ecm.Domain.pdb
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Service\obj\Debug\Ecm.Service.csprojResolveAssemblyReference.cache
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Service\obj\Debug\Ecm.Service.Properties.Resources.resources
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Service\obj\Debug\Ecm.Service.csproj.GenerateResource.Cache
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Service\obj\Debug\Ecm.Service.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Service\obj\Debug\Ecm.Service.pdb

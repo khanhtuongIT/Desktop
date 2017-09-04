@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsBaogia_Chitiet" targetNamespace="http://tempuri.org/dsBaogia_Chitiet.xsd" xmlns:mstns="http://tempuri.org/dsBaogia_Chitiet.xsd" xmlns="http://tempuri.org/dsBaogia_Chitiet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsBaogia_Chitiet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsBaogia_Chitiet" msprop:Generator_DataSetName="dsBaogia_Chitiet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_TablePropName="DataTable1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ten_hanghoa" msprop:Generator_UserColumnName="ten_hanghoa" msprop:Generator_ColumnPropNameInRow="ten_hanghoa" msprop:Generator_ColumnVarNameInTable="columnten_hanghoa" msprop:Generator_ColumnPropNameInTable="ten_hanghoaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="soluong" msprop:Generator_UserColumnName="soluong" msprop:Generator_ColumnPropNameInRow="soluong" msprop:Generator_ColumnVarNameInTable="columnsoluong" msprop:Generator_ColumnPropNameInTable="soluongColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ten_donvitinh" msprop:Generator_UserColumnName="ten_donvitinh" msprop:Generator_ColumnPropNameInRow="ten_donvitinh" msprop:Generator_ColumnVarNameInTable="columnten_donvitinh" msprop:Generator_ColumnPropNameInTable="ten_donvitinhColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="dongia" msprop:Generator_UserColumnName="dongia" msprop:Generator_ColumnPropNameInRow="dongia" msprop:Generator_ColumnVarNameInTable="columndongia" msprop:Generator_ColumnPropNameInTable="dongiaColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ghichu" msprop:Generator_UserColumnName="ghichu" msprop:Generator_ColumnPropNameInRow="ghichu" msprop:Generator_ColumnVarNameInTable="columnghichu" msprop:Generator_ColumnPropNameInTable="ghichuColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="stt" msprop:Generator_UserColumnName="stt" msprop:Generator_ColumnPropNameInRow="stt" msprop:Generator_ColumnVarNameInTable="columnstt" msprop:Generator_ColumnPropNameInTable="sttColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="thanhtien" msprop:Generator_UserColumnName="thanhtien" msprop:Generator_ColumnVarNameInTable="columnthanhtien" msprop:Generator_ColumnPropNameInRow="thanhtien" msprop:Generator_ColumnPropNameInTable="thanhtienColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

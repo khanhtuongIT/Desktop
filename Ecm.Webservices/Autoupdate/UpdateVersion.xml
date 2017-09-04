@@ -1,0 +1,6 @@
+<VersionConfig>
+
+	<AvailableVersion>2.11.1.15</AvailableVersion>
+	<AppFileURL>ecm.zip</AppFileURL>
+  <ExecuteAssembly>ecm</ExecuteAssembly>
+</VersionConfig>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsHdbanhang_Chitiet" targetNamespace="http://tempuri.org/dsHdbanhang_Chitiet.xsd" xmlns:mstns="http://tempuri.org/dsHdbanhang_Chitiet.xsd" xmlns="http://tempuri.org/dsHdbanhang_Chitiet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsHdbanhang_Chitiet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsHdbanhang_Chitiet" msprop:Generator_UserDSName="dsHdbanhang_Chitiet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Hdbanhang_Chitiet" msprop:Generator_UserTableName="Hdbanhang_Chitiet" msprop:Generator_RowEvArgName="Hdbanhang_ChitietRowChangeEvent" msprop:Generator_TableVarName="tableHdbanhang_Chitiet" msprop:Generator_TablePropName="Hdbanhang_Chitiet" msprop:Generator_RowDeletingName="Hdbanhang_ChitietRowDeleting" msprop:Generator_RowChangingName="Hdbanhang_ChitietRowChanging" msprop:Generator_RowDeletedName="Hdbanhang_ChitietRowDeleted" msprop:Generator_RowEvHandlerName="Hdbanhang_ChitietRowChangeEventHandler" msprop:Generator_TableClassName="Hdbanhang_ChitietDataTable" msprop:Generator_RowChangedName="Hdbanhang_ChitietRowChanged" msprop:Generator_RowClassName="Hdbanhang_ChitietRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="stt" msprop:Generator_ColumnVarNameInTable="columnstt" msprop:Generator_ColumnPropNameInRow="stt" msprop:Generator_ColumnPropNameInTable="sttColumn" msprop:Generator_UserColumnName="stt" type="xs:string" minOccurs="0" />
+              <xs:element name="ma_hanghoa" msprop:Generator_ColumnVarNameInTable="columnma_hanghoa" msprop:Generator_ColumnPropNameInRow="ma_hanghoa" msprop:Generator_ColumnPropNameInTable="ma_hanghoaColumn" msprop:Generator_UserColumnName="ma_hanghoa" type="xs:string" minOccurs="0" />
+              <xs:element name="ten_hanghoa" msprop:Generator_ColumnVarNameInTable="columnten_hanghoa" msprop:Generator_ColumnPropNameInRow="ten_hanghoa" msprop:Generator_ColumnPropNameInTable="ten_hanghoaColumn" msprop:Generator_UserColumnName="ten_hanghoa" type="xs:string" minOccurs="0" />
+              <xs:element name="ten_donvitinh" msprop:Generator_ColumnVarNameInTable="columnten_donvitinh" msprop:Generator_ColumnPropNameInRow="ten_donvitinh" msprop:Generator_ColumnPropNameInTable="ten_donvitinhColumn" msprop:Generator_UserColumnName="ten_donvitinh" type="xs:string" minOccurs="0" />
+              <xs:element name="soluong" msprop:Generator_ColumnVarNameInTable="columnsoluong" msprop:Generator_ColumnPropNameInRow="soluong" msprop:Generator_ColumnPropNameInTable="soluongColumn" msprop:Generator_UserColumnName="soluong" type="xs:long" minOccurs="0" />
+              <xs:element name="dongia_ban" msprop:Generator_ColumnVarNameInTable="columndongia_ban" msprop:Generator_ColumnPropNameInRow="dongia_ban" msprop:Generator_ColumnPropNameInTable="dongia_banColumn" msprop:Generator_UserColumnName="dongia_ban" type="xs:decimal" minOccurs="0" />
+              <xs:element name="thanhtien_km" msdata:Caption="thanhtien" msprop:Generator_ColumnVarNameInTable="columnthanhtien_km" msprop:Generator_ColumnPropNameInRow="thanhtien_km" msprop:Generator_ColumnPropNameInTable="thanhtien_kmColumn" msprop:Generator_UserColumnName="thanhtien_km" type="xs:decimal" minOccurs="0" />
+              <xs:element name="thanhtien" msprop:Generator_ColumnVarNameInTable="columnthanhtien" msprop:Generator_ColumnPropNameInRow="thanhtien" msprop:Generator_ColumnPropNameInTable="thanhtienColumn" msprop:Generator_UserColumnName="thanhtien" type="xs:decimal" minOccurs="0" />
+              <xs:element name="per_dongia" msprop:Generator_ColumnVarNameInTable="columnper_dongia" msprop:Generator_ColumnPropNameInRow="per_dongia" msprop:Generator_ColumnPropNameInTable="per_dongiaColumn" msprop:Generator_UserColumnName="per_dongia" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ma_hanghoa_ban" msprop:Generator_ColumnVarNameInTable="columnma_hanghoa_ban" msprop:Generator_ColumnPropNameInRow="ma_hanghoa_ban" msprop:Generator_ColumnPropNameInTable="ma_hanghoa_banColumn" msprop:Generator_UserColumnName="ma_hanghoa_ban" type="xs:string" minOccurs="0" />
+              <xs:element name="thanhtien_tg" msprop:Generator_ColumnVarNameInTable="columnthanhtien_tg" msprop:Generator_ColumnPropNameInRow="thanhtien_tg" msprop:Generator_ColumnPropNameInTable="thanhtien_tgColumn" msprop:Generator_UserColumnName="thanhtien_tg" type="xs:string" minOccurs="0" />
+              <xs:element name="Id_Bar_Rent_Checkin_Table" msprop:Generator_ColumnVarNameInTable="columnId_Bar_Rent_Checkin_Table" msprop:Generator_ColumnPropNameInRow="Id_Bar_Rent_Checkin_Table" msprop:Generator_ColumnPropNameInTable="Id_Bar_Rent_Checkin_TableColumn" msprop:Generator_UserColumnName="Id_Bar_Rent_Checkin_Table" type="xs:string" minOccurs="0" />
+              <xs:element name="Thoigian" msprop:Generator_ColumnVarNameInTable="columnThoigian" msprop:Generator_ColumnPropNameInRow="Thoigian" msprop:Generator_ColumnPropNameInTable="ThoigianColumn" msprop:Generator_UserColumnName="Thoigian" type="xs:string" minOccurs="0" />
+              <xs:element name="Total_Per_Room" msprop:Generator_ColumnVarNameInTable="columnTotal_Per_Room" msprop:Generator_ColumnPropNameInRow="Total_Per_Room" msprop:Generator_ColumnPropNameInTable="Total_Per_RoomColumn" msprop:Generator_UserColumnName="Total_Per_Room" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Thanhtien_Order" msprop:Generator_ColumnVarNameInTable="columnThanhtien_Order" msprop:Generator_ColumnPropNameInRow="Thanhtien_Order" msprop:Generator_ColumnPropNameInTable="Thanhtien_OrderColumn" msprop:Generator_UserColumnName="Thanhtien_Order" type="xs:string" minOccurs="0" />
+              <xs:element name="Ngay_In" msprop:Generator_ColumnVarNameInTable="columnNgay_In" msprop:Generator_ColumnPropNameInRow="Ngay_In" msprop:Generator_ColumnPropNameInTable="Ngay_InColumn" msprop:Generator_UserColumnName="Ngay_In" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Chietkhau_Tyle" msprop:Generator_ColumnVarNameInTable="columnChietkhau_Tyle" msprop:Generator_ColumnPropNameInRow="Chietkhau_Tyle" msprop:Generator_ColumnPropNameInTable="Chietkhau_TyleColumn" msprop:Generator_UserColumnName="Chietkhau_Tyle" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Per_Dongia" msprop:Generator_ColumnVarNameInTable="columnPer_Dongia" msprop:Generator_ColumnPropNameInRow="Per_Dongia" msprop:Generator_ColumnPropNameInTable="Per_DongiaColumn" msprop:Generator_UserColumnName="Per_Dongia" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Order_Chitiet" msprop:Generator_TableClassName="Order_ChitietDataTable" msprop:Generator_TableVarName="tableOrder_Chitiet" msprop:Generator_RowChangedName="Order_ChitietRowChanged" msprop:Generator_TablePropName="Order_Chitiet" msprop:Generator_RowDeletingName="Order_ChitietRowDeleting" msprop:Generator_RowChangingName="Order_ChitietRowChanging" msprop:Generator_RowEvHandlerName="Order_ChitietRowChangeEventHandler" msprop:Generator_RowDeletedName="Order_ChitietRowDeleted" msprop:Generator_RowClassName="Order_ChitietRow" msprop:Generator_UserTableName="Order_Chitiet" msprop:Generator_RowEvArgName="Order_ChitietRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Stt" msprop:Generator_ColumnVarNameInTable="columnStt" msprop:Generator_ColumnPropNameInRow="Stt" msprop:Generator_ColumnPropNameInTable="SttColumn" msprop:Generator_UserColumnName="Stt" type="xs:string" minOccurs="0" />
+              <xs:element name="Ten_Hanghoa" msprop:Generator_ColumnVarNameInTable="columnTen_Hanghoa" msprop:Generator_ColumnPropNameInRow="Ten_Hanghoa" msprop:Generator_ColumnPropNameInTable="Ten_HanghoaColumn" msprop:Generator_UserColumnName="Ten_Hanghoa" type="xs:string" minOccurs="0" />
+              <xs:element name="Ten_Donvitinh" msprop:Generator_ColumnVarNameInTable="columnTen_Donvitinh" msprop:Generator_ColumnPropNameInRow="Ten_Donvitinh" msprop:Generator_ColumnPropNameInTable="Ten_DonvitinhColumn" msprop:Generator_UserColumnName="Ten_Donvitinh" type="xs:string" minOccurs="0" />
+              <xs:element name="Soluong" msprop:Generator_ColumnVarNameInTable="columnSoluong" msprop:Generator_ColumnPropNameInRow="Soluong" msprop:Generator_ColumnPropNameInTable="SoluongColumn" msprop:Generator_UserColumnName="Soluong" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Dongia" msprop:Generator_ColumnVarNameInTable="columnDongia" msprop:Generator_ColumnPropNameInRow="Dongia" msprop:Generator_ColumnPropNameInTable="DongiaColumn" msprop:Generator_UserColumnName="Dongia" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Thanhtien" msprop:Generator_ColumnVarNameInTable="columnThanhtien" msprop:Generator_ColumnPropNameInRow="Thanhtien" msprop:Generator_ColumnPropNameInTable="ThanhtienColumn" msprop:Generator_UserColumnName="Thanhtien" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Per_Dongia" msprop:Generator_ColumnVarNameInTable="columnPer_Dongia" msprop:Generator_ColumnPropNameInRow="Per_Dongia" msprop:Generator_ColumnPropNameInTable="Per_DongiaColumn" msprop:Generator_UserColumnName="Per_Dongia" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Id_Bar_Rent_Checkin_Table" msprop:Generator_ColumnVarNameInTable="columnId_Bar_Rent_Checkin_Table" msprop:Generator_ColumnPropNameInRow="Id_Bar_Rent_Checkin_Table" msprop:Generator_ColumnPropNameInTable="Id_Bar_Rent_Checkin_TableColumn" msprop:Generator_UserColumnName="Id_Bar_Rent_Checkin_Table" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="Hdbanhang_Chitiet_Order_Chitiet" msdata:parent="Hdbanhang_Chitiet" msdata:child="Order_Chitiet" msdata:parentkey="Id_Bar_Rent_Checkin_Table" msdata:childkey="Id_Bar_Rent_Checkin_Table" msprop:Generator_UserChildTable="Order_Chitiet" msprop:Generator_ChildPropName="GetOrder_ChitietRows" msprop:Generator_UserRelationName="Hdbanhang_Chitiet_Order_Chitiet" msprop:Generator_ParentPropName="Hdbanhang_ChitietRow" msprop:Generator_RelationVarName="relationHdbanhang_Chitiet_Order_Chitiet" msprop:Generator_UserParentTable="Hdbanhang_Chitiet" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

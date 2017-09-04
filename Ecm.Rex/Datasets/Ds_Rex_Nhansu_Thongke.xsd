@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Ds_Rex_Nhansu_Thongke" targetNamespace="http://tempuri.org/Ds_Rex_Nhansu_Thongke.xsd" xmlns:mstns="http://tempuri.org/Ds_Rex_Nhansu_Thongke.xsd" xmlns="http://tempuri.org/Ds_Rex_Nhansu_Thongke.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Ds_Rex_Nhansu_Thongke" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="Ds_Rex_Nhansu_Thongke" msprop:Generator_UserDSName="Ds_Rex_Nhansu_Thongke">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Rex_Nhansu_Thongke_Chitieu" msprop:Generator_TableClassName="Rex_Nhansu_Thongke_ChitieuDataTable" msprop:Generator_TableVarName="tableRex_Nhansu_Thongke_Chitieu" msprop:Generator_TablePropName="Rex_Nhansu_Thongke_Chitieu" msprop:Generator_RowDeletingName="Rex_Nhansu_Thongke_ChitieuRowDeleting" msprop:Generator_UserTableName="Rex_Nhansu_Thongke_Chitieu" msprop:Generator_RowChangingName="Rex_Nhansu_Thongke_ChitieuRowChanging" msprop:Generator_RowEvHandlerName="Rex_Nhansu_Thongke_ChitieuRowChangeEventHandler" msprop:Generator_RowDeletedName="Rex_Nhansu_Thongke_ChitieuRowDeleted" msprop:Generator_RowEvArgName="Rex_Nhansu_Thongke_ChitieuRowChangeEvent" msprop:Generator_RowChangedName="Rex_Nhansu_Thongke_ChitieuRowChanged" msprop:Generator_RowClassName="Rex_Nhansu_Thongke_ChitieuRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Chitieu" msprop:Generator_ColumnVarNameInTable="columnChitieu" msprop:Generator_ColumnPropNameInRow="Chitieu" msprop:Generator_ColumnPropNameInTable="ChitieuColumn" msprop:Generator_UserColumnName="Chitieu" type="xs:string" minOccurs="0" />
+              <xs:element name="Ma_Chitieu" msprop:Generator_ColumnVarNameInTable="columnMa_Chitieu" msprop:Generator_ColumnPropNameInRow="Ma_Chitieu" msprop:Generator_ColumnPropNameInTable="Ma_ChitieuColumn" msprop:Generator_UserColumnName="Ma_Chitieu" type="xs:string" minOccurs="0" />
+              <xs:element name="Ten_Chitieu" msprop:Generator_ColumnVarNameInTable="columnTen_Chitieu" msprop:Generator_ColumnPropNameInRow="Ten_Chitieu" msprop:Generator_ColumnPropNameInTable="Ten_ChitieuColumn" msprop:Generator_UserColumnName="Ten_Chitieu" type="xs:string" minOccurs="0" />
+              <xs:element name="Giatri" msprop:Generator_ColumnVarNameInTable="columnGiatri" msprop:Generator_ColumnPropNameInRow="Giatri" msprop:Generator_ColumnPropNameInTable="GiatriColumn" msprop:Generator_UserColumnName="Giatri" type="xs:int" minOccurs="0" />
+              <xs:element name="Soluong" msprop:Generator_ColumnVarNameInTable="columnSoluong" msprop:Generator_ColumnPropNameInRow="Soluong" msprop:Generator_ColumnPropNameInTable="SoluongColumn" msprop:Generator_UserColumnName="Soluong" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

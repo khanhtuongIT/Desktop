@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="UploadFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="f" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="fileName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="profile" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UploadFileResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetConfigFiles">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="profile" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetConfigFilesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetConfigFilesResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="DownloadFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="profile" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadFileResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPath">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetPathResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPathResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Rex_Dm_Heso_Chuongtrinh_Collection3">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_Rex_Dm_Heso_Chuongtrinh_Collection3Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_Rex_Dm_Heso_Chuongtrinh_Collection3Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Rex_Dm_Heso_Chuongtrinh_By_Nhomheso">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nhom" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Rex_Dm_Heso_Chuongtrinh_By_NhomhesoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_Rex_Dm_Heso_Chuongtrinh_By_NhomhesoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Rex_Dm_Heso_Chuongtrinh">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rex_Dm_Heso_Chuongtrinh" type="tns:Rex_Dm_Heso_Chuongtrinh" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Rex_Dm_Heso_Chuongtrinh">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Heso_Chuongtrinh" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ma_Heso_Chuongtrinh" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ten_Heso_Chuongtrinh" />
+          <s:element minOccurs="0" maxOccurs="1" name="Heso" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nhom_Heso_Chuongtrinh" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ghichu" />
+          <s:element minOccurs="0" maxOccurs="1" name="Regx" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Insert_Rex_Dm_Heso_ChuongtrinhResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Insert_Rex_Dm_Heso_ChuongtrinhResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Rex_Dm_Heso_Chuongtrinh">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rex_Dm_Heso_Chuongtrinh" type="tns:Rex_Dm_Heso_Chuongtrinh" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Rex_Dm_Heso_ChuongtrinhResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Rex_Dm_Heso_ChuongtrinhResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_Rex_Dm_Heso_Chuongtrinh">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rex_Dm_Heso_Chuongtrinh" type="tns:Rex_Dm_Heso_Chuongtrinh" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_Rex_Dm_Heso_ChuongtrinhResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Delete_Rex_Dm_Heso_ChuongtrinhResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Rex_Dm_Heso_Chuongtrinh_Collection">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ds_Rex_Dm_Heso_Chuongtrinh">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Rex_Dm_Heso_Chuongtrinh_CollectionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Rex_Dm_Heso_Chuongtrinh_CollectionResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="UploadFileSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadFile" />
+  </wsdl:message>
+  <wsdl:message name="UploadFileSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetConfigFilesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetConfigFiles" />
+  </wsdl:message>
+  <wsdl:message name="GetConfigFilesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetConfigFilesResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadFileSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadFile" />
+  </wsdl:message>
+  <wsdl:message name="DownloadFileSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPathSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPath" />
+  </wsdl:message>
+  <wsdl:message name="GetPathSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPathResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_Rex_Dm_Heso_Chuongtrinh_Collection3SoapIn">
+    <wsdl:part name="parameters" element="tns:Get_Rex_Dm_Heso_Chuongtrinh_Collection3" />
+  </wsdl:message>
+  <wsdl:message name="Get_Rex_Dm_Heso_Chuongtrinh_Collection3SoapOut">
+    <wsdl:part name="parameters" element="tns:Get_Rex_Dm_Heso_Chuongtrinh_Collection3Response" />
+  </wsdl:message>
+  <wsdl:message name="Get_Rex_Dm_Heso_Chuongtrinh_By_NhomhesoSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_Rex_Dm_Heso_Chuongtrinh_By_Nhomheso" />
+  </wsdl:message>
+  <wsdl:message name="Get_Rex_Dm_Heso_Chuongtrinh_By_NhomhesoSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_Rex_Dm_Heso_Chuongtrinh_By_NhomhesoResponse" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Rex_Dm_Heso_ChuongtrinhSoapIn">
+    <wsdl:part name="parameters" element="tns:Insert_Rex_Dm_Heso_Chuongtrinh" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Rex_Dm_Heso_ChuongtrinhSoapOut">
+    <wsdl:part name="parameters" element="tns:Insert_Rex_Dm_Heso_ChuongtrinhResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Rex_Dm_Heso_ChuongtrinhSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Rex_Dm_Heso_Chuongtrinh" />
+  </wsdl:message>
+  <wsdl:message name="Update_Rex_Dm_Heso_ChuongtrinhSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Rex_Dm_Heso_ChuongtrinhResponse" />
+  </wsdl:message>
+  <wsdl:message name="Delete_Rex_Dm_Heso_ChuongtrinhSoapIn">
+    <wsdl:part name="parameters" element="tns:Delete_Rex_Dm_Heso_Chuongtrinh" />
+  </wsdl:message>
+  <wsdl:message name="Delete_Rex_Dm_Heso_ChuongtrinhSoapOut">
+    <wsdl:part name="parameters" element="tns:Delete_Rex_Dm_Heso_ChuongtrinhResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Rex_Dm_Heso_Chuongtrinh_CollectionSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Rex_Dm_Heso_Chuongtrinh_Collection" />
+  </wsdl:message>
+  <wsdl:message name="Update_Rex_Dm_Heso_Chuongtrinh_CollectionSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Rex_Dm_Heso_Chuongtrinh_CollectionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SystemServiceSoap">
+    <wsdl:operation name="UploadFile">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Upload file</wsdl:documentation>
+      <wsdl:input message="tns:UploadFileSoapIn" />
+      <wsdl:output message="tns:UploadFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetConfigFiles">
+      <wsdl:input message="tns:GetConfigFilesSoapIn" />
+      <wsdl:output message="tns:GetConfigFilesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadFile">
+      <wsdl:input message="tns:DownloadFileSoapIn" />
+      <wsdl:output message="tns:DownloadFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPath">
+      <wsdl:input message="tns:GetPathSoapIn" />
+      <wsdl:output message="tns:GetPathSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Rex_Dm_Heso_Chuongtrinh_Collection3">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về danh sách hệ số chương trình được Serialize thành DataSet</wsdl:documentation>
+      <wsdl:input message="tns:Get_Rex_Dm_Heso_Chuongtrinh_Collection3SoapIn" />
+      <wsdl:output message="tns:Get_Rex_Dm_Heso_Chuongtrinh_Collection3SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Rex_Dm_Heso_Chuongtrinh_By_Nhomheso">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về danh sách hệ số chương trình bởi nhóm hệ số được Serialize thành DataSet</wsdl:documentation>
+      <wsdl:input message="tns:Get_Rex_Dm_Heso_Chuongtrinh_By_NhomhesoSoapIn" />
+      <wsdl:output message="tns:Get_Rex_Dm_Heso_Chuongtrinh_By_NhomhesoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Rex_Dm_Heso_Chuongtrinh">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Insert một đối tượng Rex_Dm_Heso_Chuongtrinh vào bảng rex_dm_heso_chuongtrinh</wsdl:documentation>
+      <wsdl:input message="tns:Insert_Rex_Dm_Heso_ChuongtrinhSoapIn" />
+      <wsdl:output message="tns:Insert_Rex_Dm_Heso_ChuongtrinhSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Rex_Dm_Heso_Chuongtrinh">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Update một đối tượng Rex_Dm_Heso_Chuongtrinh vào bảng rex_dm_heso_chuongtrinh</wsdl:documentation>
+      <wsdl:input message="tns:Update_Rex_Dm_Heso_ChuongtrinhSoapIn" />
+      <wsdl:output message="tns:Update_Rex_Dm_Heso_ChuongtrinhSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Rex_Dm_Heso_Chuongtrinh">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Delete một đối tượng Rex_Dm_Heso_Chuongtrinh vào bảng rex_dm_heso_chuongtrinh</wsdl:documentation>
+      <wsdl:input message="tns:Delete_Rex_Dm_Heso_ChuongtrinhSoapIn" />
+      <wsdl:output message="tns:Delete_Rex_Dm_Heso_ChuongtrinhSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Rex_Dm_Heso_Chuongtrinh_Collection">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Cập nhật một dataset Rex_Dm_Heso_Chuongtrinh vào trong bảng Rex_Dm_Heso_Chuongtrinh</wsdl:documentation>
+      <wsdl:input message="tns:Update_Rex_Dm_Heso_Chuongtrinh_CollectionSoapIn" />
+      <wsdl:output message="tns:Update_Rex_Dm_Heso_Chuongtrinh_CollectionSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SystemServiceSoap" type="tns:SystemServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UploadFile">
+      <soap:operation soapAction="http://tempuri.org/UploadFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetConfigFiles">
+      <soap:operation soapAction="http://tempuri.org/GetConfigFiles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadFile">
+      <soap:operation soapAction="http://tempuri.org/DownloadFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPath">
+      <soap:operation soapAction="http://tempuri.org/GetPath" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Rex_Dm_Heso_Chuongtrinh_Collection3">
+      <soap:operation soapAction="http://tempuri.org/Get_Rex_Dm_Heso_Chuongtrinh_Collection3" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Rex_Dm_Heso_Chuongtrinh_By_Nhomheso">
+      <soap:operation soapAction="http://tempuri.org/Get_Rex_Dm_Heso_Chuongtrinh_By_Nhomheso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Rex_Dm_Heso_Chuongtrinh">
+      <soap:operation soapAction="http://tempuri.org/Insert_Rex_Dm_Heso_Chuongtrinh" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Rex_Dm_Heso_Chuongtrinh">
+      <soap:operation soapAction="http://tempuri.org/Update_Rex_Dm_Heso_Chuongtrinh" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Rex_Dm_Heso_Chuongtrinh">
+      <soap:operation soapAction="http://tempuri.org/Delete_Rex_Dm_Heso_Chuongtrinh" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Rex_Dm_Heso_Chuongtrinh_Collection">
+      <soap:operation soapAction="http://tempuri.org/Update_Rex_Dm_Heso_Chuongtrinh_Collection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SystemServiceSoap12" type="tns:SystemServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UploadFile">
+      <soap12:operation soapAction="http://tempuri.org/UploadFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetConfigFiles">
+      <soap12:operation soapAction="http://tempuri.org/GetConfigFiles" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadFile">
+      <soap12:operation soapAction="http://tempuri.org/DownloadFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPath">
+      <soap12:operation soapAction="http://tempuri.org/GetPath" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Rex_Dm_Heso_Chuongtrinh_Collection3">
+      <soap12:operation soapAction="http://tempuri.org/Get_Rex_Dm_Heso_Chuongtrinh_Collection3" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Rex_Dm_Heso_Chuongtrinh_By_Nhomheso">
+      <soap12:operation soapAction="http://tempuri.org/Get_Rex_Dm_Heso_Chuongtrinh_By_Nhomheso" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Rex_Dm_Heso_Chuongtrinh">
+      <soap12:operation soapAction="http://tempuri.org/Insert_Rex_Dm_Heso_Chuongtrinh" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Rex_Dm_Heso_Chuongtrinh">
+      <soap12:operation soapAction="http://tempuri.org/Update_Rex_Dm_Heso_Chuongtrinh" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Rex_Dm_Heso_Chuongtrinh">
+      <soap12:operation soapAction="http://tempuri.org/Delete_Rex_Dm_Heso_Chuongtrinh" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Rex_Dm_Heso_Chuongtrinh_Collection">
+      <soap12:operation soapAction="http://tempuri.org/Update_Rex_Dm_Heso_Chuongtrinh_Collection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SystemService">
+    <wsdl:port name="SystemServiceSoap" binding="tns:SystemServiceSoap">
+      <soap:address location="http://localhost:51000/SystemService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SystemServiceSoap12" binding="tns:SystemServiceSoap12">
+      <soap12:address location="http://localhost:51000/SystemService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

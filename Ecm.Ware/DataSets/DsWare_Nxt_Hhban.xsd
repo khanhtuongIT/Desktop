@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsWare_Nxt_Hhban" targetNamespace="http://tempuri.org/DsWare_Nxt_Hhban.xsd" xmlns:mstns="http://tempuri.org/DsWare_Nxt_Hhban.xsd" xmlns="http://tempuri.org/DsWare_Nxt_Hhban.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString2" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString2 (Settings)" PropertyReference="ApplicationSettings.Ecm.Ware.Properties.Settings.GlobalReference.Default.ConnectionString2" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsWare_Nxt_Hhban" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DsWare_Nxt_Hhban" msprop:Generator_UserDSName="DsWare_Nxt_Hhban">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Ware_Nxt_Hhban" msprop:Generator_UserTableName="Ware_Nxt_Hhban" msprop:Generator_RowEvArgName="Ware_Nxt_HhbanRowChangeEvent" msprop:Generator_TableVarName="tableWare_Nxt_Hhban" msprop:Generator_TablePropName="Ware_Nxt_Hhban" msprop:Generator_RowDeletingName="Ware_Nxt_HhbanRowDeleting" msprop:Generator_RowChangingName="Ware_Nxt_HhbanRowChanging" msprop:Generator_RowDeletedName="Ware_Nxt_HhbanRowDeleted" msprop:Generator_TableClassName="Ware_Nxt_HhbanDataTable" msprop:Generator_RowChangedName="Ware_Nxt_HhbanRowChanged" msprop:Generator_RowEvHandlerName="Ware_Nxt_HhbanRowChangeEventHandler" msprop:Generator_RowClassName="Ware_Nxt_HhbanRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Stt" msprop:Generator_ColumnVarNameInTable="columnStt" msprop:Generator_ColumnPropNameInRow="Stt" msprop:Generator_ColumnPropNameInTable="SttColumn" msprop:Generator_UserColumnName="Stt" type="xs:long" minOccurs="0" />
+              <xs:element name="Id_Cuahang_Ban" msprop:Generator_ColumnVarNameInTable="columnId_Cuahang_Ban" msprop:Generator_ColumnPropNameInRow="Id_Cuahang_Ban" msprop:Generator_ColumnPropNameInTable="Id_Cuahang_BanColumn" msprop:Generator_UserColumnName="Id_Cuahang_Ban" type="xs:long" minOccurs="0" />
+              <xs:element name="Id_Hanghoa_Ban" msprop:Generator_ColumnVarNameInTable="columnId_Hanghoa_Ban" msprop:Generator_ColumnPropNameInRow="Id_Hanghoa_Ban" msprop:Generator_ColumnPropNameInTable="Id_Hanghoa_BanColumn" msprop:Generator_UserColumnName="Id_Hanghoa_Ban" type="xs:long" minOccurs="0" />
+              <xs:element name="Ma_Hanghoa_Ban" msprop:Generator_ColumnVarNameInTable="columnMa_Hanghoa_Ban" msprop:Generator_ColumnPropNameInRow="Ma_Hanghoa_Ban" msprop:Generator_ColumnPropNameInTable="Ma_Hanghoa_BanColumn" msprop:Generator_UserColumnName="Ma_Hanghoa_Ban" type="xs:string" minOccurs="0" />
+              <xs:element name="Ten_Hanghoa_Ban" msprop:Generator_ColumnVarNameInTable="columnTen_Hanghoa_Ban" msprop:Generator_ColumnPropNameInRow="Ten_Hanghoa_Ban" msprop:Generator_ColumnPropNameInTable="Ten_Hanghoa_BanColumn" msprop:Generator_UserColumnName="Ten_Hanghoa_Ban" type="xs:string" minOccurs="0" />
+              <xs:element name="Ten_Donvitinh" msprop:Generator_ColumnVarNameInTable="columnTen_Donvitinh" msprop:Generator_ColumnPropNameInRow="Ten_Donvitinh" msprop:Generator_ColumnPropNameInTable="Ten_DonvitinhColumn" msprop:Generator_UserColumnName="Ten_Donvitinh" type="xs:string" minOccurs="0" />
+              <xs:element name="Soluong_Dk" msprop:Generator_ColumnVarNameInTable="columnSoluong_Dk" msprop:Generator_ColumnPropNameInRow="Soluong_Dk" msprop:Generator_ColumnPropNameInTable="Soluong_DkColumn" msprop:Generator_UserColumnName="Soluong_Dk" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Soluong_Nhap" msprop:Generator_ColumnVarNameInTable="columnSoluong_Nhap" msprop:Generator_ColumnPropNameInRow="Soluong_Nhap" msprop:Generator_ColumnPropNameInTable="Soluong_NhapColumn" msprop:Generator_UserColumnName="Soluong_Nhap" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Soluong_Xuat" msprop:Generator_ColumnVarNameInTable="columnSoluong_Xuat" msprop:Generator_ColumnPropNameInRow="Soluong_Xuat" msprop:Generator_ColumnPropNameInTable="Soluong_XuatColumn" msprop:Generator_UserColumnName="Soluong_Xuat" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Soluong_Err" msprop:Generator_ColumnVarNameInTable="columnSoluong_Err" msprop:Generator_ColumnPropNameInRow="Soluong_Err" msprop:Generator_ColumnPropNameInTable="Soluong_ErrColumn" msprop:Generator_UserColumnName="Soluong_Err" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Soluong_Ban" msprop:Generator_ColumnVarNameInTable="columnSoluong_Ban" msprop:Generator_ColumnPropNameInRow="Soluong_Ban" msprop:Generator_ColumnPropNameInTable="Soluong_BanColumn" msprop:Generator_UserColumnName="Soluong_Ban" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Soluong_Ton" msprop:Generator_ColumnVarNameInTable="columnSoluong_Ton" msprop:Generator_ColumnPropNameInRow="Soluong_Ton" msprop:Generator_ColumnPropNameInTable="Soluong_TonColumn" msprop:Generator_UserColumnName="Soluong_Ton" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Soluong_Kh_Tra" msprop:Generator_ColumnVarNameInTable="columnSoluong_Kh_Tra" msprop:Generator_ColumnPropNameInRow="Soluong_Kh_Tra" msprop:Generator_ColumnPropNameInTable="Soluong_Kh_TraColumn" msprop:Generator_UserColumnName="Soluong_Kh_Tra" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

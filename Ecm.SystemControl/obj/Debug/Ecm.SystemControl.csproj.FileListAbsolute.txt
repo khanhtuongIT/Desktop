@@ -1,0 +1,138 @@
+D:\ECM\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.csprojResolveAssemblyReference.cache
+D:\ECM\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.Forms.Frmpol_Dm_Right_Find.resources
+D:\ECM\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.Forms.Frmpol_Dm_Right_Properties.resources
+D:\ECM\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.Forms.Frmpol_Dm_User_Find.resources
+D:\ECM\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.Forms.Frmpol_Dm_User_Properties.resources
+D:\ECM\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.Forms.Frmpol_MainProcess1.resources
+D:\ECM\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.Properties.Resources.resources
+D:\ECM\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.DBUsers.DatabaseLogon.resources
+D:\ECM\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.DBUsers.IDCardLogon.resources
+D:\ECM\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.DBUsers.IDCardLogonWithResult.resources
+D:\ECM\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.ModulesAdmin.InstallModules.resources
+D:\ECM\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.ModulesAdmin.ModuleProperies.resources
+D:\ECM\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.Reports.rptTemplate.resources
+D:\ECM\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.SystemInfo.FrmAbout.resources
+D:\ECM\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.SystemInfo.FrmMenuInfo.resources
+D:\ECM\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.SystemInfo.FrmSys_Dm_Heso_Chuongtrinh.resources
+D:\ECM\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.SystemInfo.FrmWebReferences.resources
+D:\ECM\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.csproj.GenerateResource.Cache
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Ecm.SystemControl.SystemInfo.config
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Ecm.SystemControl.config
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Ecm.SystemControl.Policy.config
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Icons\Security Configuration.ico
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Icons\Window Configuration.ico
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Lang\en-US\ActiveDirectoryLogon.config
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Lang\en-US\SunLine.SystemControl.config
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Lang\en-US\SunLine.SystemControl.ModulesAdmin.config
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Lang\en-US\SunLine.SystemControl.SystemInfo.config
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Lang\en-US\SunLine.SystemControl.UsersAdmin.config
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Default\Lang.TruthPos.SystemControl.config
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\Ecm.SystemControl.dll.config
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\Ecm.SystemControl.dll
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\Ecm.SystemControl.pdb
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\Ecm.WebReferences.dll
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\GoobizFrame.Profile.dll
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\GoobizFrame.Windows.dll
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\UnicodeConverter.dll
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\Interop.ShockwaveFlashObjects.dll
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\FastJSON.dll
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\Interop.Excel.dll
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\Interop.Word.dll
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\Interop.Office.dll
+D:\ECM\Tan_Camau\Ecm.SystemControl\bin\Debug\Ecm.WebReferences.pdb
+D:\ECM\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.dll
+D:\ECM\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.pdb
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Ecm.SystemControl.SystemInfo.config
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Ecm.SystemControl.config
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Ecm.SystemControl.Policy.config
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Icons\Security Configuration.ico
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Icons\Window Configuration.ico
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Lang\en-US\ActiveDirectoryLogon.config
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Lang\en-US\SunLine.SystemControl.config
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Lang\en-US\SunLine.SystemControl.ModulesAdmin.config
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Lang\en-US\SunLine.SystemControl.SystemInfo.config
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Lang\en-US\SunLine.SystemControl.UsersAdmin.config
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Default\Lang.TruthPos.SystemControl.config
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\Ecm.SystemControl.dll.config
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\Ecm.SystemControl.dll
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\Ecm.SystemControl.pdb
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\Ecm.WebReferences.dll
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\GoobizFrame.Profile.dll
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\GoobizFrame.Windows.dll
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\UnicodeConverter.dll
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\Interop.ShockwaveFlashObjects.dll
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\FastJSON.dll
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\Interop.Excel.dll
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\Interop.Word.dll
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\Interop.Office.dll
+D:\Tan_Camau\Ecm.SystemControl\bin\Debug\Ecm.WebReferences.pdb
+D:\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.csprojResolveAssemblyReference.cache
+D:\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.Forms.Frmpol_Dm_Right_Find.resources
+D:\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.Forms.Frmpol_Dm_Right_Properties.resources
+D:\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.Forms.Frmpol_Dm_User_Find.resources
+D:\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.Forms.Frmpol_Dm_User_Properties.resources
+D:\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.Forms.Frmpol_MainProcess1.resources
+D:\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.Properties.Resources.resources
+D:\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.DBUsers.DatabaseLogon.resources
+D:\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.DBUsers.IDCardLogon.resources
+D:\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.DBUsers.IDCardLogonWithResult.resources
+D:\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.ModulesAdmin.InstallModules.resources
+D:\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.ModulesAdmin.ModuleProperies.resources
+D:\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.Reports.rptTemplate.resources
+D:\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.SystemInfo.FrmAbout.resources
+D:\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.SystemInfo.FrmMenuInfo.resources
+D:\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.SystemInfo.FrmSys_Dm_Heso_Chuongtrinh.resources
+D:\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.SystemInfo.FrmWebReferences.resources
+D:\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.csproj.GenerateResource.Cache
+D:\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.dll
+D:\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.pdb
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.csprojResolveAssemblyReference.cache
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.Forms.Frmpol_Dm_Right_Find.resources
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.Forms.Frmpol_Dm_Right_Properties.resources
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.Forms.Frmpol_Dm_User_Find.resources
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.Forms.Frmpol_Dm_User_Properties.resources
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.Forms.Frmpol_MainProcess1.resources
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.Properties.Resources.resources
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.DBUsers.DatabaseLogon.resources
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.DBUsers.IDCardLogon.resources
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.DBUsers.IDCardLogonWithResult.resources
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.ModulesAdmin.InstallModules.resources
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.ModulesAdmin.ModuleProperies.resources
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.Reports.rptTemplate.resources
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.SystemInfo.FrmAbout.resources
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.SystemInfo.FrmMenuInfo.resources
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.SystemInfo.FrmSys_Dm_Heso_Chuongtrinh.resources
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.SystemInfo.FrmWebReferences.resources
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.csproj.GenerateResource.Cache
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Ecm.SystemControl.SystemInfo.config
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Ecm.SystemControl.config
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Ecm.SystemControl.Policy.config
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Icons\Security Configuration.ico
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Icons\Window Configuration.ico
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Lang\en-US\ActiveDirectoryLogon.config
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Lang\en-US\SunLine.SystemControl.config
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Lang\en-US\SunLine.SystemControl.ModulesAdmin.config
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Lang\en-US\SunLine.SystemControl.SystemInfo.config
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Lang\en-US\SunLine.SystemControl.UsersAdmin.config
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\Resources\Default\Lang.TruthPos.SystemControl.config
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\Ecm.SystemControl.dll.config
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\Ecm.SystemControl.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\Ecm.SystemControl.pdb
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\Ecm.WebReferences.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\GoobizFrame.Profile.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\GoobizFrame.Windows.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\UnicodeConverter.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\Interop.ShockwaveFlashObjects.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\FastJSON.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\Interop.Excel.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\Interop.Word.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\Interop.Office.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\bin\Debug\Ecm.WebReferences.pdb
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.SystemControl\obj\Debug\Ecm.SystemControl.pdb

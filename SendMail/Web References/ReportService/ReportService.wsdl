@@ -1,0 +1,2085 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="RptWare_Hdbanhang">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_HdbanhangResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RptWare_HdbanhangResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Hdbanhang_ByNhanvien">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Nhansu" />
+            <s:element minOccurs="0" maxOccurs="1" name="id_Doituong" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Hdbanhang_ByNhanvienResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RptWare_Hdbanhang_ByNhanvienResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Hdbanhang_ByNhanvien_Loaihang">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Nhansu" />
+            <s:element minOccurs="0" maxOccurs="1" name="id_Doituong" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Loai_Hanghoa_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Hdbanhang_ByNhanvien_LoaihangResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RptWare_Hdbanhang_ByNhanvien_LoaihangResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Tonghop_Banhang_ByKhachhang">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Khachhang" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Tonghop_Banhang_ByKhachhangResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RptWare_Tonghop_Banhang_ByKhachhangResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Hdbanhang_ByKhachhang">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Khachhang" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Hdbanhang_ByKhachhangResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RptWare_Hdbanhang_ByKhachhangResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Hdbanhang_ByKhohanghoa">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ma_Kho_Hanghoa" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Hdbanhang_ByKhohanghoaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RptWare_Hdbanhang_ByKhohanghoaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Hdbanhang_ByKhuvuc">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Hdbanhang_ByKhuvucResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RptWare_Hdbanhang_ByKhuvucResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Hdbanhang_ByLoaihanghoa">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="id_Doituong" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Nhansu_Bh" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Hdbanhang_ByLoaihanghoaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RptWare_Hdbanhang_ByLoaihanghoaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Hdbanhang_ByLoaihanghoa_new">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="id_Doituong" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Nhansu_Bh" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Loai_Hanghoa_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Hdbanhang_ByLoaihanghoa_newResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RptWare_Hdbanhang_ByLoaihanghoa_newResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvien">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Nhansu_Bh" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvienResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvienResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvien_New">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Nhansu_Bh" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Loai_Hanghoa_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvien_NewResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvien_NewResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Nxt_Hhmua">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Kho_Hanghoa_Mua" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Nxt_HhmuaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rptware_Nxt_HhmuaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Hdmuahang">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_HdmuahangResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RptWare_HdmuahangResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Donmuahang_Kh">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Donmuahang_KhResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RptWare_Donmuahang_KhResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Nxt_Hhban">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Nxt_HhbanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rptware_Nxt_HhbanResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Nxt_Hhban_Quydoi_Hhmua">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Nxt_Hhban_Quydoi_HhmuaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rptware_Nxt_Hhban_Quydoi_HhmuaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptSplit_Sum_Hhmua">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Kho_Hanghoa_Mua" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptSplit_Sum_HhmuaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RptSplit_Sum_HhmuaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptSplit_Sum_Hhban">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptSplit_Sum_HhbanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RptSplit_Sum_HhbanResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptSplit_Sum_Hhban_4Bar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptSplit_Sum_Hhban_4BarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RptSplit_Sum_Hhban_4BarResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_SoQTM">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Soquy" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_SoQTMResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RptWare_SoQTMResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_SoQTM_ByKhohanghoa">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ma_Kho_Hanghoa" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_SoQTM_ByKhohanghoaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RptWare_SoQTM_ByKhohanghoaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_SoQTM_2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_SoQTM_2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RptWare_SoQTM_2Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_SoQTM_GetTon">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_SoQTM_GetTonResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RptWare_SoQTM_GetTonResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Hh_Kh_Tra">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Kho_Hanghoa_Mua" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+            <s:element minOccurs="0" maxOccurs="1" name="id_Hanghoa_Ban" />
+            <s:element minOccurs="0" maxOccurs="1" name="id_Loai_Hanghoa_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptWare_Hh_Kh_TraResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RptWare_Hh_Kh_TraResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Thekho">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Hanghoa" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_ThekhoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rptware_ThekhoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Kiemke_Khohang">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Kiemke_KhohangResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rptware_Kiemke_KhohangResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Nhapxuatton">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="id_Hanghoa_Ban" />
+            <s:element minOccurs="0" maxOccurs="1" name="id_Loai_Hanghoa_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_NhapxuattonResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rptware_NhapxuattonResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Nhapxuatton_mail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Loai_Hanghoa_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Nhapxuatton_mailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rptware_Nhapxuatton_mailResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Nhapxuatton_Giatri_Ton">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Nhapxuatton_Giatri_TonResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rptware_Nhapxuatton_Giatri_TonResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Muahang_Xuattra_Chitiet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="id_cuahang_ban" />
+            <s:element minOccurs="0" maxOccurs="1" name="id_doituong" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Muahang_Xuattra_ChitietResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rptware_Muahang_Xuattra_ChitietResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Muahang_Congno_Tonghop">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="id_Doituong" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Muahang_Congno_TonghopResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rptware_Muahang_Congno_TonghopResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Banhang_Congno_Tonghop">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="id_Doituong" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Banhang_Congno_TonghopResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rptware_Banhang_Congno_TonghopResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Banhang_Congno_Tonghop_Khuvuc">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="id_Doituong" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Banhang_Congno_Tonghop_KhuvucResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rptware_Banhang_Congno_Tonghop_KhuvucResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Banhang_Congno_Tonghop_Khuvuc_New">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ma_Doituong" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Banhang_Congno_Tonghop_Khuvuc_NewResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rptware_Banhang_Congno_Tonghop_Khuvuc_NewResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Banhang_Congno_Tonghop_Sale">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="id_Doituong" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Nhansu" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Banhang_Congno_Tonghop_SaleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rptware_Banhang_Congno_Tonghop_SaleResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Banhang_Congno_Tonghop_Ncc">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="id_Doituong" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Banhang_Congno_Tonghop_NccResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rptware_Banhang_Congno_Tonghop_NccResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Congno_Chitiet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="id_Doituong" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Congno_ChitietResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rptware_Congno_ChitietResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Banhang_Chitiet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="id_Doituong" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Banhang_ChitietResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rptware_Banhang_ChitietResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Banhang_Chitiet_Hanghoa">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="id_Doituong" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Hanghoa_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Banhang_Chitiet_HanghoaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rptware_Banhang_Chitiet_HanghoaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rpt_Congno_Chitiet_New">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Khachhang" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rpt_Congno_Chitiet_NewResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rpt_Congno_Chitiet_NewResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rpt_Congno_Chitiet_New2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ma_Doituong" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rpt_Congno_Chitiet_New2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rpt_Congno_Chitiet_New2Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptCongno_Sendmail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Nhansu" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptCongno_SendmailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RptCongno_SendmailResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Ware_Hdbanhang_Chitiet_Dudoan_Dathang_SenMail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Nhansu" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Ware_Hdbanhang_Chitiet_Dudoan_Dathang_SenMailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ware_Hdbanhang_Chitiet_Dudoan_Dathang_SenMailResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rpt_Congno_Chitiet_Khuvuc">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Khachhang" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rpt_Congno_Chitiet_KhuvucResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rpt_Congno_Chitiet_KhuvucResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptCongno_NCC_Chitiet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Ncc" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RptCongno_NCC_ChitietResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RptCongno_NCC_ChitietResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Tonghop_Hoadon_Muahang_Thue">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rptware_Tonghop_Hoadon_Muahang_ThueResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rptware_Tonghop_Hoadon_Muahang_ThueResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="RptWare_HdbanhangSoapIn">
+    <wsdl:part name="parameters" element="tns:RptWare_Hdbanhang" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_HdbanhangSoapOut">
+    <wsdl:part name="parameters" element="tns:RptWare_HdbanhangResponse" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_Hdbanhang_ByNhanvienSoapIn">
+    <wsdl:part name="parameters" element="tns:RptWare_Hdbanhang_ByNhanvien" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_Hdbanhang_ByNhanvienSoapOut">
+    <wsdl:part name="parameters" element="tns:RptWare_Hdbanhang_ByNhanvienResponse" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_Hdbanhang_ByNhanvien_LoaihangSoapIn">
+    <wsdl:part name="parameters" element="tns:RptWare_Hdbanhang_ByNhanvien_Loaihang" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_Hdbanhang_ByNhanvien_LoaihangSoapOut">
+    <wsdl:part name="parameters" element="tns:RptWare_Hdbanhang_ByNhanvien_LoaihangResponse" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_Tonghop_Banhang_ByKhachhangSoapIn">
+    <wsdl:part name="parameters" element="tns:RptWare_Tonghop_Banhang_ByKhachhang" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_Tonghop_Banhang_ByKhachhangSoapOut">
+    <wsdl:part name="parameters" element="tns:RptWare_Tonghop_Banhang_ByKhachhangResponse" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_Hdbanhang_ByKhachhangSoapIn">
+    <wsdl:part name="parameters" element="tns:RptWare_Hdbanhang_ByKhachhang" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_Hdbanhang_ByKhachhangSoapOut">
+    <wsdl:part name="parameters" element="tns:RptWare_Hdbanhang_ByKhachhangResponse" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_Hdbanhang_ByKhohanghoaSoapIn">
+    <wsdl:part name="parameters" element="tns:RptWare_Hdbanhang_ByKhohanghoa" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_Hdbanhang_ByKhohanghoaSoapOut">
+    <wsdl:part name="parameters" element="tns:RptWare_Hdbanhang_ByKhohanghoaResponse" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_Hdbanhang_ByKhuvucSoapIn">
+    <wsdl:part name="parameters" element="tns:RptWare_Hdbanhang_ByKhuvuc" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_Hdbanhang_ByKhuvucSoapOut">
+    <wsdl:part name="parameters" element="tns:RptWare_Hdbanhang_ByKhuvucResponse" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_Hdbanhang_ByLoaihanghoaSoapIn">
+    <wsdl:part name="parameters" element="tns:RptWare_Hdbanhang_ByLoaihanghoa" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_Hdbanhang_ByLoaihanghoaSoapOut">
+    <wsdl:part name="parameters" element="tns:RptWare_Hdbanhang_ByLoaihanghoaResponse" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_Hdbanhang_ByLoaihanghoa_newSoapIn">
+    <wsdl:part name="parameters" element="tns:RptWare_Hdbanhang_ByLoaihanghoa_new" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_Hdbanhang_ByLoaihanghoa_newSoapOut">
+    <wsdl:part name="parameters" element="tns:RptWare_Hdbanhang_ByLoaihanghoa_newResponse" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvienSoapIn">
+    <wsdl:part name="parameters" element="tns:RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvien" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvienSoapOut">
+    <wsdl:part name="parameters" element="tns:RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvienResponse" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvien_NewSoapIn">
+    <wsdl:part name="parameters" element="tns:RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvien_New" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvien_NewSoapOut">
+    <wsdl:part name="parameters" element="tns:RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvien_NewResponse" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Nxt_HhmuaSoapIn">
+    <wsdl:part name="parameters" element="tns:Rptware_Nxt_Hhmua" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Nxt_HhmuaSoapOut">
+    <wsdl:part name="parameters" element="tns:Rptware_Nxt_HhmuaResponse" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_HdmuahangSoapIn">
+    <wsdl:part name="parameters" element="tns:RptWare_Hdmuahang" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_HdmuahangSoapOut">
+    <wsdl:part name="parameters" element="tns:RptWare_HdmuahangResponse" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_Donmuahang_KhSoapIn">
+    <wsdl:part name="parameters" element="tns:RptWare_Donmuahang_Kh" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_Donmuahang_KhSoapOut">
+    <wsdl:part name="parameters" element="tns:RptWare_Donmuahang_KhResponse" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Nxt_HhbanSoapIn">
+    <wsdl:part name="parameters" element="tns:Rptware_Nxt_Hhban" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Nxt_HhbanSoapOut">
+    <wsdl:part name="parameters" element="tns:Rptware_Nxt_HhbanResponse" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Nxt_Hhban_Quydoi_HhmuaSoapIn">
+    <wsdl:part name="parameters" element="tns:Rptware_Nxt_Hhban_Quydoi_Hhmua" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Nxt_Hhban_Quydoi_HhmuaSoapOut">
+    <wsdl:part name="parameters" element="tns:Rptware_Nxt_Hhban_Quydoi_HhmuaResponse" />
+  </wsdl:message>
+  <wsdl:message name="RptSplit_Sum_HhmuaSoapIn">
+    <wsdl:part name="parameters" element="tns:RptSplit_Sum_Hhmua" />
+  </wsdl:message>
+  <wsdl:message name="RptSplit_Sum_HhmuaSoapOut">
+    <wsdl:part name="parameters" element="tns:RptSplit_Sum_HhmuaResponse" />
+  </wsdl:message>
+  <wsdl:message name="RptSplit_Sum_HhbanSoapIn">
+    <wsdl:part name="parameters" element="tns:RptSplit_Sum_Hhban" />
+  </wsdl:message>
+  <wsdl:message name="RptSplit_Sum_HhbanSoapOut">
+    <wsdl:part name="parameters" element="tns:RptSplit_Sum_HhbanResponse" />
+  </wsdl:message>
+  <wsdl:message name="RptSplit_Sum_Hhban_4BarSoapIn">
+    <wsdl:part name="parameters" element="tns:RptSplit_Sum_Hhban_4Bar" />
+  </wsdl:message>
+  <wsdl:message name="RptSplit_Sum_Hhban_4BarSoapOut">
+    <wsdl:part name="parameters" element="tns:RptSplit_Sum_Hhban_4BarResponse" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_SoQTMSoapIn">
+    <wsdl:part name="parameters" element="tns:RptWare_SoQTM" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_SoQTMSoapOut">
+    <wsdl:part name="parameters" element="tns:RptWare_SoQTMResponse" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_SoQTM_ByKhohanghoaSoapIn">
+    <wsdl:part name="parameters" element="tns:RptWare_SoQTM_ByKhohanghoa" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_SoQTM_ByKhohanghoaSoapOut">
+    <wsdl:part name="parameters" element="tns:RptWare_SoQTM_ByKhohanghoaResponse" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_SoQTM_2SoapIn">
+    <wsdl:part name="parameters" element="tns:RptWare_SoQTM_2" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_SoQTM_2SoapOut">
+    <wsdl:part name="parameters" element="tns:RptWare_SoQTM_2Response" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_SoQTM_GetTonSoapIn">
+    <wsdl:part name="parameters" element="tns:RptWare_SoQTM_GetTon" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_SoQTM_GetTonSoapOut">
+    <wsdl:part name="parameters" element="tns:RptWare_SoQTM_GetTonResponse" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_Hh_Kh_TraSoapIn">
+    <wsdl:part name="parameters" element="tns:RptWare_Hh_Kh_Tra" />
+  </wsdl:message>
+  <wsdl:message name="RptWare_Hh_Kh_TraSoapOut">
+    <wsdl:part name="parameters" element="tns:RptWare_Hh_Kh_TraResponse" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_ThekhoSoapIn">
+    <wsdl:part name="parameters" element="tns:Rptware_Thekho" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_ThekhoSoapOut">
+    <wsdl:part name="parameters" element="tns:Rptware_ThekhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Kiemke_KhohangSoapIn">
+    <wsdl:part name="parameters" element="tns:Rptware_Kiemke_Khohang" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Kiemke_KhohangSoapOut">
+    <wsdl:part name="parameters" element="tns:Rptware_Kiemke_KhohangResponse" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_NhapxuattonSoapIn">
+    <wsdl:part name="parameters" element="tns:Rptware_Nhapxuatton" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_NhapxuattonSoapOut">
+    <wsdl:part name="parameters" element="tns:Rptware_NhapxuattonResponse" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Nhapxuatton_mailSoapIn">
+    <wsdl:part name="parameters" element="tns:Rptware_Nhapxuatton_mail" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Nhapxuatton_mailSoapOut">
+    <wsdl:part name="parameters" element="tns:Rptware_Nhapxuatton_mailResponse" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Nhapxuatton_Giatri_TonSoapIn">
+    <wsdl:part name="parameters" element="tns:Rptware_Nhapxuatton_Giatri_Ton" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Nhapxuatton_Giatri_TonSoapOut">
+    <wsdl:part name="parameters" element="tns:Rptware_Nhapxuatton_Giatri_TonResponse" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Muahang_Xuattra_ChitietSoapIn">
+    <wsdl:part name="parameters" element="tns:Rptware_Muahang_Xuattra_Chitiet" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Muahang_Xuattra_ChitietSoapOut">
+    <wsdl:part name="parameters" element="tns:Rptware_Muahang_Xuattra_ChitietResponse" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Muahang_Congno_TonghopSoapIn">
+    <wsdl:part name="parameters" element="tns:Rptware_Muahang_Congno_Tonghop" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Muahang_Congno_TonghopSoapOut">
+    <wsdl:part name="parameters" element="tns:Rptware_Muahang_Congno_TonghopResponse" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Banhang_Congno_TonghopSoapIn">
+    <wsdl:part name="parameters" element="tns:Rptware_Banhang_Congno_Tonghop" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Banhang_Congno_TonghopSoapOut">
+    <wsdl:part name="parameters" element="tns:Rptware_Banhang_Congno_TonghopResponse" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Banhang_Congno_Tonghop_KhuvucSoapIn">
+    <wsdl:part name="parameters" element="tns:Rptware_Banhang_Congno_Tonghop_Khuvuc" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Banhang_Congno_Tonghop_KhuvucSoapOut">
+    <wsdl:part name="parameters" element="tns:Rptware_Banhang_Congno_Tonghop_KhuvucResponse" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Banhang_Congno_Tonghop_Khuvuc_NewSoapIn">
+    <wsdl:part name="parameters" element="tns:Rptware_Banhang_Congno_Tonghop_Khuvuc_New" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Banhang_Congno_Tonghop_Khuvuc_NewSoapOut">
+    <wsdl:part name="parameters" element="tns:Rptware_Banhang_Congno_Tonghop_Khuvuc_NewResponse" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Banhang_Congno_Tonghop_SaleSoapIn">
+    <wsdl:part name="parameters" element="tns:Rptware_Banhang_Congno_Tonghop_Sale" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Banhang_Congno_Tonghop_SaleSoapOut">
+    <wsdl:part name="parameters" element="tns:Rptware_Banhang_Congno_Tonghop_SaleResponse" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Banhang_Congno_Tonghop_NccSoapIn">
+    <wsdl:part name="parameters" element="tns:Rptware_Banhang_Congno_Tonghop_Ncc" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Banhang_Congno_Tonghop_NccSoapOut">
+    <wsdl:part name="parameters" element="tns:Rptware_Banhang_Congno_Tonghop_NccResponse" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Congno_ChitietSoapIn">
+    <wsdl:part name="parameters" element="tns:Rptware_Congno_Chitiet" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Congno_ChitietSoapOut">
+    <wsdl:part name="parameters" element="tns:Rptware_Congno_ChitietResponse" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Banhang_ChitietSoapIn">
+    <wsdl:part name="parameters" element="tns:Rptware_Banhang_Chitiet" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Banhang_ChitietSoapOut">
+    <wsdl:part name="parameters" element="tns:Rptware_Banhang_ChitietResponse" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Banhang_Chitiet_HanghoaSoapIn">
+    <wsdl:part name="parameters" element="tns:Rptware_Banhang_Chitiet_Hanghoa" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Banhang_Chitiet_HanghoaSoapOut">
+    <wsdl:part name="parameters" element="tns:Rptware_Banhang_Chitiet_HanghoaResponse" />
+  </wsdl:message>
+  <wsdl:message name="Rpt_Congno_Chitiet_NewSoapIn">
+    <wsdl:part name="parameters" element="tns:Rpt_Congno_Chitiet_New" />
+  </wsdl:message>
+  <wsdl:message name="Rpt_Congno_Chitiet_NewSoapOut">
+    <wsdl:part name="parameters" element="tns:Rpt_Congno_Chitiet_NewResponse" />
+  </wsdl:message>
+  <wsdl:message name="Rpt_Congno_Chitiet_New2SoapIn">
+    <wsdl:part name="parameters" element="tns:Rpt_Congno_Chitiet_New2" />
+  </wsdl:message>
+  <wsdl:message name="Rpt_Congno_Chitiet_New2SoapOut">
+    <wsdl:part name="parameters" element="tns:Rpt_Congno_Chitiet_New2Response" />
+  </wsdl:message>
+  <wsdl:message name="RptCongno_SendmailSoapIn">
+    <wsdl:part name="parameters" element="tns:RptCongno_Sendmail" />
+  </wsdl:message>
+  <wsdl:message name="RptCongno_SendmailSoapOut">
+    <wsdl:part name="parameters" element="tns:RptCongno_SendmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="Ware_Hdbanhang_Chitiet_Dudoan_Dathang_SenMailSoapIn">
+    <wsdl:part name="parameters" element="tns:Ware_Hdbanhang_Chitiet_Dudoan_Dathang_SenMail" />
+  </wsdl:message>
+  <wsdl:message name="Ware_Hdbanhang_Chitiet_Dudoan_Dathang_SenMailSoapOut">
+    <wsdl:part name="parameters" element="tns:Ware_Hdbanhang_Chitiet_Dudoan_Dathang_SenMailResponse" />
+  </wsdl:message>
+  <wsdl:message name="Rpt_Congno_Chitiet_KhuvucSoapIn">
+    <wsdl:part name="parameters" element="tns:Rpt_Congno_Chitiet_Khuvuc" />
+  </wsdl:message>
+  <wsdl:message name="Rpt_Congno_Chitiet_KhuvucSoapOut">
+    <wsdl:part name="parameters" element="tns:Rpt_Congno_Chitiet_KhuvucResponse" />
+  </wsdl:message>
+  <wsdl:message name="RptCongno_NCC_ChitietSoapIn">
+    <wsdl:part name="parameters" element="tns:RptCongno_NCC_Chitiet" />
+  </wsdl:message>
+  <wsdl:message name="RptCongno_NCC_ChitietSoapOut">
+    <wsdl:part name="parameters" element="tns:RptCongno_NCC_ChitietResponse" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Tonghop_Hoadon_Muahang_ThueSoapIn">
+    <wsdl:part name="parameters" element="tns:Rptware_Tonghop_Hoadon_Muahang_Thue" />
+  </wsdl:message>
+  <wsdl:message name="Rptware_Tonghop_Hoadon_Muahang_ThueSoapOut">
+    <wsdl:part name="parameters" element="tns:Rptware_Tonghop_Hoadon_Muahang_ThueResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ReportServiceSoap">
+    <wsdl:operation name="RptWare_Hdbanhang">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RptWare_Hdbanhang</wsdl:documentation>
+      <wsdl:input message="tns:RptWare_HdbanhangSoapIn" />
+      <wsdl:output message="tns:RptWare_HdbanhangSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByNhanvien">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RptWare_Hdbanhang_ByNhanvien</wsdl:documentation>
+      <wsdl:input message="tns:RptWare_Hdbanhang_ByNhanvienSoapIn" />
+      <wsdl:output message="tns:RptWare_Hdbanhang_ByNhanvienSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByNhanvien_Loaihang">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RptWare_Hdbanhang_ByNhanvien</wsdl:documentation>
+      <wsdl:input message="tns:RptWare_Hdbanhang_ByNhanvien_LoaihangSoapIn" />
+      <wsdl:output message="tns:RptWare_Hdbanhang_ByNhanvien_LoaihangSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Tonghop_Banhang_ByKhachhang">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RptWare_Hdbanhang_ByKhachhang</wsdl:documentation>
+      <wsdl:input message="tns:RptWare_Tonghop_Banhang_ByKhachhangSoapIn" />
+      <wsdl:output message="tns:RptWare_Tonghop_Banhang_ByKhachhangSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByKhachhang">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RptWare_Hdbanhang_ByKhachhang</wsdl:documentation>
+      <wsdl:input message="tns:RptWare_Hdbanhang_ByKhachhangSoapIn" />
+      <wsdl:output message="tns:RptWare_Hdbanhang_ByKhachhangSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByKhohanghoa">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RptWare_Hdbanhang_ByKhohanghoa</wsdl:documentation>
+      <wsdl:input message="tns:RptWare_Hdbanhang_ByKhohanghoaSoapIn" />
+      <wsdl:output message="tns:RptWare_Hdbanhang_ByKhohanghoaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByKhuvuc">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RptWare_Hdbanhang_ByKhuvuc</wsdl:documentation>
+      <wsdl:input message="tns:RptWare_Hdbanhang_ByKhuvucSoapIn" />
+      <wsdl:output message="tns:RptWare_Hdbanhang_ByKhuvucSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByLoaihanghoa">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RptWare_Hdbanhang_ByLoaihanghoa</wsdl:documentation>
+      <wsdl:input message="tns:RptWare_Hdbanhang_ByLoaihanghoaSoapIn" />
+      <wsdl:output message="tns:RptWare_Hdbanhang_ByLoaihanghoaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByLoaihanghoa_new">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RptWare_Hdbanhang_ByLoaihanghoa_new</wsdl:documentation>
+      <wsdl:input message="tns:RptWare_Hdbanhang_ByLoaihanghoa_newSoapIn" />
+      <wsdl:output message="tns:RptWare_Hdbanhang_ByLoaihanghoa_newSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvien">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RptWare_Hdbanhang_ByLoaihanghoa</wsdl:documentation>
+      <wsdl:input message="tns:RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvienSoapIn" />
+      <wsdl:output message="tns:RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvienSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvien_New">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvien_New</wsdl:documentation>
+      <wsdl:input message="tns:RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvien_NewSoapIn" />
+      <wsdl:output message="tns:RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvien_NewSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Nxt_Hhmua">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Rptware_Nxt_Hhmua</wsdl:documentation>
+      <wsdl:input message="tns:Rptware_Nxt_HhmuaSoapIn" />
+      <wsdl:output message="tns:Rptware_Nxt_HhmuaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdmuahang">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RptWare_Hdmuahang</wsdl:documentation>
+      <wsdl:input message="tns:RptWare_HdmuahangSoapIn" />
+      <wsdl:output message="tns:RptWare_HdmuahangSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Donmuahang_Kh">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RptWare_Donmuahang</wsdl:documentation>
+      <wsdl:input message="tns:RptWare_Donmuahang_KhSoapIn" />
+      <wsdl:output message="tns:RptWare_Donmuahang_KhSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Nxt_Hhban">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Rptware_Nxt_Hhban</wsdl:documentation>
+      <wsdl:input message="tns:Rptware_Nxt_HhbanSoapIn" />
+      <wsdl:output message="tns:Rptware_Nxt_HhbanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Nxt_Hhban_Quydoi_Hhmua">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Rptware_Nxt_Hhban_Quydoi_Hhmua</wsdl:documentation>
+      <wsdl:input message="tns:Rptware_Nxt_Hhban_Quydoi_HhmuaSoapIn" />
+      <wsdl:output message="tns:Rptware_Nxt_Hhban_Quydoi_HhmuaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RptSplit_Sum_Hhmua">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RptSplit_Sum_Hhmua</wsdl:documentation>
+      <wsdl:input message="tns:RptSplit_Sum_HhmuaSoapIn" />
+      <wsdl:output message="tns:RptSplit_Sum_HhmuaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RptSplit_Sum_Hhban">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RptSplit_Sum_Hhmua</wsdl:documentation>
+      <wsdl:input message="tns:RptSplit_Sum_HhbanSoapIn" />
+      <wsdl:output message="tns:RptSplit_Sum_HhbanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RptSplit_Sum_Hhban_4Bar">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RptSplit_Sum_Hhban_4Bar</wsdl:documentation>
+      <wsdl:input message="tns:RptSplit_Sum_Hhban_4BarSoapIn" />
+      <wsdl:output message="tns:RptSplit_Sum_Hhban_4BarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_SoQTM">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RptWare_Hdmuahang</wsdl:documentation>
+      <wsdl:input message="tns:RptWare_SoQTMSoapIn" />
+      <wsdl:output message="tns:RptWare_SoQTMSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_SoQTM_ByKhohanghoa">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RptWare_Hdmuahang</wsdl:documentation>
+      <wsdl:input message="tns:RptWare_SoQTM_ByKhohanghoaSoapIn" />
+      <wsdl:output message="tns:RptWare_SoQTM_ByKhohanghoaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_SoQTM_2">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RptWare_Hdmuahang</wsdl:documentation>
+      <wsdl:input message="tns:RptWare_SoQTM_2SoapIn" />
+      <wsdl:output message="tns:RptWare_SoQTM_2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_SoQTM_GetTon">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RptWare_Hdmuahang</wsdl:documentation>
+      <wsdl:input message="tns:RptWare_SoQTM_GetTonSoapIn" />
+      <wsdl:output message="tns:RptWare_SoQTM_GetTonSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hh_Kh_Tra">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RptWare_Hh_Kh_Tra</wsdl:documentation>
+      <wsdl:input message="tns:RptWare_Hh_Kh_TraSoapIn" />
+      <wsdl:output message="tns:RptWare_Hh_Kh_TraSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Thekho">
+      <wsdl:input message="tns:Rptware_ThekhoSoapIn" />
+      <wsdl:output message="tns:Rptware_ThekhoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Kiemke_Khohang">
+      <wsdl:input message="tns:Rptware_Kiemke_KhohangSoapIn" />
+      <wsdl:output message="tns:Rptware_Kiemke_KhohangSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Nhapxuatton">
+      <wsdl:input message="tns:Rptware_NhapxuattonSoapIn" />
+      <wsdl:output message="tns:Rptware_NhapxuattonSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Nhapxuatton_mail">
+      <wsdl:input message="tns:Rptware_Nhapxuatton_mailSoapIn" />
+      <wsdl:output message="tns:Rptware_Nhapxuatton_mailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Nhapxuatton_Giatri_Ton">
+      <wsdl:input message="tns:Rptware_Nhapxuatton_Giatri_TonSoapIn" />
+      <wsdl:output message="tns:Rptware_Nhapxuatton_Giatri_TonSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Muahang_Xuattra_Chitiet">
+      <wsdl:input message="tns:Rptware_Muahang_Xuattra_ChitietSoapIn" />
+      <wsdl:output message="tns:Rptware_Muahang_Xuattra_ChitietSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Muahang_Congno_Tonghop">
+      <wsdl:input message="tns:Rptware_Muahang_Congno_TonghopSoapIn" />
+      <wsdl:output message="tns:Rptware_Muahang_Congno_TonghopSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Banhang_Congno_Tonghop">
+      <wsdl:input message="tns:Rptware_Banhang_Congno_TonghopSoapIn" />
+      <wsdl:output message="tns:Rptware_Banhang_Congno_TonghopSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Banhang_Congno_Tonghop_Khuvuc">
+      <wsdl:input message="tns:Rptware_Banhang_Congno_Tonghop_KhuvucSoapIn" />
+      <wsdl:output message="tns:Rptware_Banhang_Congno_Tonghop_KhuvucSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Banhang_Congno_Tonghop_Khuvuc_New">
+      <wsdl:input message="tns:Rptware_Banhang_Congno_Tonghop_Khuvuc_NewSoapIn" />
+      <wsdl:output message="tns:Rptware_Banhang_Congno_Tonghop_Khuvuc_NewSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Banhang_Congno_Tonghop_Sale">
+      <wsdl:input message="tns:Rptware_Banhang_Congno_Tonghop_SaleSoapIn" />
+      <wsdl:output message="tns:Rptware_Banhang_Congno_Tonghop_SaleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Banhang_Congno_Tonghop_Ncc">
+      <wsdl:input message="tns:Rptware_Banhang_Congno_Tonghop_NccSoapIn" />
+      <wsdl:output message="tns:Rptware_Banhang_Congno_Tonghop_NccSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Congno_Chitiet">
+      <wsdl:input message="tns:Rptware_Congno_ChitietSoapIn" />
+      <wsdl:output message="tns:Rptware_Congno_ChitietSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Banhang_Chitiet">
+      <wsdl:input message="tns:Rptware_Banhang_ChitietSoapIn" />
+      <wsdl:output message="tns:Rptware_Banhang_ChitietSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Banhang_Chitiet_Hanghoa">
+      <wsdl:input message="tns:Rptware_Banhang_Chitiet_HanghoaSoapIn" />
+      <wsdl:output message="tns:Rptware_Banhang_Chitiet_HanghoaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rpt_Congno_Chitiet_New">
+      <wsdl:input message="tns:Rpt_Congno_Chitiet_NewSoapIn" />
+      <wsdl:output message="tns:Rpt_Congno_Chitiet_NewSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rpt_Congno_Chitiet_New2">
+      <wsdl:input message="tns:Rpt_Congno_Chitiet_New2SoapIn" />
+      <wsdl:output message="tns:Rpt_Congno_Chitiet_New2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RptCongno_Sendmail">
+      <wsdl:input message="tns:RptCongno_SendmailSoapIn" />
+      <wsdl:output message="tns:RptCongno_SendmailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Ware_Hdbanhang_Chitiet_Dudoan_Dathang_SenMail">
+      <wsdl:input message="tns:Ware_Hdbanhang_Chitiet_Dudoan_Dathang_SenMailSoapIn" />
+      <wsdl:output message="tns:Ware_Hdbanhang_Chitiet_Dudoan_Dathang_SenMailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rpt_Congno_Chitiet_Khuvuc">
+      <wsdl:input message="tns:Rpt_Congno_Chitiet_KhuvucSoapIn" />
+      <wsdl:output message="tns:Rpt_Congno_Chitiet_KhuvucSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RptCongno_NCC_Chitiet">
+      <wsdl:input message="tns:RptCongno_NCC_ChitietSoapIn" />
+      <wsdl:output message="tns:RptCongno_NCC_ChitietSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Tonghop_Hoadon_Muahang_Thue">
+      <wsdl:input message="tns:Rptware_Tonghop_Hoadon_Muahang_ThueSoapIn" />
+      <wsdl:output message="tns:Rptware_Tonghop_Hoadon_Muahang_ThueSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ReportServiceSoap" type="tns:ReportServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RptWare_Hdbanhang">
+      <soap:operation soapAction="http://tempuri.org/RptWare_Hdbanhang" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByNhanvien">
+      <soap:operation soapAction="http://tempuri.org/RptWare_Hdbanhang_ByNhanvien" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByNhanvien_Loaihang">
+      <soap:operation soapAction="http://tempuri.org/RptWare_Hdbanhang_ByNhanvien_Loaihang" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Tonghop_Banhang_ByKhachhang">
+      <soap:operation soapAction="http://tempuri.org/RptWare_Tonghop_Banhang_ByKhachhang" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByKhachhang">
+      <soap:operation soapAction="http://tempuri.org/RptWare_Hdbanhang_ByKhachhang" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByKhohanghoa">
+      <soap:operation soapAction="http://tempuri.org/RptWare_Hdbanhang_ByKhohanghoa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByKhuvuc">
+      <soap:operation soapAction="http://tempuri.org/RptWare_Hdbanhang_ByKhuvuc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByLoaihanghoa">
+      <soap:operation soapAction="http://tempuri.org/RptWare_Hdbanhang_ByLoaihanghoa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByLoaihanghoa_new">
+      <soap:operation soapAction="http://tempuri.org/RptWare_Hdbanhang_ByLoaihanghoa_new" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvien">
+      <soap:operation soapAction="http://tempuri.org/RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvien" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvien_New">
+      <soap:operation soapAction="http://tempuri.org/RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvien_New" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Nxt_Hhmua">
+      <soap:operation soapAction="http://tempuri.org/Rptware_Nxt_Hhmua" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdmuahang">
+      <soap:operation soapAction="http://tempuri.org/RptWare_Hdmuahang" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Donmuahang_Kh">
+      <soap:operation soapAction="http://tempuri.org/RptWare_Donmuahang_Kh" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Nxt_Hhban">
+      <soap:operation soapAction="http://tempuri.org/Rptware_Nxt_Hhban" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Nxt_Hhban_Quydoi_Hhmua">
+      <soap:operation soapAction="http://tempuri.org/Rptware_Nxt_Hhban_Quydoi_Hhmua" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptSplit_Sum_Hhmua">
+      <soap:operation soapAction="http://tempuri.org/RptSplit_Sum_Hhmua" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptSplit_Sum_Hhban">
+      <soap:operation soapAction="http://tempuri.org/RptSplit_Sum_Hhban" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptSplit_Sum_Hhban_4Bar">
+      <soap:operation soapAction="http://tempuri.org/RptSplit_Sum_Hhban_4Bar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_SoQTM">
+      <soap:operation soapAction="http://tempuri.org/RptWare_SoQTM" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_SoQTM_ByKhohanghoa">
+      <soap:operation soapAction="http://tempuri.org/RptWare_SoQTM_ByKhohanghoa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_SoQTM_2">
+      <soap:operation soapAction="http://tempuri.org/RptWare_SoQTM_2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_SoQTM_GetTon">
+      <soap:operation soapAction="http://tempuri.org/RptWare_SoQTM_GetTon" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hh_Kh_Tra">
+      <soap:operation soapAction="http://tempuri.org/RptWare_Hh_Kh_Tra" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Thekho">
+      <soap:operation soapAction="http://tempuri.org/Rptware_Thekho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Kiemke_Khohang">
+      <soap:operation soapAction="http://tempuri.org/Rptware_Kiemke_Khohang" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Nhapxuatton">
+      <soap:operation soapAction="http://tempuri.org/Rptware_Nhapxuatton" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Nhapxuatton_mail">
+      <soap:operation soapAction="http://tempuri.org/Rptware_Nhapxuatton_mail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Nhapxuatton_Giatri_Ton">
+      <soap:operation soapAction="http://tempuri.org/Rptware_Nhapxuatton_Giatri_Ton" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Muahang_Xuattra_Chitiet">
+      <soap:operation soapAction="http://tempuri.org/Rptware_Muahang_Xuattra_Chitiet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Muahang_Congno_Tonghop">
+      <soap:operation soapAction="http://tempuri.org/Rptware_Muahang_Congno_Tonghop" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Banhang_Congno_Tonghop">
+      <soap:operation soapAction="http://tempuri.org/Rptware_Banhang_Congno_Tonghop" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Banhang_Congno_Tonghop_Khuvuc">
+      <soap:operation soapAction="http://tempuri.org/Rptware_Banhang_Congno_Tonghop_Khuvuc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Banhang_Congno_Tonghop_Khuvuc_New">
+      <soap:operation soapAction="http://tempuri.org/Rptware_Banhang_Congno_Tonghop_Khuvuc_New" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Banhang_Congno_Tonghop_Sale">
+      <soap:operation soapAction="http://tempuri.org/Rptware_Banhang_Congno_Tonghop_Sale" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Banhang_Congno_Tonghop_Ncc">
+      <soap:operation soapAction="http://tempuri.org/Rptware_Banhang_Congno_Tonghop_Ncc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Congno_Chitiet">
+      <soap:operation soapAction="http://tempuri.org/Rptware_Congno_Chitiet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Banhang_Chitiet">
+      <soap:operation soapAction="http://tempuri.org/Rptware_Banhang_Chitiet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Banhang_Chitiet_Hanghoa">
+      <soap:operation soapAction="http://tempuri.org/Rptware_Banhang_Chitiet_Hanghoa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rpt_Congno_Chitiet_New">
+      <soap:operation soapAction="http://tempuri.org/Rpt_Congno_Chitiet_New" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rpt_Congno_Chitiet_New2">
+      <soap:operation soapAction="http://tempuri.org/Rpt_Congno_Chitiet_New2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptCongno_Sendmail">
+      <soap:operation soapAction="http://tempuri.org/RptCongno_Sendmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Ware_Hdbanhang_Chitiet_Dudoan_Dathang_SenMail">
+      <soap:operation soapAction="http://tempuri.org/Ware_Hdbanhang_Chitiet_Dudoan_Dathang_SenMail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rpt_Congno_Chitiet_Khuvuc">
+      <soap:operation soapAction="http://tempuri.org/Rpt_Congno_Chitiet_Khuvuc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptCongno_NCC_Chitiet">
+      <soap:operation soapAction="http://tempuri.org/RptCongno_NCC_Chitiet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Tonghop_Hoadon_Muahang_Thue">
+      <soap:operation soapAction="http://tempuri.org/Rptware_Tonghop_Hoadon_Muahang_Thue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ReportServiceSoap12" type="tns:ReportServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RptWare_Hdbanhang">
+      <soap12:operation soapAction="http://tempuri.org/RptWare_Hdbanhang" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByNhanvien">
+      <soap12:operation soapAction="http://tempuri.org/RptWare_Hdbanhang_ByNhanvien" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByNhanvien_Loaihang">
+      <soap12:operation soapAction="http://tempuri.org/RptWare_Hdbanhang_ByNhanvien_Loaihang" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Tonghop_Banhang_ByKhachhang">
+      <soap12:operation soapAction="http://tempuri.org/RptWare_Tonghop_Banhang_ByKhachhang" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByKhachhang">
+      <soap12:operation soapAction="http://tempuri.org/RptWare_Hdbanhang_ByKhachhang" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByKhohanghoa">
+      <soap12:operation soapAction="http://tempuri.org/RptWare_Hdbanhang_ByKhohanghoa" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByKhuvuc">
+      <soap12:operation soapAction="http://tempuri.org/RptWare_Hdbanhang_ByKhuvuc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByLoaihanghoa">
+      <soap12:operation soapAction="http://tempuri.org/RptWare_Hdbanhang_ByLoaihanghoa" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByLoaihanghoa_new">
+      <soap12:operation soapAction="http://tempuri.org/RptWare_Hdbanhang_ByLoaihanghoa_new" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvien">
+      <soap12:operation soapAction="http://tempuri.org/RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvien" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvien_New">
+      <soap12:operation soapAction="http://tempuri.org/RptWare_Hdbanhang_ByLoaihanghoa_ByNhanvien_New" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Nxt_Hhmua">
+      <soap12:operation soapAction="http://tempuri.org/Rptware_Nxt_Hhmua" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hdmuahang">
+      <soap12:operation soapAction="http://tempuri.org/RptWare_Hdmuahang" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Donmuahang_Kh">
+      <soap12:operation soapAction="http://tempuri.org/RptWare_Donmuahang_Kh" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Nxt_Hhban">
+      <soap12:operation soapAction="http://tempuri.org/Rptware_Nxt_Hhban" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Nxt_Hhban_Quydoi_Hhmua">
+      <soap12:operation soapAction="http://tempuri.org/Rptware_Nxt_Hhban_Quydoi_Hhmua" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptSplit_Sum_Hhmua">
+      <soap12:operation soapAction="http://tempuri.org/RptSplit_Sum_Hhmua" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptSplit_Sum_Hhban">
+      <soap12:operation soapAction="http://tempuri.org/RptSplit_Sum_Hhban" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptSplit_Sum_Hhban_4Bar">
+      <soap12:operation soapAction="http://tempuri.org/RptSplit_Sum_Hhban_4Bar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_SoQTM">
+      <soap12:operation soapAction="http://tempuri.org/RptWare_SoQTM" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_SoQTM_ByKhohanghoa">
+      <soap12:operation soapAction="http://tempuri.org/RptWare_SoQTM_ByKhohanghoa" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_SoQTM_2">
+      <soap12:operation soapAction="http://tempuri.org/RptWare_SoQTM_2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_SoQTM_GetTon">
+      <soap12:operation soapAction="http://tempuri.org/RptWare_SoQTM_GetTon" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptWare_Hh_Kh_Tra">
+      <soap12:operation soapAction="http://tempuri.org/RptWare_Hh_Kh_Tra" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Thekho">
+      <soap12:operation soapAction="http://tempuri.org/Rptware_Thekho" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Kiemke_Khohang">
+      <soap12:operation soapAction="http://tempuri.org/Rptware_Kiemke_Khohang" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Nhapxuatton">
+      <soap12:operation soapAction="http://tempuri.org/Rptware_Nhapxuatton" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Nhapxuatton_mail">
+      <soap12:operation soapAction="http://tempuri.org/Rptware_Nhapxuatton_mail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Nhapxuatton_Giatri_Ton">
+      <soap12:operation soapAction="http://tempuri.org/Rptware_Nhapxuatton_Giatri_Ton" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Muahang_Xuattra_Chitiet">
+      <soap12:operation soapAction="http://tempuri.org/Rptware_Muahang_Xuattra_Chitiet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Muahang_Congno_Tonghop">
+      <soap12:operation soapAction="http://tempuri.org/Rptware_Muahang_Congno_Tonghop" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Banhang_Congno_Tonghop">
+      <soap12:operation soapAction="http://tempuri.org/Rptware_Banhang_Congno_Tonghop" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Banhang_Congno_Tonghop_Khuvuc">
+      <soap12:operation soapAction="http://tempuri.org/Rptware_Banhang_Congno_Tonghop_Khuvuc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Banhang_Congno_Tonghop_Khuvuc_New">
+      <soap12:operation soapAction="http://tempuri.org/Rptware_Banhang_Congno_Tonghop_Khuvuc_New" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Banhang_Congno_Tonghop_Sale">
+      <soap12:operation soapAction="http://tempuri.org/Rptware_Banhang_Congno_Tonghop_Sale" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Banhang_Congno_Tonghop_Ncc">
+      <soap12:operation soapAction="http://tempuri.org/Rptware_Banhang_Congno_Tonghop_Ncc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Congno_Chitiet">
+      <soap12:operation soapAction="http://tempuri.org/Rptware_Congno_Chitiet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Banhang_Chitiet">
+      <soap12:operation soapAction="http://tempuri.org/Rptware_Banhang_Chitiet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Banhang_Chitiet_Hanghoa">
+      <soap12:operation soapAction="http://tempuri.org/Rptware_Banhang_Chitiet_Hanghoa" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rpt_Congno_Chitiet_New">
+      <soap12:operation soapAction="http://tempuri.org/Rpt_Congno_Chitiet_New" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rpt_Congno_Chitiet_New2">
+      <soap12:operation soapAction="http://tempuri.org/Rpt_Congno_Chitiet_New2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptCongno_Sendmail">
+      <soap12:operation soapAction="http://tempuri.org/RptCongno_Sendmail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Ware_Hdbanhang_Chitiet_Dudoan_Dathang_SenMail">
+      <soap12:operation soapAction="http://tempuri.org/Ware_Hdbanhang_Chitiet_Dudoan_Dathang_SenMail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rpt_Congno_Chitiet_Khuvuc">
+      <soap12:operation soapAction="http://tempuri.org/Rpt_Congno_Chitiet_Khuvuc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RptCongno_NCC_Chitiet">
+      <soap12:operation soapAction="http://tempuri.org/RptCongno_NCC_Chitiet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rptware_Tonghop_Hoadon_Muahang_Thue">
+      <soap12:operation soapAction="http://tempuri.org/Rptware_Tonghop_Hoadon_Muahang_Thue" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ReportService">
+    <wsdl:port name="ReportServiceSoap" binding="tns:ReportServiceSoap">
+      <soap:address location="http://longthanhmekong.homeip.net:8000/WS/ReportService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ReportServiceSoap12" binding="tns:ReportServiceSoap12">
+      <soap12:address location="http://longthanhmekong.homeip.net:8000/WS/ReportService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

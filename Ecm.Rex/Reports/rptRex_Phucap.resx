@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.DataSourceSchema" xml:space="preserve">
+    <value>&lt;?xml version="1.0"?&gt;
+&lt;xs:schema id="DsRex_Nhansu" targetNamespace="http://tempuri.org/DsRex_Nhansu.xsd" xmlns:mstns="http://tempuri.org/DsRex_Nhansu.xsd" xmlns="http://tempuri.org/DsRex_Nhansu.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified"&gt;
+  &lt;xs:element name="DsRex_Nhansu" msdata:IsDataSet="true" msdata:UseCurrentLocale="true"&gt;
+    &lt;xs:complexType&gt;
+      &lt;xs:choice minOccurs="0" maxOccurs="unbounded"&gt;
+        &lt;xs:element name="rex_nhansu"&gt;
+          &lt;xs:complexType&gt;
+            &lt;xs:sequence&gt;
+              &lt;xs:element name="Id_Nhansu" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:long" /&gt;
+              &lt;xs:element name="Ma_Nhansu" minOccurs="0"&gt;
+                &lt;xs:simpleType&gt;
+                  &lt;xs:restriction base="xs:string"&gt;
+                    &lt;xs:maxLength value="1073741823" /&gt;
+                  &lt;/xs:restriction&gt;
+                &lt;/xs:simpleType&gt;
+              &lt;/xs:element&gt;
+              &lt;xs:element name="Ho_Nhansu" minOccurs="0"&gt;
+                &lt;xs:simpleType&gt;
+                  &lt;xs:restriction base="xs:string"&gt;
+                    &lt;xs:maxLength value="1073741823" /&gt;
+                  &lt;/xs:restriction&gt;
+                &lt;/xs:simpleType&gt;
+              &lt;/xs:element&gt;
+              &lt;xs:element name="Ten_Nhansu" minOccurs="0"&gt;
+                &lt;xs:simpleType&gt;
+                  &lt;xs:restriction base="xs:string"&gt;
+                    &lt;xs:maxLength value="1073741823" /&gt;
+                  &lt;/xs:restriction&gt;
+                &lt;/xs:simpleType&gt;
+              &lt;/xs:element&gt;
+              &lt;xs:element name="Dienthoai" minOccurs="0"&gt;
+                &lt;xs:simpleType&gt;
+                  &lt;xs:restriction base="xs:string"&gt;
+                    &lt;xs:maxLength value="1073741823" /&gt;
+                  &lt;/xs:restriction&gt;
+                &lt;/xs:simpleType&gt;
+              &lt;/xs:element&gt;
+              &lt;xs:element name="Id_Dantoc" type="xs:long" minOccurs="0" /&gt;
+              &lt;xs:element name="Id_Quocgia" type="xs:long" minOccurs="0" /&gt;
+              &lt;xs:element name="Id_Vanhoa" type="xs:long" minOccurs="0" /&gt;
+              &lt;xs:element name="Id_Tongiao" type="xs:long" minOccurs="0" /&gt;
+              &lt;xs:element name="Id_Tpgiadinh" type="xs:long" minOccurs="0" /&gt;
+              &lt;xs:element name="Id_Tpbanthan" type="xs:long" minOccurs="0" /&gt;
+              &lt;xs:element name="Id_Honnhan" type="xs:long" minOccurs="0" /&gt;
+              &lt;xs:element name="Ngaysinh" type="xs:int" minOccurs="0" /&gt;
+              &lt;xs:element name="Thangsinh" type="xs:int" minOccurs="0" /&gt;
+              &lt;xs:element name="Namsinh" type="xs:int" minOccurs="0" /&gt;
+              &lt;xs:element name="Gioitinh" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Cmnd" minOccurs="0"&gt;
+                &lt;xs:simpleType&gt;
+                  &lt;xs:restriction base="xs:string"&gt;
+                    &lt;xs:maxLength value="1073741823" /&gt;
+                  &lt;/xs:restriction&gt;
+                &lt;/xs:simpleType&gt;
+              &lt;/xs:element&gt;
+              &lt;xs:element name="Ngaycap" type="xs:dateTime" minOccurs="0" /&gt;
+              &lt;xs:element name="Noicap" minOccurs="0"&gt;
+                &lt;xs:simpleType&gt;
+                  &lt;xs:restriction base="xs:string"&gt;
+                    &lt;xs:maxLength value="1073741823" /&gt;
+                  &lt;/xs:restriction&gt;
+                &lt;/xs:simpleType&gt;
+              &lt;/xs:element&gt;
+              &lt;xs:element name="Noisinh" minOccurs="0"&gt;
+                &lt;xs:simpleType&gt;
+                  &lt;xs:restriction base="xs:string"&gt;
+                    &lt;xs:maxLength value="1073741823" /&gt;
+                  &lt;/xs:restriction&gt;
+                &lt;/xs:simpleType&gt;
+              &lt;/xs:element&gt;
+              &lt;xs:element name="Quequan" minOccurs="0"&gt;
+                &lt;xs:simpleType&gt;
+                  &lt;xs:restriction base="xs:string"&gt;
+                    &lt;xs:maxLength value="1073741823" /&gt;
+                  &lt;/xs:restriction&gt;
+                &lt;/xs:simpleType&gt;
+              &lt;/xs:element&gt;
+              &lt;xs:element name="Diachi_Thuongtru" minOccurs="0"&gt;
+                &lt;xs:simpleType&gt;
+                  &lt;xs:restriction base="xs:string"&gt;
+                    &lt;xs:maxLength value="1073741823" /&gt;
+                  &lt;/xs:restriction&gt;
+                &lt;/xs:simpleType&gt;
+              &lt;/xs:element&gt;
+              &lt;xs:element name="Diachi_Tamtru" minOccurs="0"&gt;
+                &lt;xs:simpleType&gt;
+                  &lt;xs:restriction base="xs:string"&gt;
+                    &lt;xs:maxLength value="1073741823" /&gt;
+                  &lt;/xs:restriction&gt;
+                &lt;/xs:simpleType&gt;
+              &lt;/xs:element&gt;
+              &lt;xs:element name="Hinh" type="xs:base64Binary" minOccurs="0" /&gt;
+              &lt;xs:element name="Ngay_Vaolam" type="xs:dateTime" minOccurs="0" /&gt;
+              &lt;xs:element name="Ngay_Thoiviec" type="xs:dateTime" minOccurs="0" /&gt;
+              &lt;xs:element name="Ma_bophan" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Hoten_Nhansu" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ten_Bophan" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ten_Chucvu" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ma_Ngachluong" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ten_Ngachluong" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ten_Vanhoa" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ma_Bacluong" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ten_Bacluong" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Heso" type="xs:decimal" minOccurs="0" /&gt;
+              &lt;xs:element name="Ngay_Hieuluc_Batdau" type="xs:dateTime" minOccurs="0" /&gt;
+              &lt;xs:element name="Luong_Thoathuan" type="xs:decimal" minOccurs="0" /&gt;
+              &lt;xs:element name="Ten_Congty" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ten_Dantoc" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ten_Honnhan" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ten_Quocgia" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ten_Tongiao" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ten_Tpbanthan" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ten_Ngoaingu" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ten_Tinhoc" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ten_Chuyenmon" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ten_Tpgiadinh" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Hochieu" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ngaycap_Hochieu" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Noicap_Hochieu" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ngay_Vaodoan" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Noi_Vaodoan" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ngay_Vaodang" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Noi_Vaodang" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Thamgia_Quandoi" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Khuyet_Tat" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Hokhau_Thuongtru" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Dienthoai_Nharieng" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Fax" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Email" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ngay_Tuyendung" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ma_Hopdong_Laodong" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ten_Loai_Hopdong" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Nghi_Bhxh" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Tenkhac" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="TT_Suckhoe" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Chieucao" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Cannang" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Nhommau" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Thuongbinh_Hang" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Con_Chinh_Sach" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ngayvaodang_Chinhthuc" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ngay_Nhapngu" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ngay_Xuatngu" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Quan_Ham" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Danhhieu_Caonhat" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Lyluan_Chinhtri" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Quanly_Nhanuoc" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Bibat_Bitu" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Thamgia_Chinhtri" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Thannhan_Nuocngoai" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Nghenghiep_Tuyendung" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ten_Loai_Nhanvien" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Congviec_Chinh" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Sotruong_Ct" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="So_Sobhxh" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ma_Bophan" type="xs:string" minOccurs="0" /&gt;
+            &lt;/xs:sequence&gt;
+          &lt;/xs:complexType&gt;
+        &lt;/xs:element&gt;
+        &lt;xs:element name="Rex_Dienbien_Luong"&gt;
+          &lt;xs:complexType&gt;
+            &lt;xs:sequence&gt;
+              &lt;xs:element name="Id_Dienbien_Luong" type="xs:long" /&gt;
+              &lt;xs:element name="Id_Nhansu" type="xs:long" minOccurs="0" /&gt;
+              &lt;xs:element name="Ngay_Hieuluc_Batdau" type="xs:dateTime" minOccurs="0" /&gt;
+              &lt;xs:element name="Ngay_Hieuluc_Ketthuc" type="xs:dateTime" minOccurs="0" /&gt;
+              &lt;xs:element name="Luong_Thoathuan" type="xs:decimal" minOccurs="0" /&gt;
+              &lt;xs:element name="Ten_Ngachluong" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ten_Bacluong" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ngach_Bac" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Heso" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Thang_Nam" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ma_Ngachluong" type="xs:string" minOccurs="0" /&gt;
+            &lt;/xs:sequence&gt;
+          &lt;/xs:complexType&gt;
+        &lt;/xs:element&gt;
+        &lt;xs:element name="Rex_Phucap"&gt;
+          &lt;xs:complexType&gt;
+            &lt;xs:sequence&gt;
+              &lt;xs:element name="Id_Phucap" type="xs:long" /&gt;
+              &lt;xs:element name="Id_Nhansu" type="xs:long" minOccurs="0" /&gt;
+              &lt;xs:element name="Sotien" type="xs:decimal" minOccurs="0" /&gt;
+              &lt;xs:element name="Ngay_Batdau" type="xs:dateTime" minOccurs="0" /&gt;
+              &lt;xs:element name="Ngay_Ketthuc" type="xs:dateTime" minOccurs="0" /&gt;
+              &lt;xs:element name="Ghichu" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Pb_Phucap_Chung" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ma_Phucap" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ten_Phucap" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Heso_Phucap" type="xs:decimal" minOccurs="0" /&gt;
+            &lt;/xs:sequence&gt;
+          &lt;/xs:complexType&gt;
+        &lt;/xs:element&gt;
+        &lt;xs:element name="Rex_Quatrinh_Daotao"&gt;
+          &lt;xs:complexType&gt;
+            &lt;xs:sequence&gt;
+              &lt;xs:element name="Id_Quatrinh_Daotao" type="xs:long" /&gt;
+              &lt;xs:element name="Id_Nhansu" type="xs:long" minOccurs="0" /&gt;
+              &lt;xs:element name="Nam_Nhaphoc" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Nam_Totnghiep" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Noi_Daotao" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Loaihinh_Daotao" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Id_Chuyenmon" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Id_Chungchi" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ghichu" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Tunam_Dennam" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ten_Chuyenmon" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ten_Chungchi" type="xs:string" minOccurs="0" /&gt;
+            &lt;/xs:sequence&gt;
+          &lt;/xs:complexType&gt;
+        &lt;/xs:element&gt;
+        &lt;xs:element name="Rex_Quatrinh_Congtac"&gt;
+          &lt;xs:complexType&gt;
+            &lt;xs:sequence&gt;
+              &lt;xs:element name="Id_Quatrinh_Congtac" type="xs:long" /&gt;
+              &lt;xs:element name="Id_Nhansu" type="xs:long" minOccurs="0" /&gt;
+              &lt;xs:element name="Tunam_Dennam" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Congviec" type="xs:string" minOccurs="0" /&gt;
+            &lt;/xs:sequence&gt;
+          &lt;/xs:complexType&gt;
+        &lt;/xs:element&gt;
+        &lt;xs:element name="Rex_Quanhe_Giadinh"&gt;
+          &lt;xs:complexType&gt;
+            &lt;xs:sequence&gt;
+              &lt;xs:element name="Id_Quanhe_Giadinh" type="xs:long" /&gt;
+              &lt;xs:element name="Id_Nhansu" type="xs:long" minOccurs="0" /&gt;
+              &lt;xs:element name="Ten_Quanhe_Giadinh" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Ho_Ten" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Namsinh" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Info" type="xs:string" minOccurs="0" /&gt;
+            &lt;/xs:sequence&gt;
+          &lt;/xs:complexType&gt;
+        &lt;/xs:element&gt;
+      &lt;/xs:choice&gt;
+    &lt;/xs:complexType&gt;
+    &lt;xs:unique name="Constraint1" msdata:PrimaryKey="true"&gt;
+      &lt;xs:selector xpath=".//mstns:rex_nhansu" /&gt;
+      &lt;xs:field xpath="mstns:Id_Nhansu" /&gt;
+    &lt;/xs:unique&gt;
+    &lt;xs:unique name="Rex_Dienbien_Luong_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true"&gt;
+      &lt;xs:selector xpath=".//mstns:Rex_Dienbien_Luong" /&gt;
+      &lt;xs:field xpath="mstns:Id_Dienbien_Luong" /&gt;
+    &lt;/xs:unique&gt;
+    &lt;xs:unique name="Rex_Phucap_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true"&gt;
+      &lt;xs:selector xpath=".//mstns:Rex_Phucap" /&gt;
+      &lt;xs:field xpath="mstns:Id_Phucap" /&gt;
+    &lt;/xs:unique&gt;
+    &lt;xs:unique name="Rex_Quatrinh_Daotao_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true"&gt;
+      &lt;xs:selector xpath=".//mstns:Rex_Quatrinh_Daotao" /&gt;
+      &lt;xs:field xpath="mstns:Id_Quatrinh_Daotao" /&gt;
+    &lt;/xs:unique&gt;
+    &lt;xs:unique name="Rex_Quatrinh_Congtac_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true"&gt;
+      &lt;xs:selector xpath=".//mstns:Rex_Quatrinh_Congtac" /&gt;
+      &lt;xs:field xpath="mstns:Id_Quatrinh_Congtac" /&gt;
+    &lt;/xs:unique&gt;
+    &lt;xs:unique name="Rex_Quanhe_Giadinh_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true"&gt;
+      &lt;xs:selector xpath=".//mstns:Rex_Quanhe_Giadinh" /&gt;
+      &lt;xs:field xpath="mstns:Id_Quanhe_Giadinh" /&gt;
+    &lt;/xs:unique&gt;
+  &lt;/xs:element&gt;
+  &lt;xs:annotation&gt;
+    &lt;xs:appinfo&gt;
+      &lt;msdata:Relationship name="rex_nhansu_Rex_Dienbien_Luong" msdata:parent="rex_nhansu" msdata:child="Rex_Dienbien_Luong" msdata:parentkey="Id_Nhansu" msdata:childkey="Id_Nhansu" /&gt;
+      &lt;msdata:Relationship name="rex_nhansu_Rex_Phucap" msdata:parent="rex_nhansu" msdata:child="Rex_Phucap" msdata:parentkey="Id_Nhansu" msdata:childkey="Id_Nhansu" /&gt;
+      &lt;msdata:Relationship name="rex_nhansu_Rex_Quatrinh_Daotao" msdata:parent="rex_nhansu" msdata:child="Rex_Quatrinh_Daotao" msdata:parentkey="Id_Nhansu" msdata:childkey="Id_Nhansu" /&gt;
+      &lt;msdata:Relationship name="rex_nhansu_Rex_Quatrinh_Congtac" msdata:parent="rex_nhansu" msdata:child="Rex_Quatrinh_Congtac" msdata:parentkey="Id_Nhansu" msdata:childkey="Id_Nhansu" /&gt;
+      &lt;msdata:Relationship name="rex_nhansu_Rex_Quanhe_Giadinh" msdata:parent="rex_nhansu" msdata:child="Rex_Quanhe_Giadinh" msdata:parentkey="Id_Nhansu" msdata:childkey="Id_Nhansu" /&gt;
+    &lt;/xs:appinfo&gt;
+  &lt;/xs:annotation&gt;
+&lt;/xs:schema&gt;</value>
+  </data>
+</root>

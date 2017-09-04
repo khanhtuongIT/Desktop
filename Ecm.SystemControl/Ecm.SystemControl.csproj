@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B063D20A-90EF-4E2C-BBDC-8795C7995DE8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ecm.SystemControl</RootNamespace>
+    <AssemblyName>Ecm.SystemControl</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.ShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExtLib\AxInterop.ShockwaveFlashObjects.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v12.2.Wizard, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v12.2.UI , Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.CodeParser.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="GoobizFrame.Profile, Version=4.13.5.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExtLib\GoobizFrame.Profile.dll</HintPath>
+    </Reference>
+    <Reference Include="GoobizFrame.Windows, Version=4.13.7.11, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExtLib\GoobizFrame.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnicodeConverter, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExtLib\UnicodeConverter.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DBUsers\DatabaseLogon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBUsers\DatabaseLogon.Designer.cs">
+      <DependentUpon>DatabaseLogon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBUsers\IDCardLogon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBUsers\IDCardLogon.Designer.cs">
+      <DependentUpon>IDCardLogon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBUsers\IDCardLogonWithResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBUsers\IDCardLogonWithResult.Designer.cs">
+      <DependentUpon>IDCardLogonWithResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frmpol_Dm_Right_Find.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frmpol_Dm_Right_Find.Designer.cs">
+      <DependentUpon>Frmpol_Dm_Right_Find.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frmpol_Dm_Right_Properties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frmpol_Dm_Right_Properties.Designer.cs">
+      <DependentUpon>Frmpol_Dm_Right_Properties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frmpol_Dm_User_Find.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frmpol_Dm_User_Find.Designer.cs">
+      <DependentUpon>Frmpol_Dm_User_Find.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frmpol_Dm_User_Properties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frmpol_Dm_User_Properties.Designer.cs">
+      <DependentUpon>Frmpol_Dm_User_Properties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frmpol_MainProcess1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frmpol_MainProcess1.Designer.cs">
+      <DependentUpon>Frmpol_MainProcess1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesAdmin\InstallModules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModulesAdmin\InstallModules.Designer.cs">
+      <DependentUpon>InstallModules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesAdmin\ModuleProperies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModulesAdmin\ModuleProperies.Designer.cs">
+      <DependentUpon>ModuleProperies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plugins\Policy.cs" />
+    <Compile Include="Plugins\SystemInfo.cs" />
+    <Compile Include="Plugins\ModulesAdmin.cs" />
+    <Compile Include="Plugins\SystemControl.cs" />
+    <Compile Include="Plugins\UsersAdmin.cs" />
+    <Compile Include="Policy\Auth\Actions.cs" />
+    <Compile Include="Policy\Auth\Authorization.cs" />
+    <Compile Include="Policy\Auth\Converter.cs" />
+    <Compile Include="Policy\Auth\RightHelpers.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Frmpol_Dm_Right_Find.resx">
+      <DependentUpon>Frmpol_Dm_Right_Find.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frmpol_Dm_Right_Properties.resx">
+      <DependentUpon>Frmpol_Dm_Right_Properties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frmpol_Dm_User_Find.resx">
+      <DependentUpon>Frmpol_Dm_User_Find.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frmpol_Dm_User_Properties.resx">
+      <DependentUpon>Frmpol_Dm_User_Properties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frmpol_MainProcess1.resx">
+      <DependentUpon>Frmpol_MainProcess1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Reports\rptTemplate.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptTemplate.Designer.cs">
+      <DependentUpon>rptTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SecurityManager.cs" />
+    <Compile Include="SystemInfo\FrmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemInfo\FrmAbout.Designer.cs">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemInfo\FrmMenuInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemInfo\FrmMenuInfo.Designer.cs">
+      <DependentUpon>FrmMenuInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemInfo\FrmSys_Dm_Heso_Chuongtrinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemInfo\FrmSys_Dm_Heso_Chuongtrinh.Designer.cs">
+      <DependentUpon>FrmSys_Dm_Heso_Chuongtrinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemInfo\FrmWebReferences.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemInfo\FrmWebReferences.Designer.cs">
+      <DependentUpon>FrmWebReferences.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemInfo\UCSetMachineLocation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SystemInfo\UCSetMachineLocation.Designer.cs">
+      <DependentUpon>UCSetMachineLocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersAdmin\Logon.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Icons\Security Configuration.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\Window Configuration.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Ecm.SystemControl.SystemInfo.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Ecm.SystemControl.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Lang\en-US\ActiveDirectoryLogon.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Lang\en-US\SunLine.SystemControl.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Lang\en-US\SunLine.SystemControl.ModulesAdmin.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Lang\en-US\SunLine.SystemControl.SystemInfo.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Lang\en-US\SunLine.SystemControl.UsersAdmin.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DBUsers\DatabaseLogon.resx">
+      <DependentUpon>DatabaseLogon.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBUsers\IDCardLogon.resx">
+      <DependentUpon>IDCardLogon.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBUsers\IDCardLogonWithResult.resx">
+      <DependentUpon>IDCardLogonWithResult.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesAdmin\InstallModules.resx">
+      <DependentUpon>InstallModules.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesAdmin\ModuleProperies.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ModuleProperies.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Reports\rptTemplate.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>rptTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemInfo\FrmAbout.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemInfo\FrmMenuInfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMenuInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemInfo\FrmSys_Dm_Heso_Chuongtrinh.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmSys_Dm_Heso_Chuongtrinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemInfo\FrmWebReferences.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmWebReferences.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RMS_BG.png" />
+    <Content Include="Resources\Ecm.SystemControl.Policy.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resources\Default\Lang.TruthPos.SystemControl.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ecm.WebReferences\Ecm.WebReferences.csproj">
+      <Project>{80222E88-063C-4DCF-8398-698980E604B7}</Project>
+      <Name>Ecm.WebReferences</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Bitmaps\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>if /I "$(ConfigurationName)" == "Release" Eazfuscator.NET.exe "$(TargetPath)" --msbuild-project-path "$(ProjectPath)" --msbuild-project-configuration "$(ConfigurationName)" --msbuild-project-platform "$(PlatformName)" --msbuild-solution-path "$(SolutionPath)" -n --newline-flush -v 3.3</PostBuildEvent>
+  </PropertyGroup>
+</Project>

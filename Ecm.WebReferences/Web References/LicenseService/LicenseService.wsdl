@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Insert_Lic_Host">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Mac" />
+            <s:element minOccurs="0" maxOccurs="1" name="Host" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ip4" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" />
+            <s:element minOccurs="0" maxOccurs="1" name="Desktop_Bmp" />
+            <s:element minOccurs="0" maxOccurs="1" name="Runtime" />
+            <s:element minOccurs="0" maxOccurs="1" name="Codebase" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Lic_HostResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_All_Lic_Host">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_All_Lic_HostResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Lic_HostResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WriteLicenseHelper">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LogInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WriteLicenseHelperResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="Delete_Lic_Products">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="lic_Products" type="tns:Lic_Products" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Lic_Products">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Product_Gui" />
+          <s:element minOccurs="0" maxOccurs="1" name="Product_Name" />
+          <s:element minOccurs="0" maxOccurs="1" name="Product_Version" />
+          <s:element minOccurs="0" maxOccurs="1" name="Release_Date" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Delete_Lic_ProductsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Delete_Lic_ProductsResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_Lic_Products_PassText">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Product_Gui" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_Lic_Products_PassTextResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Delete_Lic_Products_PassTextResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Lic_Products">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_All_Lic_ProductsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Lic_ProductsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Lic_Products_ByPK">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Product_Gui" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Lic_Products_ByPKResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_Lic_Products_ByPKResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Lic_Products">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="lic_Products" type="tns:Lic_Products" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Lic_ProductsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Insert_Lic_ProductsResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Lic_Products_PassText">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Product_Gui" />
+            <s:element minOccurs="0" maxOccurs="1" name="Product_Name" />
+            <s:element minOccurs="0" maxOccurs="1" name="Product_Version" />
+            <s:element minOccurs="0" maxOccurs="1" name="Release_Date" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Lic_Products_PassTextResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Insert_Lic_Products_PassTextResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Lic_Products">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="lic_Products" type="tns:Lic_Products" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Lic_ProductsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Lic_ProductsResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Lic_Products_PassText">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Product_Gui" />
+            <s:element minOccurs="0" maxOccurs="1" name="Product_Name" />
+            <s:element minOccurs="0" maxOccurs="1" name="Product_Version" />
+            <s:element minOccurs="0" maxOccurs="1" name="Release_Date" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Lic_Products_PassTextResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Lic_Products_PassTextResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_Lic_Register_PassText">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Reg_Code" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_Lic_Register_PassTextResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Delete_Lic_Register_PassTextResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Lic_Register">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_All_Lic_RegisterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Lic_RegisterResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Lic_Register_PassText">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Reg_Code" />
+            <s:element minOccurs="0" maxOccurs="1" name="Pc_Code" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Lic_Register_PassTextResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_Lic_Register_PassTextResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Lic_Register">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="lic_Register" type="tns:Lic_Register" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Lic_Register">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Reg_Code" />
+          <s:element minOccurs="0" maxOccurs="1" name="Pc_Code" />
+          <s:element minOccurs="0" maxOccurs="1" name="Product_Gui" />
+          <s:element minOccurs="0" maxOccurs="1" name="Customer_Code" />
+          <s:element minOccurs="0" maxOccurs="1" name="Pc_Name" />
+          <s:element minOccurs="0" maxOccurs="1" name="User_Name" />
+          <s:element minOccurs="0" maxOccurs="1" name="Serial_Number" />
+          <s:element minOccurs="0" maxOccurs="1" name="Runtype" />
+          <s:element minOccurs="0" maxOccurs="1" name="Expired_Date" />
+          <s:element minOccurs="0" maxOccurs="1" name="Install_Date" />
+          <s:element minOccurs="0" maxOccurs="1" name="Reg_Date" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Insert_Lic_RegisterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Insert_Lic_RegisterResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Lic_Register_PassText">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Reg_Code" />
+            <s:element minOccurs="0" maxOccurs="1" name="Pc_Code" />
+            <s:element minOccurs="0" maxOccurs="1" name="Product_Gui" />
+            <s:element minOccurs="0" maxOccurs="1" name="Customer_Code" />
+            <s:element minOccurs="0" maxOccurs="1" name="Pc_Name" />
+            <s:element minOccurs="0" maxOccurs="1" name="User_Name" />
+            <s:element minOccurs="0" maxOccurs="1" name="Serial_Number" />
+            <s:element minOccurs="0" maxOccurs="1" name="Runtype" />
+            <s:element minOccurs="0" maxOccurs="1" name="Expired_Date" />
+            <s:element minOccurs="0" maxOccurs="1" name="Install_Date" />
+            <s:element minOccurs="0" maxOccurs="1" name="Reg_Date" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Lic_Register_PassTextResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Insert_Lic_Register_PassTextResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Lic_Register">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="lic_Register" type="tns:Lic_Register" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Lic_RegisterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Lic_RegisterResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Lic_Register_PassText">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Reg_Code" />
+            <s:element minOccurs="0" maxOccurs="1" name="Pc_Code" />
+            <s:element minOccurs="0" maxOccurs="1" name="Product_Gui" />
+            <s:element minOccurs="0" maxOccurs="1" name="Customer_Code" />
+            <s:element minOccurs="0" maxOccurs="1" name="Pc_Name" />
+            <s:element minOccurs="0" maxOccurs="1" name="User_Name" />
+            <s:element minOccurs="0" maxOccurs="1" name="Serial_Number" />
+            <s:element minOccurs="0" maxOccurs="1" name="Runtype" />
+            <s:element minOccurs="0" maxOccurs="1" name="Expired_Date" />
+            <s:element minOccurs="0" maxOccurs="1" name="Install_Date" />
+            <s:element minOccurs="0" maxOccurs="1" name="Reg_Date" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Lic_Register_PassTextResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Lic_Register_PassTextResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Lic_Customers">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_All_Lic_CustomersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Lic_CustomersResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Lic_Customers_ByPK_PassText">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Customer_Code" />
+            <s:element minOccurs="0" maxOccurs="1" name="Product_Gui" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Lic_Customers_ByPK_PassTextResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_Lic_Customers_ByPK_PassTextResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Lic_Customers_ByProduct">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Product_Gui" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Lic_Customers_ByProductResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_Lic_Customers_ByProductResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Lic_Customers">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="lic_Customers" type="tns:Lic_Customers" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Lic_Customers">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Customer_Code" />
+          <s:element minOccurs="0" maxOccurs="1" name="Product_Gui" />
+          <s:element minOccurs="0" maxOccurs="1" name="Runtype" />
+          <s:element minOccurs="0" maxOccurs="1" name="Noseats" />
+          <s:element minOccurs="0" maxOccurs="1" name="Expired_Date" />
+          <s:element minOccurs="0" maxOccurs="1" name="Email" />
+          <s:element minOccurs="0" maxOccurs="1" name="Create_Date" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Insert_Lic_CustomersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Insert_Lic_CustomersResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Lic_Customers_PassText">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Customer_Code" />
+            <s:element minOccurs="0" maxOccurs="1" name="Product_Gui" />
+            <s:element minOccurs="0" maxOccurs="1" name="Runtype" />
+            <s:element minOccurs="0" maxOccurs="1" name="Noseats" />
+            <s:element minOccurs="0" maxOccurs="1" name="Expired_Date" />
+            <s:element minOccurs="0" maxOccurs="1" name="Email" />
+            <s:element minOccurs="0" maxOccurs="1" name="Create_Date" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Lic_Customers_PassTextResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Insert_Lic_Customers_PassTextResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Lic_Customers">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="lic_Customers" type="tns:Lic_Customers" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Lic_CustomersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Lic_CustomersResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Lic_Customers_PassText">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Customer_Code" />
+            <s:element minOccurs="0" maxOccurs="1" name="Product_Gui" />
+            <s:element minOccurs="0" maxOccurs="1" name="Runtype" />
+            <s:element minOccurs="0" maxOccurs="1" name="Noseats" />
+            <s:element minOccurs="0" maxOccurs="1" name="Expired_Date" />
+            <s:element minOccurs="0" maxOccurs="1" name="Email" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Lic_Customers_PassTextResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Lic_Customers_PassTextResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Lic_Pc_Appmgr_PassText">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Pc_Code" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Lic_Pc_Appmgr_PassTextResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_Lic_Pc_Appmgr_PassTextResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Lic_Pc_Dev_PassText">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Pc_Code" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Lic_Pc_Dev_PassTextResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_Lic_Pc_Dev_PassTextResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Lic_Pc_Appmgr_PassText">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Pc_Code" />
+            <s:element minOccurs="0" maxOccurs="1" name="Pc_Name" />
+            <s:element minOccurs="0" maxOccurs="1" name="User_Name" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Lic_Pc_Appmgr_PassTextResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Insert_Lic_Pc_Appmgr_PassTextResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Lic_Pc_Dev_PassText">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Pc_Code" />
+            <s:element minOccurs="0" maxOccurs="1" name="Pc_Name" />
+            <s:element minOccurs="0" maxOccurs="1" name="User_Name" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ip4" />
+            <s:element minOccurs="0" maxOccurs="1" name="Runtime" />
+            <s:element minOccurs="0" maxOccurs="1" name="EntryAssembly" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Lic_Pc_Dev_PassTextResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Insert_Lic_Pc_Dev_PassTextResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="Insert_Lic_HostSoapIn">
+    <wsdl:part name="parameters" element="tns:Insert_Lic_Host" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Lic_HostSoapOut">
+    <wsdl:part name="parameters" element="tns:Insert_Lic_HostResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Lic_HostSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Lic_Host" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Lic_HostSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Lic_HostResponse" />
+  </wsdl:message>
+  <wsdl:message name="WriteLicenseHelperSoapIn">
+    <wsdl:part name="parameters" element="tns:WriteLicenseHelper" />
+  </wsdl:message>
+  <wsdl:message name="WriteLicenseHelperSoapOut">
+    <wsdl:part name="parameters" element="tns:WriteLicenseHelperResponse" />
+  </wsdl:message>
+  <wsdl:message name="Delete_Lic_ProductsSoapIn">
+    <wsdl:part name="parameters" element="tns:Delete_Lic_Products" />
+  </wsdl:message>
+  <wsdl:message name="Delete_Lic_ProductsSoapOut">
+    <wsdl:part name="parameters" element="tns:Delete_Lic_ProductsResponse" />
+  </wsdl:message>
+  <wsdl:message name="Delete_Lic_Products_PassTextSoapIn">
+    <wsdl:part name="parameters" element="tns:Delete_Lic_Products_PassText" />
+  </wsdl:message>
+  <wsdl:message name="Delete_Lic_Products_PassTextSoapOut">
+    <wsdl:part name="parameters" element="tns:Delete_Lic_Products_PassTextResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Lic_ProductsSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Lic_Products" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Lic_ProductsSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Lic_ProductsResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_Lic_Products_ByPKSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_Lic_Products_ByPK" />
+  </wsdl:message>
+  <wsdl:message name="Get_Lic_Products_ByPKSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_Lic_Products_ByPKResponse" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Lic_ProductsSoapIn">
+    <wsdl:part name="parameters" element="tns:Insert_Lic_Products" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Lic_ProductsSoapOut">
+    <wsdl:part name="parameters" element="tns:Insert_Lic_ProductsResponse" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Lic_Products_PassTextSoapIn">
+    <wsdl:part name="parameters" element="tns:Insert_Lic_Products_PassText" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Lic_Products_PassTextSoapOut">
+    <wsdl:part name="parameters" element="tns:Insert_Lic_Products_PassTextResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Lic_ProductsSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Lic_Products" />
+  </wsdl:message>
+  <wsdl:message name="Update_Lic_ProductsSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Lic_ProductsResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Lic_Products_PassTextSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Lic_Products_PassText" />
+  </wsdl:message>
+  <wsdl:message name="Update_Lic_Products_PassTextSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Lic_Products_PassTextResponse" />
+  </wsdl:message>
+  <wsdl:message name="Delete_Lic_Register_PassTextSoapIn">
+    <wsdl:part name="parameters" element="tns:Delete_Lic_Register_PassText" />
+  </wsdl:message>
+  <wsdl:message name="Delete_Lic_Register_PassTextSoapOut">
+    <wsdl:part name="parameters" element="tns:Delete_Lic_Register_PassTextResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Lic_RegisterSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Lic_Register" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Lic_RegisterSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Lic_RegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_Lic_Register_PassTextSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_Lic_Register_PassText" />
+  </wsdl:message>
+  <wsdl:message name="Get_Lic_Register_PassTextSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_Lic_Register_PassTextResponse" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Lic_RegisterSoapIn">
+    <wsdl:part name="parameters" element="tns:Insert_Lic_Register" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Lic_RegisterSoapOut">
+    <wsdl:part name="parameters" element="tns:Insert_Lic_RegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Lic_Register_PassTextSoapIn">
+    <wsdl:part name="parameters" element="tns:Insert_Lic_Register_PassText" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Lic_Register_PassTextSoapOut">
+    <wsdl:part name="parameters" element="tns:Insert_Lic_Register_PassTextResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Lic_RegisterSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Lic_Register" />
+  </wsdl:message>
+  <wsdl:message name="Update_Lic_RegisterSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Lic_RegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Lic_Register_PassTextSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Lic_Register_PassText" />
+  </wsdl:message>
+  <wsdl:message name="Update_Lic_Register_PassTextSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Lic_Register_PassTextResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Lic_CustomersSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Lic_Customers" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Lic_CustomersSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Lic_CustomersResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_Lic_Customers_ByPK_PassTextSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_Lic_Customers_ByPK_PassText" />
+  </wsdl:message>
+  <wsdl:message name="Get_Lic_Customers_ByPK_PassTextSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_Lic_Customers_ByPK_PassTextResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_Lic_Customers_ByProductSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_Lic_Customers_ByProduct" />
+  </wsdl:message>
+  <wsdl:message name="Get_Lic_Customers_ByProductSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_Lic_Customers_ByProductResponse" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Lic_CustomersSoapIn">
+    <wsdl:part name="parameters" element="tns:Insert_Lic_Customers" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Lic_CustomersSoapOut">
+    <wsdl:part name="parameters" element="tns:Insert_Lic_CustomersResponse" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Lic_Customers_PassTextSoapIn">
+    <wsdl:part name="parameters" element="tns:Insert_Lic_Customers_PassText" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Lic_Customers_PassTextSoapOut">
+    <wsdl:part name="parameters" element="tns:Insert_Lic_Customers_PassTextResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Lic_CustomersSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Lic_Customers" />
+  </wsdl:message>
+  <wsdl:message name="Update_Lic_CustomersSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Lic_CustomersResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Lic_Customers_PassTextSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Lic_Customers_PassText" />
+  </wsdl:message>
+  <wsdl:message name="Update_Lic_Customers_PassTextSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Lic_Customers_PassTextResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_Lic_Pc_Appmgr_PassTextSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_Lic_Pc_Appmgr_PassText" />
+  </wsdl:message>
+  <wsdl:message name="Get_Lic_Pc_Appmgr_PassTextSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_Lic_Pc_Appmgr_PassTextResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_Lic_Pc_Dev_PassTextSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_Lic_Pc_Dev_PassText" />
+  </wsdl:message>
+  <wsdl:message name="Get_Lic_Pc_Dev_PassTextSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_Lic_Pc_Dev_PassTextResponse" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Lic_Pc_Appmgr_PassTextSoapIn">
+    <wsdl:part name="parameters" element="tns:Insert_Lic_Pc_Appmgr_PassText" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Lic_Pc_Appmgr_PassTextSoapOut">
+    <wsdl:part name="parameters" element="tns:Insert_Lic_Pc_Appmgr_PassTextResponse" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Lic_Pc_Dev_PassTextSoapIn">
+    <wsdl:part name="parameters" element="tns:Insert_Lic_Pc_Dev_PassText" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Lic_Pc_Dev_PassTextSoapOut">
+    <wsdl:part name="parameters" element="tns:Insert_Lic_Pc_Dev_PassTextResponse" />
+  </wsdl:message>
+  <wsdl:portType name="LicenseServiceSoap">
+    <wsdl:operation name="Insert_Lic_Host">
+      <wsdl:input message="tns:Insert_Lic_HostSoapIn" />
+      <wsdl:output message="tns:Insert_Lic_HostSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Lic_Host">
+      <wsdl:input message="tns:Get_All_Lic_HostSoapIn" />
+      <wsdl:output message="tns:Get_All_Lic_HostSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WriteLicenseHelper">
+      <wsdl:input message="tns:WriteLicenseHelperSoapIn" />
+      <wsdl:output message="tns:WriteLicenseHelperSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Lic_Products">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order</wsdl:documentation>
+      <wsdl:input message="tns:Delete_Lic_ProductsSoapIn" />
+      <wsdl:output message="tns:Delete_Lic_ProductsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Lic_Products_PassText">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order</wsdl:documentation>
+      <wsdl:input message="tns:Delete_Lic_Products_PassTextSoapIn" />
+      <wsdl:output message="tns:Delete_Lic_Products_PassTextSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Lic_Products">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order</wsdl:documentation>
+      <wsdl:input message="tns:Get_All_Lic_ProductsSoapIn" />
+      <wsdl:output message="tns:Get_All_Lic_ProductsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Lic_Products_ByPK">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order</wsdl:documentation>
+      <wsdl:input message="tns:Get_Lic_Products_ByPKSoapIn" />
+      <wsdl:output message="tns:Get_Lic_Products_ByPKSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Lic_Products">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order</wsdl:documentation>
+      <wsdl:input message="tns:Insert_Lic_ProductsSoapIn" />
+      <wsdl:output message="tns:Insert_Lic_ProductsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Lic_Products_PassText">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order</wsdl:documentation>
+      <wsdl:input message="tns:Insert_Lic_Products_PassTextSoapIn" />
+      <wsdl:output message="tns:Insert_Lic_Products_PassTextSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Lic_Products">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order</wsdl:documentation>
+      <wsdl:input message="tns:Update_Lic_ProductsSoapIn" />
+      <wsdl:output message="tns:Update_Lic_ProductsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Lic_Products_PassText">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order</wsdl:documentation>
+      <wsdl:input message="tns:Update_Lic_Products_PassTextSoapIn" />
+      <wsdl:output message="tns:Update_Lic_Products_PassTextSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Lic_Register_PassText">
+      <wsdl:input message="tns:Delete_Lic_Register_PassTextSoapIn" />
+      <wsdl:output message="tns:Delete_Lic_Register_PassTextSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Lic_Register">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order</wsdl:documentation>
+      <wsdl:input message="tns:Get_All_Lic_RegisterSoapIn" />
+      <wsdl:output message="tns:Get_All_Lic_RegisterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Lic_Register_PassText">
+      <wsdl:input message="tns:Get_Lic_Register_PassTextSoapIn" />
+      <wsdl:output message="tns:Get_Lic_Register_PassTextSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Lic_Register">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order</wsdl:documentation>
+      <wsdl:input message="tns:Insert_Lic_RegisterSoapIn" />
+      <wsdl:output message="tns:Insert_Lic_RegisterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Lic_Register_PassText">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order</wsdl:documentation>
+      <wsdl:input message="tns:Insert_Lic_Register_PassTextSoapIn" />
+      <wsdl:output message="tns:Insert_Lic_Register_PassTextSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Lic_Register">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order</wsdl:documentation>
+      <wsdl:input message="tns:Update_Lic_RegisterSoapIn" />
+      <wsdl:output message="tns:Update_Lic_RegisterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Lic_Register_PassText">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order</wsdl:documentation>
+      <wsdl:input message="tns:Update_Lic_Register_PassTextSoapIn" />
+      <wsdl:output message="tns:Update_Lic_Register_PassTextSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Lic_Customers">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order</wsdl:documentation>
+      <wsdl:input message="tns:Get_All_Lic_CustomersSoapIn" />
+      <wsdl:output message="tns:Get_All_Lic_CustomersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Lic_Customers_ByPK_PassText">
+      <wsdl:input message="tns:Get_Lic_Customers_ByPK_PassTextSoapIn" />
+      <wsdl:output message="tns:Get_Lic_Customers_ByPK_PassTextSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Lic_Customers_ByProduct">
+      <wsdl:input message="tns:Get_Lic_Customers_ByProductSoapIn" />
+      <wsdl:output message="tns:Get_Lic_Customers_ByProductSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Lic_Customers">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order</wsdl:documentation>
+      <wsdl:input message="tns:Insert_Lic_CustomersSoapIn" />
+      <wsdl:output message="tns:Insert_Lic_CustomersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Lic_Customers_PassText">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order</wsdl:documentation>
+      <wsdl:input message="tns:Insert_Lic_Customers_PassTextSoapIn" />
+      <wsdl:output message="tns:Insert_Lic_Customers_PassTextSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Lic_Customers">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order</wsdl:documentation>
+      <wsdl:input message="tns:Update_Lic_CustomersSoapIn" />
+      <wsdl:output message="tns:Update_Lic_CustomersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Lic_Customers_PassText">
+      <wsdl:input message="tns:Update_Lic_Customers_PassTextSoapIn" />
+      <wsdl:output message="tns:Update_Lic_Customers_PassTextSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Lic_Pc_Appmgr_PassText">
+      <wsdl:input message="tns:Get_Lic_Pc_Appmgr_PassTextSoapIn" />
+      <wsdl:output message="tns:Get_Lic_Pc_Appmgr_PassTextSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Lic_Pc_Dev_PassText">
+      <wsdl:input message="tns:Get_Lic_Pc_Dev_PassTextSoapIn" />
+      <wsdl:output message="tns:Get_Lic_Pc_Dev_PassTextSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Lic_Pc_Appmgr_PassText">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order</wsdl:documentation>
+      <wsdl:input message="tns:Insert_Lic_Pc_Appmgr_PassTextSoapIn" />
+      <wsdl:output message="tns:Insert_Lic_Pc_Appmgr_PassTextSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Lic_Pc_Dev_PassText">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order</wsdl:documentation>
+      <wsdl:input message="tns:Insert_Lic_Pc_Dev_PassTextSoapIn" />
+      <wsdl:output message="tns:Insert_Lic_Pc_Dev_PassTextSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="LicenseServiceSoap" type="tns:LicenseServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Insert_Lic_Host">
+      <soap:operation soapAction="http://tempuri.org/Insert_Lic_Host" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Lic_Host">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Lic_Host" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteLicenseHelper">
+      <soap:operation soapAction="http://tempuri.org/WriteLicenseHelper" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Lic_Products">
+      <soap:operation soapAction="http://tempuri.org/Delete_Lic_Products" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Lic_Products_PassText">
+      <soap:operation soapAction="http://tempuri.org/Delete_Lic_Products_PassText" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Lic_Products">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Lic_Products" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Lic_Products_ByPK">
+      <soap:operation soapAction="http://tempuri.org/Get_Lic_Products_ByPK" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Lic_Products">
+      <soap:operation soapAction="http://tempuri.org/Insert_Lic_Products" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Lic_Products_PassText">
+      <soap:operation soapAction="http://tempuri.org/Insert_Lic_Products_PassText" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Lic_Products">
+      <soap:operation soapAction="http://tempuri.org/Update_Lic_Products" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Lic_Products_PassText">
+      <soap:operation soapAction="http://tempuri.org/Update_Lic_Products_PassText" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Lic_Register_PassText">
+      <soap:operation soapAction="http://tempuri.org/Delete_Lic_Register_PassText" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Lic_Register">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Lic_Register" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Lic_Register_PassText">
+      <soap:operation soapAction="http://tempuri.org/Get_Lic_Register_PassText" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Lic_Register">
+      <soap:operation soapAction="http://tempuri.org/Insert_Lic_Register" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Lic_Register_PassText">
+      <soap:operation soapAction="http://tempuri.org/Insert_Lic_Register_PassText" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Lic_Register">
+      <soap:operation soapAction="http://tempuri.org/Update_Lic_Register" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Lic_Register_PassText">
+      <soap:operation soapAction="http://tempuri.org/Update_Lic_Register_PassText" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Lic_Customers">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Lic_Customers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Lic_Customers_ByPK_PassText">
+      <soap:operation soapAction="http://tempuri.org/Get_Lic_Customers_ByPK_PassText" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Lic_Customers_ByProduct">
+      <soap:operation soapAction="http://tempuri.org/Get_Lic_Customers_ByProduct" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Lic_Customers">
+      <soap:operation soapAction="http://tempuri.org/Insert_Lic_Customers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Lic_Customers_PassText">
+      <soap:operation soapAction="http://tempuri.org/Insert_Lic_Customers_PassText" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Lic_Customers">
+      <soap:operation soapAction="http://tempuri.org/Update_Lic_Customers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Lic_Customers_PassText">
+      <soap:operation soapAction="http://tempuri.org/Update_Lic_Customers_PassText" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Lic_Pc_Appmgr_PassText">
+      <soap:operation soapAction="http://tempuri.org/Get_Lic_Pc_Appmgr_PassText" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Lic_Pc_Dev_PassText">
+      <soap:operation soapAction="http://tempuri.org/Get_Lic_Pc_Dev_PassText" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Lic_Pc_Appmgr_PassText">
+      <soap:operation soapAction="http://tempuri.org/Insert_Lic_Pc_Appmgr_PassText" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Lic_Pc_Dev_PassText">
+      <soap:operation soapAction="http://tempuri.org/Insert_Lic_Pc_Dev_PassText" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="LicenseServiceSoap12" type="tns:LicenseServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Insert_Lic_Host">
+      <soap12:operation soapAction="http://tempuri.org/Insert_Lic_Host" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Lic_Host">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Lic_Host" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteLicenseHelper">
+      <soap12:operation soapAction="http://tempuri.org/WriteLicenseHelper" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Lic_Products">
+      <soap12:operation soapAction="http://tempuri.org/Delete_Lic_Products" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Lic_Products_PassText">
+      <soap12:operation soapAction="http://tempuri.org/Delete_Lic_Products_PassText" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Lic_Products">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Lic_Products" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Lic_Products_ByPK">
+      <soap12:operation soapAction="http://tempuri.org/Get_Lic_Products_ByPK" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Lic_Products">
+      <soap12:operation soapAction="http://tempuri.org/Insert_Lic_Products" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Lic_Products_PassText">
+      <soap12:operation soapAction="http://tempuri.org/Insert_Lic_Products_PassText" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Lic_Products">
+      <soap12:operation soapAction="http://tempuri.org/Update_Lic_Products" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Lic_Products_PassText">
+      <soap12:operation soapAction="http://tempuri.org/Update_Lic_Products_PassText" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Lic_Register_PassText">
+      <soap12:operation soapAction="http://tempuri.org/Delete_Lic_Register_PassText" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Lic_Register">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Lic_Register" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Lic_Register_PassText">
+      <soap12:operation soapAction="http://tempuri.org/Get_Lic_Register_PassText" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Lic_Register">
+      <soap12:operation soapAction="http://tempuri.org/Insert_Lic_Register" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Lic_Register_PassText">
+      <soap12:operation soapAction="http://tempuri.org/Insert_Lic_Register_PassText" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Lic_Register">
+      <soap12:operation soapAction="http://tempuri.org/Update_Lic_Register" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Lic_Register_PassText">
+      <soap12:operation soapAction="http://tempuri.org/Update_Lic_Register_PassText" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Lic_Customers">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Lic_Customers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Lic_Customers_ByPK_PassText">
+      <soap12:operation soapAction="http://tempuri.org/Get_Lic_Customers_ByPK_PassText" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Lic_Customers_ByProduct">
+      <soap12:operation soapAction="http://tempuri.org/Get_Lic_Customers_ByProduct" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Lic_Customers">
+      <soap12:operation soapAction="http://tempuri.org/Insert_Lic_Customers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Lic_Customers_PassText">
+      <soap12:operation soapAction="http://tempuri.org/Insert_Lic_Customers_PassText" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Lic_Customers">
+      <soap12:operation soapAction="http://tempuri.org/Update_Lic_Customers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Lic_Customers_PassText">
+      <soap12:operation soapAction="http://tempuri.org/Update_Lic_Customers_PassText" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Lic_Pc_Appmgr_PassText">
+      <soap12:operation soapAction="http://tempuri.org/Get_Lic_Pc_Appmgr_PassText" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Lic_Pc_Dev_PassText">
+      <soap12:operation soapAction="http://tempuri.org/Get_Lic_Pc_Dev_PassText" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Lic_Pc_Appmgr_PassText">
+      <soap12:operation soapAction="http://tempuri.org/Insert_Lic_Pc_Appmgr_PassText" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Lic_Pc_Dev_PassText">
+      <soap12:operation soapAction="http://tempuri.org/Insert_Lic_Pc_Dev_PassText" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="LicenseService">
+    <wsdl:port name="LicenseServiceSoap" binding="tns:LicenseServiceSoap">
+      <soap:address location="http://localhost:51000/LicenseService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="LicenseServiceSoap12" binding="tns:LicenseServiceSoap12">
+      <soap12:address location="http://localhost:51000/LicenseService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Ds_hanghoa_ban_Luanchuyen" targetNamespace="http://tempuri.org/Ds_hanghoa_ban_Luanchuyen.xsd" xmlns:mstns="http://tempuri.org/Ds_hanghoa_ban_Luanchuyen.xsd" xmlns="http://tempuri.org/Ds_hanghoa_ban_Luanchuyen.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Ds_hanghoa_ban_Luanchuyen" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="Ds_hanghoa_ban_Luanchuyen" msprop:Generator_DataSetName="Ds_hanghoa_ban_Luanchuyen">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Ds_Hanghoa_Ban_Luanchuyen" msprop:Generator_UserTableName="Ds_Hanghoa_Ban_Luanchuyen" msprop:Generator_RowDeletedName="Ds_Hanghoa_Ban_LuanchuyenRowDeleted" msprop:Generator_RowChangedName="Ds_Hanghoa_Ban_LuanchuyenRowChanged" msprop:Generator_RowClassName="Ds_Hanghoa_Ban_LuanchuyenRow" msprop:Generator_RowChangingName="Ds_Hanghoa_Ban_LuanchuyenRowChanging" msprop:Generator_RowEvArgName="Ds_Hanghoa_Ban_LuanchuyenRowChangeEvent" msprop:Generator_RowEvHandlerName="Ds_Hanghoa_Ban_LuanchuyenRowChangeEventHandler" msprop:Generator_TableClassName="Ds_Hanghoa_Ban_LuanchuyenDataTable" msprop:Generator_TableVarName="tableDs_Hanghoa_Ban_Luanchuyen" msprop:Generator_RowDeletingName="Ds_Hanghoa_Ban_LuanchuyenRowDeleting" msprop:Generator_TablePropName="Ds_Hanghoa_Ban_Luanchuyen">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Stt" msprop:Generator_UserColumnName="Stt" msprop:Generator_ColumnVarNameInTable="columnStt" msprop:Generator_ColumnPropNameInRow="Stt" msprop:Generator_ColumnPropNameInTable="SttColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Id_Xuat_Hh_Ban" msprop:Generator_UserColumnName="Id_Xuat_Hh_Ban" msprop:Generator_ColumnVarNameInTable="columnId_Xuat_Hh_Ban" msprop:Generator_ColumnPropNameInRow="Id_Xuat_Hh_Ban" msprop:Generator_ColumnPropNameInTable="Id_Xuat_Hh_BanColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="id_loai_hanghoa_ban" msprop:Generator_UserColumnName="id_loai_hanghoa_ban" msprop:Generator_ColumnVarNameInTable="columnid_loai_hanghoa_ban" msprop:Generator_ColumnPropNameInRow="id_loai_hanghoa_ban" msprop:Generator_ColumnPropNameInTable="id_loai_hanghoa_banColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ten_loai_hanghoa_ban" msprop:Generator_UserColumnName="ten_loai_hanghoa_ban" msprop:Generator_ColumnVarNameInTable="columnten_loai_hanghoa_ban" msprop:Generator_ColumnPropNameInRow="ten_loai_hanghoa_ban" msprop:Generator_ColumnPropNameInTable="ten_loai_hanghoa_banColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Id_Hanghoa_Ban" msprop:Generator_UserColumnName="Id_Hanghoa_Ban" msprop:Generator_ColumnVarNameInTable="columnId_Hanghoa_Ban" msprop:Generator_ColumnPropNameInRow="Id_Hanghoa_Ban" msprop:Generator_ColumnPropNameInTable="Id_Hanghoa_BanColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ma_hanghoa_ban" msprop:Generator_UserColumnName="ma_hanghoa_ban" msprop:Generator_ColumnVarNameInTable="columnma_hanghoa_ban" msprop:Generator_ColumnPropNameInRow="ma_hanghoa_ban" msprop:Generator_ColumnPropNameInTable="ma_hanghoa_banColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ten_hanghoa_ban" msprop:Generator_UserColumnName="ten_hanghoa_ban" msprop:Generator_ColumnVarNameInTable="columnten_hanghoa_ban" msprop:Generator_ColumnPropNameInRow="ten_hanghoa_ban" msprop:Generator_ColumnPropNameInTable="ten_hanghoa_banColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Ten_Donvitinh" msprop:Generator_UserColumnName="Ten_Donvitinh" msprop:Generator_ColumnVarNameInTable="columnTen_Donvitinh" msprop:Generator_ColumnPropNameInRow="Ten_Donvitinh" msprop:Generator_ColumnPropNameInTable="Ten_DonvitinhColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="id_donvitinh" msprop:Generator_UserColumnName="id_donvitinh" msprop:Generator_ColumnVarNameInTable="columnid_donvitinh" msprop:Generator_ColumnPropNameInRow="id_donvitinh" msprop:Generator_ColumnPropNameInTable="id_donvitinhColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="soluong" msprop:Generator_UserColumnName="soluong" msprop:Generator_ColumnVarNameInTable="columnsoluong" msprop:Generator_ColumnPropNameInRow="soluong" msprop:Generator_ColumnPropNameInTable="soluongColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ngayct" msprop:Generator_UserColumnName="ngayct" msprop:Generator_ColumnVarNameInTable="columnngayct" msprop:Generator_ColumnPropNameInRow="ngayct" msprop:Generator_ColumnPropNameInTable="ngayctColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="sochungtu" msprop:Generator_UserColumnName="sochungtu" msprop:Generator_ColumnVarNameInTable="columnsochungtu" msprop:Generator_ColumnPropNameInRow="sochungtu" msprop:Generator_ColumnPropNameInTable="sochungtuColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ghichu" msprop:Generator_UserColumnName="ghichu" msprop:Generator_ColumnVarNameInTable="columnghichu" msprop:Generator_ColumnPropNameInRow="ghichu" msprop:Generator_ColumnPropNameInTable="ghichuColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Ecm.WebReferences.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Ecm_WebReferences_PolicyService_PolicyService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:51000/PolicyService.asmx</Value>
+    </Setting>
+    <Setting Name="Ecm_WebReferences_RexService_RexService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:51000/RexService.asmx</Value>
+    </Setting>
+    <Setting Name="Ecm_WebReferences_SystemService_SystemService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:51000/SystemService.asmx</Value>
+    </Setting>
+    <Setting Name="Ecm_WebReferences_MasterService_MasterService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:51000/MasterService.asmx</Value>
+    </Setting>
+    <Setting Name="Ecm_WebReferences_ReportService_ReportServices" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:51000/Ecm.Webservices/ReportService.asmx</Value>
+    </Setting>
+    <Setting Name="Ecm_WebReferences_LicenseService_LicenseService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:51000/LicenseService.asmx</Value>
+    </Setting>
+    <Setting Name="Ecm_WebReferences_ReportService_ReportService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:51000/ReportService.asmx</Value>
+    </Setting>
+    <Setting Name="Ecm_WebReferences_BarService_BarService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:51000/BarService.asmx</Value>
+    </Setting>
+    <Setting Name="Ecm_WebReferences_WareService_WareService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:51000/WareService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

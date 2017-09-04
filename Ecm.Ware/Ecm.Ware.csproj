@@ -1,0 +1,1695 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CB18550F-F06B-4000-8B4E-2F85E0D283CA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ecm.Ware</RootNamespace>
+    <AssemblyName>Ecm.Ware</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Design.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v12.2.Wizard, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v12.2.UI , Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.CodeParser.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="GoobizFrame.Profile, Version=4.13.5.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExtLib\GoobizFrame.Profile.dll</HintPath>
+    </Reference>
+    <Reference Include="GoobizFrame.Windows, Version=4.13.7.11, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExtLib\GoobizFrame.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataSets\dsBaogia_Chitiet.cs">
+      <DependentUpon>dsBaogia_Chitiet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\dsBaogia_Chitiet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsBaogia_Chitiet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DsCongnotra.cs">
+      <DependentUpon>DsCongnotra.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\DsCongnotra.Designer.cs">
+      <DependentUpon>DsCongnotra.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DataSets\DsCongtac.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsCongtac.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsDinhgia_Hanghoa.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDinhgia_Hanghoa.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DsDondathang.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsDondathang.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsHanghoa_Bangke_Doanhso.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsHanghoa_Bangke_Doanhso.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsHdbanhang_Chitiet.cs">
+      <DependentUpon>dsHdbanhang_Chitiet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\DsHdbanhang_Xuatkho.cs">
+      <DependentUpon>DsHdbanhang_Xuatkho.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\DsHdbanhang_Xuatkho.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsHdbanhang_Xuatkho.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsHd_Booking_Chitiet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsHd_Booking_Chitiet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsHh_Mua_Tra_Ncc.cs">
+      <DependentUpon>dsHh_Mua_Tra_Ncc.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\dsHh_Mua_Tra_Ncc.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsHh_Mua_Tra_Ncc.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DsKehoach_Banhang.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsKehoach_Banhang.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsKk_Hh_Mua.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsKk_Hh_Mua.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DsNhap_Vattu.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsNhap_Vattu.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsPhieuxuat_Giatri_Giatang.cs">
+      <DependentUpon>dsPhieuxuat_Giatri_Giatang.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\dsPhieuxuat_Giatri_Giatang.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPhieuxuat_Giatri_Giatang.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsThumau.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsThumau.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DsWare_Khachhang_Quota.cs">
+      <DependentUpon>DsWare_Khachhang_Quota.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\DsWare_Khachhang_Quota.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsWare_Khachhang_Quota.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DsBarcode.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsBarcode.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsDutru_Muahang.cs">
+      <DependentUpon>dsDutru_Muahang.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\dsDutru_Muahang.Designer.cs">
+      <DependentUpon>dsDutru_Muahang.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DataSets\dsHdbanhang_Chitiet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsHdbanhang_Chitiet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DsWare_Nxt_Hhban.cs">
+      <DependentUpon>DsWare_Nxt_Hhban.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\DsWare_Nxt_Hhban.Designer.cs">
+      <DependentUpon>DsWare_Nxt_Hhban.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DataSets\DsWare_Vip_Member_Card.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsWare_Vip_Member_Card.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DsXuat_Nguyenlieu.cs">
+      <DependentUpon>DsXuat_Nguyenlieu.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\DsXuat_Nguyenlieu.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsXuat_Nguyenlieu.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DsXuat_Vattu.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsXuat_Vattu.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\Rptware_So_Quytm.cs">
+      <DependentUpon>Rptware_So_Quytm.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\Rptware_So_Quytm.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rptware_So_Quytm.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ControlInfo\FrmRptware_Nxt_Hhban_Sum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ControlInfo\FrmRptware_Nxt_Hhban_Sum.Designer.cs">
+      <DependentUpon>FrmRptware_Nxt_Hhban_Sum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ControlInfo\FrmRptware_Hanghoa_Bangke_Doanhso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ControlInfo\FrmRptware_Hanghoa_Bangke_Doanhso.Designer.cs">
+      <DependentUpon>FrmRptware_Hanghoa_Bangke_Doanhso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ControlInfo\FrmRptware_Hanghoa_Bangke_Chitiet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ControlInfo\FrmRptware_Hanghoa_Bangke_Chitiet.Designer.cs">
+      <DependentUpon>FrmRptware_Hanghoa_Bangke_Chitiet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ControlInfo\Frmware_Dm_Khachhang_Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ControlInfo\Frmware_Dm_Khachhang_Info.Designer.cs">
+      <DependentUpon>Frmware_Dm_Khachhang_Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ControlInfo\Frmware_Kh_Hh_Ban.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ControlInfo\Frmware_Kh_Hh_Ban.Designer.cs">
+      <DependentUpon>Frmware_Kh_Hh_Ban.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ControlInfo\Frmware_Ql_Cuahang_Ban.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ControlInfo\Frmware_Ql_Cuahang_Ban.Designer.cs">
+      <DependentUpon>Frmware_Ql_Cuahang_Ban.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ControlInfo\Program.cs" />
+    <Compile Include="Forms\InitInfo\Frmware_Hanghoa_Ban_Dauky.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InitInfo\Frmware_Hanghoa_Ban_Dauky.Designer.cs">
+      <DependentUpon>Frmware_Hanghoa_Ban_Dauky.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IOInfo\Frmware_Dieuxe_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IOInfo\Frmware_Dieuxe_Dialog.designer.cs">
+      <DependentUpon>Frmware_Dieuxe_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IOInfo\Frmware_Dieuxe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IOInfo\Frmware_Dieuxe.designer.cs">
+      <DependentUpon>Frmware_Dieuxe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IOInfo\Frmware_Xuat_Hh_Ban_Dialog_Chonhang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IOInfo\Frmware_Xuat_Hh_Ban_Dialog_Chonhang.designer.cs">
+      <DependentUpon>Frmware_Xuat_Hh_Ban_Dialog_Chonhang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IOInfo\Frmware_Xuat_Phieuthu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IOInfo\Frmware_Xuat_Phieuthu.designer.cs">
+      <DependentUpon>Frmware_Xuat_Phieuthu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IOInfo\Frmware_Xuat_Chuyen_Noibo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IOInfo\Frmware_Xuat_Chuyen_Noibo.designer.cs">
+      <DependentUpon>Frmware_Xuat_Chuyen_Noibo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IOInfo\Frmware_Nhap_Hh_Ban_Date.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IOInfo\Frmware_Nhap_Hh_Ban_Date.designer.cs">
+      <DependentUpon>Frmware_Nhap_Hh_Ban_Date.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PayInfo\Frmware_Phieu_Thu_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PayInfo\Frmware_Phieu_Thu_Dialog.designer.cs">
+      <DependentUpon>Frmware_Phieu_Thu_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PayInfo\Frmware_Phieu_Thu_Congno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PayInfo\Frmware_Phieu_Thu_Congno.designer.cs">
+      <DependentUpon>Frmware_Phieu_Thu_Congno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PayInfo\Frmware_Phieu_Chi_Congno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PayInfo\Frmware_Phieu_Chi_Congno.designer.cs">
+      <DependentUpon>Frmware_Phieu_Chi_Congno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PayInfo\Frmware_Phieu_Thu_Ds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PayInfo\Frmware_Phieu_Thu_Ds.Designer.cs">
+      <DependentUpon>Frmware_Phieu_Thu_Ds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PayInfo\Frmware_So_Quytm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PayInfo\Frmware_So_Quytm.Designer.cs">
+      <DependentUpon>Frmware_So_Quytm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PayInfo\Frmware_So_Quytm_Dauky.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PayInfo\Frmware_So_Quytm_Dauky.Designer.cs">
+      <DependentUpon>Frmware_So_Quytm_Dauky.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PriceInfo\Frmware_Hanghoa_Ban_Dinhgia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PriceInfo\Frmware_Hanghoa_Ban_Dinhgia.Designer.cs" />
+    <Compile Include="Forms\SaleInfo\Frmware_Hdbanhang_noVAT_Hhban.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Hdbanhang_noVAT_Hhban.designer.cs">
+      <DependentUpon>Frmware_Hdbanhang_noVAT_Hhban.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Hdbanhang_noVAT_MngrEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Hdbanhang_noVAT_MngrEdit.designer.cs">
+      <DependentUpon>Frmware_Hdbanhang_noVAT_MngrEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Hdbanhang_VAT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Hdbanhang_VAT.designer.cs">
+      <DependentUpon>Frmware_Hdbanhang_VAT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Dondathang_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Dondathang_Edit.designer.cs">
+      <DependentUpon>Frmware_Dondathang_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\FrmRptware_Baocao_Congno_Sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\FrmRptware_Baocao_Congno_Sale.Designer.cs">
+      <DependentUpon>FrmRptware_Baocao_Congno_Sale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Hdbanhang_Chitiet_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Hdbanhang_Chitiet_Dialog.Designer.cs">
+      <DependentUpon>Frmware_Hdbanhang_Chitiet_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Hh_Ban_Kh_Tra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Hh_Ban_Kh_Tra.designer.cs">
+      <DependentUpon>Frmware_Hh_Ban_Kh_Tra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Congno_Phaithu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Congno_Phaithu.designer.cs">
+      <DependentUpon>Frmware_Congno_Phaithu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Baocao_Chitiet_Banhang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Baocao_Chitiet_Banhang.designer.cs">
+      <DependentUpon>Frmware_Baocao_Chitiet_Banhang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Kehoach_Dathang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Kehoach_Dathang.designer.cs">
+      <DependentUpon>Frmware_Kehoach_Dathang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Dondathang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Dondathang.designer.cs">
+      <DependentUpon>Frmware_Dondathang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Nhap_Hh_Ban_Xuatchuyen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Nhap_Hh_Ban_Xuatchuyen.designer.cs">
+      <DependentUpon>Frmware_Nhap_Hh_Ban_Xuatchuyen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ControlInfo\Frmware_Hdbanhang_Sum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ControlInfo\Frmware_Hdbanhang_Sum.Designer.cs">
+      <DependentUpon>Frmware_Hdbanhang_Sum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ControlInfo\FrmRptware_Nxt_Hhmua_Notify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ControlInfo\FrmRptware_Nxt_Hhmua_Notify.Designer.cs">
+      <DependentUpon>FrmRptware_Nxt_Hhmua_Notify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ControlInfo\FrmRptware_Nxt_Hhban_Notify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ControlInfo\FrmRptware_Nxt_Hhban_Notify.Designer.cs">
+      <DependentUpon>FrmRptware_Nxt_Hhban_Notify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Hdbanhang_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Hdbanhang_Dialog.Designer.cs">
+      <DependentUpon>Frmware_Hdbanhang_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IOInfo\Frmware_Kk_Hh_Ban.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IOInfo\Frmware_Kk_Hh_Ban.Designer.cs">
+      <DependentUpon>Frmware_Kk_Hh_Ban.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IOInfo\Frmware_Nhap_Hh_Ban.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IOInfo\Frmware_Nhap_Hh_Ban.designer.cs">
+      <DependentUpon>Frmware_Nhap_Hh_Ban.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PayInfo\Frmware_Phieu_Chi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PayInfo\Frmware_Phieu_Chi.designer.cs">
+      <DependentUpon>Frmware_Phieu_Chi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PayInfo\Frmware_Phieu_Thu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PayInfo\Frmware_Phieu_Thu.designer.cs">
+      <DependentUpon>Frmware_Phieu_Thu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PayInfo\Frmware_Congnothu_Dauky.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PayInfo\Frmware_Congnothu_Dauky.Designer.cs">
+      <DependentUpon>Frmware_Congnothu_Dauky.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PayInfo\Frmware_Congnotra_Dauky.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PayInfo\Frmware_Congnotra_Dauky.Designer.cs">
+      <DependentUpon>Frmware_Congnotra_Dauky.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IOInfo\Frmware_Hdmuahang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IOInfo\Frmware_Hdmuahang.designer.cs">
+      <DependentUpon>Frmware_Hdmuahang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ControlInfo\Frmware_Khachhang_Nhansu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ControlInfo\Frmware_Khachhang_Nhansu.Designer.cs">
+      <DependentUpon>Frmware_Khachhang_Nhansu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IOInfo\Frmware_Xuat_Hh_Ban.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IOInfo\Frmware_Xuat_Hh_Ban.designer.cs">
+      <DependentUpon>Frmware_Xuat_Hh_Ban.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Xuat_Hh_Ban_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SaleInfo\Frmware_Xuat_Hh_Ban_Dialog.designer.cs">
+      <DependentUpon>Frmware_Xuat_Hh_Ban_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WareGen_Hdbanhang\FrmwareGen_Dm_Hanghoa_Tree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WareGen_Hdbanhang\FrmwareGen_Dm_Hanghoa_Tree.Designer.cs">
+      <DependentUpon>FrmwareGen_Dm_Hanghoa_Tree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WareGen_Hdbanhang\FrmwareGen_Hdbanhang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WareGen_Hdbanhang\FrmwareGen_Hdbanhang.Designer.cs">
+      <DependentUpon>FrmwareGen_Hdbanhang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WareGen_Hdbanhang\FrmwareGen_Donmuahang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WareGen_Hdbanhang\FrmwareGen_Donmuahang.designer.cs">
+      <DependentUpon>FrmwareGen_Donmuahang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plugins\Pay.cs" />
+    <Compile Include="Plugins\Ware_Pro.cs" />
+    <Compile Include="Plugins\Ware_Customer.cs" />
+    <Compile Include="Plugins\Ware_Location.cs" />
+    <Compile Include="Plugins\Ware_ProSale.cs" />
+    <Compile Include="Plugins\Ware_PriceSale.cs" />
+    <Compile Include="Plugins\Ware_DirectSale.cs" />
+    <Compile Include="Plugins\Sell.cs" />
+    <Compile Include="Plugins\Ware_Split.cs" />
+    <Compile Include="Plugins\Ware_Control.cs" />
+    <Compile Include="Plugins\Ware_Pay.cs" />
+    <Compile Include="Plugins\Ware.cs" />
+    <Compile Include="Plugins\Ware_Input.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\ControlInfo\FrmRptware_Hanghoa_Bangke_Doanhso.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmRptware_Hanghoa_Bangke_Doanhso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ControlInfo\FrmRptware_Nxt_Hhban_Sum.resx">
+      <DependentUpon>FrmRptware_Nxt_Hhban_Sum.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ControlInfo\FrmRptware_Hanghoa_Bangke_Chitiet.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmRptware_Hanghoa_Bangke_Chitiet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ControlInfo\Frmware_Dm_Khachhang_Info.resx">
+      <DependentUpon>Frmware_Dm_Khachhang_Info.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ControlInfo\Frmware_Kh_Hh_Ban.resx">
+      <DependentUpon>Frmware_Kh_Hh_Ban.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ControlInfo\Frmware_Ql_Cuahang_Ban.resx">
+      <DependentUpon>Frmware_Ql_Cuahang_Ban.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InitInfo\Frmware_Hanghoa_Ban_Dauky.resx">
+      <DependentUpon>Frmware_Hanghoa_Ban_Dauky.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IOInfo\Frmware_Dieuxe_Dialog.resx">
+      <DependentUpon>Frmware_Dieuxe_Dialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IOInfo\Frmware_Dieuxe.resx">
+      <DependentUpon>Frmware_Dieuxe.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IOInfo\Frmware_Xuat_Hh_Ban_Dialog_Chonhang.resx">
+      <DependentUpon>Frmware_Xuat_Hh_Ban_Dialog_Chonhang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IOInfo\Frmware_Xuat_Phieuthu.resx">
+      <DependentUpon>Frmware_Xuat_Phieuthu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IOInfo\Frmware_Xuat_Chuyen_Noibo.resx">
+      <DependentUpon>Frmware_Xuat_Chuyen_Noibo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IOInfo\Frmware_Nhap_Hh_Ban_Date.resx">
+      <DependentUpon>Frmware_Nhap_Hh_Ban_Date.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PayInfo\Frmware_Phieu_Thu_Dialog.resx">
+      <DependentUpon>Frmware_Phieu_Thu_Dialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PayInfo\Frmware_Phieu_Thu_Congno.resx">
+      <DependentUpon>Frmware_Phieu_Thu_Congno.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PayInfo\Frmware_Phieu_Chi_Congno.resx">
+      <DependentUpon>Frmware_Phieu_Chi_Congno.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PayInfo\Frmware_Phieu_Thu_Ds.resx">
+      <DependentUpon>Frmware_Phieu_Thu_Ds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PayInfo\Frmware_So_Quytm.resx">
+      <DependentUpon>Frmware_So_Quytm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PayInfo\Frmware_So_Quytm_Dauky.resx">
+      <DependentUpon>Frmware_So_Quytm_Dauky.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PriceInfo\Frmware_Hanghoa_Ban_Dinhgia.resx" />
+    <EmbeddedResource Include="Forms\SaleInfo\Frmware_Hdbanhang_noVAT_Hhban.resx">
+      <DependentUpon>Frmware_Hdbanhang_noVAT_Hhban.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SaleInfo\Frmware_Hdbanhang_noVAT_MngrEdit.resx">
+      <DependentUpon>Frmware_Hdbanhang_noVAT_MngrEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SaleInfo\Frmware_Hdbanhang_VAT.resx">
+      <DependentUpon>Frmware_Hdbanhang_VAT.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SaleInfo\Frmware_Dondathang_Edit.resx">
+      <DependentUpon>Frmware_Dondathang_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SaleInfo\FrmRptware_Baocao_Congno_Sale.resx">
+      <DependentUpon>FrmRptware_Baocao_Congno_Sale.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SaleInfo\Frmware_Hdbanhang_Chitiet_Dialog.resx">
+      <DependentUpon>Frmware_Hdbanhang_Chitiet_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SaleInfo\Frmware_Hh_Ban_Kh_Tra.resx">
+      <DependentUpon>Frmware_Hh_Ban_Kh_Tra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SaleInfo\Frmware_Congno_Phaithu.resx">
+      <DependentUpon>Frmware_Congno_Phaithu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SaleInfo\Frmware_Baocao_Chitiet_Banhang.resx">
+      <DependentUpon>Frmware_Baocao_Chitiet_Banhang.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SaleInfo\Frmware_Kehoach_Dathang.resx">
+      <DependentUpon>Frmware_Kehoach_Dathang.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SaleInfo\Frmware_Dondathang.resx">
+      <DependentUpon>Frmware_Dondathang.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SaleInfo\Frmware_Nhap_Hh_Ban_Xuatchuyen.resx">
+      <DependentUpon>Frmware_Nhap_Hh_Ban_Xuatchuyen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ControlInfo\Frmware_Hdbanhang_Sum.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmware_Hdbanhang_Sum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ControlInfo\FrmRptware_Nxt_Hhmua_Notify.resx">
+      <DependentUpon>FrmRptware_Nxt_Hhmua_Notify.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ControlInfo\FrmRptware_Nxt_Hhban_Notify.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmRptware_Nxt_Hhban_Notify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SaleInfo\Frmware_Hdbanhang_Dialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmware_Hdbanhang_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IOInfo\Frmware_Kk_Hh_Ban.resx">
+      <DependentUpon>Frmware_Kk_Hh_Ban.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IOInfo\Frmware_Nhap_Hh_Ban.resx">
+      <DependentUpon>Frmware_Nhap_Hh_Ban.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PayInfo\Frmware_Phieu_Chi.resx">
+      <DependentUpon>Frmware_Phieu_Chi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PayInfo\Frmware_Phieu_Thu.resx">
+      <DependentUpon>Frmware_Phieu_Thu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PayInfo\Frmware_Congnothu_Dauky.resx">
+      <DependentUpon>Frmware_Congnothu_Dauky.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PayInfo\Frmware_Congnotra_Dauky.resx">
+      <DependentUpon>Frmware_Congnotra_Dauky.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IOInfo\Frmware_Hdmuahang.resx">
+      <DependentUpon>Frmware_Hdmuahang.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ControlInfo\Frmware_Khachhang_Nhansu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmware_Khachhang_Nhansu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IOInfo\Frmware_Xuat_Hh_Ban.resx">
+      <DependentUpon>Frmware_Xuat_Hh_Ban.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SaleInfo\Frmware_Xuat_Hh_Ban_Dialog.resx">
+      <DependentUpon>Frmware_Xuat_Hh_Ban_Dialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WareGen_Hdbanhang\FrmwareGen_Dm_Hanghoa_Tree.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmwareGen_Dm_Hanghoa_Tree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WareGen_Hdbanhang\FrmwareGen_Hdbanhang.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmwareGen_Hdbanhang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WareGen_Hdbanhang\FrmwareGen_Donmuahang.resx">
+      <DependentUpon>FrmwareGen_Donmuahang.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="DataSets\DsCongnotra.xsc">
+      <DependentUpon>DsCongnotra.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsCongnotra.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsCongnotra.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\DsCongnotra.xss">
+      <DependentUpon>DsCongnotra.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsCongtac.xsc">
+      <DependentUpon>DsCongtac.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsCongtac.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsCongtac.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DsCongtac.xss">
+      <DependentUpon>DsCongtac.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsDondathang.xsc">
+      <DependentUpon>DsDondathang.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsDondathang.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsDondathang.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DsDondathang.xss">
+      <DependentUpon>DsDondathang.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsKehoach_Banhang.xsc">
+      <DependentUpon>DsKehoach_Banhang.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsKehoach_Banhang.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsKehoach_Banhang.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DsKehoach_Banhang.xss">
+      <DependentUpon>DsKehoach_Banhang.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsKk_Hh_Mua.xsc">
+      <DependentUpon>dsKk_Hh_Mua.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsNhap_Vattu.xsc">
+      <DependentUpon>DsNhap_Vattu.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsNhap_Vattu.xss">
+      <DependentUpon>DsNhap_Vattu.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsPhieuxuat_Giatri_Giatang.xsc">
+      <DependentUpon>dsPhieuxuat_Giatri_Giatang.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsPhieuxuat_Giatri_Giatang.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPhieuxuat_Giatri_Giatang.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\dsPhieuxuat_Giatri_Giatang.xss">
+      <DependentUpon>dsPhieuxuat_Giatri_Giatang.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsThumau.xsc">
+      <DependentUpon>dsThumau.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsThumau.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsThumau.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\dsThumau.xss">
+      <DependentUpon>dsThumau.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsXuat_Nguyenlieu.xsc">
+      <DependentUpon>DsXuat_Nguyenlieu.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsXuat_Nguyenlieu.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsXuat_Nguyenlieu.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DsXuat_Nguyenlieu.xss">
+      <DependentUpon>DsXuat_Nguyenlieu.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsXuat_Vattu.xsc">
+      <DependentUpon>DsXuat_Vattu.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsXuat_Vattu.xss">
+      <DependentUpon>DsXuat_Vattu.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptDieuxe.resx">
+      <DependentUpon>rptDieuxe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptPhieuxuat_Gtgt.resx">
+      <DependentUpon>rptPhieuxuat_Gtgt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptCongno_Chuathu.resx">
+      <DependentUpon>rptCongno_Chuathu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptXuat_ChuyenNB.resx">
+      <DependentUpon>rptXuat_ChuyenNB.cs</DependentUpon>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptCongtac.resx">
+      <DependentUpon>rptCongtac.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptNhap_Vattu_Date.resx">
+      <DependentUpon>rptNhap_Vattu_Date.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptHdbanhang_Xuatkho.resx">
+      <DependentUpon>rptHdbanhang_Xuatkho.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptHanghoa_Bangke_Doanhso.resx">
+      <DependentUpon>rptHanghoa_Bangke_Doanhso.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptThumau.resx">
+      <DependentUpon>rptThumau.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptWare_Dm_Khachhang_Info.resx">
+      <DependentUpon>rptWare_Dm_Khachhang_Info.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptWare_Hh_Mua_Tra_Ncc.resx">
+      <DependentUpon>rptWare_Hh_Mua_Tra_Ncc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptWare_Kk_Hh_Mua.resx">
+      <DependentUpon>rptWare_Kk_Hh_Mua.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptHd_Booking.resx">
+      <DependentUpon>rptHd_Booking.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptNhap_Vattu.resx">
+      <DependentUpon>rptNhap_Vattu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptWare_Hh_Ban_Kh_Tra.resx">
+      <DependentUpon>rptWare_Hh_Ban_Kh_Tra.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptBaogia_Khachhang.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>rptBaogia_Khachhang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptBarcode.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>rptBarcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptBarcode5x1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>rptBarcode5x1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptKehoach_Banhang.resx">
+      <DependentUpon>rptKehoach_Banhang.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptHdbanhang_noVAT.resx">
+      <DependentUpon>rptHdbanhang_noVAT.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptHdbanhang_VAT.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>rptHdbanhang_VAT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptPhieu_Chi.resx">
+      <DependentUpon>rptPhieu_Chi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptPhieu_Thu.resx">
+      <DependentUpon>rptPhieu_Thu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptWare_Khachhang_Barcode.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>rptWare_Khachhang_Barcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptWare_Khachhang_Quota.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>rptWare_Khachhang_Quota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptware_Nxt_Hhban.resx">
+      <DependentUpon>rptware_Nxt_Hhban.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptWare_So_Quytm.resx">
+      <DependentUpon>rptWare_So_Quytm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptWare_Vip_Member_Card.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>rptWare_Vip_Member_Card.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptWare_Dondathang.resx">
+      <DependentUpon>rptWare_Dondathang.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptXuat_Nguyenlieu.resx">
+      <DependentUpon>rptXuat_Nguyenlieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptXuat_Vattu.resx">
+      <DependentUpon>rptXuat_Vattu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="DataSets\dsBaogia_Chitiet.xsc">
+      <DependentUpon>dsBaogia_Chitiet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsBaogia_Chitiet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsBaogia_Chitiet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\dsBaogia_Chitiet.xss">
+      <DependentUpon>dsBaogia_Chitiet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsDinhgia_Hanghoa.xsc">
+      <DependentUpon>dsDinhgia_Hanghoa.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsDinhgia_Hanghoa.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDinhgia_Hanghoa.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\dsDinhgia_Hanghoa.xss">
+      <DependentUpon>dsDinhgia_Hanghoa.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsHanghoa_Bangke_Doanhso.xsc">
+      <DependentUpon>dsHanghoa_Bangke_Doanhso.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsHanghoa_Bangke_Doanhso.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsHanghoa_Bangke_Doanhso.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\dsHanghoa_Bangke_Doanhso.xss">
+      <DependentUpon>dsHanghoa_Bangke_Doanhso.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsHdbanhang_Xuatkho.xsc">
+      <DependentUpon>DsHdbanhang_Xuatkho.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsHdbanhang_Xuatkho.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsHdbanhang_Xuatkho.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DsHdbanhang_Xuatkho.xss">
+      <DependentUpon>DsHdbanhang_Xuatkho.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsHd_Booking_Chitiet.xsc">
+      <DependentUpon>dsHd_Booking_Chitiet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsHd_Booking_Chitiet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsHd_Booking_Chitiet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\dsHd_Booking_Chitiet.xss">
+      <DependentUpon>dsHd_Booking_Chitiet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsHh_Mua_Tra_Ncc.xsc">
+      <DependentUpon>dsHh_Mua_Tra_Ncc.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsHh_Mua_Tra_Ncc.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsHh_Mua_Tra_Ncc.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\dsHh_Mua_Tra_Ncc.xss">
+      <DependentUpon>dsHh_Mua_Tra_Ncc.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsKk_Hh_Mua.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsKk_Hh_Mua.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DsNhap_Vattu.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsNhap_Vattu.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DsWare_Khachhang_Quota.xsc">
+      <DependentUpon>DsWare_Khachhang_Quota.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsWare_Khachhang_Quota.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsWare_Khachhang_Quota.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DsWare_Khachhang_Quota.xss">
+      <DependentUpon>DsWare_Khachhang_Quota.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsBarcode.xsc">
+      <DependentUpon>DsBarcode.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsBarcode.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsBarcode.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DsBarcode.xss">
+      <DependentUpon>DsBarcode.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsDutru_Muahang.xsc">
+      <DependentUpon>dsDutru_Muahang.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsDutru_Muahang.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDutru_Muahang.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\dsDutru_Muahang.xss">
+      <DependentUpon>dsDutru_Muahang.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsHdbanhang_Chitiet.xsc">
+      <DependentUpon>dsHdbanhang_Chitiet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsHdbanhang_Chitiet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsHdbanhang_Chitiet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\dsHdbanhang_Chitiet.xss">
+      <DependentUpon>dsHdbanhang_Chitiet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsWare_Nxt_Hhban.xsc">
+      <DependentUpon>DsWare_Nxt_Hhban.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsWare_Nxt_Hhban.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsWare_Nxt_Hhban.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\DsWare_Nxt_Hhban.xss">
+      <DependentUpon>DsWare_Nxt_Hhban.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsWare_Vip_Member_Card.xsc">
+      <DependentUpon>DsWare_Vip_Member_Card.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsWare_Vip_Member_Card.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsWare_Vip_Member_Card.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DsWare_Vip_Member_Card.xss">
+      <DependentUpon>DsWare_Vip_Member_Card.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsXuat_Vattu.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsXuat_Vattu.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\Rptware_So_Quytm.xsc">
+      <DependentUpon>Rptware_So_Quytm.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\Rptware_So_Quytm.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Rptware_So_Quytm.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\Rptware_So_Quytm.xss">
+      <DependentUpon>Rptware_So_Quytm.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\App.config" />
+    <None Include="Resources\Icons\arrow_down.png" />
+    <None Include="Resources\Icons\arrow_left.png" />
+    <None Include="Resources\Icons\arrow_right.png" />
+    <None Include="Resources\Icons\arrow_up.png" />
+    <None Include="Resources\Icons\add.png" />
+    <None Include="Resources\Icons\delete.png" />
+    <None Include="Resources\Icons\calculator.png" />
+    <None Include="Resources\Icons\calendar.png" />
+    <None Include="Resources\Icons\Cancel.png" />
+    <None Include="Resources\Icons\document_search.png" />
+    <None Include="Resources\Icons\dollar.png" />
+    <None Include="Resources\Icons\edit.png" />
+    <None Include="Resources\Icons\coffee.png" />
+    <None Include="Resources\Icons\chart.png" />
+    <None Include="Resources\delete-icon18.png" />
+    <Content Include="Resources\Icons\calendar_view_day.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\Excel.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Icons\lock.png" />
+    <None Include="Resources\Icons\message.png" />
+    <Content Include="Resources\Icons\hang_khachtra.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\Money-Safe.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Icons\page.png" />
+    <None Include="Resources\Icons\save.png" />
+    <None Include="Resources\Icons\wired.png" />
+    <None Include="Resources\Icons\stop.png" />
+    <None Include="Resources\Icons\user.png" />
+    <None Include="Resources\Icons\search.png" />
+    <None Include="Resources\Icons\notebook.png" />
+    <None Include="Resources\Icons\print.png" />
+    <Content Include="Resources\Icons\stats.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\xuatkho_banhang.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\delete-icon24.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Resources\Icons\banggia.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\bangke_hhchitiet.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\baogia.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\congno_thu.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\congno_tra.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\diagram.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\dinhgia_hangban.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\dinhgia_hangmua.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\dondathang.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\Download File.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\exe File.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\giahhmua.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\giavonhangban.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\gioihantien.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\green dollar.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\hh_ban_cuahang.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\hh_ban_dauky.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\hh_mua_dauky.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\hh_mua_nhapkho.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\hoadon_banle.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\kehoachsx.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\khuyenmai.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\kh_tra_hanghoa.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\kiemke_hhnl.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\kiemke_tp.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\nganhang.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\nhap_hanghoa_mua.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\nhap_thanhpham.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\nhap_thanhpham_huhong.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\nv_cuahang.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\nv_kho_hanghoa.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\payment.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\taikhoan_nh.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\theodoi_nlsx.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\thongtin_hhban.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\tiente.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\tracuu_diem.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\tra_hanghoa_ncc.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\vip.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\vitri_may.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\xuat_nl_noibo.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\xuat_tp_noibo.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Stop-icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Stop-icon16.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\redo.png" />
+    <Content Include="Resources\Icons\calamviec.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\congthucphache.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\congthucphache_chitiet.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\cuahang.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\donvitinh.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\donvitinh_quydoi.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\hanghoaban.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\hanghoamua.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\hoadon_banhang.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\hoadon_muahang.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\khachhang.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\khohanghoa.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\loaihanghoaban.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\loaihanghoamua.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\loai_quytm.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\nhacungcap.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\nhasanxuat.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\nhomhanghoaban.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\nhomhanghoamua.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\phieu_chi.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\phieu_thu.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\quytienmat_dauky.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Default\TruthPos.Ware.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Ecm.Ware.Pay.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Ecm.Ware.Sell.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Ecm.Ware.Ware.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Ecm.Ware.Ware_Control.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Ecm.Ware.Ware_Customer.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Ecm.Ware.Ware_Direct.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Ecm.Ware.Ware_DirectSale.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Ecm.Ware.Ware_Input.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Ecm.Ware.Ware_Location.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resources\Ecm.Ware.Ware_Pay.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resources\Ecm.Ware.Ware_PriceSale.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resources\Ecm.Ware.Ware_Pro.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Ecm.Ware.Ware_ProSale.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resources\Ecm.Ware.Ware_Split.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Resources\undo.png" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Reports\rptDieuxe.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptDieuxe.designer.cs">
+      <DependentUpon>rptDieuxe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptPhieuxuat_Gtgt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptPhieuxuat_Gtgt.Designer.cs">
+      <DependentUpon>rptPhieuxuat_Gtgt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptCongno_Chuathu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptCongno_Chuathu.Designer.cs">
+      <DependentUpon>rptCongno_Chuathu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptXuat_ChuyenNB.cs">
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptXuat_ChuyenNB.designer.cs">
+      <DependentUpon>rptXuat_ChuyenNB.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptCongtac.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptCongtac.Designer.cs">
+      <DependentUpon>rptCongtac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptNhap_Vattu_Date.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptNhap_Vattu_Date.designer.cs">
+      <DependentUpon>rptNhap_Vattu_Date.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptHdbanhang_Xuatkho.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptHdbanhang_Xuatkho.Designer.cs">
+      <DependentUpon>rptHdbanhang_Xuatkho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptHanghoa_Bangke_Doanhso.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptHanghoa_Bangke_Doanhso.Designer.cs">
+      <DependentUpon>rptHanghoa_Bangke_Doanhso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptThumau.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptThumau.Designer.cs">
+      <DependentUpon>rptThumau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptWare_Dm_Khachhang_Info.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptWare_Dm_Khachhang_Info.Designer.cs">
+      <DependentUpon>rptWare_Dm_Khachhang_Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptWare_Hh_Mua_Tra_Ncc.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptWare_Hh_Mua_Tra_Ncc.Designer.cs">
+      <DependentUpon>rptWare_Hh_Mua_Tra_Ncc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptWare_Kk_Hh_Mua.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptWare_Kk_Hh_Mua.Designer.cs">
+      <DependentUpon>rptWare_Kk_Hh_Mua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptHd_Booking.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptHd_Booking.Designer.cs">
+      <DependentUpon>rptHd_Booking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptNhap_Vattu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptNhap_Vattu.designer.cs">
+      <DependentUpon>rptNhap_Vattu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptWare_Hh_Ban_Kh_Tra.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptWare_Hh_Ban_Kh_Tra.Designer.cs">
+      <DependentUpon>rptWare_Hh_Ban_Kh_Tra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptBaogia_Khachhang.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptBaogia_Khachhang.Designer.cs">
+      <DependentUpon>rptBaogia_Khachhang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptBarcode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptBarcode.Designer.cs">
+      <DependentUpon>rptBarcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptBarcode5x1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptBarcode5x1.Designer.cs">
+      <DependentUpon>rptBarcode5x1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptKehoach_Banhang.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptKehoach_Banhang.Designer.cs">
+      <DependentUpon>rptKehoach_Banhang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptHdbanhang_noVAT.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptHdbanhang_noVAT.Designer.cs">
+      <DependentUpon>rptHdbanhang_noVAT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptHdbanhang_VAT.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptHdbanhang_VAT.Designer.cs">
+      <DependentUpon>rptHdbanhang_VAT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptPhieu_Chi.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptPhieu_Chi.Designer.cs">
+      <DependentUpon>rptPhieu_Chi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptPhieu_Thu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptPhieu_Thu.Designer.cs">
+      <DependentUpon>rptPhieu_Thu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptWare_Khachhang_Barcode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptWare_Khachhang_Barcode.Designer.cs">
+      <DependentUpon>rptWare_Khachhang_Barcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptWare_Khachhang_Quota.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptWare_Khachhang_Quota.Designer.cs">
+      <DependentUpon>rptWare_Khachhang_Quota.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptware_Nxt_Hhban.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptware_Nxt_Hhban.Designer.cs">
+      <DependentUpon>rptware_Nxt_Hhban.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptWare_So_Quytm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptWare_So_Quytm.Designer.cs">
+      <DependentUpon>rptWare_So_Quytm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptWare_Vip_Member_Card.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptWare_Vip_Member_Card.Designer.cs">
+      <DependentUpon>rptWare_Vip_Member_Card.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptWare_Dondathang.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptWare_Dondathang.Designer.cs">
+      <DependentUpon>rptWare_Dondathang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptXuat_Nguyenlieu.cs">
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptXuat_Nguyenlieu.Designer.cs">
+      <DependentUpon>rptXuat_Nguyenlieu.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptXuat_Vattu.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptXuat_Vattu.designer.cs">
+      <DependentUpon>rptXuat_Vattu.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ecm.MasterTables\Ecm.MasterTables.csproj">
+      <Project>{1971B97A-D2BD-43CD-BE6A-CDB8B907DA5E}</Project>
+      <Name>Ecm.MasterTables</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ecm.Reports\Ecm.Reports.csproj">
+      <Project>{f8dfd116-ccf8-4b03-baf5-2f62fbcc01be}</Project>
+      <Name>Ecm.Reports</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ecm.WebReferences\Ecm.WebReferences.csproj">
+      <Project>{80222E88-063C-4DCF-8398-698980E604B7}</Project>
+      <Name>Ecm.WebReferences</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Lang\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>if /I "$(ConfigurationName)" == "Release" Eazfuscator.NET.exe "$(TargetPath)" --msbuild-project-path "$(ProjectPath)" --msbuild-project-configuration "$(ConfigurationName)" --msbuild-project-platform "$(PlatformName)" --msbuild-solution-path "$(SolutionPath)" -n --newline-flush -v 3.3</PostBuildEvent>
+  </PropertyGroup>
+</Project>

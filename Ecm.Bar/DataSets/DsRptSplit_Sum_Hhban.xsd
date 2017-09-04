@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsRptSplit_Sum_Hhban" targetNamespace="http://tempuri.org/DsRptSplit_Sum_Hhban.xsd" xmlns:mstns="http://tempuri.org/DsRptSplit_Sum_Hhban.xsd" xmlns="http://tempuri.org/DsRptSplit_Sum_Hhban.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsRptSplit_Sum_Hhban" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DsRptSplit_Sum_Hhban" msprop:Generator_UserDSName="DsRptSplit_Sum_Hhban">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RptSplit_Sum_Hhban" msprop:Generator_TableClassName="RptSplit_Sum_HhbanDataTable" msprop:Generator_TableVarName="tableRptSplit_Sum_Hhban" msprop:Generator_RowChangedName="RptSplit_Sum_HhbanRowChanged" msprop:Generator_TablePropName="RptSplit_Sum_Hhban" msprop:Generator_RowDeletingName="RptSplit_Sum_HhbanRowDeleting" msprop:Generator_RowChangingName="RptSplit_Sum_HhbanRowChanging" msprop:Generator_RowEvHandlerName="RptSplit_Sum_HhbanRowChangeEventHandler" msprop:Generator_RowDeletedName="RptSplit_Sum_HhbanRowDeleted" msprop:Generator_RowClassName="RptSplit_Sum_HhbanRow" msprop:Generator_UserTableName="RptSplit_Sum_Hhban" msprop:Generator_RowEvArgName="RptSplit_Sum_HhbanRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Stt" msprop:Generator_ColumnVarNameInTable="columnStt" msprop:Generator_ColumnPropNameInRow="Stt" msprop:Generator_ColumnPropNameInTable="SttColumn" msprop:Generator_UserColumnName="Stt" type="xs:long" minOccurs="0" />
+              <xs:element name="Id_Cuahang_Ban" msprop:Generator_ColumnVarNameInTable="columnId_Cuahang_Ban" msprop:Generator_ColumnPropNameInRow="Id_Cuahang_Ban" msprop:Generator_ColumnPropNameInTable="Id_Cuahang_BanColumn" msprop:Generator_UserColumnName="Id_Cuahang_Ban" type="xs:long" minOccurs="0" />
+              <xs:element name="Id_Hanghoa_Ban" msprop:Generator_ColumnVarNameInTable="columnId_Hanghoa_Ban" msprop:Generator_ColumnPropNameInRow="Id_Hanghoa_Ban" msprop:Generator_ColumnPropNameInTable="Id_Hanghoa_BanColumn" msprop:Generator_UserColumnName="Id_Hanghoa_Ban" type="xs:long" minOccurs="0" />
+              <xs:element name="Ten_Hanghoa_Ban" msprop:Generator_ColumnVarNameInTable="columnTen_Hanghoa_Ban" msprop:Generator_ColumnPropNameInRow="Ten_Hanghoa_Ban" msprop:Generator_ColumnPropNameInTable="Ten_Hanghoa_BanColumn" msprop:Generator_UserColumnName="Ten_Hanghoa_Ban" type="xs:string" minOccurs="0" />
+              <xs:element name="Ten_Donvitinh" msprop:Generator_ColumnVarNameInTable="columnTen_Donvitinh" msprop:Generator_ColumnPropNameInRow="Ten_Donvitinh" msprop:Generator_ColumnPropNameInTable="Ten_DonvitinhColumn" msprop:Generator_UserColumnName="Ten_Donvitinh" type="xs:string" minOccurs="0" />
+              <xs:element name="Soluong_Ban" msprop:Generator_ColumnVarNameInTable="columnSoluong_Ban" msprop:Generator_ColumnPropNameInRow="Soluong_Ban" msprop:Generator_ColumnPropNameInTable="Soluong_BanColumn" msprop:Generator_UserColumnName="Soluong_Ban" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Dongia_Ban" msprop:Generator_ColumnVarNameInTable="columnDongia_Ban" msprop:Generator_ColumnPropNameInRow="Dongia_Ban" msprop:Generator_ColumnPropNameInTable="Dongia_BanColumn" msprop:Generator_UserColumnName="Dongia_Ban" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Thanhtien" msprop:Generator_ColumnVarNameInTable="columnThanhtien" msprop:Generator_ColumnPropNameInRow="Thanhtien" msprop:Generator_ColumnPropNameInTable="ThanhtienColumn" msprop:Generator_UserColumnName="Thanhtien" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Per_Dongia" msprop:Generator_ColumnVarNameInTable="columnPer_Dongia" msprop:Generator_ColumnPropNameInRow="Per_Dongia" msprop:Generator_ColumnPropNameInTable="Per_DongiaColumn" msprop:Generator_UserColumnName="Per_Dongia" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Ngay_Checkin" msprop:Generator_ColumnVarNameInTable="columnNgay_Checkin" msprop:Generator_ColumnPropNameInRow="Ngay_Checkin" msprop:Generator_ColumnPropNameInTable="Ngay_CheckinColumn" msprop:Generator_UserColumnName="Ngay_Checkin" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Ngay_Checkout" msprop:Generator_ColumnVarNameInTable="columnNgay_Checkout" msprop:Generator_ColumnPropNameInRow="Ngay_Checkout" msprop:Generator_ColumnPropNameInTable="Ngay_CheckoutColumn" msprop:Generator_UserColumnName="Ngay_Checkout" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

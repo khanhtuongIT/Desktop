@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Ds_RptWare_SoQTM" targetNamespace="http://tempuri.org/Ds_RptWare_SoQTM.xsd" xmlns:mstns="http://tempuri.org/Ds_RptWare_SoQTM.xsd" xmlns="http://tempuri.org/Ds_RptWare_SoQTM.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Ds_RptWare_SoQTM" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="Ds_RptWare_SoQTM" msprop:Generator_DataSetName="Ds_RptWare_SoQTM">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RptWare_SoQTM" msprop:Generator_UserTableName="RptWare_SoQTM" msprop:Generator_RowDeletedName="RptWare_SoQTMRowDeleted" msprop:Generator_TableClassName="RptWare_SoQTMDataTable" msprop:Generator_RowChangedName="RptWare_SoQTMRowChanged" msprop:Generator_RowClassName="RptWare_SoQTMRow" msprop:Generator_RowChangingName="RptWare_SoQTMRowChanging" msprop:Generator_RowEvArgName="RptWare_SoQTMRowChangeEvent" msprop:Generator_RowEvHandlerName="RptWare_SoQTMRowChangeEventHandler" msprop:Generator_TablePropName="RptWare_SoQTM" msprop:Generator_TableVarName="tableRptWare_SoQTM" msprop:Generator_RowDeletingName="RptWare_SoQTMRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Ngay_Chungtu" msprop:Generator_UserColumnName="Ngay_Chungtu" msprop:Generator_ColumnPropNameInRow="Ngay_Chungtu" msprop:Generator_ColumnVarNameInTable="columnNgay_Chungtu" msprop:Generator_ColumnPropNameInTable="Ngay_ChungtuColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Sochungtu_Thu" msprop:Generator_UserColumnName="Sochungtu_Thu" msprop:Generator_ColumnPropNameInRow="Sochungtu_Thu" msprop:Generator_ColumnVarNameInTable="columnSochungtu_Thu" msprop:Generator_ColumnPropNameInTable="Sochungtu_ThuColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sochungtu_Chi" msprop:Generator_UserColumnName="Sochungtu_Chi" msprop:Generator_ColumnPropNameInRow="Sochungtu_Chi" msprop:Generator_ColumnVarNameInTable="columnSochungtu_Chi" msprop:Generator_ColumnPropNameInTable="Sochungtu_ChiColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Lydo" msprop:Generator_UserColumnName="Lydo" msprop:Generator_ColumnPropNameInRow="Lydo" msprop:Generator_ColumnVarNameInTable="columnLydo" msprop:Generator_ColumnPropNameInTable="LydoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sotien_Thu" msprop:Generator_UserColumnName="Sotien_Thu" msprop:Generator_ColumnPropNameInRow="Sotien_Thu" msprop:Generator_ColumnVarNameInTable="columnSotien_Thu" msprop:Generator_ColumnPropNameInTable="Sotien_ThuColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Sotien_Chi" msprop:Generator_UserColumnName="Sotien_Chi" msprop:Generator_ColumnPropNameInRow="Sotien_Chi" msprop:Generator_ColumnVarNameInTable="columnSotien_Chi" msprop:Generator_ColumnPropNameInTable="Sotien_ChiColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SendMail.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SendMail_RexService_RexService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://longthanhmekong.homeip.net:8000/WS/RexService.asmx</Value>
+    </Setting>
+    <Setting Name="SendMail_ReportService_ReportService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://longthanhmekong.homeip.net:8000/WS/ReportService.asmx</Value>
+    </Setting>
+    <Setting Name="SendMail_MasterService_MasterService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://longthanhmekong.homeip.net:8000/WS/MasterService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

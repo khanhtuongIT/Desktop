@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Ds_Thuexsd" targetNamespace="http://tempuri.org/Ds_Thuexsd.xsd" xmlns:mstns="http://tempuri.org/Ds_Thuexsd.xsd" xmlns="http://tempuri.org/Ds_Thuexsd.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="dev_rmsConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="dev_rmsConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SunLine.Reports.Properties.Settings.GlobalReference.Default.dev_rmsConnectionString1" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Ds_Thuexsd" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="Ds_Thuexsd" msprop:Generator_DataSetName="Ds_Thuexsd">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RptWare_Tonghop_Hoadon_Banhang_Thue" msprop:Generator_UserTableName="RptWare_Tonghop_Hoadon_Banhang_Thue" msprop:Generator_RowDeletedName="RptWare_Tonghop_Hoadon_Banhang_ThueRowDeleted" msprop:Generator_TableClassName="RptWare_Tonghop_Hoadon_Banhang_ThueDataTable" msprop:Generator_RowChangedName="RptWare_Tonghop_Hoadon_Banhang_ThueRowChanged" msprop:Generator_RowClassName="RptWare_Tonghop_Hoadon_Banhang_ThueRow" msprop:Generator_RowChangingName="RptWare_Tonghop_Hoadon_Banhang_ThueRowChanging" msprop:Generator_RowEvArgName="RptWare_Tonghop_Hoadon_Banhang_ThueRowChangeEvent" msprop:Generator_RowEvHandlerName="RptWare_Tonghop_Hoadon_Banhang_ThueRowChangeEventHandler" msprop:Generator_TablePropName="RptWare_Tonghop_Hoadon_Banhang_Thue" msprop:Generator_TableVarName="tableRptWare_Tonghop_Hoadon_Banhang_Thue" msprop:Generator_RowDeletingName="RptWare_Tonghop_Hoadon_Banhang_ThueRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Ma_Khachhang" msprop:Generator_UserColumnName="Ma_Khachhang" msprop:Generator_ColumnPropNameInRow="Ma_Khachhang" msprop:Generator_ColumnVarNameInTable="columnMa_Khachhang" msprop:Generator_ColumnPropNameInTable="Ma_KhachhangColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Ten_Khachhang" msprop:Generator_UserColumnName="Ten_Khachhang" msprop:Generator_ColumnPropNameInRow="Ten_Khachhang" msprop:Generator_ColumnVarNameInTable="columnTen_Khachhang" msprop:Generator_ColumnPropNameInTable="Ten_KhachhangColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sochungtu" msprop:Generator_UserColumnName="Sochungtu" msprop:Generator_ColumnPropNameInRow="Sochungtu" msprop:Generator_ColumnVarNameInTable="columnSochungtu" msprop:Generator_ColumnPropNameInTable="SochungtuColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Ngay_chungtu" msprop:Generator_UserColumnName="Ngay_chungtu" msprop:Generator_ColumnPropNameInRow="Ngay_chungtu" msprop:Generator_ColumnVarNameInTable="columnNgay_chungtu" msprop:Generator_ColumnPropNameInTable="Ngay_chungtuColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Tongtien" msprop:Generator_UserColumnName="Tongtien" msprop:Generator_ColumnPropNameInRow="Tongtien" msprop:Generator_ColumnVarNameInTable="columnTongtien" msprop:Generator_ColumnPropNameInTable="TongtienColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TongtienThue" msprop:Generator_UserColumnName="TongtienThue" msprop:Generator_ColumnPropNameInRow="TongtienThue" msprop:Generator_ColumnVarNameInTable="columnTongtienThue" msprop:Generator_ColumnPropNameInTable="TongtienThueColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

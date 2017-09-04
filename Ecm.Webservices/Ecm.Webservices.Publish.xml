@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\dept source\_SoftDept\SourceCode\v4.13\dev12\ECM\PrecompiledWeb" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="01/18/2014 13:39:14" />
+    <file relUrl="Autoupdate/UpdateVersion.xml" publishTime="08/26/2013 09:27:52" />
+    <file relUrl="bin/Ecm.Service.dll" publishTime="01/18/2014 13:37:55" />
+    <file relUrl="LicenseService.asmx" publishTime="08/26/2013 09:27:52" />
+    <file relUrl="BarService.asmx" publishTime="08/26/2013 09:27:52" />
+    <file relUrl="WareService.asmx" publishTime="08/26/2013 09:27:52" />
+    <file relUrl="bin/Ecm.Domain.dll" publishTime="01/18/2014 13:37:54" />
+    <file relUrl="bin/GoobizFrame.Profile.dll" publishTime="08/31/2013 09:04:31" />
+    <file relUrl="SystemService.asmx" publishTime="08/26/2013 09:27:52" />
+    <file relUrl="bin/FastJSON.dll" publishTime="08/31/2013 09:04:31" />
+    <file relUrl="bin/Ecm.Service.pdb" publishTime="01/18/2014 13:37:55" />
+    <file relUrl="bin/Ecm.Domain.pdb" publishTime="01/18/2014 13:37:54" />
+    <file relUrl="bin/Ecm.Webservice.pdb" publishTime="01/18/2014 13:37:56" />
+    <file relUrl="MasterService.asmx" publishTime="08/26/2013 09:27:52" />
+    <file relUrl="RexService.asmx" publishTime="08/26/2013 09:27:52" />
+    <file relUrl="bin/Ecm.Webservice.dll" publishTime="01/18/2014 13:37:56" />
+    <file relUrl="ReportService.asmx" publishTime="08/26/2013 09:27:52" />
+    <file relUrl="PolicyService.asmx" publishTime="08/26/2013 09:27:52" />
+    <file relUrl="Resources/Database.config" publishTime="01/13/2014 10:21:24" />
+  </publishProfile>
+</publishData>

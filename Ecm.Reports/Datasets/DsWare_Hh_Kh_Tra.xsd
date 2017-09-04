@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsWare_Hh_Kh_Tra" targetNamespace="http://tempuri.org/DsWare_Hh_Kh_Tra.xsd" xmlns:mstns="http://tempuri.org/DsWare_Hh_Kh_Tra.xsd" xmlns="http://tempuri.org/DsWare_Hh_Kh_Tra.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsWare_Hh_Kh_Tra" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DsWare_Hh_Kh_Tra" msprop:Generator_DataSetName="DsWare_Hh_Kh_Tra">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Ware_Hh_Kh_Tra" msprop:Generator_UserTableName="Ware_Hh_Kh_Tra" msprop:Generator_RowDeletedName="Ware_Hh_Kh_TraRowDeleted" msprop:Generator_RowChangedName="Ware_Hh_Kh_TraRowChanged" msprop:Generator_RowClassName="Ware_Hh_Kh_TraRow" msprop:Generator_RowChangingName="Ware_Hh_Kh_TraRowChanging" msprop:Generator_RowEvArgName="Ware_Hh_Kh_TraRowChangeEvent" msprop:Generator_RowEvHandlerName="Ware_Hh_Kh_TraRowChangeEventHandler" msprop:Generator_TableClassName="Ware_Hh_Kh_TraDataTable" msprop:Generator_TableVarName="tableWare_Hh_Kh_Tra" msprop:Generator_RowDeletingName="Ware_Hh_Kh_TraRowDeleting" msprop:Generator_TablePropName="Ware_Hh_Kh_Tra">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Stt" msprop:Generator_UserColumnName="Stt" msprop:Generator_ColumnPropNameInRow="Stt" msprop:Generator_ColumnVarNameInTable="columnStt" msprop:Generator_ColumnPropNameInTable="SttColumn" type="xs:unsignedInt" minOccurs="0" />
+              <xs:element name="Ma_Hanghoa" msprop:Generator_UserColumnName="Ma_Hanghoa" msprop:Generator_ColumnPropNameInRow="Ma_Hanghoa" msprop:Generator_ColumnVarNameInTable="columnMa_Hanghoa" msprop:Generator_ColumnPropNameInTable="Ma_HanghoaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Ten_Hanghoa" msprop:Generator_UserColumnName="Ten_Hanghoa" msprop:Generator_ColumnPropNameInRow="Ten_Hanghoa" msprop:Generator_ColumnVarNameInTable="columnTen_Hanghoa" msprop:Generator_ColumnPropNameInTable="Ten_HanghoaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Ten_Donvitinh" msprop:Generator_UserColumnName="Ten_Donvitinh" msprop:Generator_ColumnPropNameInRow="Ten_Donvitinh" msprop:Generator_ColumnVarNameInTable="columnTen_Donvitinh" msprop:Generator_ColumnPropNameInTable="Ten_DonvitinhColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Soluong" msprop:Generator_UserColumnName="Soluong" msprop:Generator_ColumnPropNameInRow="Soluong" msprop:Generator_ColumnVarNameInTable="columnSoluong" msprop:Generator_ColumnPropNameInTable="SoluongColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Dongia" msprop:Generator_UserColumnName="Dongia" msprop:Generator_ColumnPropNameInRow="Dongia" msprop:Generator_ColumnVarNameInTable="columnDongia" msprop:Generator_ColumnPropNameInTable="DongiaColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Per_Dongia" msprop:Generator_UserColumnName="Per_Dongia" msprop:Generator_ColumnPropNameInRow="Per_Dongia" msprop:Generator_ColumnVarNameInTable="columnPer_Dongia" msprop:Generator_ColumnPropNameInTable="Per_DongiaColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Thanhtien" msprop:Generator_UserColumnName="Thanhtien" msprop:Generator_ColumnPropNameInRow="Thanhtien" msprop:Generator_ColumnVarNameInTable="columnThanhtien" msprop:Generator_ColumnPropNameInTable="ThanhtienColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Id_loai_hanghoa" msprop:Generator_UserColumnName="Id_loai_hanghoa" msprop:Generator_ColumnVarNameInTable="columnId_loai_hanghoa" msprop:Generator_ColumnPropNameInRow="Id_loai_hanghoa" msprop:Generator_ColumnPropNameInTable="Id_loai_hanghoaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Ten_loai_Hanghoa" msprop:Generator_UserColumnName="Ten_loai_Hanghoa" msprop:Generator_ColumnVarNameInTable="columnTen_loai_Hanghoa" msprop:Generator_ColumnPropNameInRow="Ten_loai_Hanghoa" msprop:Generator_ColumnPropNameInTable="Ten_loai_HanghoaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Thanhtien_Km" msprop:Generator_UserColumnName="Thanhtien_Km" msprop:Generator_ColumnVarNameInTable="columnThanhtien_Km" msprop:Generator_ColumnPropNameInRow="Thanhtien_Km" msprop:Generator_ColumnPropNameInTable="Thanhtien_KmColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SoChungtu" msprop:Generator_UserColumnName="SoChungtu" msprop:Generator_ColumnPropNameInRow="SoChungtu" msprop:Generator_ColumnVarNameInTable="columnSoChungtu" msprop:Generator_ColumnPropNameInTable="SoChungtuColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Ngay_Chungtu" msprop:Generator_UserColumnName="Ngay_Chungtu" msprop:Generator_ColumnPropNameInRow="Ngay_Chungtu" msprop:Generator_ColumnVarNameInTable="columnNgay_Chungtu" msprop:Generator_ColumnPropNameInTable="Ngay_ChungtuColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Ten_Khachhang" msprop:Generator_UserColumnName="Ten_Khachhang" msprop:Generator_ColumnVarNameInTable="columnTen_Khachhang" msprop:Generator_ColumnPropNameInRow="Ten_Khachhang" msprop:Generator_ColumnPropNameInTable="Ten_KhachhangColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

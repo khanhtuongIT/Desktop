@@ -1,0 +1,235 @@
+D:\ECM\Tan_Camau\SendMail\bin\Debug\SendMail.exe.config
+D:\ECM\Tan_Camau\SendMail\bin\Debug\SendMail.exe
+D:\ECM\Tan_Camau\SendMail\bin\Debug\SendMail.pdb
+D:\ECM\Tan_Camau\SendMail\bin\Debug\Ecm.Webservice.dll
+D:\ECM\Tan_Camau\SendMail\bin\Debug\GoobizFrame.Profile.dll
+D:\ECM\Tan_Camau\SendMail\bin\Debug\GoobizFrame.Windows.dll
+D:\ECM\Tan_Camau\SendMail\bin\Debug\Ecm.Service.dll
+D:\ECM\Tan_Camau\SendMail\bin\Debug\Ecm.Domain.dll
+D:\ECM\Tan_Camau\SendMail\bin\Debug\Newtonsoft.Json.dll
+D:\ECM\Tan_Camau\SendMail\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\ECM\Tan_Camau\SendMail\bin\Debug\FastJSON.dll
+D:\ECM\Tan_Camau\SendMail\bin\Debug\Ecm.Webservice.pdb
+D:\ECM\Tan_Camau\SendMail\bin\Debug\Ecm.Service.pdb
+D:\ECM\Tan_Camau\SendMail\bin\Debug\Ecm.Domain.pdb
+D:\ECM\Tan_Camau\SendMail\obj\Debug\SendMail.csprojResolveAssemblyReference.cache
+D:\ECM\Tan_Camau\SendMail\obj\Debug\SendMail.rptWare_Xuatnhap_Hangton.resources
+D:\ECM\Tan_Camau\SendMail\obj\Debug\SendMail.csproj.GenerateResource.Cache
+D:\ECM\Tan_Camau\SendMail\obj\Debug\SendMail.exe.licenses
+D:\ECM\Tan_Camau\SendMail\obj\Debug\SendMail.exe
+D:\ECM\Tan_Camau\SendMail\obj\Debug\SendMail.pdb
+D:\Tan_Camau\SendMail\bin\Debug\SendMail.exe.config
+D:\Tan_Camau\SendMail\bin\Debug\SendMail.exe
+D:\Tan_Camau\SendMail\bin\Debug\SendMail.pdb
+D:\Tan_Camau\SendMail\bin\Debug\Ecm.Webservice.dll
+D:\Tan_Camau\SendMail\bin\Debug\GoobizFrame.Profile.dll
+D:\Tan_Camau\SendMail\bin\Debug\GoobizFrame.Windows.dll
+D:\Tan_Camau\SendMail\bin\Debug\Ecm.Service.dll
+D:\Tan_Camau\SendMail\bin\Debug\Ecm.Domain.dll
+D:\Tan_Camau\SendMail\bin\Debug\Newtonsoft.Json.dll
+D:\Tan_Camau\SendMail\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Tan_Camau\SendMail\bin\Debug\FastJSON.dll
+D:\Tan_Camau\SendMail\bin\Debug\Ecm.Webservice.pdb
+D:\Tan_Camau\SendMail\bin\Debug\Ecm.Service.pdb
+D:\Tan_Camau\SendMail\bin\Debug\Ecm.Domain.pdb
+D:\Tan_Camau\SendMail\obj\Debug\SendMail.csprojResolveAssemblyReference.cache
+D:\Tan_Camau\SendMail\obj\Debug\SendMail.rptWare_Xuatnhap_Hangton.resources
+D:\Tan_Camau\SendMail\obj\Debug\SendMail.csproj.GenerateResource.Cache
+D:\Tan_Camau\SendMail\obj\Debug\SendMail.exe.licenses
+D:\Tan_Camau\SendMail\obj\Debug\SendMail.exe
+D:\Tan_Camau\SendMail\obj\Debug\SendMail.pdb
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\SendMail.exe.config
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\SendMail.exe
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\SendMail.pdb
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.Charts.v15.1.Core.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.CodeParser.v15.1.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.Data.v15.1.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.Pdf.v15.1.Core.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.PivotGrid.v15.1.Core.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.Printing.v15.1.Core.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.Sparkline.v15.1.Core.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.Utils.v15.1.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.Utils.v15.1.UI.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraBars.v15.1.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraCharts.v15.1.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraCharts.v15.1.Extensions.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraCharts.v15.1.UI.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraCharts.v15.1.Web.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraCharts.v15.1.Wizard.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraEditors.v15.1.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraGrid.v15.1.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraNavBar.v15.1.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraPivotGrid.v15.1.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraPrinting.v15.1.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraReports.v15.1.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraReports.v15.1.Extensions.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\Ecm.Webservice.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\GoobizFrame.Profile.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\GoobizFrame.Windows.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\Ecm.Service.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\Ecm.Domain.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\Newtonsoft.Json.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraTreeList.v15.1.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraRichEdit.v15.1.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraVerticalGrid.v15.1.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraLayout.v15.1.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.Web.v15.1.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.RichEdit.v15.1.Core.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.DataAccess.v15.1.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.DataAccess.v15.1.UI.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraGauges.v15.1.Core.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.Office.v15.1.Core.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\FastJSON.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.Xpo.v15.1.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\Ecm.Webservice.pdb
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.Data.v15.1.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.PivotGrid.v15.1.Core.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.Pdf.v15.1.Core.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.Printing.v15.1.Core.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.Utils.v15.1.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.Utils.v15.1.UI.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraBars.v15.1.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraCharts.v15.1.Wizard.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraCharts.v15.1.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraCharts.v15.1.UI.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraCharts.v15.1.Web.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraEditors.v15.1.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraGrid.v15.1.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraNavBar.v15.1.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraPivotGrid.v15.1.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraPrinting.v15.1.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.Sparkline.v15.1.Core.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraReports.v15.1.Extensions.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraReports.v15.1.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\Ecm.Service.pdb
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\Ecm.Domain.pdb
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraTreeList.v15.1.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraRichEdit.v15.1.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraVerticalGrid.v15.1.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraLayout.v15.1.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.Web.v15.1.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.RichEdit.v15.1.Core.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.DataAccess.v15.1.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.DataAccess.v15.1.UI.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.XtraGauges.v15.1.Core.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.Office.v15.1.Core.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\DevExpress.Xpo.v15.1.xml
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.Data.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.Data.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.Data.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.Data.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.PivotGrid.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.PivotGrid.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.PivotGrid.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.PivotGrid.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.Pdf.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.Pdf.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.Pdf.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.Pdf.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.Printing.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.Printing.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.Printing.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.Printing.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.Utils.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.Utils.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.Utils.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.Utils.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.Utils.v15.1.UI.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.Utils.v15.1.UI.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.Utils.v15.1.UI.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.Utils.v15.1.UI.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.XtraBars.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.XtraBars.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.XtraBars.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.XtraBars.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.XtraCharts.v15.1.Wizard.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.XtraCharts.v15.1.Wizard.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.XtraCharts.v15.1.Wizard.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.XtraCharts.v15.1.Wizard.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.XtraCharts.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.XtraCharts.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.XtraCharts.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.XtraCharts.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.XtraEditors.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.XtraEditors.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.XtraEditors.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.XtraEditors.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.XtraGrid.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.XtraGrid.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.XtraGrid.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.XtraGrid.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.XtraNavBar.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.XtraNavBar.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.XtraNavBar.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.XtraNavBar.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.XtraPivotGrid.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.XtraPivotGrid.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.XtraPivotGrid.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.XtraPivotGrid.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.XtraPrinting.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.XtraPrinting.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.XtraPrinting.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.XtraPrinting.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.Sparkline.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.Sparkline.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.Sparkline.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.Sparkline.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.XtraReports.v15.1.Extensions.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.XtraReports.v15.1.Extensions.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.XtraReports.v15.1.Extensions.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.XtraReports.v15.1.Extensions.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.XtraReports.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.XtraReports.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.XtraReports.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.XtraReports.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.XtraTreeList.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.XtraTreeList.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.XtraTreeList.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.XtraTreeList.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.XtraRichEdit.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.XtraRichEdit.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.XtraRichEdit.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.XtraRichEdit.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.XtraVerticalGrid.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.XtraVerticalGrid.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.XtraVerticalGrid.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.XtraVerticalGrid.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.XtraLayout.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.XtraLayout.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.XtraLayout.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.XtraLayout.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.Web.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.Web.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.Web.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.Web.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.RichEdit.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.RichEdit.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.RichEdit.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.RichEdit.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.DataAccess.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.DataAccess.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.DataAccess.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.DataAccess.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.DataAccess.v15.1.UI.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.DataAccess.v15.1.UI.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.DataAccess.v15.1.UI.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.DataAccess.v15.1.UI.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.XtraGauges.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.XtraGauges.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.XtraGauges.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.XtraGauges.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.Office.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.Office.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.Office.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.Office.v15.1.Core.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\de\DevExpress.Xpo.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\es\DevExpress.Xpo.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ja\DevExpress.Xpo.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\bin\Debug\ru\DevExpress.Xpo.v15.1.resources.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\obj\Debug\SendMail.csprojResolveAssemblyReference.cache
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\obj\Debug\SendMail.rptWare_Xuatnhap_Hangton.resources
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\obj\Debug\SendMail.csproj.GenerateResource.Cache
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\obj\Debug\SendMail.exe.licenses
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\obj\Debug\SendMail.exe
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\SendMail\obj\Debug\SendMail.pdb

@@ -1,0 +1,802 @@
+<?xml version="1.0" standalone="yes"?>
+<DsMenuInfo xmlns="http://tempuri.org/DsMenuInfo.xsd">
+  <xs:schema id="DsMenuInfo" targetNamespace="http://tempuri.org/DsMenuInfo.xsd" xmlns:mstns="http://tempuri.org/DsMenuInfo.xsd" xmlns="http://tempuri.org/DsMenuInfo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="DsMenuInfo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Configuration">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" type="xs:string" />
+                <xs:element name="ParentKey" type="xs:string" minOccurs="0" />
+                <xs:element name="NewMenuText" type="xs:string" minOccurs="0" />
+                <xs:element name="NewMenuName" type="xs:string" minOccurs="0" />
+                <xs:element name="ParentMenuName" type="xs:string" minOccurs="0" />
+                <xs:element name="ModuleName" type="xs:string" minOccurs="0" />
+                <xs:element name="Path" type="xs:string" minOccurs="0" />
+                <xs:element name="CreateMenu" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Assembly" type="xs:string" minOccurs="0" />
+                <xs:element name="Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Role" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:Configuration" />
+        <xs:field xpath="mstns:Key" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Configuration>
+    <Key>MainMenu</Key>
+    <ParentKey />
+    <NewMenuText>Menu chính</NewMenuText>
+    <NewMenuName>MainMenu</NewMenuName>
+    <ModuleName>ThanhThuy</ModuleName>
+    <Assembly>GoobizFrame.Windows, Version=4.13.9.19, Culture=neutral, PublicKeyToken=null</Assembly>
+    <Type />
+    <Role>Module</Role>
+  </Configuration>
+  <Configuration>
+    <Key>BarSystemControl</Key>
+    <ParentKey>MainMenu</ParentKey>
+    <NewMenuText>Hệ thống</NewMenuText>
+    <NewMenuName>BarSystemControl</NewMenuName>
+    <ParentMenuName>MainMenu</ParentMenuName>
+    <ModuleName>Hệ thống</ModuleName>
+    <Path>Resources\Ecm.SystemControl.config</Path>
+    <CreateMenu>true</CreateMenu>
+    <Assembly>Ecm.SystemControl.dll</Assembly>
+    <Type>Ecm.SystemControl.Plugins.SystemControl</Type>
+    <Role>Module</Role>
+  </Configuration>
+  <Configuration>
+    <Key>BarSystemInfo</Key>
+    <ParentKey>BarSystemControl</ParentKey>
+    <NewMenuText>Thông tin hệ thống</NewMenuText>
+    <NewMenuName>BarSystemInfo</NewMenuName>
+    <ParentMenuName>BarSystemControl</ParentMenuName>
+    <ModuleName>Hệ thống</ModuleName>
+    <Path>Resources\Ecm.SystemControl.SystemInfo.config</Path>
+    <CreateMenu>true</CreateMenu>
+    <Assembly>Ecm.SystemControl.dll</Assembly>
+    <Type>Ecm.SystemControl.Plugins.SystemInfo</Type>
+    <Role>Module</Role>
+  </Configuration>
+  <Configuration>
+    <Key>FrmHostConfiguration</Key>
+    <ParentKey>BarSystemInfo</ParentKey>
+    <NewMenuText>Cấu hình chung</NewMenuText>
+    <NewMenuName>FrmHostConfiguration</NewMenuName>
+    <ParentMenuName>BarSystemInfo</ParentMenuName>
+    <ModuleName>Hệ thống</ModuleName>
+    <Path>Resources\Ecm.SystemControl.SystemInfo.config</Path>
+    <Assembly> GoobizFrame.Windows.dll</Assembly>
+    <Type> GoobizFrame.Windows.Forms.FrmHostConfiguration</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>FrmSys_Dm_Heso_Chuongtrinh</Key>
+    <ParentKey>BarSystemInfo</ParentKey>
+    <NewMenuText>Hệ số chương trình</NewMenuText>
+    <NewMenuName>FrmSys_Dm_Heso_Chuongtrinh</NewMenuName>
+    <ParentMenuName>BarSystemInfo</ParentMenuName>
+    <ModuleName>Hệ thống</ModuleName>
+    <Path>Resources\Ecm.SystemControl.SystemInfo.config</Path>
+    <Assembly>Ecm.SystemControl.dll</Assembly>
+    <Type>Ecm.SystemControl.SystemInfo.FrmSys_Dm_Heso_Chuongtrinh</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Sys_Admin</Key>
+    <ParentKey>BarSystemControl</ParentKey>
+    <NewMenuText>Module phân quyền</NewMenuText>
+    <NewMenuName>Sys_Admin</NewMenuName>
+    <ParentMenuName>BarSystemControl</ParentMenuName>
+    <ModuleName>Phân quyền</ModuleName>
+    <Path>Resources\Ecm.SystemControl.Policy.config</Path>
+    <CreateMenu>true</CreateMenu>
+    <Assembly>Ecm.SystemControl.dll</Assembly>
+    <Type>Ecm.SystemControl.Plugins.Policy</Type>
+    <Role>Module</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Formpol_RoleUser_Mngr</Key>
+    <ParentKey>Sys_Admin</ParentKey>
+    <NewMenuText>Quản lý phân quyền</NewMenuText>
+    <NewMenuName>Formpol_RoleUser_Mngr</NewMenuName>
+    <ParentMenuName>Sys_Admin</ParentMenuName>
+    <ModuleName>Phân quyền</ModuleName>
+    <Path>Resources\Ecm.SystemControl.Policy.config</Path>
+    <Assembly> GoobizFrame.Windows.dll</Assembly>
+    <Type> GoobizFrame.Windows.Forms.Policy.Formpol_RoleUser_Mngr</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmpol_Dm_User_Add</Key>
+    <ParentKey>Sys_Admin</ParentKey>
+    <NewMenuText>Quản lý người dùng</NewMenuText>
+    <NewMenuName>Frmpol_Dm_User_Add</NewMenuName>
+    <ParentMenuName>Sys_Admin</ParentMenuName>
+    <ModuleName>Phân quyền</ModuleName>
+    <Path>Resources\Ecm.SystemControl.Policy.config</Path>
+    <Assembly> GoobizFrame.Windows.dll</Assembly>
+    <Type> GoobizFrame.Windows.Forms.Policy.Frmpol_Dm_User_Add</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmpol_Change_Password</Key>
+    <ParentKey>Sys_Admin</ParentKey>
+    <NewMenuText>Thay đổi mật khẩu</NewMenuText>
+    <NewMenuName>Frmpol_Change_Password</NewMenuName>
+    <ParentMenuName>Sys_Admin</ParentMenuName>
+    <ModuleName>Phân quyền</ModuleName>
+    <Path>Resources\Ecm.SystemControl.Policy.config</Path>
+    <Assembly> GoobizFrame.Windows.dll</Assembly>
+    <Type> GoobizFrame.Windows.Forms.Policy.Frmpol_Change_Password</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmpol_MainProcess1</Key>
+    <ParentKey>Sys_Admin</ParentKey>
+    <NewMenuText>Test phan quyen</NewMenuText>
+    <NewMenuName>Frmpol_MainProcess1</NewMenuName>
+    <ParentMenuName>Sys_Admin</ParentMenuName>
+    <ModuleName>Phân quyền</ModuleName>
+    <Path>Resources\Ecm.SystemControl.Policy.config</Path>
+    <Assembly> Ecm.Policy.dll</Assembly>
+    <Type> Forms.Policy.Frmpol_MainProcess1</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>BarMaster</Key>
+    <ParentKey>MainMenu</ParentKey>
+    <NewMenuText>Danh mục</NewMenuText>
+    <NewMenuName>BarMaster</NewMenuName>
+    <ParentMenuName>MainMenu</ParentMenuName>
+    <ModuleName>Danh mục</ModuleName>
+    <Path>Resources\Ecm.MasterTables.Master.config</Path>
+    <CreateMenu>true</CreateMenu>
+    <Assembly>Ecm.MasterTables.dll</Assembly>
+    <Type>Ecm.MasterTables.Plugins.Master</Type>
+    <Role>Module</Role>
+  </Configuration>
+  <Configuration>
+    <Key>BarProcess_Master</Key>
+    <ParentKey>BarMaster</ParentKey>
+    <NewMenuText>QL Người dùng</NewMenuText>
+    <NewMenuName>BarProcess_Master</NewMenuName>
+    <ParentMenuName>BarMaster</ParentMenuName>
+    <ModuleName>QL Người dùng</ModuleName>
+    <Path>Resources\Ecm.MasterTables.Process_Master.config</Path>
+    <CreateMenu>true</CreateMenu>
+    <Assembly>Ecm.MasterTables.dll</Assembly>
+    <Type>Ecm.MasterTables.Plugins.Process_Master</Type>
+    <Role>Module</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Dm_Khachhang_Add</Key>
+    <ParentKey>BarProcess_Master</ParentKey>
+    <NewMenuText>Khách hàng</NewMenuText>
+    <NewMenuName>Frmware_Dm_Khachhang_Add</NewMenuName>
+    <ParentMenuName>BarProcess_Master</ParentMenuName>
+    <ModuleName>QL Người dùng</ModuleName>
+    <Path>Resources\Ecm.MasterTables.Process_Master.config</Path>
+    <Assembly>Ecm.MasterTables.dll</Assembly>
+    <Type>Ecm.MasterTables.Forms.Ware.Frmware_Dm_Khachhang_Add</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Dm_Nhacungcap_Add</Key>
+    <ParentKey>BarProcess_Master</ParentKey>
+    <NewMenuText>Nhà Cung Cấp</NewMenuText>
+    <NewMenuName>Frmware_Dm_Nhacungcap_Add</NewMenuName>
+    <ParentMenuName>BarProcess_Master</ParentMenuName>
+    <ModuleName>QL Người dùng</ModuleName>
+    <Path>Resources\Ecm.MasterTables.Process_Master.config</Path>
+    <Assembly>Ecm.MasterTables.dll</Assembly>
+    <Type>Ecm.MasterTables.Forms.Ware.Frmware_Dm_Nhacungcap_Add</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmrex_Nhansu</Key>
+    <ParentKey>BarProcess_Master</ParentKey>
+    <NewMenuText>DS Nhân viên</NewMenuText>
+    <NewMenuName>Frmrex_Nhansu</NewMenuName>
+    <ParentMenuName>BarProcess_Master</ParentMenuName>
+    <ModuleName>QL Người dùng</ModuleName>
+    <Path>Resources\Ecm.MasterTables.Process_Master.config</Path>
+    <Assembly>Ecm.Rex.dll</Assembly>
+    <Type>Ecm.Rex.Forms.Frmrex_Nhansu</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Ql_Cuahang_Ban</Key>
+    <ParentKey>BarProcess_Master</ParentKey>
+    <NewMenuText>Nhân viên theo khu vực</NewMenuText>
+    <NewMenuName>Frmware_Ql_Cuahang_Ban</NewMenuName>
+    <ParentMenuName>BarProcess_Master</ParentMenuName>
+    <ModuleName>QL Người dùng</ModuleName>
+    <Path>Resources\Ecm.MasterTables.Process_Master.config</Path>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Forms.Frmware_Ql_Cuahang_Ban</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Khachhang_Nhansu</Key>
+    <ParentKey>BarProcess_Master</ParentKey>
+    <NewMenuText>Quản lý Nhân sự</NewMenuText>
+    <NewMenuName>Frmware_Khachhang_Nhansu</NewMenuName>
+    <ParentMenuName>BarProcess_Master</ParentMenuName>
+    <ModuleName>QL Người dùng</ModuleName>
+    <Path>Resources\Ecm.MasterTables.Process_Master.config</Path>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Forms.Frmware_Khachhang_Nhansu</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>BarWare_Master</Key>
+    <ParentKey>BarMaster</ParentKey>
+    <NewMenuText>Hàng hóa</NewMenuText>
+    <NewMenuName>BarWare_Master</NewMenuName>
+    <ParentMenuName>BarMaster</ParentMenuName>
+    <ModuleName>Hàng hóa</ModuleName>
+    <Path>Resources\Ecm.MasterTables.Ware_Master.config</Path>
+    <CreateMenu>true</CreateMenu>
+    <Assembly>Ecm.MasterTables.dll</Assembly>
+    <Type>Ecm.MasterTables.Plugins.Ware_Master</Type>
+    <Role>Module</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Dm_Loai_Hanghoa_Ban_Add</Key>
+    <ParentKey>BarWare_Master</ParentKey>
+    <NewMenuText>Loại hàng</NewMenuText>
+    <NewMenuName>Frmware_Dm_Loai_Hanghoa_Ban_Add</NewMenuName>
+    <ParentMenuName>BarWare_Master</ParentMenuName>
+    <ModuleName>Hàng hóa</ModuleName>
+    <Path>Resources\Ecm.MasterTables.Ware_Master.config</Path>
+    <Assembly>Ecm.MasterTables.dll</Assembly>
+    <Type>Ecm.MasterTables.Forms.Ware.Frmware_Dm_Loai_Hanghoa_Ban_Add</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Dm_Hanghoa_Ban_FullEdit</Key>
+    <ParentKey>BarWare_Master</ParentKey>
+    <NewMenuText>Tên hàng</NewMenuText>
+    <NewMenuName>Frmware_Dm_Hanghoa_Ban_FullEdit</NewMenuName>
+    <ParentMenuName>BarWare_Master</ParentMenuName>
+    <ModuleName>Hàng hóa</ModuleName>
+    <Path>Resources\Ecm.MasterTables.Ware_Master.config</Path>
+    <Assembly>Ecm.MasterTables.dll</Assembly>
+    <Type>Ecm.MasterTables.Forms.Ware.Frmware_Dm_Hanghoa_Ban_FullEdit</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Hanghoa_Ban_Dinhgia</Key>
+    <ParentKey>BarWare_Master</ParentKey>
+    <NewMenuText>Bảng giá</NewMenuText>
+    <NewMenuName>Frmware_Hanghoa_Ban_Dinhgia</NewMenuName>
+    <ParentMenuName>BarWare_Master</ParentMenuName>
+    <ModuleName>Hàng hóa</ModuleName>
+    <Path>Resources\Ecm.MasterTables.Ware_Master.config</Path>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Forms.Frmware_Hanghoa_Ban_Dinhgia</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Dm_Cuahang_Ban_Add</Key>
+    <ParentKey>BarWare_Master</ParentKey>
+    <NewMenuText>Khu vực</NewMenuText>
+    <NewMenuName>Frmware_Dm_Cuahang_Ban_Add</NewMenuName>
+    <ParentMenuName>BarWare_Master</ParentMenuName>
+    <ModuleName>Hàng hóa</ModuleName>
+    <Path>Resources\Ecm.MasterTables.Ware_Master.config</Path>
+    <Assembly>Ecm.MasterTables.dll</Assembly>
+    <Type>Ecm.MasterTables.Forms.Ware.Frmware_Dm_Cuahang_Ban_Add</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Dm_Soquy_Add</Key>
+    <ParentKey>BarWare_Master</ParentKey>
+    <NewMenuText>Sổ quỹ</NewMenuText>
+    <NewMenuName>Frmware_Dm_Soquy_Add</NewMenuName>
+    <ParentMenuName>BarWare_Master</ParentMenuName>
+    <ModuleName>Hàng hóa</ModuleName>
+    <Path>Resources\Ecm.MasterTables.Ware_Master.config</Path>
+    <Assembly>Ecm.MasterTables.dll</Assembly>
+    <Type>Ecm.MasterTables.Forms.Ware.Frmware_Dm_Soquy_Add</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Dm_Donvitinh_Add</Key>
+    <ParentKey>BarWare_Master</ParentKey>
+    <NewMenuText>Đơn vị tính</NewMenuText>
+    <NewMenuName>Frmware_Dm_Donvitinh_Add</NewMenuName>
+    <ParentMenuName>BarWare_Master</ParentMenuName>
+    <ModuleName>Hàng hóa</ModuleName>
+    <Path>Resources\Ecm.MasterTables.Ware_Master.config</Path>
+    <Assembly>Ecm.MasterTables.dll</Assembly>
+    <Type>Ecm.MasterTables.Forms.Ware.Frmware_Dm_Donvitinh_Add</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Dm_Donvitinh_Quydoi_Add</Key>
+    <ParentKey>BarWare_Master</ParentKey>
+    <NewMenuText>Đơn vị tính quy đổi</NewMenuText>
+    <NewMenuName>Frmware_Dm_Donvitinh_Quydoi_Add</NewMenuName>
+    <ParentMenuName>BarWare_Master</ParentMenuName>
+    <ModuleName>Hàng hóa</ModuleName>
+    <Path>Resources\Ecm.MasterTables.Ware_Master.config</Path>
+    <Assembly>Ecm.MasterTables.dll</Assembly>
+    <Type>Ecm.MasterTables.Forms.Ware.Frmware_Dm_Donvitinh_Quydoi_Add</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Dm_Xe_Add</Key>
+    <ParentKey>BarWare_Master</ParentKey>
+    <NewMenuText>Xe</NewMenuText>
+    <NewMenuName>Frmware_Dm_Xe_Add</NewMenuName>
+    <ParentMenuName>BarWare_Master</ParentMenuName>
+    <ModuleName>Hàng hóa</ModuleName>
+    <Path>Resources\Ecm.MasterTables.Ware_Master.config</Path>
+    <Assembly>Ecm.MasterTables.dll</Assembly>
+    <Type>Ecm.MasterTables.Forms.Ware.Frmware_Dm_Xe_Add</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>BarRex_Master</Key>
+    <ParentKey>BarMaster</ParentKey>
+    <NewMenuText>Nhân sự</NewMenuText>
+    <NewMenuName>BarRex_Master</NewMenuName>
+    <ParentMenuName>BarMaster</ParentMenuName>
+    <ModuleName>Nhân sự</ModuleName>
+    <Path>Resources\Ecm.MasterTables.Rex_Master.config</Path>
+    <CreateMenu>true</CreateMenu>
+    <Assembly>Ecm.MasterTables.dll</Assembly>
+    <Type>Ecm.MasterTables.Plugins.Rex_Master</Type>
+    <Role>Module</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmrex_Dm_Bophan_Add</Key>
+    <ParentKey>BarRex_Master</ParentKey>
+    <NewMenuText>Bộ phận</NewMenuText>
+    <NewMenuName>Frmrex_Dm_Bophan_Add</NewMenuName>
+    <ParentMenuName>BarRex_Master</ParentMenuName>
+    <ModuleName>Nhân sự</ModuleName>
+    <Path>Resources\Ecm.MasterTables.Rex_Master.config</Path>
+    <Assembly>Ecm.MasterTables.dll</Assembly>
+    <Type>Ecm.MasterTables.Forms.Rex.Frmrex_Dm_Bophan_Add</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmrex_Dm_Chuyenmon_Add</Key>
+    <ParentKey>BarRex_Master</ParentKey>
+    <NewMenuText>Chuyên môn</NewMenuText>
+    <NewMenuName>Frmrex_Dm_Chuyenmon_Add</NewMenuName>
+    <ParentMenuName>BarRex_Master</ParentMenuName>
+    <ModuleName>Nhân sự</ModuleName>
+    <Path>Resources\Ecm.MasterTables.Rex_Master.config</Path>
+    <Assembly>Ecm.MasterTables.dll</Assembly>
+    <Type>Ecm.MasterTables.Forms.Rex.Frmrex_Dm_Chuyenmon_Add</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmrex_Dm_Dantoc_Add</Key>
+    <ParentKey>BarRex_Master</ParentKey>
+    <NewMenuText>Dân tộc</NewMenuText>
+    <NewMenuName>Frmrex_Dm_Dantoc_Add</NewMenuName>
+    <ParentMenuName>BarRex_Master</ParentMenuName>
+    <ModuleName>Nhân sự</ModuleName>
+    <Path>Resources\Ecm.MasterTables.Rex_Master.config</Path>
+    <Assembly>Ecm.MasterTables.dll</Assembly>
+    <Type>Ecm.MasterTables.Forms.Rex.Frmrex_Dm_Dantoc_Add</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmrex_Dm_Tinh_Add</Key>
+    <ParentKey>BarRex_Master</ParentKey>
+    <NewMenuText>Tỉnh/TP</NewMenuText>
+    <NewMenuName>Frmrex_Dm_Tinh_Add</NewMenuName>
+    <ParentMenuName>BarRex_Master</ParentMenuName>
+    <ModuleName>Nhân sự</ModuleName>
+    <Path>Resources\Ecm.MasterTables.Rex_Master.config</Path>
+    <Assembly>Ecm.MasterTables.dll</Assembly>
+    <Type>Ecm.MasterTables.Forms.Rex.Frmrex_Dm_Tinh_Add</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmacc_Dm_Nganhang_Add</Key>
+    <ParentKey>BarRex_Master</ParentKey>
+    <NewMenuText>Ngân hàng</NewMenuText>
+    <NewMenuName>Frmacc_Dm_Nganhang_Add</NewMenuName>
+    <ParentMenuName>BarRex_Master</ParentMenuName>
+    <ModuleName>Nhân sự</ModuleName>
+    <Path>Resources\Ecm.MasterTables.Rex_Master.config</Path>
+    <Assembly>Ecm.MasterTables.dll</Assembly>
+    <Type>Ecm.MasterTables.Forms.Accounting.Frmacc_Dm_Nganhang_Add</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>BarSell</Key>
+    <ParentKey>MainMenu</ParentKey>
+    <NewMenuText>Đặt hàng</NewMenuText>
+    <NewMenuName>BarSell</NewMenuName>
+    <ParentMenuName>MainMenu</ParentMenuName>
+    <ModuleName>Sale</ModuleName>
+    <Path>Resources\Ecm.Ware.Sell.config</Path>
+    <CreateMenu>true</CreateMenu>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Plugins.Sell</Type>
+    <Role>Module</Role>
+  </Configuration>
+  <Configuration>
+    <Key>BarWare</Key>
+    <ParentKey>MainMenu</ParentKey>
+    <NewMenuText>Bán hàng</NewMenuText>
+    <NewMenuName>BarWare</NewMenuName>
+    <ParentMenuName>MainMenu</ParentMenuName>
+    <ModuleName>Bán hàng</ModuleName>
+    <Path>Resources\Ecm.Ware.Ware.config</Path>
+    <CreateMenu>true</CreateMenu>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Plugins.Ware</Type>
+    <Role>Module</Role>
+  </Configuration>
+  <Configuration>
+    <Key>BarWare_Pay</Key>
+    <ParentKey>BarSell</ParentKey>
+    <NewMenuText>Bán hàng</NewMenuText>
+    <NewMenuName>BarWare_Pay</NewMenuName>
+    <ParentMenuName>BarSell</ParentMenuName>
+    <ModuleName>Bán hàng</ModuleName>
+    <Path>Resources\Ecm.Ware.Ware_Pay.config</Path>
+    <CreateMenu>true</CreateMenu>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Plugins.Ware_Pay</Type>
+    <Role>Module</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Hdbanhang_noVAT_Hhban</Key>
+    <ParentKey>BarWare_Pay</ParentKey>
+    <NewMenuText>Đơn hàng</NewMenuText>
+    <NewMenuName>Frmware_Hdbanhang_noVAT_Hhban</NewMenuName>
+    <ParentMenuName>BarWare_Pay</ParentMenuName>
+    <ModuleName>Bán hàng</ModuleName>
+    <Path>Resources\Ecm.Ware.Ware_Pay.config</Path>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Forms.Frmware_Hdbanhang_noVAT_Hhban</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Hdbanhang_VAT</Key>
+    <ParentKey>BarWare_Pay</ParentKey>
+    <NewMenuText>Đơn hàng VAT</NewMenuText>
+    <NewMenuName>Frmware_Hdbanhang_VAT</NewMenuName>
+    <ParentMenuName>BarWare_Pay</ParentMenuName>
+    <ModuleName>Bán hàng</ModuleName>
+    <Path>Resources\Ecm.Ware.Ware_Pay.config</Path>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Forms.Frmware_Hdbanhang_VAT</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Ware_ProSale</Key>
+    <ParentKey>BarSell</ParentKey>
+    <NewMenuText>Sale</NewMenuText>
+    <NewMenuName>Ware_ProSale</NewMenuName>
+    <ParentMenuName>BarSell</ParentMenuName>
+    <ModuleName>Sale</ModuleName>
+    <Path>Resources\Ecm.Ware.Ware_ProSale.config</Path>
+    <CreateMenu>true</CreateMenu>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Plugins.Ware_ProSale</Type>
+    <Role>Module</Role>
+  </Configuration>
+  <Configuration>
+    <Key>FrmRptware_Baocao_Congno_Sale</Key>
+    <ParentKey>Ware_ProSale</ParentKey>
+    <NewMenuText>Công nợ khách hàng</NewMenuText>
+    <NewMenuName>FrmRptware_Baocao_Congno_Sale</NewMenuName>
+    <ParentMenuName>Ware_ProSale</ParentMenuName>
+    <ModuleName>Sale</ModuleName>
+    <Path>Resources\Ecm.Ware.Ware_ProSale.config</Path>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Forms.FrmRptware_Baocao_Congno_Sale</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Dondathang</Key>
+    <ParentKey>Ware_ProSale</ParentKey>
+    <NewMenuText>Đơn đặt hàng</NewMenuText>
+    <NewMenuName>Frmware_Dondathang</NewMenuName>
+    <ParentMenuName>Ware_ProSale</ParentMenuName>
+    <ModuleName>Sale</ModuleName>
+    <Path>Resources\Ecm.Ware.Ware_ProSale.config</Path>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Forms.Frmware_Dondathang</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Hh_Ban_Kh_Tra</Key>
+    <ParentKey>Ware_ProSale</ParentKey>
+    <NewMenuText>Hàng hóa trả</NewMenuText>
+    <NewMenuName>Frmware_Hh_Ban_Kh_Tra</NewMenuName>
+    <ParentMenuName>Ware_ProSale</ParentMenuName>
+    <ModuleName>Sale</ModuleName>
+    <Path>Resources\Ecm.Ware.Ware_ProSale.config</Path>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Forms.Frmware_Hh_Ban_Kh_Tra</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>BarWare_Pro</Key>
+    <ParentKey>BarWare</ParentKey>
+    <NewMenuText>Quản lý kho</NewMenuText>
+    <NewMenuName>BarWare_Pro</NewMenuName>
+    <ParentMenuName>BarWare</ParentMenuName>
+    <ModuleName>Quản lý kho</ModuleName>
+    <Path>Resources\Ecm.Ware.Ware_Pro.config</Path>
+    <CreateMenu>true</CreateMenu>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Plugins.Ware_Pro</Type>
+    <Role>Module</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Hdbanhang_noVAT_MngrEdit</Key>
+    <ParentKey>BarWare_Pro</ParentKey>
+    <NewMenuText>Duyệt đơn hàng</NewMenuText>
+    <NewMenuName>Frmware_Hdbanhang_noVAT_MngrEdit</NewMenuName>
+    <ParentMenuName>BarWare_Pro</ParentMenuName>
+    <ModuleName>Quản lý kho</ModuleName>
+    <Path>Resources\Ecm.Ware.Ware_Pro.config</Path>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Forms.Frmware_Hdbanhang_noVAT_MngrEdit</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>BarWare_PriceSale</Key>
+    <ParentKey>BarWare</ParentKey>
+    <NewMenuText>Hàng hóa</NewMenuText>
+    <NewMenuName>BarWare_PriceSale</NewMenuName>
+    <ParentMenuName>BarWare</ParentMenuName>
+    <ModuleName>Hàng hóa</ModuleName>
+    <Path>Resources\Ecm.Ware.Ware_PriceSale.config</Path>
+    <CreateMenu>true</CreateMenu>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Plugins.Ware_PriceSale</Type>
+    <Role>Module</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Congnothu_Dauky</Key>
+    <ParentKey>BarWare_PriceSale</ParentKey>
+    <NewMenuText>Nợ đầu kỳ</NewMenuText>
+    <NewMenuName>Frmware_Congnothu_Dauky</NewMenuName>
+    <ParentMenuName>BarWare_PriceSale</ParentMenuName>
+    <ModuleName>Hàng hóa</ModuleName>
+    <Path>Resources\Ecm.Ware.Ware_PriceSale.config</Path>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Forms.Frmware_Congnothu_Dauky</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Hanghoa_Ban_Dauky</Key>
+    <ParentKey>BarWare_PriceSale</ParentKey>
+    <NewMenuText>Tồn đầu kỳ</NewMenuText>
+    <NewMenuName>Frmware_Hanghoa_Ban_Dauky</NewMenuName>
+    <ParentMenuName>BarWare_PriceSale</ParentMenuName>
+    <ModuleName>Hàng hóa</ModuleName>
+    <Path>Resources\Ecm.Ware.Ware_PriceSale.config</Path>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Forms.Frmware_Hanghoa_Ban_Dauky</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Nhap_Hh_Ban</Key>
+    <ParentKey>BarWare_PriceSale</ParentKey>
+    <NewMenuText>Nhập hàng hóa</NewMenuText>
+    <NewMenuName>Frmware_Nhap_Hh_Ban</NewMenuName>
+    <ParentMenuName>BarWare_PriceSale</ParentMenuName>
+    <ModuleName>Hàng hóa</ModuleName>
+    <Path>Resources\Ecm.Ware.Ware_PriceSale.config</Path>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Forms.Frmware_Nhap_Hh_Ban</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Xuat_Hh_Ban</Key>
+    <ParentKey>BarWare_PriceSale</ParentKey>
+    <NewMenuText>Xuất kho bán hàng</NewMenuText>
+    <NewMenuName>Frmware_Xuat_Hh_Ban</NewMenuName>
+    <ParentMenuName>BarWare_PriceSale</ParentMenuName>
+    <ModuleName>Hàng hóa</ModuleName>
+    <Path>Resources\Ecm.Ware.Ware_PriceSale.config</Path>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Forms.Frmware_Xuat_Hh_Ban</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Xuat_Nguyenlieu</Key>
+    <ParentKey>BarWare_PriceSale</ParentKey>
+    <NewMenuText>Xuất nguyên liệu</NewMenuText>
+    <NewMenuName>Frmware_Xuat_Nguyenlieu</NewMenuName>
+    <ParentMenuName>BarWare_PriceSale</ParentMenuName>
+    <ModuleName>Hàng hóa</ModuleName>
+    <Path>Resources\Ecm.Ware.Ware_PriceSale.config</Path>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Forms.Frmware_Xuat_Nguyenlieu</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Dieuxe</Key>
+    <ParentKey>BarWare_PriceSale</ParentKey>
+    <NewMenuText>Điều xe</NewMenuText>
+    <NewMenuName>Frmware_Dieuxe</NewMenuName>
+    <ParentMenuName>BarWare_PriceSale</ParentMenuName>
+    <ModuleName>Hàng hóa</ModuleName>
+    <Path>Resources\Ecm.Ware.Ware_PriceSale.config</Path>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Forms.Frmware_Dieuxe</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Xuat_Chuyen_Noibo</Key>
+    <ParentKey>BarWare_PriceSale</ParentKey>
+    <NewMenuText>Xuất chuyển nội bộ</NewMenuText>
+    <NewMenuName>Frmware_Xuat_Chuyen_Noibo</NewMenuName>
+    <ParentMenuName>BarWare_PriceSale</ParentMenuName>
+    <ModuleName>Hàng hóa</ModuleName>
+    <Path>Resources\Ecm.Ware.Ware_PriceSale.config</Path>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Forms.Frmware_Xuat_Chuyen_Noibo</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Kiemke_Hanghoa_Ban</Key>
+    <ParentKey>BarWare_PriceSale</ParentKey>
+    <NewMenuText>Kiểm kê</NewMenuText>
+    <NewMenuName>Frmware_Kiemke_Hanghoa_Ban</NewMenuName>
+    <ParentMenuName>BarWare_PriceSale</ParentMenuName>
+    <ModuleName>Hàng hóa</ModuleName>
+    <Path>Resources\Ecm.Ware.Ware_PriceSale.config</Path>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Forms.Frmware_Kiemke_Hanghoa_Ban</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>BarWare_Location</Key>
+    <ParentKey>BarWare</ParentKey>
+    <NewMenuText>Sổ quỹ</NewMenuText>
+    <NewMenuName>BarWare_Location</NewMenuName>
+    <ParentMenuName>BarWare</ParentMenuName>
+    <ModuleName>Sổ quỹ</ModuleName>
+    <Path>Resources\Ecm.Ware.Ware_Location.config</Path>
+    <CreateMenu>true</CreateMenu>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Plugins.Ware_Location</Type>
+    <Role>Module</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Phieu_Thu</Key>
+    <ParentKey>BarWare_Location</ParentKey>
+    <NewMenuText>Phiếu Thu</NewMenuText>
+    <NewMenuName>Frmware_Phieu_Thu</NewMenuName>
+    <ParentMenuName>BarWare_Location</ParentMenuName>
+    <ModuleName>Sổ quỹ</ModuleName>
+    <Path>Resources\Ecm.Ware.Ware_Location.config</Path>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Forms.Frmware_Phieu_Thu</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Phieu_Thu_Ds</Key>
+    <ParentKey>BarWare_Location</ParentKey>
+    <NewMenuText>Thu theo DS</NewMenuText>
+    <NewMenuName>Frmware_Phieu_Thu_Ds</NewMenuName>
+    <ParentMenuName>BarWare_Location</ParentMenuName>
+    <ModuleName>Sổ quỹ</ModuleName>
+    <Path>Resources\Ecm.Ware.Ware_Location.config</Path>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Forms.Frmware_Phieu_Thu_Ds</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_Phieu_Chi</Key>
+    <ParentKey>BarWare_Location</ParentKey>
+    <NewMenuText>Phiếu Chi</NewMenuText>
+    <NewMenuName>Frmware_Phieu_Chi</NewMenuName>
+    <ParentMenuName>BarWare_Location</ParentMenuName>
+    <ModuleName>Sổ quỹ</ModuleName>
+    <Path>Resources\Ecm.Ware.Ware_Location.config</Path>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Forms.Frmware_Phieu_Chi</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>Frmware_So_Quytm</Key>
+    <ParentKey>BarWare_Location</ParentKey>
+    <NewMenuText>Sổ quỹ tiền mặt</NewMenuText>
+    <NewMenuName>Frmware_So_Quytm</NewMenuName>
+    <ParentMenuName>BarWare_Location</ParentMenuName>
+    <ModuleName>Sổ quỹ</ModuleName>
+    <Path>Resources\Ecm.Ware.Ware_Location.config</Path>
+    <Assembly>Ecm.Ware.dll</Assembly>
+    <Type>Ecm.Ware.Forms.Frmware_So_Quytm</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>BarXRpt</Key>
+    <ParentKey>MainMenu</ParentKey>
+    <NewMenuText>Báo cáo bán hàng</NewMenuText>
+    <NewMenuName>BarXRpt</NewMenuName>
+    <ParentMenuName>MainMenu</ParentMenuName>
+    <ModuleName>Báo cáo bán hàng</ModuleName>
+    <Path>Resources\Ecm.Reports.XRpt.config</Path>
+    <CreateMenu>true</CreateMenu>
+    <Assembly>Ecm.Reports.dll</Assembly>
+    <Type>Ecm.Reports.Plugins.XRpt</Type>
+    <Role>Module</Role>
+  </Configuration>
+  <Configuration>
+    <Key>BarXRpt_Ware</Key>
+    <ParentKey>BarXRpt</ParentKey>
+    <NewMenuText>Hàng hóa</NewMenuText>
+    <NewMenuName>BarXRpt_Ware</NewMenuName>
+    <ParentMenuName>BarXRpt</ParentMenuName>
+    <ModuleName>Báo cáo</ModuleName>
+    <Path>Resources\Ecm.Reports.XRpt_Ware.config</Path>
+    <CreateMenu>true</CreateMenu>
+    <Assembly>Ecm.Reports.dll</Assembly>
+    <Type>Ecm.Reports.Plugins.XRpt_Ware</Type>
+    <Role>Module</Role>
+  </Configuration>
+  <Configuration>
+    <Key>FrmRptware_Baocao_Khohang</Key>
+    <ParentKey>BarXRpt_Ware</ParentKey>
+    <NewMenuText>Báo cáo kho hàng</NewMenuText>
+    <NewMenuName>FrmRptware_Baocao_Khohang</NewMenuName>
+    <ParentMenuName>BarXRpt_Ware</ParentMenuName>
+    <ModuleName>Báo cáo</ModuleName>
+    <Path>Resources\Ecm.Reports.XRpt_Ware.config</Path>
+    <Assembly>Ecm.Reports.dll</Assembly>
+    <Type>Ecm.Reports.Forms.FrmRptware_Baocao_Khohang</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>FrmRptware_Baocao_Banhang</Key>
+    <ParentKey>BarXRpt_Ware</ParentKey>
+    <NewMenuText>Báo cáo bán hàng</NewMenuText>
+    <NewMenuName>FrmRptware_Baocao_Banhang</NewMenuName>
+    <ParentMenuName>BarXRpt_Ware</ParentMenuName>
+    <ModuleName>Báo cáo</ModuleName>
+    <Path>Resources\Ecm.Reports.XRpt_Ware.config</Path>
+    <Assembly>Ecm.Reports.dll</Assembly>
+    <Type>Ecm.Reports.Forms.FrmRptware_Baocao_Banhang</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>FrmRptware_Baocao_Congno</Key>
+    <ParentKey>BarXRpt_Ware</ParentKey>
+    <NewMenuText>Báo cáo công nợ khách hàng</NewMenuText>
+    <NewMenuName>FrmRptware_Baocao_Congno</NewMenuName>
+    <ParentMenuName>BarXRpt_Ware</ParentMenuName>
+    <ModuleName>Báo cáo</ModuleName>
+    <Path>Resources\Ecm.Reports.XRpt_Ware.config</Path>
+    <Assembly>Ecm.Reports.dll</Assembly>
+    <Type>Ecm.Reports.Forms.FrmRptware_Baocao_Congno</Type>
+    <Role>Function</Role>
+  </Configuration>
+  <Configuration>
+    <Key>FrmRptware_Baocao_Congno_Ncc</Key>
+    <ParentKey>BarXRpt_Ware</ParentKey>
+    <NewMenuText>Báo cáo công nợ NCC</NewMenuText>
+    <NewMenuName>FrmRptware_Baocao_Congno_Ncc</NewMenuName>
+    <ParentMenuName>BarXRpt_Ware</ParentMenuName>
+    <ModuleName>Báo cáo</ModuleName>
+    <Path>Resources\Ecm.Reports.XRpt_Ware.config</Path>
+    <Assembly>Ecm.Reports.dll</Assembly>
+    <Type>Ecm.Reports.Forms.FrmRptware_Baocao_Congno_Ncc</Type>
+    <Role>Function</Role>
+  </Configuration>
+</DsMenuInfo>

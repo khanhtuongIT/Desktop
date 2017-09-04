@@ -1,0 +1,833 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="GridTable">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Cmnd" type="xs:string" minOccurs="0" />
+                <xs:element name="Diachi_Tamtru" type="xs:string" minOccurs="0" />
+                <xs:element name="Diachi_Thuongtru" type="xs:string" minOccurs="0" />
+                <xs:element name="Dienthoai" type="xs:string" minOccurs="0" />
+                <xs:element name="Dienthoai_Nharieng" type="xs:string" minOccurs="0" />
+                <xs:element name="Gioitinh" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Hinh" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="Ho_Nhansu" type="xs:string" minOccurs="0" />
+                <xs:element name="Id_Dantoc" type="xs:long" minOccurs="0" />
+                <xs:element name="Id_Honnhan" type="xs:long" minOccurs="0" />
+                <xs:element name="Id_Quocgia" type="xs:long" minOccurs="0" />
+                <xs:element name="Id_Tongiao" type="xs:long" minOccurs="0" />
+                <xs:element name="Id_Tpbanthan" type="xs:long" minOccurs="0" />
+                <xs:element name="Id_Vanhoa" type="xs:long" minOccurs="0" />
+                <xs:element name="Id_Chuyenmon" type="xs:long" minOccurs="0" />
+                <xs:element name="Id_Tpgiadinh" type="xs:long" minOccurs="0" />
+                <xs:element name="Id_Nhansu" type="xs:long" minOccurs="0" />
+                <xs:element name="Ma_Nhansu" type="xs:string" minOccurs="0" />
+                <xs:element name="Ngay_Thoiviec" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Ngay_Vaolam" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Ngaycap" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Ngay_Sinh" type="xs:string" minOccurs="0" />
+                <xs:element name="Thangsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="Namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="Ngaysinh" type="xs:string" minOccurs="0" />
+                <xs:element name="Noicap" type="xs:string" minOccurs="0" />
+                <xs:element name="Noisinh" type="xs:string" minOccurs="0" />
+                <xs:element name="Cmnd1" type="xs:string" minOccurs="0" />
+                <xs:element name="Ngaycap1" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Noicap1" type="xs:string" minOccurs="0" />
+                <xs:element name="Hochieu" type="xs:string" minOccurs="0" />
+                <xs:element name="Ngaycap_Hochieu" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Noicap_Hochieu" type="xs:string" minOccurs="0" />
+                <xs:element name="Ngay_Vaolam1" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Ngay_Thoiviec1" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Id_Nganhang" type="xs:long" minOccurs="0" />
+                <xs:element name="Taikhoan_Nganhang" type="xs:string" minOccurs="0" />
+                <xs:element name="Quequan" type="xs:string" minOccurs="0" />
+                <xs:element name="Ten_Nhansu" type="xs:string" minOccurs="0" />
+                <xs:element name="Id_Ngoaingu" type="xs:long" minOccurs="0" />
+                <xs:element name="Id_Tinhoc" type="xs:long" minOccurs="0" />
+                <xs:element name="Ngay_Vaodoan" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Ngay_Vaocongdoan" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Ngay_Vaodang" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Hoten_Nhansu" type="xs:string" minOccurs="0" />
+                <xs:element name="Ten_Bophan" type="xs:string" minOccurs="0" />
+                <xs:element name="Ma_Bophan" type="xs:string" minOccurs="0" />
+                <xs:element name="Ma_Nhansu_Sx" type="xs:long" minOccurs="0" />
+                <xs:element name="Email" type="xs:string" minOccurs="0" />
+                <xs:element name="Id_Botri_Nhansu" type="xs:long" minOccurs="0" />
+                <xs:element name="Id_Bophan" type="xs:long" minOccurs="0" />
+                <xs:element name="Finger_Userid" type="xs:long" minOccurs="0" />
+                <xs:element name="ThuHai" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ThuBa" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ThuTu" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ThuNam" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ThuSau" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ThuBay" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ChuNhat" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Id_Nganhang1" type="xs:long" minOccurs="0" />
+                <xs:element name="Taikhoan_Nganhang1" type="xs:string" minOccurs="0" />
+                <xs:element name="Truongnhom" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Taixe" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Sale" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <GridTable>
+    <Cmnd>634997144647308329</Cmnd>
+    <Gioitinh>false</Gioitinh>
+    <Ho_Nhansu>Trần Minh</Ho_Nhansu>
+    <Id_Nhansu>1</Id_Nhansu>
+    <Ma_Nhansu>29101976</Ma_Nhansu>
+    <Ngay_Vaolam>2013-03-01T00:00:00+07:00</Ngay_Vaolam>
+    <Ngaycap>2013-03-01T00:00:00+07:00</Ngaycap>
+    <Ngay_Sinh>29</Ngay_Sinh>
+    <Thangsinh>10</Thangsinh>
+    <Namsinh>1976</Namsinh>
+    <Ngaysinh>29/10/1976</Ngaysinh>
+    <Noicap>Can Tho</Noicap>
+    <Cmnd1>634997144647308329</Cmnd1>
+    <Ngaycap1>2013-03-01T00:00:00+07:00</Ngaycap1>
+    <Noicap1>Can Tho</Noicap1>
+    <Ngay_Vaolam1>2013-03-01T00:00:00+07:00</Ngay_Vaolam1>
+    <Ten_Nhansu>Thành</Ten_Nhansu>
+    <Hoten_Nhansu>Trần Minh Thành</Hoten_Nhansu>
+    <Ten_Bophan>Văn Phòng</Ten_Bophan>
+    <Ma_Bophan>VP</Ma_Bophan>
+    <Email>jkhanhtuongj@gmail.com</Email>
+    <Id_Botri_Nhansu>1</Id_Botri_Nhansu>
+    <Id_Bophan>2</Id_Bophan>
+    <ThuHai>true</ThuHai>
+    <ThuBa>true</ThuBa>
+    <ThuTu>true</ThuTu>
+    <ThuNam>true</ThuNam>
+    <ThuSau>true</ThuSau>
+    <ThuBay>true</ThuBay>
+    <ChuNhat>true</ChuNhat>
+    <Taixe>false</Taixe>
+  </GridTable>
+  <GridTable>
+    <Cmnd>331255697</Cmnd>
+    <Gioitinh>false</Gioitinh>
+    <Ho_Nhansu>Minh Thành</Ho_Nhansu>
+    <Id_Nhansu>12</Id_Nhansu>
+    <Ma_Nhansu>minhthanh</Ma_Nhansu>
+    <Ngay_Vaolam>2015-11-17T00:00:00+07:00</Ngay_Vaolam>
+    <Ngaycap>1950-01-01T00:00:00+07:00</Ngaycap>
+    <Ngay_Sinh>15</Ngay_Sinh>
+    <Thangsinh>2</Thangsinh>
+    <Namsinh>1982</Namsinh>
+    <Ngaysinh>15/2/1982</Ngaysinh>
+    <Noicap>CA Vĩnh Long</Noicap>
+    <Noisinh xml:space="preserve"> </Noisinh>
+    <Cmnd1>331255697</Cmnd1>
+    <Ngaycap1>1950-01-01T00:00:00+07:00</Ngaycap1>
+    <Noicap1>CA Vĩnh Long</Noicap1>
+    <Ngay_Vaolam1>2015-11-17T00:00:00+07:00</Ngay_Vaolam1>
+    <Ten_Nhansu>Thành</Ten_Nhansu>
+    <Hoten_Nhansu>Minh Thành Thành</Hoten_Nhansu>
+    <Ten_Bophan>Sale</Ten_Bophan>
+    <Ma_Bophan>Sale</Ma_Bophan>
+    <Email>jkhanhtuongj@gmail.com</Email>
+    <Id_Botri_Nhansu>12</Id_Botri_Nhansu>
+    <Id_Bophan>3</Id_Bophan>
+    <ThuHai>true</ThuHai>
+    <ThuBa>true</ThuBa>
+    <ThuTu>true</ThuTu>
+    <ThuNam>true</ThuNam>
+    <ThuSau>true</ThuSau>
+    <ThuBay>true</ThuBay>
+    <ChuNhat>true</ChuNhat>
+    <Taixe>false</Taixe>
+  </GridTable>
+  <GridTable>
+    <Cmnd>444444444</Cmnd>
+    <Gioitinh>false</Gioitinh>
+    <Ho_Nhansu>Đinh Hoàng</Ho_Nhansu>
+    <Id_Nhansu>13</Id_Nhansu>
+    <Ma_Nhansu>Hoang Nam</Ma_Nhansu>
+    <Ngay_Vaolam>2014-11-18T00:00:00+07:00</Ngay_Vaolam>
+    <Ngaycap>2008-11-17T00:00:00+07:00</Ngaycap>
+    <Ngay_Sinh>31</Ngay_Sinh>
+    <Thangsinh>12</Thangsinh>
+    <Namsinh>1992</Namsinh>
+    <Ngaysinh>31/12/1992</Ngaysinh>
+    <Noicap>CT</Noicap>
+    <Cmnd1>444444444</Cmnd1>
+    <Ngaycap1>2008-11-17T00:00:00+07:00</Ngaycap1>
+    <Noicap1>CT</Noicap1>
+    <Ngay_Vaolam1>2014-11-18T00:00:00+07:00</Ngay_Vaolam1>
+    <Ten_Nhansu>Nam </Ten_Nhansu>
+    <Hoten_Nhansu>Đinh Hoàng Nam </Hoten_Nhansu>
+    <Ten_Bophan>Sale</Ten_Bophan>
+    <Ma_Bophan>Sale</Ma_Bophan>
+    <Email>jkhanhtuongj@gmail.com</Email>
+    <Id_Botri_Nhansu>13</Id_Botri_Nhansu>
+    <Id_Bophan>3</Id_Bophan>
+    <ThuHai>true</ThuHai>
+    <ThuBa>true</ThuBa>
+    <ThuTu>true</ThuTu>
+    <ThuNam>true</ThuNam>
+    <ThuSau>true</ThuSau>
+    <ThuBay>true</ThuBay>
+    <ChuNhat>true</ChuNhat>
+    <Truongnhom>false</Truongnhom>
+    <Taixe>false</Taixe>
+    <Sale>false</Sale>
+  </GridTable>
+  <GridTable>
+    <Cmnd>5555555555</Cmnd>
+    <Gioitinh>false</Gioitinh>
+    <Ho_Nhansu>Trần Như</Ho_Nhansu>
+    <Id_Nhansu>14</Id_Nhansu>
+    <Ma_Nhansu>Hoang</Ma_Nhansu>
+    <Ngay_Vaolam>2014-11-17T00:00:00+07:00</Ngay_Vaolam>
+    <Ngaycap>2007-11-17T00:00:00+07:00</Ngaycap>
+    <Ngay_Sinh>11</Ngay_Sinh>
+    <Thangsinh>10</Thangsinh>
+    <Namsinh>1990</Namsinh>
+    <Ngaysinh>11/10/1990</Ngaysinh>
+    <Noicap>Cần Thơ</Noicap>
+    <Noisinh>Cần Thơ</Noisinh>
+    <Cmnd1>5555555555</Cmnd1>
+    <Ngaycap1>2007-11-17T00:00:00+07:00</Ngaycap1>
+    <Noicap1>Cần Thơ</Noicap1>
+    <Ngay_Vaolam1>2014-11-17T00:00:00+07:00</Ngay_Vaolam1>
+    <Ten_Nhansu>Hoàng</Ten_Nhansu>
+    <Hoten_Nhansu>Trần Như Hoàng</Hoten_Nhansu>
+    <Ten_Bophan>Sale</Ten_Bophan>
+    <Ma_Bophan>Sale</Ma_Bophan>
+    <Email>jkhanhtuongj@gmail.com</Email>
+    <Id_Botri_Nhansu>14</Id_Botri_Nhansu>
+    <Id_Bophan>3</Id_Bophan>
+    <ThuHai>true</ThuHai>
+    <ThuBa>true</ThuBa>
+    <ThuTu>true</ThuTu>
+    <ThuNam>true</ThuNam>
+    <ThuSau>true</ThuSau>
+    <ThuBay>true</ThuBay>
+    <ChuNhat>true</ChuNhat>
+    <Taixe>true</Taixe>
+  </GridTable>
+  <GridTable>
+    <Cmnd>6666</Cmnd>
+    <Gioitinh>false</Gioitinh>
+    <Ho_Nhansu>Lâm văn</Ho_Nhansu>
+    <Id_Nhansu>15</Id_Nhansu>
+    <Ma_Nhansu>180707</Ma_Nhansu>
+    <Ngay_Vaolam>2014-11-17T00:00:00+07:00</Ngay_Vaolam>
+    <Ngaycap>2009-11-17T00:00:00+07:00</Ngaycap>
+    <Ngay_Sinh>18</Ngay_Sinh>
+    <Thangsinh>7</Thangsinh>
+    <Namsinh>2007</Namsinh>
+    <Ngaysinh>18/7/2007</Ngaysinh>
+    <Noicap>CT</Noicap>
+    <Cmnd1>6666</Cmnd1>
+    <Ngaycap1>2009-11-17T00:00:00+07:00</Ngaycap1>
+    <Noicap1>CT</Noicap1>
+    <Ngay_Vaolam1>2014-11-17T00:00:00+07:00</Ngay_Vaolam1>
+    <Ten_Nhansu>Long</Ten_Nhansu>
+    <Hoten_Nhansu>Lâm văn Long</Hoten_Nhansu>
+    <Ten_Bophan>Kế toán</Ten_Bophan>
+    <Ma_Bophan>KT</Ma_Bophan>
+    <Email>jkhanhtuongj@gmail.com</Email>
+    <Id_Botri_Nhansu>15</Id_Botri_Nhansu>
+    <Id_Bophan>4</Id_Bophan>
+    <ThuHai>true</ThuHai>
+    <ThuBa>true</ThuBa>
+    <ThuTu>true</ThuTu>
+    <ThuNam>true</ThuNam>
+    <ThuSau>true</ThuSau>
+    <ThuBay>true</ThuBay>
+    <ChuNhat>true</ChuNhat>
+    <Taixe>false</Taixe>
+  </GridTable>
+  <GridTable>
+    <Cmnd>666666</Cmnd>
+    <Gioitinh>false</Gioitinh>
+    <Ho_Nhansu>Lê Minh</Ho_Nhansu>
+    <Id_Nhansu>16</Id_Nhansu>
+    <Ma_Nhansu>Minh Thanh</Ma_Nhansu>
+    <Ngay_Vaolam>2014-11-17T00:00:00+07:00</Ngay_Vaolam>
+    <Ngaycap>2008-11-17T00:00:00+07:00</Ngaycap>
+    <Ngay_Sinh>18</Ngay_Sinh>
+    <Thangsinh>6</Thangsinh>
+    <Namsinh>2007</Namsinh>
+    <Ngaysinh>18/6/2007</Ngaysinh>
+    <Noicap>CT</Noicap>
+    <Cmnd1>666666</Cmnd1>
+    <Ngaycap1>2008-11-17T00:00:00+07:00</Ngaycap1>
+    <Noicap1>CT</Noicap1>
+    <Ngay_Vaolam1>2014-11-17T00:00:00+07:00</Ngay_Vaolam1>
+    <Ten_Nhansu>Thành</Ten_Nhansu>
+    <Hoten_Nhansu>Lê Minh Thành</Hoten_Nhansu>
+    <Ten_Bophan>Kế toán</Ten_Bophan>
+    <Ma_Bophan>KT</Ma_Bophan>
+    <Email>jkhanhtuongj@gmail.com</Email>
+    <Id_Botri_Nhansu>16</Id_Botri_Nhansu>
+    <Id_Bophan>4</Id_Bophan>
+    <ThuHai>true</ThuHai>
+    <ThuBa>true</ThuBa>
+    <ThuTu>true</ThuTu>
+    <ThuNam>true</ThuNam>
+    <ThuSau>true</ThuSau>
+    <ThuBay>true</ThuBay>
+    <ChuNhat>true</ChuNhat>
+    <Truongnhom>false</Truongnhom>
+    <Taixe>false</Taixe>
+    <Sale>false</Sale>
+  </GridTable>
+  <GridTable>
+    <Cmnd>362242247</Cmnd>
+    <Gioitinh>true</Gioitinh>
+    <Ho_Nhansu>Ngô Thanh</Ho_Nhansu>
+    <Id_Nhansu>17</Id_Nhansu>
+    <Ma_Nhansu>040678</Ma_Nhansu>
+    <Ngay_Vaolam>2014-11-17T00:00:00+07:00</Ngay_Vaolam>
+    <Ngaycap>2010-11-17T00:00:00+07:00</Ngaycap>
+    <Ngay_Sinh>4</Ngay_Sinh>
+    <Thangsinh>6</Thangsinh>
+    <Namsinh>1994</Namsinh>
+    <Ngaysinh>4/6/1994</Ngaysinh>
+    <Noicap>ct</Noicap>
+    <Noisinh>Sóc Trăng </Noisinh>
+    <Cmnd1>362242247</Cmnd1>
+    <Ngaycap1>2010-11-17T00:00:00+07:00</Ngaycap1>
+    <Noicap1>ct</Noicap1>
+    <Ngaycap_Hochieu>2014-11-17T00:00:00+07:00</Ngaycap_Hochieu>
+    <Ngay_Vaolam1>2014-11-17T00:00:00+07:00</Ngay_Vaolam1>
+    <Ten_Nhansu>Thúy</Ten_Nhansu>
+    <Hoten_Nhansu>Ngô Thanh Thúy</Hoten_Nhansu>
+    <Ten_Bophan>Văn Phòng</Ten_Bophan>
+    <Ma_Bophan>VP</Ma_Bophan>
+    <Email>jkhanhtuongj@gmail.com</Email>
+    <Id_Botri_Nhansu>17</Id_Botri_Nhansu>
+    <Id_Bophan>2</Id_Bophan>
+    <ThuHai>true</ThuHai>
+    <ThuBa>true</ThuBa>
+    <ThuTu>true</ThuTu>
+    <ThuNam>true</ThuNam>
+    <ThuSau>true</ThuSau>
+    <ThuBay>true</ThuBay>
+    <ChuNhat>true</ChuNhat>
+    <Taixe>false</Taixe>
+  </GridTable>
+  <GridTable>
+    <Cmnd>362344642</Cmnd>
+    <Diachi_Tamtru>Cần Thơ</Diachi_Tamtru>
+    <Gioitinh>false</Gioitinh>
+    <Ho_Nhansu>Nguyễn</Ho_Nhansu>
+    <Id_Nhansu>18</Id_Nhansu>
+    <Ma_Nhansu>nnanh</Ma_Nhansu>
+    <Ngay_Vaolam>2015-11-27T00:00:00+07:00</Ngay_Vaolam>
+    <Ngaycap>2008-07-22T00:00:00+07:00</Ngaycap>
+    <Ngay_Sinh>12</Ngay_Sinh>
+    <Thangsinh>8</Thangsinh>
+    <Namsinh>1981</Namsinh>
+    <Ngaysinh>12/8/1981</Ngaysinh>
+    <Noicap>CA TP Cần Thơ</Noicap>
+    <Noisinh>Cần Thơ</Noisinh>
+    <Cmnd1>362344642</Cmnd1>
+    <Ngaycap1>2008-07-22T00:00:00+07:00</Ngaycap1>
+    <Noicap1>CA TP Cần Thơ</Noicap1>
+    <Ngay_Vaolam1>2015-11-27T00:00:00+07:00</Ngay_Vaolam1>
+    <Ten_Nhansu>Nhật Anh</Ten_Nhansu>
+    <Hoten_Nhansu>Nguyễn Nhật Anh</Hoten_Nhansu>
+    <Email>jkhanhtuongj@gmail.com</Email>
+    <Id_Botri_Nhansu>18</Id_Botri_Nhansu>
+    <Id_Bophan>5</Id_Bophan>
+    <Truongnhom>false</Truongnhom>
+    <Taixe>false</Taixe>
+    <Sale>true</Sale>
+  </GridTable>
+  <GridTable>
+    <Cmnd>362232247</Cmnd>
+    <Gioitinh>false</Gioitinh>
+    <Ho_Nhansu>Trần Lâm</Ho_Nhansu>
+    <Id_Nhansu>19</Id_Nhansu>
+    <Ma_Nhansu>Lam Bao</Ma_Nhansu>
+    <Ngay_Vaolam>2014-08-20T00:00:00+07:00</Ngay_Vaolam>
+    <Ngaycap>2011-11-10T00:00:00+07:00</Ngaycap>
+    <Ngay_Sinh>2</Ngay_Sinh>
+    <Thangsinh>6</Thangsinh>
+    <Namsinh>1982</Namsinh>
+    <Ngaysinh>2/6/1982</Ngaysinh>
+    <Noicap>cần Thơ</Noicap>
+    <Noisinh>Cần Thơ</Noisinh>
+    <Cmnd1>362232247</Cmnd1>
+    <Ngaycap1>2011-11-10T00:00:00+07:00</Ngaycap1>
+    <Noicap1>cần Thơ</Noicap1>
+    <Ngaycap_Hochieu>2014-11-10T00:00:00+07:00</Ngaycap_Hochieu>
+    <Noicap_Hochieu>cần thơ</Noicap_Hochieu>
+    <Ngay_Vaolam1>2014-08-20T00:00:00+07:00</Ngay_Vaolam1>
+    <Quequan>Cần Thơ</Quequan>
+    <Ten_Nhansu>Bảo </Ten_Nhansu>
+    <Hoten_Nhansu>Trần Lâm Bảo </Hoten_Nhansu>
+    <Ten_Bophan>Kế toán</Ten_Bophan>
+    <Ma_Bophan>KT</Ma_Bophan>
+    <Email>jkhanhtuongj@gmail.com</Email>
+    <Id_Botri_Nhansu>19</Id_Botri_Nhansu>
+    <Id_Bophan>4</Id_Bophan>
+    <ThuHai>true</ThuHai>
+    <ThuBa>true</ThuBa>
+    <ThuTu>true</ThuTu>
+    <ThuNam>true</ThuNam>
+    <ThuSau>true</ThuSau>
+    <ThuBay>true</ThuBay>
+    <ChuNhat>true</ChuNhat>
+    <Truongnhom>false</Truongnhom>
+    <Taixe>true</Taixe>
+    <Sale>false</Sale>
+  </GridTable>
+  <GridTable>
+    <Cmnd>4444444444</Cmnd>
+    <Gioitinh>true</Gioitinh>
+    <Ho_Nhansu>Nguyễn Thị</Ho_Nhansu>
+    <Id_Nhansu>22</Id_Nhansu>
+    <Ma_Nhansu>Nguyen Nhung</Ma_Nhansu>
+    <Ngay_Vaolam>2013-12-08T00:00:00+07:00</Ngay_Vaolam>
+    <Ngaycap>2010-12-08T00:00:00+07:00</Ngaycap>
+    <Ngay_Sinh>1</Ngay_Sinh>
+    <Thangsinh>1</Thangsinh>
+    <Namsinh>1980</Namsinh>
+    <Ngaysinh>1/1/1980</Ngaysinh>
+    <Noicap>Hau Giang</Noicap>
+    <Cmnd1>4444444444</Cmnd1>
+    <Ngaycap1>2010-12-08T00:00:00+07:00</Ngaycap1>
+    <Noicap1>Hau Giang</Noicap1>
+    <Ngay_Vaolam1>2013-12-08T00:00:00+07:00</Ngay_Vaolam1>
+    <Ten_Nhansu>Nhung</Ten_Nhansu>
+    <Hoten_Nhansu>Nguyễn Thị Nhung</Hoten_Nhansu>
+    <Ten_Bophan>Kế toán</Ten_Bophan>
+    <Ma_Bophan>KT</Ma_Bophan>
+    <Email>jkhanhtuongj@gmail.com</Email>
+    <Id_Botri_Nhansu>21</Id_Botri_Nhansu>
+    <Id_Bophan>4</Id_Bophan>
+    <ThuHai>true</ThuHai>
+    <ThuBa>true</ThuBa>
+    <ThuTu>true</ThuTu>
+    <ThuNam>true</ThuNam>
+    <ThuSau>true</ThuSau>
+    <ThuBay>true</ThuBay>
+    <ChuNhat>true</ChuNhat>
+    <Truongnhom>false</Truongnhom>
+    <Taixe>false</Taixe>
+    <Sale>true</Sale>
+  </GridTable>
+  <GridTable>
+    <Cmnd>3611221138</Cmnd>
+    <Gioitinh>false</Gioitinh>
+    <Ho_Nhansu>Nguyễn Trung</Ho_Nhansu>
+    <Id_Nhansu>24</Id_Nhansu>
+    <Ma_Nhansu>Trung Khoi</Ma_Nhansu>
+    <Ngay_Vaolam>2011-01-01T00:00:00+07:00</Ngay_Vaolam>
+    <Ngaycap>2008-01-01T00:00:00+07:00</Ngaycap>
+    <Ngay_Sinh>1</Ngay_Sinh>
+    <Thangsinh>1</Thangsinh>
+    <Namsinh>1988</Namsinh>
+    <Ngaysinh>1/1/1988</Ngaysinh>
+    <Noicap>ca - sóc trăng</Noicap>
+    <Cmnd1>3611221138</Cmnd1>
+    <Ngaycap1>2008-01-01T00:00:00+07:00</Ngaycap1>
+    <Noicap1>ca - sóc trăng</Noicap1>
+    <Ngay_Vaolam1>2011-01-01T00:00:00+07:00</Ngay_Vaolam1>
+    <Ten_Nhansu>Khởi</Ten_Nhansu>
+    <Hoten_Nhansu>Nguyễn Trung Khởi</Hoten_Nhansu>
+    <Ten_Bophan>Tài xế</Ten_Bophan>
+    <Ma_Bophan>TX</Ma_Bophan>
+    <Email>jkhanhtuongj@gmail.com</Email>
+    <Id_Botri_Nhansu>23</Id_Botri_Nhansu>
+    <Id_Bophan>6</Id_Bophan>
+    <ThuHai>true</ThuHai>
+    <ThuBa>true</ThuBa>
+    <ThuTu>true</ThuTu>
+    <ThuNam>true</ThuNam>
+    <ThuSau>true</ThuSau>
+    <ThuBay>true</ThuBay>
+    <ChuNhat>true</ChuNhat>
+    <Truongnhom>false</Truongnhom>
+    <Taixe>true</Taixe>
+    <Sale>false</Sale>
+  </GridTable>
+  <GridTable>
+    <Cmnd>6655667766</Cmnd>
+    <Gioitinh>false</Gioitinh>
+    <Ho_Nhansu>Tạ Văn</Ho_Nhansu>
+    <Id_Nhansu>27</Id_Nhansu>
+    <Ma_Nhansu>Van Hoa</Ma_Nhansu>
+    <Ngay_Vaolam>2014-01-23T00:00:00+07:00</Ngay_Vaolam>
+    <Ngaycap>2011-01-23T00:00:00+07:00</Ngaycap>
+    <Ngay_Sinh>1</Ngay_Sinh>
+    <Thangsinh>1</Thangsinh>
+    <Namsinh>1990</Namsinh>
+    <Ngaysinh>1/1/1990</Ngaysinh>
+    <Noicap>CA - Cần Thơ</Noicap>
+    <Cmnd1>6655667766</Cmnd1>
+    <Ngaycap1>2011-01-23T00:00:00+07:00</Ngaycap1>
+    <Noicap1>CA - Cần Thơ</Noicap1>
+    <Ngay_Vaolam1>2014-01-23T00:00:00+07:00</Ngay_Vaolam1>
+    <Ten_Nhansu>Hòa </Ten_Nhansu>
+    <Hoten_Nhansu>Tạ Văn Hòa </Hoten_Nhansu>
+    <Ten_Bophan>Tài xế</Ten_Bophan>
+    <Ma_Bophan>TX</Ma_Bophan>
+    <Email>jkhanhtuongj@gmail.com</Email>
+    <Id_Botri_Nhansu>26</Id_Botri_Nhansu>
+    <Id_Bophan>6</Id_Bophan>
+    <ThuHai>true</ThuHai>
+    <ThuBa>true</ThuBa>
+    <ThuTu>true</ThuTu>
+    <ThuNam>true</ThuNam>
+    <ThuSau>true</ThuSau>
+    <ThuBay>true</ThuBay>
+    <ChuNhat>true</ChuNhat>
+    <Truongnhom>false</Truongnhom>
+    <Taixe>true</Taixe>
+    <Sale>false</Sale>
+  </GridTable>
+  <GridTable>
+    <Cmnd>22222222222</Cmnd>
+    <Gioitinh>true</Gioitinh>
+    <Ho_Nhansu>Nguyễn</Ho_Nhansu>
+    <Id_Nhansu>29</Id_Nhansu>
+    <Ma_Nhansu>nhyen</Ma_Nhansu>
+    <Ngay_Vaolam>2015-03-20T00:00:00+07:00</Ngay_Vaolam>
+    <Ngaycap>2010-03-01T00:00:00+07:00</Ngaycap>
+    <Ngay_Sinh>6</Ngay_Sinh>
+    <Thangsinh>6</Thangsinh>
+    <Namsinh>1979</Namsinh>
+    <Ngaysinh>6/6/1979</Ngaysinh>
+    <Noicap>CA - Cần Thơ</Noicap>
+    <Noisinh>Cần Thơ</Noisinh>
+    <Cmnd1>22222222222</Cmnd1>
+    <Ngaycap1>2010-03-01T00:00:00+07:00</Ngaycap1>
+    <Noicap1>CA - Cần Thơ</Noicap1>
+    <Ngay_Vaolam1>2015-03-20T00:00:00+07:00</Ngay_Vaolam1>
+    <Ten_Nhansu>Thị Hải Yến</Ten_Nhansu>
+    <Hoten_Nhansu>Nguyễn Thị Hải Yến</Hoten_Nhansu>
+    <Ten_Bophan>Kế toán</Ten_Bophan>
+    <Ma_Bophan>KT</Ma_Bophan>
+    <Email>jkhanhtuongj@gmail.com</Email>
+    <Id_Botri_Nhansu>28</Id_Botri_Nhansu>
+    <Id_Bophan>4</Id_Bophan>
+    <ThuHai>true</ThuHai>
+    <ThuBa>true</ThuBa>
+    <ThuTu>true</ThuTu>
+    <ThuNam>true</ThuNam>
+    <ThuSau>true</ThuSau>
+    <ThuBay>true</ThuBay>
+    <ChuNhat>true</ChuNhat>
+    <Truongnhom>false</Truongnhom>
+    <Taixe>false</Taixe>
+    <Sale>false</Sale>
+  </GridTable>
+  <GridTable>
+    <Cmnd>11111111111</Cmnd>
+    <Gioitinh>false</Gioitinh>
+    <Ho_Nhansu>Nguyễn Trung</Ho_Nhansu>
+    <Id_Nhansu>32</Id_Nhansu>
+    <Ma_Nhansu>Trung Khanh</Ma_Nhansu>
+    <Ngay_Vaolam>2015-10-10T00:00:00+07:00</Ngay_Vaolam>
+    <Ngaycap>2010-04-20T00:00:00+07:00</Ngaycap>
+    <Ngay_Sinh>5</Ngay_Sinh>
+    <Thangsinh>6</Thangsinh>
+    <Namsinh>1992</Namsinh>
+    <Ngaysinh>5/6/1992</Ngaysinh>
+    <Noicap>Sóc trăng</Noicap>
+    <Noisinh>Sóc Trăng</Noisinh>
+    <Cmnd1>11111111111</Cmnd1>
+    <Ngaycap1>2010-04-20T00:00:00+07:00</Ngaycap1>
+    <Noicap1>Sóc trăng</Noicap1>
+    <Ngay_Vaolam1>2015-10-10T00:00:00+07:00</Ngay_Vaolam1>
+    <Ten_Nhansu>Khanh</Ten_Nhansu>
+    <Hoten_Nhansu>Nguyễn Trung Khanh</Hoten_Nhansu>
+    <Ten_Bophan>Tài xế</Ten_Bophan>
+    <Ma_Bophan>TX</Ma_Bophan>
+    <Email>jkhanhtuongj@gmail.com</Email>
+    <Id_Botri_Nhansu>31</Id_Botri_Nhansu>
+    <Id_Bophan>6</Id_Bophan>
+    <ThuHai>true</ThuHai>
+    <ThuBa>true</ThuBa>
+    <ThuTu>true</ThuTu>
+    <ThuNam>true</ThuNam>
+    <ThuSau>true</ThuSau>
+    <ThuBay>true</ThuBay>
+    <ChuNhat>true</ChuNhat>
+    <Truongnhom>false</Truongnhom>
+    <Taixe>true</Taixe>
+    <Sale>false</Sale>
+  </GridTable>
+  <GridTable>
+    <Cmnd>33333333333</Cmnd>
+    <Gioitinh>false</Gioitinh>
+    <Ho_Nhansu>Võ Thanh</Ho_Nhansu>
+    <Id_Nhansu>35</Id_Nhansu>
+    <Ma_Nhansu>huy</Ma_Nhansu>
+    <Ngay_Vaolam>2015-09-22T00:00:00+07:00</Ngay_Vaolam>
+    <Ngaycap>2006-09-21T00:00:00+07:00</Ngaycap>
+    <Ngay_Sinh>1</Ngay_Sinh>
+    <Thangsinh>1</Thangsinh>
+    <Namsinh>1980</Namsinh>
+    <Ngaysinh>1/1/1980</Ngaysinh>
+    <Noicap>CT</Noicap>
+    <Cmnd1>33333333333</Cmnd1>
+    <Ngaycap1>2006-09-21T00:00:00+07:00</Ngaycap1>
+    <Noicap1>CT</Noicap1>
+    <Ngay_Vaolam1>2015-09-22T00:00:00+07:00</Ngay_Vaolam1>
+    <Ten_Nhansu>Huy</Ten_Nhansu>
+    <Hoten_Nhansu>Võ Thanh Huy</Hoten_Nhansu>
+    <Ten_Bophan>Sale</Ten_Bophan>
+    <Ma_Bophan>Sale</Ma_Bophan>
+    <Email>jkhanhtuongj@gmail.com</Email>
+    <Id_Botri_Nhansu>33</Id_Botri_Nhansu>
+    <Id_Bophan>3</Id_Bophan>
+    <ThuHai>true</ThuHai>
+    <ThuBa>true</ThuBa>
+    <ThuTu>true</ThuTu>
+    <ThuNam>true</ThuNam>
+    <ThuSau>true</ThuSau>
+    <ThuBay>true</ThuBay>
+    <ChuNhat>true</ChuNhat>
+    <Truongnhom>false</Truongnhom>
+    <Taixe>false</Taixe>
+    <Sale>true</Sale>
+  </GridTable>
+  <GridTable>
+    <Cmnd>323232323</Cmnd>
+    <Gioitinh>true</Gioitinh>
+    <Ho_Nhansu>Phùng Xuân</Ho_Nhansu>
+    <Id_Nhansu>36</Id_Nhansu>
+    <Ma_Nhansu>yen</Ma_Nhansu>
+    <Ngay_Vaolam>2015-10-04T00:00:00+07:00</Ngay_Vaolam>
+    <Ngaycap>2011-10-04T00:00:00+07:00</Ngaycap>
+    <Ngay_Sinh>29</Ngay_Sinh>
+    <Thangsinh>7</Thangsinh>
+    <Namsinh>1985</Namsinh>
+    <Ngaysinh>29/7/1985</Ngaysinh>
+    <Noicap>ST</Noicap>
+    <Noisinh>ST</Noisinh>
+    <Cmnd1>323232323</Cmnd1>
+    <Ngaycap1>2011-10-04T00:00:00+07:00</Ngaycap1>
+    <Noicap1>ST</Noicap1>
+    <Ngay_Vaolam1>2015-10-04T00:00:00+07:00</Ngay_Vaolam1>
+    <Quequan>ST</Quequan>
+    <Ten_Nhansu>Yến</Ten_Nhansu>
+    <Hoten_Nhansu>Phùng Xuân Yến</Hoten_Nhansu>
+    <Ten_Bophan>Kế toán văn phòng</Ten_Bophan>
+    <Ma_Bophan>KTVP</Ma_Bophan>
+    <Email>jkhanhtuongj@gmail.com</Email>
+    <Id_Botri_Nhansu>34</Id_Botri_Nhansu>
+    <Id_Bophan>7</Id_Bophan>
+    <ThuHai>true</ThuHai>
+    <ThuBa>true</ThuBa>
+    <ThuTu>true</ThuTu>
+    <ThuNam>true</ThuNam>
+    <ThuSau>true</ThuSau>
+    <ThuBay>true</ThuBay>
+    <ChuNhat>true</ChuNhat>
+    <Truongnhom>false</Truongnhom>
+  </GridTable>
+  <GridTable>
+    <Cmnd>361981090</Cmnd>
+    <Gioitinh>false</Gioitinh>
+    <Ho_Nhansu>La Hoàng</Ho_Nhansu>
+    <Id_Nhansu>37</Id_Nhansu>
+    <Ma_Nhansu>hoanglam</Ma_Nhansu>
+    <Ngay_Vaolam>2015-11-02T00:00:00+07:00</Ngay_Vaolam>
+    <Ngaycap>2014-11-25T00:00:00+07:00</Ngaycap>
+    <Ngay_Sinh>10</Ngay_Sinh>
+    <Thangsinh>4</Thangsinh>
+    <Namsinh>1984</Namsinh>
+    <Ngaysinh>10/4/1984</Ngaysinh>
+    <Noicap>Cần Thơ</Noicap>
+    <Cmnd1>361981090</Cmnd1>
+    <Ngaycap1>2014-11-25T00:00:00+07:00</Ngaycap1>
+    <Noicap1>Cần Thơ</Noicap1>
+    <Ngay_Vaolam1>2015-11-02T00:00:00+07:00</Ngay_Vaolam1>
+    <Ten_Nhansu>Lâm</Ten_Nhansu>
+    <Hoten_Nhansu>La Hoàng Lâm</Hoten_Nhansu>
+    <Ten_Bophan>Sale</Ten_Bophan>
+    <Ma_Bophan>Sale</Ma_Bophan>
+    <Email>jkhanhtuongj@gmail.com</Email>
+    <Id_Botri_Nhansu>35</Id_Botri_Nhansu>
+    <Id_Bophan>3</Id_Bophan>
+    <ThuHai>true</ThuHai>
+    <ThuBa>true</ThuBa>
+    <ThuTu>true</ThuTu>
+    <ThuNam>true</ThuNam>
+    <ThuSau>true</ThuSau>
+    <ThuBay>true</ThuBay>
+    <ChuNhat>true</ChuNhat>
+    <Truongnhom>false</Truongnhom>
+    <Taixe>false</Taixe>
+    <Sale>true</Sale>
+  </GridTable>
+  <GridTable>
+    <Cmnd>362386430</Cmnd>
+    <Gioitinh>true</Gioitinh>
+    <Ho_Nhansu>Trần</Ho_Nhansu>
+    <Id_Nhansu>38</Id_Nhansu>
+    <Ma_Nhansu>kimgiang</Ma_Nhansu>
+    <Ngay_Vaolam>2015-11-02T00:00:00+07:00</Ngay_Vaolam>
+    <Ngaycap>2011-06-27T00:00:00+07:00</Ngaycap>
+    <Ngay_Sinh>4</Ngay_Sinh>
+    <Thangsinh>2</Thangsinh>
+    <Namsinh>1993</Namsinh>
+    <Ngaysinh>4/2/1993</Ngaysinh>
+    <Noicap>CA Cần Thơ</Noicap>
+    <Cmnd1>362386430</Cmnd1>
+    <Ngaycap1>2011-06-27T00:00:00+07:00</Ngaycap1>
+    <Noicap1>CA Cần Thơ</Noicap1>
+    <Ngay_Vaolam1>2015-11-02T00:00:00+07:00</Ngay_Vaolam1>
+    <Ten_Nhansu>Thị Kim Giang</Ten_Nhansu>
+    <Hoten_Nhansu>Trần Thị Kim Giang</Hoten_Nhansu>
+    <Ten_Bophan>Sale</Ten_Bophan>
+    <Ma_Bophan>Sale</Ma_Bophan>
+    <Email>jkhanhtuongj@gmail.com</Email>
+    <Id_Botri_Nhansu>36</Id_Botri_Nhansu>
+    <Id_Bophan>3</Id_Bophan>
+    <ThuHai>true</ThuHai>
+    <ThuBa>true</ThuBa>
+    <ThuTu>true</ThuTu>
+    <ThuNam>true</ThuNam>
+    <ThuSau>true</ThuSau>
+    <ThuBay>true</ThuBay>
+    <ChuNhat>true</ChuNhat>
+    <Truongnhom>false</Truongnhom>
+    <Taixe>false</Taixe>
+    <Sale>true</Sale>
+  </GridTable>
+  <GridTable>
+    <Cmnd>1111111111122</Cmnd>
+    <Gioitinh>false</Gioitinh>
+    <Ho_Nhansu>Lê</Ho_Nhansu>
+    <Id_Nhansu>40</Id_Nhansu>
+    <Ma_Nhansu>lhPho</Ma_Nhansu>
+    <Ngay_Vaolam>2015-11-02T00:00:00+07:00</Ngay_Vaolam>
+    <Ngaycap>2015-11-01T00:00:00+07:00</Ngaycap>
+    <Ngay_Sinh>2</Ngay_Sinh>
+    <Thangsinh>2</Thangsinh>
+    <Namsinh>1993</Namsinh>
+    <Ngaysinh>2/2/1993</Ngaysinh>
+    <Noicap>na</Noicap>
+    <Cmnd1>1111111111122</Cmnd1>
+    <Ngaycap1>2015-11-01T00:00:00+07:00</Ngaycap1>
+    <Noicap1>na</Noicap1>
+    <Ngay_Vaolam1>2015-11-02T00:00:00+07:00</Ngay_Vaolam1>
+    <Ten_Nhansu>Hoàng Pho</Ten_Nhansu>
+    <Hoten_Nhansu>Lê Hoàng Pho</Hoten_Nhansu>
+    <Ten_Bophan>Tài xế</Ten_Bophan>
+    <Ma_Bophan>TX</Ma_Bophan>
+    <Email>jkhanhtuongj@gmail.com</Email>
+    <Id_Botri_Nhansu>38</Id_Botri_Nhansu>
+    <Id_Bophan>6</Id_Bophan>
+    <ThuHai>true</ThuHai>
+    <ThuBa>true</ThuBa>
+    <ThuTu>true</ThuTu>
+    <ThuNam>true</ThuNam>
+    <ThuSau>true</ThuSau>
+    <ThuBay>true</ThuBay>
+    <ChuNhat>true</ChuNhat>
+    <Truongnhom>false</Truongnhom>
+    <Taixe>true</Taixe>
+    <Sale>false</Sale>
+  </GridTable>
+  <GridTable>
+    <Cmnd>361941112</Cmnd>
+    <Gioitinh>false</Gioitinh>
+    <Ho_Nhansu>Vương Hoàng</Ho_Nhansu>
+    <Id_Nhansu>49</Id_Nhansu>
+    <Ma_Nhansu>nhan</Ma_Nhansu>
+    <Ngay_Vaolam>2015-12-15T00:00:00+07:00</Ngay_Vaolam>
+    <Ngaycap>2013-03-11T00:00:00+07:00</Ngaycap>
+    <Ngay_Sinh>19</Ngay_Sinh>
+    <Thangsinh>7</Thangsinh>
+    <Namsinh>1983</Namsinh>
+    <Ngaysinh>19/7/1983</Ngaysinh>
+    <Noicap>CA Cần Thơ</Noicap>
+    <Noisinh>Cần Thơ</Noisinh>
+    <Cmnd1>361941112</Cmnd1>
+    <Ngaycap1>2013-03-11T00:00:00+07:00</Ngaycap1>
+    <Noicap1>CA Cần Thơ</Noicap1>
+    <Ngay_Vaolam1>2015-12-15T00:00:00+07:00</Ngay_Vaolam1>
+    <Ten_Nhansu>Nhân</Ten_Nhansu>
+    <Hoten_Nhansu>Vương Hoàng Nhân</Hoten_Nhansu>
+    <Email>jkhanhtuongj@gmail.com</Email>
+    <Truongnhom>false</Truongnhom>
+    <Taixe>false</Taixe>
+    <Sale>false</Sale>
+  </GridTable>
+  <GridTable>
+    <Cmnd>897874653</Cmnd>
+    <Gioitinh>true</Gioitinh>
+    <Ho_Nhansu>Trần Huyền</Ho_Nhansu>
+    <Id_Nhansu>10050</Id_Nhansu>
+    <Ma_Nhansu>hmy</Ma_Nhansu>
+    <Ngay_Vaolam>2016-01-06T00:00:00+07:00</Ngay_Vaolam>
+    <Ngaycap>2009-06-29T00:00:00+07:00</Ngaycap>
+    <Ngay_Sinh>3</Ngay_Sinh>
+    <Thangsinh>5</Thangsinh>
+    <Namsinh>1901</Namsinh>
+    <Ngaysinh>3/5/1901</Ngaysinh>
+    <Noicap>Cần Thơ</Noicap>
+    <Cmnd1>897874653</Cmnd1>
+    <Ngaycap1>2009-06-29T00:00:00+07:00</Ngaycap1>
+    <Noicap1>Cần Thơ</Noicap1>
+    <Ngay_Vaolam1>2016-01-06T00:00:00+07:00</Ngay_Vaolam1>
+    <Ten_Nhansu>My</Ten_Nhansu>
+    <Hoten_Nhansu>Trần Huyền My</Hoten_Nhansu>
+    <Email>jkhanhtuongj@gmail.com</Email>
+    <Taixe>false</Taixe>
+  </GridTable>
+  <GridTable>
+    <Cmnd>222222222</Cmnd>
+    <Gioitinh>false</Gioitinh>
+    <Ho_Nhansu>Lê Hoàng</Ho_Nhansu>
+    <Id_Nhansu>20050</Id_Nhansu>
+    <Ma_Nhansu>hhuy</Ma_Nhansu>
+    <Ngay_Vaolam>2016-06-07T00:00:00+07:00</Ngay_Vaolam>
+    <Ngaycap>2011-05-01T00:00:00+07:00</Ngaycap>
+    <Ngay_Sinh>13</Ngay_Sinh>
+    <Thangsinh>7</Thangsinh>
+    <Namsinh>1992</Namsinh>
+    <Ngaysinh>13/7/1992</Ngaysinh>
+    <Noicap>Cần Thơ</Noicap>
+    <Noisinh>Cần Thơ</Noisinh>
+    <Cmnd1>222222222</Cmnd1>
+    <Ngaycap1>2011-05-01T00:00:00+07:00</Ngaycap1>
+    <Noicap1>Cần Thơ</Noicap1>
+    <Ngay_Vaolam1>2016-06-07T00:00:00+07:00</Ngay_Vaolam1>
+    <Ten_Nhansu>Huy</Ten_Nhansu>
+    <Hoten_Nhansu>Lê Hoàng Huy</Hoten_Nhansu>
+    <Email>HuyHoang@gmail.com</Email>
+    <Taixe>false</Taixe>
+  </GridTable>
+  <GridTable>
+    <Cmnd>378465736</Cmnd>
+    <Dienthoai>0932555666</Dienthoai>
+    <Dienthoai_Nharieng>07813888888</Dienthoai_Nharieng>
+    <Gioitinh>true</Gioitinh>
+    <Ho_Nhansu>Nguyễn Lê Thị Quỳnh</Ho_Nhansu>
+    <Id_Nhansu>30050</Id_Nhansu>
+    <Ma_Nhansu>nguyennhu</Ma_Nhansu>
+    <Ngay_Vaolam>2016-01-19T00:00:00+07:00</Ngay_Vaolam>
+    <Ngaycap>2010-10-10T00:00:00+07:00</Ngaycap>
+    <Ngay_Sinh>20</Ngay_Sinh>
+    <Thangsinh>4</Thangsinh>
+    <Namsinh>1994</Namsinh>
+    <Ngaysinh>20/4/1994</Ngaysinh>
+    <Noicap>Bạc Liêu</Noicap>
+    <Cmnd1>378465736</Cmnd1>
+    <Ngaycap1>2010-10-10T00:00:00+07:00</Ngaycap1>
+    <Noicap1>Bạc Liêu</Noicap1>
+    <Ngay_Vaolam1>2016-01-19T00:00:00+07:00</Ngay_Vaolam1>
+    <Ten_Nhansu>Như</Ten_Nhansu>
+    <Hoten_Nhansu>Nguyễn Lê Thị Quỳnh Như</Hoten_Nhansu>
+    <Email>nhuhuynh@gmail.com</Email>
+    <Taixe>false</Taixe>
+  </GridTable>
+</NewDataSet>

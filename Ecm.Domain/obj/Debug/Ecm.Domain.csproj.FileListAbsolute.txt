@@ -1,0 +1,4 @@
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Domain\bin\Debug\Ecm.Domain.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Domain\bin\Debug\Ecm.Domain.pdb
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Domain\obj\Debug\Ecm.Domain.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Domain\obj\Debug\Ecm.Domain.pdb

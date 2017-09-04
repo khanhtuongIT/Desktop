@@ -1,0 +1,90 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="GridTable">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Id_Donvitinh" type="xs:long" minOccurs="0" />
+                <xs:element name="Ma_Donvitinh" type="xs:string" minOccurs="0" />
+                <xs:element name="Ten_Donvitinh" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <GridTable>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Ma_Donvitinh>Kg</Ma_Donvitinh>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Donvitinh>7</Id_Donvitinh>
+    <Ma_Donvitinh>Lit</Ma_Donvitinh>
+    <Ten_Donvitinh>Lit</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Donvitinh>8</Id_Donvitinh>
+    <Ma_Donvitinh>B</Ma_Donvitinh>
+    <Ten_Donvitinh>Bịch</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Donvitinh>9</Id_Donvitinh>
+    <Ma_Donvitinh>P</Ma_Donvitinh>
+    <Ten_Donvitinh>Phần</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Donvitinh>10</Id_Donvitinh>
+    <Ma_Donvitinh>KG-10</Ma_Donvitinh>
+    <Ten_Donvitinh>Block 10kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Donvitinh>11</Id_Donvitinh>
+    <Ma_Donvitinh>chai</Ma_Donvitinh>
+    <Ten_Donvitinh>chai</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Ma_Donvitinh>h</Ma_Donvitinh>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Donvitinh>13</Id_Donvitinh>
+    <Ma_Donvitinh>C</Ma_Donvitinh>
+    <Ten_Donvitinh>Cây</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Ma_Donvitinh>T</Ma_Donvitinh>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Donvitinh>15</Id_Donvitinh>
+    <Ma_Donvitinh>CI</Ma_Donvitinh>
+    <Ten_Donvitinh>Cái</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Donvitinh>16</Id_Donvitinh>
+    <Ma_Donvitinh>HU</Ma_Donvitinh>
+    <Ten_Donvitinh>Hũ </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Donvitinh>17</Id_Donvitinh>
+    <Ma_Donvitinh>LO</Ma_Donvitinh>
+    <Ten_Donvitinh>Lon</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Donvitinh>18</Id_Donvitinh>
+    <Ma_Donvitinh>TH</Ma_Donvitinh>
+    <Ten_Donvitinh>Thùng</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Donvitinh>20</Id_Donvitinh>
+    <Ma_Donvitinh>BO</Ma_Donvitinh>
+    <Ten_Donvitinh>Bộ</Ten_Donvitinh>
+  </GridTable>
+</NewDataSet>

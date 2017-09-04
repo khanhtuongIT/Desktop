@@ -1,0 +1,1028 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7D1DFDAC-E17E-45D6-94F2-42A959F6AAE4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ecm.Rex</RootNamespace>
+    <AssemblyName>Ecm.Rex</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="adodb, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Design.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v12.2.Wizard, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v12.2.UI, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v12.2.UI , Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.CodeParser.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Printing.v12.2.Service, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v12.2.Service, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v12.2.Reporting.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v12.2.Design, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="EPPlus">
+      <HintPath>..\ExtLib\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="GoobizFrame.Profile, Version=4.13.5.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExtLib\GoobizFrame.Profile.dll</HintPath>
+    </Reference>
+    <Reference Include="GoobizFrame.Windows, Version=4.13.7.11, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExtLib\GoobizFrame.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\XSignPane.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\XSignPane.designer.cs">
+      <DependentUpon>XSignPane.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\DsRex_Chamcong_Thang.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsRex_Chamcong_Thang.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\DsRex_Luong_Tonghop1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsRex_Luong_Tonghop.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\DsRex_Nghiphep.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsRex_Nghiphep.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\DsRex_Nghiphep_Nam.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsRex_Nghiphep_Nam.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\DsRex_Nhansu.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsRex_Nhansu.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsRex_Tamhoan.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRex_Tamhoan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\DsRex_Tamung_Ky11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsRex_Tamung_Ky1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsRex_Thongke_Loai_Hopdong.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRex_Thongke_Loai_Hopdong.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\DsRex_Xepca_Thang.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsRex_Xepca_Thang.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\Ds_Rex_Nhansu_Thongke.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ds_Rex_Nhansu_Thongke.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frmrex_Nhansu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frmrex_Nhansu.Designer.cs">
+      <DependentUpon>Frmrex_Nhansu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frmrex_Nhansu_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frmrex_Nhansu_Dialog.Designer.cs">
+      <DependentUpon>Frmrex_Nhansu_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plugins\Rex.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plugins\Rex_Input.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\rptChamcong_Thang.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptChamcong_Thang.designer.cs">
+      <DependentUpon>rptChamcong_Thang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptLuong_Hieunang.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptLuong_Hieunang.designer.cs">
+      <DependentUpon>rptLuong_Hieunang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptLuong_Nhom.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptLuong_Nhom.designer.cs">
+      <DependentUpon>rptLuong_Nhom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptLuong_Thoigian.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptLuong_Thoigian.designer.cs">
+      <DependentUpon>rptLuong_Thoigian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\RptRex_Luongtonghop_ATM.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RptRex_Luongtonghop_ATM.Designer.cs">
+      <DependentUpon>RptRex_Luongtonghop_ATM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\RptRex_Luongtonghop_Bangctiet.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RptRex_Luongtonghop_Bangctiet.Designer.cs">
+      <DependentUpon>RptRex_Luongtonghop_Bangctiet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\RptRex_Luongtonghop_Kpcd.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RptRex_Luongtonghop_Kpcd.Designer.cs">
+      <DependentUpon>RptRex_Luongtonghop_Kpcd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\RptRex_Luongtonghop_Phieuluong.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RptRex_Luongtonghop_Phieuluong.Designer.cs">
+      <DependentUpon>RptRex_Luongtonghop_Phieuluong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\RptRex_Luongtonghop_Tncn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RptRex_Luongtonghop_Tncn.Designer.cs">
+      <DependentUpon>RptRex_Luongtonghop_Tncn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\RptRex_Luong_Tonghop_TkQuyluong.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RptRex_Luong_Tonghop_TkQuyluong.Designer.cs">
+      <DependentUpon>RptRex_Luong_Tonghop_TkQuyluong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\RptRex_Nhansu_Syeu_Llich.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RptRex_Nhansu_Syeu_Llich.Designer.cs">
+      <DependentUpon>RptRex_Nhansu_Syeu_Llich.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptTrichnop_Bhxh.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptTrichnop_Bhxh.Designer.cs">
+      <DependentUpon>rptTrichnop_Bhxh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rpt_Rex_Chuyenkhoan.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_Rex_Chuyenkhoan.designer.cs">
+      <DependentUpon>rpt_Rex_Chuyenkhoan.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Controls\XSignPane.resx">
+      <DependentUpon>XSignPane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frmrex_Nhansu.resx">
+      <DependentUpon>Frmrex_Nhansu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frmrex_Nhansu_Dialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmrex_Nhansu_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptChamcong_Thang.resx">
+      <DependentUpon>rptChamcong_Thang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptLuong_Hieunang.resx">
+      <DependentUpon>rptLuong_Hieunang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptLuong_Nhom.resx">
+      <DependentUpon>rptLuong_Nhom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptLuong_Thoigian.resx">
+      <DependentUpon>rptLuong_Thoigian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RptRex_Luongtonghop_ATM.resx">
+      <DependentUpon>RptRex_Luongtonghop_ATM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RptRex_Luongtonghop_Bangctiet.resx">
+      <DependentUpon>RptRex_Luongtonghop_Bangctiet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RptRex_Luongtonghop_Kpcd.resx">
+      <DependentUpon>RptRex_Luongtonghop_Kpcd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RptRex_Luongtonghop_Phieuluong.resx">
+      <DependentUpon>RptRex_Luongtonghop_Phieuluong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RptRex_Luongtonghop_Tncn.resx">
+      <DependentUpon>RptRex_Luongtonghop_Tncn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RptRex_Luong_Tonghop_TkQuyluong.resx">
+      <DependentUpon>RptRex_Luong_Tonghop_TkQuyluong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RptRex_Nhansu_Syeu_Llich.resx">
+      <DependentUpon>RptRex_Nhansu_Syeu_Llich.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptTrichnop_Bhxh.resx">
+      <DependentUpon>rptTrichnop_Bhxh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_Rex_Chuyenkhoan.resx">
+      <DependentUpon>rpt_Rex_Chuyenkhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Datasets\DsRex_Chamcong_Thang.xsc">
+      <DependentUpon>DsRex_Chamcong_Thang.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\DsRex_Chamcong_Thang.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsRex_Chamcong_Thang.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Datasets\DsRex_Chamcong_Thang.xss">
+      <DependentUpon>DsRex_Chamcong_Thang.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\DsRex_Luong_Tonghop.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsRex_Luong_Tonghop1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Datasets\DsRex_Nghiphep.xsc">
+      <DependentUpon>DsRex_Nghiphep.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\DsRex_Nghiphep.xss">
+      <DependentUpon>DsRex_Nghiphep.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\DsRex_Nghiphep_Nam.xsc">
+      <DependentUpon>DsRex_Nghiphep_Nam.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\DsRex_Nghiphep_Nam.xss">
+      <DependentUpon>DsRex_Nghiphep_Nam.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\DsRex_Nhansu.xsc">
+      <DependentUpon>DsRex_Nhansu.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\DsRex_Nhansu.xss">
+      <DependentUpon>DsRex_Nhansu.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsRex_Tamhoan.xsc">
+      <DependentUpon>dsRex_Tamhoan.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsRex_Tamhoan.xss">
+      <DependentUpon>dsRex_Tamhoan.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\DsRex_Tamung_Ky1.xsc">
+      <DependentUpon>DsRex_Tamung_Ky1.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\DsRex_Tamung_Ky1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsRex_Tamung_Ky11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Datasets\DsRex_Tamung_Ky1.xss">
+      <DependentUpon>DsRex_Tamung_Ky1.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsRex_Thongke_Loai_Hopdong.xsc">
+      <DependentUpon>dsRex_Thongke_Loai_Hopdong.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsRex_Thongke_Loai_Hopdong.xss">
+      <DependentUpon>dsRex_Thongke_Loai_Hopdong.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\DsRex_Xepca_Thang.xsc">
+      <DependentUpon>DsRex_Xepca_Thang.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\DsRex_Xepca_Thang.xss">
+      <DependentUpon>DsRex_Xepca_Thang.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\Ds_Rex_Nhansu_Thongke.xsc">
+      <DependentUpon>Ds_Rex_Nhansu_Thongke.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\Ds_Rex_Nhansu_Thongke.xss">
+      <DependentUpon>Ds_Rex_Nhansu_Thongke.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptRex_Hopdong_Hethan.resx">
+      <DependentUpon>rptRex_Hopdong_Hethan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RptRex_Luongtonghop_Bhxh.resx">
+      <DependentUpon>RptRex_Luongtonghop_Bhxh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptRex_Nhansu_DSLLTN_4.resx">
+      <DependentUpon>rptRex_Nhansu_DSLLTN_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RptRex_Nhansu_Thongke_Chitieu.resx">
+      <DependentUpon>RptRex_Nhansu_Thongke_Chitieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RptRex_Nhansu_Thongke_Tinhhinh.resx">
+      <DependentUpon>RptRex_Nhansu_Thongke_Tinhhinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RptRex_Tamung_Ky1.resx">
+      <DependentUpon>RptRex_Tamung_Ky1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RptRex_Thamgia_Tochuc_Thongke.resx">
+      <DependentUpon>RptRex_Thamgia_Tochuc_Thongke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptRex_Thongke_Loai_Hopdong.resx">
+      <DependentUpon>rptRex_Thongke_Loai_Hopdong.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptRex_Nhansu.resx">
+      <DependentUpon>rptRex_Nhansu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptRex_Thongke_Phepnam.resx">
+      <DependentUpon>rptRex_Thongke_Phepnam.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptRex_Nghiphep.resx">
+      <DependentUpon>rptRex_Nghiphep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptRex_Nghiviec.resx">
+      <DependentUpon>rptRex_Nghiviec.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptRex_Tamhoan_Hopdong.resx">
+      <DependentUpon>rptRex_Tamhoan_Hopdong.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptRex_Thongke_Nhansu.resx">
+      <DependentUpon>rptRex_Thongke_Nhansu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptRex_Hopdong_Nhansu_Phuluc.resx">
+      <DependentUpon>rptRex_Hopdong_Nhansu_Phuluc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptRex_Danhsach_Nhansu.resx">
+      <DependentUpon>rptRex_Danhsach_Nhansu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptRex_Hopdong_Nhansu.resx">
+      <DependentUpon>rptRex_Hopdong_Nhansu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptRex_Dienbien_Luong.resx">
+      <DependentUpon>rptRex_Dienbien_Luong.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptRex_Hoso_Nhansu.resx">
+      <DependentUpon>rptRex_Hoso_Nhansu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptRex_Chamcong_Thang.resx">
+      <DependentUpon>rptRex_Chamcong_Thang.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptRex_Nhansu_Inthe.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>rptRex_Nhansu_Inthe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptRex_Phucap.resx">
+      <DependentUpon>rptRex_Phucap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptRex_Quanhe_Giadinh.resx">
+      <DependentUpon>rptRex_Quanhe_Giadinh.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptRex_Quatrinh_Congtac.resx">
+      <DependentUpon>rptRex_Quatrinh_Congtac.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptRex_Quatrinh_Daotao.resx">
+      <DependentUpon>rptRex_Quatrinh_Daotao.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptRex_Xepca_Thang.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>rptRex_Xepca_Thang.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Datasets\DsRex_Nghiphep.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsRex_Nghiphep.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Datasets\DsRex_Nghiphep_Nam.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsRex_Nghiphep_Nam.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Datasets\DsRex_Nhansu.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsRex_Nhansu.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsRex_Tamhoan.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRex_Tamhoan.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Datasets\dsRex_Thongke_Loai_Hopdong.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRex_Thongke_Loai_Hopdong.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Datasets\DsRex_Xepca_Thang.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsRex_Xepca_Thang.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Datasets\Ds_Rex_Nhansu_Thongke.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Ds_Rex_Nhansu_Thongke.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Resources\Icons\1day.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\5days.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\add_user.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\admin.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\aim.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\bacluong.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\bc_ns.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\BHXH.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\bophan.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\botri.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\botri_calamviec.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\cal.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\calendar_today.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\chamcong.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\chitietcongviec.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\chucvu.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\chungchi.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\clipping_picture.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\coquan.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\creditcard_cirrus.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\datashowchart.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\del_user.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\ds_lylichtn.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\edit_list_order.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\hesogio.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\kontact_contacts.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\kontact_summary.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\kynang_chuyenmon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\loai nhan vien.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\loaibophan.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\loaiktkl.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\luongthoigian.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\matrix.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\month.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\ngaynghi.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\nghiphep.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\nhansu.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\nl_ns.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\phucap.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\chuyenmon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\dantoc.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\dienbienluong.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\honnhan.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\hopdong_laodong.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\huyen.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\khenthuong.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\loaihd_laodong.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\loaihopdong.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\luongnv.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\ngachluong.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\ngoaingu.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\ns_chamcong.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\phuongthuc_huongluong.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\qlnghiphep.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\quanhe_gd.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\quocgia.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\quyetdinh.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\sale.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\sale2.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\search.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\table.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\Thue_TNCN.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\tinh.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\tinhluong.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\tinhoc.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\tochuc.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\tongiao.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\tpbanthan.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\tpgiadinh.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\User_1.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\user_download.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\user_male_add2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\user_male_delete4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\user_up.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\vanhoa.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\view_process_users.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\whatsnext.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\xa.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\xeploai.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\Thumbs.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\no_image.gif" />
+    <Content Include="Resources\Default\TruthPos.Rex.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Reports\rptRex_Chamcong_Thang.Designer.cs">
+      <DependentUpon>rptRex_Chamcong_Thang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptRex_Hopdong_Hethan.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptRex_Hopdong_Hethan.Designer.cs">
+      <DependentUpon>rptRex_Hopdong_Hethan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\RptRex_Luongtonghop_Bhxh.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RptRex_Luongtonghop_Bhxh.Designer.cs">
+      <DependentUpon>RptRex_Luongtonghop_Bhxh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptRex_Nhansu_DSLLTN_4.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptRex_Nhansu_DSLLTN_4.designer.cs">
+      <DependentUpon>rptRex_Nhansu_DSLLTN_4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\RptRex_Nhansu_Thongke_Chitieu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RptRex_Nhansu_Thongke_Chitieu.designer.cs">
+      <DependentUpon>RptRex_Nhansu_Thongke_Chitieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\RptRex_Nhansu_Thongke_Tinhhinh.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RptRex_Nhansu_Thongke_Tinhhinh.Designer.cs">
+      <DependentUpon>RptRex_Nhansu_Thongke_Tinhhinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\RptRex_Tamung_Ky1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RptRex_Tamung_Ky1.designer.cs">
+      <DependentUpon>RptRex_Tamung_Ky1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\RptRex_Thamgia_Tochuc_Thongke.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RptRex_Thamgia_Tochuc_Thongke.designer.cs">
+      <DependentUpon>RptRex_Thamgia_Tochuc_Thongke.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptRex_Thongke_Loai_Hopdong.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptRex_Thongke_Loai_Hopdong.Designer.cs">
+      <DependentUpon>rptRex_Thongke_Loai_Hopdong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptRex_Nhansu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptRex_Nhansu.Designer.cs">
+      <DependentUpon>rptRex_Nhansu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptRex_Thongke_Phepnam.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptRex_Thongke_Phepnam.Designer.cs">
+      <DependentUpon>rptRex_Thongke_Phepnam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptRex_Nghiphep.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptRex_Nghiphep.Designer.cs">
+      <DependentUpon>rptRex_Nghiphep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptRex_Nghiviec.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptRex_Nghiviec.Designer.cs">
+      <DependentUpon>rptRex_Nghiviec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptRex_Tamhoan_Hopdong.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptRex_Tamhoan_Hopdong.Designer.cs">
+      <DependentUpon>rptRex_Tamhoan_Hopdong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptRex_Thongke_Nhansu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptRex_Thongke_Nhansu.Designer.cs">
+      <DependentUpon>rptRex_Thongke_Nhansu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptRex_Hopdong_Nhansu_Phuluc.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptRex_Hopdong_Nhansu_Phuluc.Designer.cs">
+      <DependentUpon>rptRex_Hopdong_Nhansu_Phuluc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptRex_Danhsach_Nhansu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptRex_Danhsach_Nhansu.Designer.cs">
+      <DependentUpon>rptRex_Danhsach_Nhansu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptRex_Hopdong_Nhansu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptRex_Hopdong_Nhansu.Designer.cs">
+      <DependentUpon>rptRex_Hopdong_Nhansu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptRex_Dienbien_Luong.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptRex_Dienbien_Luong.Designer.cs">
+      <DependentUpon>rptRex_Dienbien_Luong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptRex_Hoso_Nhansu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptRex_Hoso_Nhansu.Designer.cs">
+      <DependentUpon>rptRex_Hoso_Nhansu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptRex_Chamcong_Thang.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptRex_Nhansu_Inthe.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptRex_Nhansu_Inthe.Designer.cs">
+      <DependentUpon>rptRex_Nhansu_Inthe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptRex_Phucap.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptRex_Phucap.Designer.cs">
+      <DependentUpon>rptRex_Phucap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptRex_Quanhe_Giadinh.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptRex_Quanhe_Giadinh.Designer.cs">
+      <DependentUpon>rptRex_Quanhe_Giadinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptRex_Quatrinh_Congtac.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptRex_Quatrinh_Congtac.Designer.cs">
+      <DependentUpon>rptRex_Quatrinh_Congtac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptRex_Quatrinh_Daotao.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptRex_Quatrinh_Daotao.Designer.cs">
+      <DependentUpon>rptRex_Quatrinh_Daotao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptRex_Xepca_Thang.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptRex_Xepca_Thang.Designer.cs">
+      <DependentUpon>rptRex_Xepca_Thang.cs</DependentUpon>
+    </Compile>
+    <Content Include="Resources\Ecm.Rex.Rex.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Ecm.Rex.Rex_Input.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Ecm.Rex.Rex_Pay.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Ecm.Rex.Rex_Report.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Ecm.Rex.Rex_Split.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\xls\rex_chamcong_thang.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\xls\rex_danhsach_lltn.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ecm.MasterTables\Ecm.MasterTables.csproj">
+      <Project>{1971B97A-D2BD-43CD-BE6A-CDB8B907DA5E}</Project>
+      <Name>Ecm.MasterTables</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ecm.WebReferences\Ecm.WebReferences.csproj">
+      <Project>{80222E88-063C-4DCF-8398-698980E604B7}</Project>
+      <Name>Ecm.WebReferences</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Lang\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>if /I "$(ConfigurationName)" == "Release" Eazfuscator.NET.exe "$(TargetPath)" --msbuild-project-path "$(ProjectPath)" --msbuild-project-configuration "$(ConfigurationName)" --msbuild-project-platform "$(PlatformName)" --msbuild-solution-path "$(SolutionPath)" -n --newline-flush -v 3.2</PostBuildEvent>
+  </PropertyGroup>
+</Project>

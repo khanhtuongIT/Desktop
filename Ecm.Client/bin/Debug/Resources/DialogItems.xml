@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="yes"?>
+<DsMenuInfo xmlns="http://tempuri.org/DsMenuInfo.xsd">
+  <xs:schema id="DsMenuInfo" targetNamespace="http://tempuri.org/DsMenuInfo.xsd" xmlns:mstns="http://tempuri.org/DsMenuInfo.xsd" xmlns="http://tempuri.org/DsMenuInfo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="DsMenuInfo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Configuration">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" type="xs:string" />
+                <xs:element name="ParentKey" type="xs:string" minOccurs="0" />
+                <xs:element name="NewMenuText" type="xs:string" minOccurs="0" />
+                <xs:element name="NewMenuName" type="xs:string" minOccurs="0" />
+                <xs:element name="ParentMenuName" type="xs:string" minOccurs="0" />
+                <xs:element name="ModuleName" type="xs:string" minOccurs="0" />
+                <xs:element name="Path" type="xs:string" minOccurs="0" />
+                <xs:element name="CreateMenu" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Assembly" type="xs:string" minOccurs="0" />
+                <xs:element name="Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Role" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:Configuration" />
+        <xs:field xpath="mstns:Key" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+</DsMenuInfo>

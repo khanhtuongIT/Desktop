@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsHdbanhang_Chitiet" targetNamespace="http://tempuri.org/dsHdbanhang_Chitiet.xsd" xmlns:mstns="http://tempuri.org/dsHdbanhang_Chitiet.xsd" xmlns="http://tempuri.org/dsHdbanhang_Chitiet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsHdbanhang_Chitiet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsHdbanhang_Chitiet" msprop:Generator_UserDSName="dsHdbanhang_Chitiet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Hdbanhang_Chitiet" msprop:Generator_UserTableName="Hdbanhang_Chitiet" msprop:Generator_RowEvArgName="Hdbanhang_ChitietRowChangeEvent" msprop:Generator_TableVarName="tableHdbanhang_Chitiet" msprop:Generator_TablePropName="Hdbanhang_Chitiet" msprop:Generator_RowDeletingName="Hdbanhang_ChitietRowDeleting" msprop:Generator_RowChangingName="Hdbanhang_ChitietRowChanging" msprop:Generator_RowDeletedName="Hdbanhang_ChitietRowDeleted" msprop:Generator_RowEvHandlerName="Hdbanhang_ChitietRowChangeEventHandler" msprop:Generator_TableClassName="Hdbanhang_ChitietDataTable" msprop:Generator_RowChangedName="Hdbanhang_ChitietRowChanged" msprop:Generator_RowClassName="Hdbanhang_ChitietRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="stt" msprop:Generator_ColumnVarNameInTable="columnstt" msprop:Generator_ColumnPropNameInRow="stt" msprop:Generator_ColumnPropNameInTable="sttColumn" msprop:Generator_UserColumnName="stt" type="xs:string" minOccurs="0" />
+              <xs:element name="ma_hanghoa" msprop:Generator_ColumnVarNameInTable="columnma_hanghoa" msprop:Generator_ColumnPropNameInRow="ma_hanghoa" msprop:Generator_ColumnPropNameInTable="ma_hanghoaColumn" msprop:Generator_UserColumnName="ma_hanghoa" type="xs:string" minOccurs="0" />
+              <xs:element name="ten_hanghoa" msprop:Generator_ColumnVarNameInTable="columnten_hanghoa" msprop:Generator_ColumnPropNameInRow="ten_hanghoa" msprop:Generator_ColumnPropNameInTable="ten_hanghoaColumn" msprop:Generator_UserColumnName="ten_hanghoa" type="xs:string" minOccurs="0" />
+              <xs:element name="ten_donvitinh" msprop:Generator_ColumnVarNameInTable="columnten_donvitinh" msprop:Generator_ColumnPropNameInRow="ten_donvitinh" msprop:Generator_ColumnPropNameInTable="ten_donvitinhColumn" msprop:Generator_UserColumnName="ten_donvitinh" type="xs:string" minOccurs="0" />
+              <xs:element name="soluong" msprop:Generator_ColumnVarNameInTable="columnsoluong" msprop:Generator_ColumnPropNameInRow="soluong" msprop:Generator_ColumnPropNameInTable="soluongColumn" msprop:Generator_UserColumnName="soluong" type="xs:long" minOccurs="0" />
+              <xs:element name="dongia_ban" msprop:Generator_ColumnVarNameInTable="columndongia_ban" msprop:Generator_ColumnPropNameInRow="dongia_ban" msprop:Generator_ColumnPropNameInTable="dongia_banColumn" msprop:Generator_UserColumnName="dongia_ban" type="xs:decimal" minOccurs="0" />
+              <xs:element name="thanhtien_km" msdata:Caption="thanhtien" msprop:Generator_ColumnVarNameInTable="columnthanhtien_km" msprop:Generator_ColumnPropNameInRow="thanhtien_km" msprop:Generator_ColumnPropNameInTable="thanhtien_kmColumn" msprop:Generator_UserColumnName="thanhtien_km" type="xs:decimal" minOccurs="0" />
+              <xs:element name="thanhtien" msprop:Generator_ColumnVarNameInTable="columnthanhtien" msprop:Generator_ColumnPropNameInRow="thanhtien" msprop:Generator_ColumnPropNameInTable="thanhtienColumn" msprop:Generator_UserColumnName="thanhtien" type="xs:decimal" minOccurs="0" />
+              <xs:element name="per_dongia" msprop:Generator_ColumnVarNameInTable="columnper_dongia" msprop:Generator_ColumnPropNameInRow="per_dongia" msprop:Generator_ColumnPropNameInTable="per_dongiaColumn" msprop:Generator_UserColumnName="per_dongia" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ma_hanghoa_ban" msprop:Generator_ColumnVarNameInTable="columnma_hanghoa_ban" msprop:Generator_ColumnPropNameInRow="ma_hanghoa_ban" msprop:Generator_ColumnPropNameInTable="ma_hanghoa_banColumn" msprop:Generator_UserColumnName="ma_hanghoa_ban" type="xs:string" minOccurs="0" />
+              <xs:element name="thanhtien_tg" msprop:Generator_ColumnVarNameInTable="columnthanhtien_tg" msprop:Generator_ColumnPropNameInRow="thanhtien_tg" msprop:Generator_ColumnPropNameInTable="thanhtien_tgColumn" msprop:Generator_UserColumnName="thanhtien_tg" type="xs:string" minOccurs="0" />
+              <xs:element name="_x0020_DVT_Quydoi" msprop:Generator_ColumnVarNameInTable="column_DVT_Quydoi" msprop:Generator_ColumnPropNameInRow="_DVT_Quydoi" msprop:Generator_ColumnPropNameInTable="_DVT_QuydoiColumn" msprop:Generator_UserColumnName=" DVT_Quydoi" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

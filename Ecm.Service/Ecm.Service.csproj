@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D949923F-A1CD-46DB-9699-1BCD095856A8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ecm.Service</RootNamespace>
+    <AssemblyName>Ecm.Service</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FastJSON, Version=4.13.6.15, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExtLib\FastJSON.dll</HintPath>
+    </Reference>
+    <Reference Include="GoobizFrame.Profile, Version=4.13.5.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExtLib\GoobizFrame.Profile.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bar\Bar_Kitchen_Printer_Service.cs" />
+    <Compile Include="Bar\Bar_Rentcost_Service.cs" />
+    <Compile Include="Bar\Bar_Rent_Checkin_Service.cs" />
+    <Compile Include="Bar\Bar_Rent_Reserve_Service.cs" />
+    <Compile Include="Bar\Bar_Table_Booking_Service.cs" />
+    <Compile Include="Bar\Bar_Table_Order_Service.cs" />
+    <Compile Include="Bar\Bar_Winecard_Service.cs" />
+    <Compile Include="DbConnection.cs" />
+    <Compile Include="License\Lic_Host_Service.cs" />
+    <Compile Include="License\Lic_Customers_Service.cs" />
+    <Compile Include="License\Lic_Pc_Appmgr_Service.cs" />
+    <Compile Include="License\Lic_Pc_Dev_Service.cs" />
+    <Compile Include="License\Lic_Products_Service.cs" />
+    <Compile Include="License\Lic_Register_Service.cs" />
+    <Compile Include="MasterTables\Accounting\Acc_Dm_Thue_Tncn_Luytien_Service.cs" />
+    <Compile Include="MasterTables\Bar\Bar_Dm_Menu_Hanghoa_Ban_Service.cs" />
+    <Compile Include="MasterTables\Bar\Bar_Dm_Menu_Service.cs" />
+    <Compile Include="MasterTables\Bar\Bar_Dm_Rentlevel_Service.cs" />
+    <Compile Include="MasterTables\Bar\Bar_Dm_Table_Service.cs" />
+    <Compile Include="MasterTables\Accounting\Acc_Dm_Nganhang_Service.cs" />
+    <Compile Include="MasterTables\Bar\Bar_Dm_Khuvuc_Service.cs" />
+    <Compile Include="MasterTables\Bar\Bar_Dm_Facility_Service.cs" />
+    <Compile Include="MasterTables\Bar\Bar_Dm_Table_Facility_Service.cs" />
+    <Compile Include="MasterTables\Bar\Bar_Dm_Class_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Heso_Chuongtrinh_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Kynang_Chuyenmon_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Heso_Giotangca_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Khenthuong_Kyluat_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Loai_Nhanvien_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Ndung_Tgluong_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Phuongthuc_Huongluong_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Quanhe_Giadinh_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Quyetdinh_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Ngaynghi_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Chucvu_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Coquan_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Loai_Nghiphep_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Ngoaingu_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Phucap_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Bacluong_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Chuyenmon_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Chungchi_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Huyen_Service.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MasterTables\Rex\Rex_Dm_Loai_Bophan_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Loai_Hopdong_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Loai_Ktkl_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Tinhoc_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Tinh_Service.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MasterTables\Rex\Rex_Dm_Tochuc_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Vanhoa_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Tpgiadinh_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Tpbanthan_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Tongiao_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Quocgia_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Honnhan_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Dantoc_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Bophan_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Xa_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Xeploai_Service.cs" />
+    <Compile Include="MasterTables\Service\DocumentProcessStatus_Service.cs" />
+    <Compile Include="MasterTables\Ware\Ware_Dm_Cap_Service.cs" />
+    <Compile Include="MasterTables\Ware\Ware_Dm_Phanloai_Nhom_Hanghoa_Ban_Service.cs" />
+    <Compile Include="MasterTables\Ware\Ware_Dm_Xe_Service.cs" />
+    <Compile Include="MasterTables\Ware\Ware_Dm_Nhacungcap_Service.cs" />
+    <Compile Include="MasterTables\Ware\Ware_Dm_Soquy_Service.cs" />
+    <Compile Include="MasterTables\Ware\Ware_Hanghoa_Service.cs" />
+    <Compile Include="MasterTables\Ware\Ware_Dm_Tiente_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Ca_Lamviec_Service.cs" />
+    <Compile Include="MasterTables\Ware\Ware_Dm_Cuahang_Ban_Service.cs" />
+    <Compile Include="MasterTables\Ware\Ware_Dm_Donvitinh_Quydoi_Service.cs" />
+    <Compile Include="MasterTables\Ware\Ware_Dm_Donvitinh_Service.cs" />
+    <Compile Include="MasterTables\Ware\Ware_Dm_Hanghoa_Ban_Service.cs" />
+    <Compile Include="MasterTables\Ware\Ware_Dm_Hanghoa_Mua_Service.cs" />
+    <Compile Include="MasterTables\Ware\Ware_Dm_Khachhang_Service.cs" />
+    <Compile Include="MasterTables\Ware\Ware_Dm_Loai_Hanghoa_Ban_Service.cs" />
+    <Compile Include="MasterTables\Ware\Ware_Dm_Loai_Hanghoa_Mua_Service.cs" />
+    <Compile Include="MasterTables\Ware\Ware_Dm_Nganhang_Service.cs" />
+    <Compile Include="MasterTables\Ware\Ware_Dm_Nhom_Hanghoa_Ban_Service.cs" />
+    <Compile Include="MasterTables\Ware\Ware_Dm_Nhom_Hanghoa_Mua_Service.cs" />
+    <Compile Include="MasterTables\Ware\Ware_Dm_Taikhoan_Nganhang_Service.cs" />
+    <Compile Include="Pol\Pol_Action_Role_Service.cs" />
+    <Compile Include="Pol\Pol_Action_User_Service.cs" />
+    <Compile Include="Pol\Pol_Dm_Action_Service.cs" />
+    <Compile Include="Pol\Pol_Dm_Right_Service.cs" />
+    <Compile Include="Pol\Pol_Dm_Role_Service.cs" />
+    <Compile Include="Pol\Pol_Dm_User_Service.cs" />
+    <Compile Include="Pol\Pol_Role_Right_Service.cs" />
+    <Compile Include="Pol\Pol_User_Right_Service.cs" />
+    <Compile Include="Pol\Pol_User_Role_Service.cs" />
+    <Compile Include="Pol\Rex_Nhansu_Service.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\WareReport_Service.cs" />
+    <Compile Include="MasterTables\Rex\Rex_Dm_Ngachluong_Service.cs" />
+    <Compile Include="Rex\Rex_Chamcong_Tangca_Service.cs" />
+    <Compile Include="Rex\Rex_Nhansu_Reports.cs" />
+    <Compile Include="Rex\Rex_Botri_Nhansu_Service.cs" />
+    <Compile Include="Rex\Rex_Hopdong_Laodong_Info_Service.cs" />
+    <Compile Include="Rex\Rex_Hopdong_Laodong_Phuluc_Service.cs" />
+    <Compile Include="Rex\Rex_Khenthuong_Kyluat_Service.cs" />
+    <Compile Include="Rex\Rex_Phucap_Service.cs" />
+    <Compile Include="Rex\Rex_Quanhe_Giadinh_Service.cs" />
+    <Compile Include="Rex\Rex_Quatrinh_Congtac_Service.cs" />
+    <Compile Include="Rex\Rex_Quatrinh_Daotao_Service.cs" />
+    <Compile Include="Rex\Rex_Chamcong_Thang_Service.cs" />
+    <Compile Include="Rex\Rex_Botri_Ca_Lamviec_Service.cs" />
+    <Compile Include="Rex\Rex_Hopdong_Laodong_Service.cs" />
+    <Compile Include="Rex\Rex_Nhansu_Service.cs" />
+    <Compile Include="Sys\Sys_Service.cs" />
+    <Compile Include="Ware\Ware_Xuat_Nguyenlieu_Service.cs" />
+    <Compile Include="Ware\Ware_Hdbanhang_Vat_Service.cs" />
+    <Compile Include="Ware\Ware_Dongia_Cap_Service.cs" />
+    <Compile Include="Ware\Ware_Dieuxe_Service.cs" />
+    <Compile Include="Ware\Ware_Dondathang_Service.cs" />
+    <Compile Include="Ware\Ware_Hh_Kh_Tra_Service.cs" />
+    <Compile Include="Ware\Ware_Kehoach_Dathang_Chitiet_Services.cs" />
+    <Compile Include="Ware\Ware_Kehoach_Dathang_Services.cs" />
+    <Compile Include="Ware\Ware_Phantich_Thitruong_Chitiet_Services.cs" />
+    <Compile Include="Ware\Ware_Phantich_Thitruong_Services.cs" />
+    <Compile Include="Ware\Ware_Kehoach_Banhang_Services.cs" />
+    <Compile Include="Ware\Ware_Kehoach_Banhang_Chitiet_Services.cs" />
+    <Compile Include="Ware\Ware_So_Quytm_Service.cs" />
+    <Compile Include="Ware\Ware_Thumau_Services.cs" />
+    <Compile Include="Ware\Ware_Congtac_Services.cs" />
+    <Compile Include="Ware\Ware_Hanghoa_Dinhgia_Khuvuc_Service.cs" />
+    <Compile Include="Ware\Ware_Phieuthu_Congno_Service.cs" />
+    <Compile Include="Ware\WareGen_Donmuahang_Service.cs" />
+    <Compile Include="Ware\WareGen_Hdbanhang_Service.cs" />
+    <Compile Include="Ware\Rptware_Hanghoa_Service.cs" />
+    <Compile Include="Ware\Ware_Kh_Hh_Ban_Service.cs" />
+    <Compile Include="Ware\Ware_Hdbanhang_Sum_Service.cs" />
+    <Compile Include="Ware\Ware_Phieuchi_Congno_Service.cs" />
+    <Compile Include="Ware\DocumentProcessStatus_Service.cs" />
+    <Compile Include="Ware\Ware_Hh_Cuahang_Ban_Service.cs" />
+    <Compile Include="Ware\Ware_Ql_Cuahang_Ban_Service.cs" />
+    <Compile Include="Ware\Ware_Phieu_Thu_Service.cs" />
+    <Compile Include="Ware\Ware_Phieu_Chi_Service.cs" />
+    <Compile Include="Ware\Ware_Kk_Hh_Ban_Service.cs" />
+    <Compile Include="Ware\Ware_Xuatkho_Banhang_Service.cs" />
+    <Compile Include="Ware\Ware_Xuat_Hh_Mua_Service.cs" />
+    <Compile Include="Ware\Ware_Xuat_Hh_Ban_Service.cs" />
+    <Compile Include="Ware\Ware_Donmuahang_Kh_Service.cs" />
+    <Compile Include="Ware\Ware_Hdbanhang_Service.cs" />
+    <Compile Include="Ware\Ware_Hanghoa_Dinhgia_Service.cs" />
+    <Compile Include="Ware\Ware_Hdmuahang_Service.cs" />
+    <Compile Include="Ware\Ware_Congnothu_Dauky_Service.cs" />
+    <Compile Include="Ware\Ware_Congnotra_Dauky_Service.cs" />
+    <Compile Include="Ware\Ware_Donmuahang_Service.cs" />
+    <Compile Include="Ware\Ware_Hanghoa_Ban_Dauky_Service.cs" />
+    <Compile Include="Ware\Ware_Nhap_Hh_Ban_Service.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ecm.Domain\Ecm.Domain.csproj">
+      <Project>{343CAC93-2C71-49E5-9C82-CB678C84F97A}</Project>
+      <Name>Ecm.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>if /I "$(ConfigurationName)" == "Release" Eazfuscator.NET.exe "$(TargetPath)" --msbuild-project-path "$(ProjectPath)" --msbuild-project-configuration "$(ConfigurationName)" --msbuild-project-platform "$(PlatformName)" --msbuild-solution-path "$(SolutionPath)" -n --newline-flush -v 3.3</PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsWare_Khachhang_Quota" targetNamespace="http://tempuri.org/DsWare_Khachhang_Quota.xsd" xmlns:mstns="http://tempuri.org/DsWare_Khachhang_Quota.xsd" xmlns="http://tempuri.org/DsWare_Khachhang_Quota.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsWare_Khachhang_Quota" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DsWare_Khachhang_Quota" msprop:Generator_DataSetName="DsWare_Khachhang_Quota">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Ware_Khachhang_Quota" msprop:Generator_UserTableName="Ware_Khachhang_Quota" msprop:Generator_RowDeletedName="Ware_Khachhang_QuotaRowDeleted" msprop:Generator_TableClassName="Ware_Khachhang_QuotaDataTable" msprop:Generator_RowChangedName="Ware_Khachhang_QuotaRowChanged" msprop:Generator_RowClassName="Ware_Khachhang_QuotaRow" msprop:Generator_RowChangingName="Ware_Khachhang_QuotaRowChanging" msprop:Generator_RowEvArgName="Ware_Khachhang_QuotaRowChangeEvent" msprop:Generator_RowEvHandlerName="Ware_Khachhang_QuotaRowChangeEventHandler" msprop:Generator_TablePropName="Ware_Khachhang_Quota" msprop:Generator_TableVarName="tableWare_Khachhang_Quota" msprop:Generator_RowDeletingName="Ware_Khachhang_QuotaRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Ma_Khachhang" msprop:Generator_UserColumnName="Ma_Khachhang" msprop:Generator_ColumnPropNameInRow="Ma_Khachhang" msprop:Generator_ColumnVarNameInTable="columnMa_Khachhang" msprop:Generator_ColumnPropNameInTable="Ma_KhachhangColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Songay_Quota" msprop:Generator_UserColumnName="Songay_Quota" msprop:Generator_ColumnPropNameInRow="Songay_Quota" msprop:Generator_ColumnVarNameInTable="columnSongay_Quota" msprop:Generator_ColumnPropNameInTable="Songay_QuotaColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="Max_Quota" msprop:Generator_UserColumnName="Max_Quota" msprop:Generator_ColumnPropNameInRow="Max_Quota" msprop:Generator_ColumnVarNameInTable="columnMax_Quota" msprop:Generator_ColumnPropNameInTable="Max_QuotaColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="Ngay_Ketthuc" msprop:Generator_UserColumnName="Ngay_Ketthuc" msprop:Generator_ColumnPropNameInRow="Ngay_Ketthuc" msprop:Generator_ColumnVarNameInTable="columnNgay_Ketthuc" msprop:Generator_ColumnPropNameInTable="Ngay_KetthucColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Ngay_Batdau" msprop:Generator_UserColumnName="Ngay_Batdau" msprop:Generator_ColumnPropNameInRow="Ngay_Batdau" msprop:Generator_ColumnVarNameInTable="columnNgay_Batdau" msprop:Generator_ColumnPropNameInTable="Ngay_BatdauColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Website" msprop:Generator_UserColumnName="Website" msprop:Generator_ColumnPropNameInRow="Website" msprop:Generator_ColumnVarNameInTable="columnWebsite" msprop:Generator_ColumnPropNameInTable="WebsiteColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Email" msprop:Generator_UserColumnName="Email" msprop:Generator_ColumnPropNameInRow="Email" msprop:Generator_ColumnVarNameInTable="columnEmail" msprop:Generator_ColumnPropNameInTable="EmailColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Fax" msprop:Generator_UserColumnName="Fax" msprop:Generator_ColumnPropNameInRow="Fax" msprop:Generator_ColumnVarNameInTable="columnFax" msprop:Generator_ColumnPropNameInTable="FaxColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Dienthoai" msprop:Generator_UserColumnName="Dienthoai" msprop:Generator_ColumnPropNameInRow="Dienthoai" msprop:Generator_ColumnVarNameInTable="columnDienthoai" msprop:Generator_ColumnPropNameInTable="DienthoaiColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Masothue" msprop:Generator_UserColumnName="Masothue" msprop:Generator_ColumnPropNameInRow="Masothue" msprop:Generator_ColumnVarNameInTable="columnMasothue" msprop:Generator_ColumnPropNameInTable="MasothueColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Diachi_Khachhang" msprop:Generator_UserColumnName="Diachi_Khachhang" msprop:Generator_ColumnPropNameInRow="Diachi_Khachhang" msprop:Generator_ColumnVarNameInTable="columnDiachi_Khachhang" msprop:Generator_ColumnPropNameInTable="Diachi_KhachhangColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Ten_Khachhang" msprop:Generator_UserColumnName="Ten_Khachhang" msprop:Generator_ColumnPropNameInRow="Ten_Khachhang" msprop:Generator_ColumnVarNameInTable="columnTen_Khachhang" msprop:Generator_ColumnPropNameInTable="Ten_KhachhangColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

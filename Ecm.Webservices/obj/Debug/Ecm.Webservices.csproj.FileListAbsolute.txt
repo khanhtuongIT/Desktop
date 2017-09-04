@@ -1,0 +1,37 @@
+D:\ECM\Tan_Camau\Ecm.Webservices\bin\Ecm.Webservice.dll
+D:\ECM\Tan_Camau\Ecm.Webservices\bin\Ecm.Webservice.pdb
+D:\ECM\Tan_Camau\Ecm.Webservices\bin\Ecm.Domain.dll
+D:\ECM\Tan_Camau\Ecm.Webservices\bin\Ecm.Service.dll
+D:\ECM\Tan_Camau\Ecm.Webservices\bin\GoobizFrame.Profile.dll
+D:\ECM\Tan_Camau\Ecm.Webservices\bin\Newtonsoft.Json.dll
+D:\ECM\Tan_Camau\Ecm.Webservices\bin\FastJSON.dll
+D:\ECM\Tan_Camau\Ecm.Webservices\bin\Ecm.Domain.pdb
+D:\ECM\Tan_Camau\Ecm.Webservices\bin\Ecm.Service.pdb
+D:\ECM\Tan_Camau\Ecm.Webservices\obj\Debug\Ecm.Webservices.csprojResolveAssemblyReference.cache
+D:\ECM\Tan_Camau\Ecm.Webservices\obj\Debug\Ecm.Webservice.dll
+D:\ECM\Tan_Camau\Ecm.Webservices\obj\Debug\Ecm.Webservice.pdb
+D:\Tan_Camau\Ecm.Webservices\bin\Ecm.Webservice.dll
+D:\Tan_Camau\Ecm.Webservices\bin\Ecm.Webservice.pdb
+D:\Tan_Camau\Ecm.Webservices\bin\Ecm.Domain.dll
+D:\Tan_Camau\Ecm.Webservices\bin\Ecm.Service.dll
+D:\Tan_Camau\Ecm.Webservices\bin\GoobizFrame.Profile.dll
+D:\Tan_Camau\Ecm.Webservices\bin\Newtonsoft.Json.dll
+D:\Tan_Camau\Ecm.Webservices\bin\FastJSON.dll
+D:\Tan_Camau\Ecm.Webservices\bin\Ecm.Domain.pdb
+D:\Tan_Camau\Ecm.Webservices\bin\Ecm.Service.pdb
+D:\Tan_Camau\Ecm.Webservices\obj\Debug\Ecm.Webservices.csprojResolveAssemblyReference.cache
+D:\Tan_Camau\Ecm.Webservices\obj\Debug\Ecm.Webservice.dll
+D:\Tan_Camau\Ecm.Webservices\obj\Debug\Ecm.Webservice.pdb
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Webservices\bin\Ecm.Webservice.dll.config
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Webservices\bin\Ecm.Webservice.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Webservices\bin\Ecm.Webservice.pdb
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Webservices\bin\Ecm.Domain.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Webservices\bin\Ecm.Service.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Webservices\bin\GoobizFrame.Profile.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Webservices\bin\Newtonsoft.Json.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Webservices\bin\FastJSON.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Webservices\bin\Ecm.Domain.pdb
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Webservices\bin\Ecm.Service.pdb
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Webservices\obj\Debug\Ecm.Webservices.csprojResolveAssemblyReference.cache
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Webservices\obj\Debug\Ecm.Webservice.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Webservices\obj\Debug\Ecm.Webservice.pdb

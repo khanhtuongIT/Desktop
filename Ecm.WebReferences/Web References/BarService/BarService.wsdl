@@ -1,0 +1,4376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Update_Bar_Rent_Checkin_Table_Check_Out">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Checkin_Table" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Checkin_Table_Check_OutResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Rent_Checkin_Table_Check_OutResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Checkin_Table_Reset_Table_Reserved">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Checkin" />
+            <s:element minOccurs="0" maxOccurs="1" name="Guid_Checkin" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Checkin_Table_Reset_Table_ReservedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Rent_Checkin_Table_Reset_Table_ReservedResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Rent_Checkin_Phieuthu">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Guid_Checkin" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Rent_Checkin_PhieuthuResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Bar_Rent_Checkin_PhieuthuResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Checkin_Phieuthu_Collection">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsCollection">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Checkin_Phieuthu_CollectionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Rent_Checkin_Phieuthu_CollectionResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Checkin_PhieuThu_Trangthai">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Checkin_Phieuthu" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Checkin_Table" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Checkin_PhieuThu_TrangthaiResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Rent_Checkin_PhieuThu_TrangthaiResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Rent_Checkin_table_Hanghoa">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_All_Bar_Rent_Checkin_table_HanghoaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Bar_Rent_Checkin_table_HanghoaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_Table">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Bar_Rent_Checkin_Table" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_TableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_TableResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_Table_4Print">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Bar_Rent_Checkin_Table" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_Table_4PrintResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_Table_4PrintResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Bar_Rent_Checkin_Hanghoa_By_Checkin_4Print">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Checkin" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Bar_Rent_Checkin_Hanghoa_By_Checkin_4PrintResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_Bar_Rent_Checkin_Hanghoa_By_Checkin_4PrintResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Checkin_table_Hanghoa_Collection">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsCollection">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Checkin_table_Hanghoa_CollectionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Rent_Checkin_table_Hanghoa_CollectionResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetServerDateTime">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetServerDateTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetServerDateTimeResult" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCurrentTimeZone">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetCurrentTimeZoneResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCurrentTimeZoneResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNew_Sochungtu">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Table_Name" />
+            <s:element minOccurs="0" maxOccurs="1" name="Column_Name" />
+            <s:element minOccurs="0" maxOccurs="1" name="Prefix" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNew_SochungtuResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNew_SochungtuResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Bar_Table_Order_Update_Lock">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Table_Order" />
+            <s:element minOccurs="0" maxOccurs="1" name="Lock_Status" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Bar_Table_Order_Update_LockResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Bar_Table_Order_Update_LockResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Bar_Table_Order_Xuat_Nvl">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Table_Order" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Checkin" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Bar_Table_Order_Xuat_NvlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Bar_Table_Order_Xuat_NvlResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Table_Order">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Without_Empty_Table" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Table_OrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Bar_Table_OrderResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Table_Order_By_Id_Cuahang">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Table_Order_By_Id_CuahangResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Bar_Table_Order_By_Id_CuahangResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Table_Order_By_Id_Cuahang_And_Id_Khuvuc">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Khuvuc" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Table_Order_By_Id_Cuahang_And_Id_KhuvucResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Bar_Table_Order_By_Id_Cuahang_And_Id_KhuvucResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Finish_Bar_Table_Order">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Table_Order" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Finish_Bar_Table_OrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_Finish_Bar_Table_OrderResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Table_Order_By_DateOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Without_Empty_Table" />
+            <s:element minOccurs="0" maxOccurs="1" name="ngayOrder" />
+            <s:element minOccurs="0" maxOccurs="1" name="viTri" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Table_Order_By_DateOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Bar_Table_Order_By_DateOrderResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Table_Order_Chitiet">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_All_Bar_Table_Order_ChitietResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Bar_Table_Order_ChitietResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Table_Order_Chitiet_ById_Nhom_Hanghoa_Ban">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Nhom_Hanghoa_Ban" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Table_Order_Chitiet_ById_Nhom_Hanghoa_BanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Bar_Table_Order_Chitiet_ById_Nhom_Hanghoa_BanResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Book_Bar_Table_Order_Chitiet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Nhom_Hanghoa_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Book_Bar_Table_Order_ChitietResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_Book_Bar_Table_Order_ChitietResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Table_Order_Chitiet_Served">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_All_Bar_Table_Order_Chitiet_ServedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Bar_Table_Order_Chitiet_ServedResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Table_Order_Chitiet_ById_Order">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id_order" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Table_Order_Chitiet_ById_OrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Bar_Table_Order_Chitiet_ById_OrderResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Table_Order_Chitiet_Log_ById_Order">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id_order" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Table_Order_Chitiet_Log_ById_OrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Bar_Table_Order_Chitiet_Log_ById_OrderResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Bar_Table_Order">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Bar_Table_Order" type="tns:Bar_Table_Order" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Bar_Table_Order">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Table_Order" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Nhansu_Order" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ngay_Order" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Ca_Lamviec" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Table" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Nhansu_Casher" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ngay_Casher" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sotien" />
+          <s:element minOccurs="0" maxOccurs="1" name="Finish" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Vip_Member_Card" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Nhansu_Bill" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Khachhang" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sochungtu" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Nhansu_Km" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Booking" />
+          <s:element minOccurs="0" maxOccurs="1" name="Tien_Booking" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Insert_Bar_Table_OrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Insert_Bar_Table_OrderResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Bar_Table_Order_For_Web">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Nhansu_Order" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Order" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Ca_Lamviec" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Table" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+            <s:element minOccurs="0" maxOccurs="1" name="Sochungtu" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Bar_Table_Order_For_WebResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Insert_Bar_Table_Order_For_WebResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Table_Order_For_Web">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Table_Order" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Nhansu_Order" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Order" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Ca_Lamviec" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Table" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+            <s:element minOccurs="0" maxOccurs="1" name="Sochungtu" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Table_Order_For_WebResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Table_Order_For_WebResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Table_Order">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Bar_Table_Order" type="tns:Bar_Table_Order" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Table_OrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Table_OrderResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Id_Khachhang_Bar_Table_Order">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id_Table_Order" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Id_Khachhang_Bar_Table_OrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Id_Khachhang_Bar_Table_OrderResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Table_Order_Chitiet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id_table_order_chitiet" />
+            <s:element minOccurs="0" maxOccurs="1" name="soluong_phucvu" />
+            <s:element minOccurs="0" maxOccurs="1" name="Hotel" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Table_Order_ChitietResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Table_Order_ChitietResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_Bar_Table_Order">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Bar_Table_Order" type="tns:Bar_Table_Order" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_Bar_Table_OrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Delete_Bar_Table_OrderResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Table_Order_Chitiet_Collection">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsCollection">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Table_Order_Chitiet_CollectionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Table_Order_Chitiet_CollectionResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Table_Order_Chitiet_Log_Collection">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsCollection">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Table_Order_Chitiet_Log_CollectionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Table_Order_Chitiet_Log_CollectionResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Table_Booking">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_All_Bar_Table_BookingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Bar_Table_BookingResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBar_Table_Booking_Tien_Booking_By_Id_Booking">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Booking" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBar_Table_Booking_Tien_Booking_By_Id_BookingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBar_Table_Booking_Tien_Booking_By_Id_BookingResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Bar_Table_Booking">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Bar_Table_Booking" type="tns:Bar_Table_Booking" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Bar_Table_Booking">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Booking" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ma_Booking" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ten_Khachhang_Booking" />
+          <s:element minOccurs="0" maxOccurs="1" name="Tien_Booking" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ngay_Nhan_Booking" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ngay_Den" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ngay_Xacnhan" />
+          <s:element minOccurs="0" maxOccurs="1" name="GhiChu" />
+          <s:element minOccurs="0" maxOccurs="1" name="NhanSu_Booking" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Insert_Bar_Table_BookingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Insert_Bar_Table_BookingResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Table_Booking">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Bar_Table_Booking" type="tns:Bar_Table_Booking" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Table_BookingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Table_BookingResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Table_Booking_to_Finish">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id_Booking" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Table_Booking_to_FinishResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Table_Booking_to_FinishResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_Bar_Table_Booking">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Booking" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_Bar_Table_BookingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Delete_Bar_Table_BookingResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAll_Bar_Table_Booking_Chitiet_By_Id_Booking">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Booking" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAll_Bar_Table_Booking_Chitiet_By_Id_BookingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAll_Bar_Table_Booking_Chitiet_By_Id_BookingResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Table_Booking_Chitiet_Collection">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsCollection">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Table_Booking_Chitiet_CollectionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Table_Booking_Chitiet_CollectionResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Kitchen_Printer">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_All_Bar_Kitchen_PrinterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Bar_Kitchen_PrinterResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Kitchen_Printer_ByPC_Code">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PC_Code" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Kitchen_Printer_ByPC_CodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Bar_Kitchen_Printer_ByPC_CodeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPrinter_From_Bar_Kitchen_Printer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PC_Code" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPrinter_From_Bar_Kitchen_PrinterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPrinter_From_Bar_Kitchen_PrinterResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Bar_Kitchen_Printer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="bar_kitchen_printer" type="tns:Bar_Kitchen_Printer" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Bar_Kitchen_Printer">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Kitchen_Printer" />
+          <s:element minOccurs="0" maxOccurs="1" name="Pc_Code" />
+          <s:element minOccurs="0" maxOccurs="1" name="Pc_Name" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          <s:element minOccurs="0" maxOccurs="1" name="Printer" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Nhom_Hanghoa_Ban" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Insert_Bar_Kitchen_PrinterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Insert_Bar_Kitchen_PrinterResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Kitchen_Printer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="bar_kitchen_printer" type="tns:Bar_Kitchen_Printer" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Kitchen_PrinterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Kitchen_PrinterResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_Bar_Kitchen_Printer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="bar_kitchen_printer" type="tns:Bar_Kitchen_Printer" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_Bar_Kitchen_PrinterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Delete_Bar_Kitchen_PrinterResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Kitchen_Printer_Collection">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsCollection">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Kitchen_Printer_CollectionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Kitchen_Printer_CollectionResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FetchPrinter_Bar_Kitchen_Order_Chitiet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PC_Code" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FetchPrinter_Bar_Kitchen_Order_ChitietResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FetchPrinter_Bar_Kitchen_Order_ChitietResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLog_Bar_Kitchen_Order_Chitiet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLog_Bar_Kitchen_Order_ChitietResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLog_Bar_Kitchen_Order_ChitietResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTopLog_Bar_Kitchen_Order_Chitiet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTopLog_Bar_Kitchen_Order_ChitietResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTopLog_Bar_Kitchen_Order_ChitietResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNotLog_Bar_Kitchen_Order_Chitiet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNotLog_Bar_Kitchen_Order_ChitietResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNotLog_Bar_Kitchen_Order_ChitietResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetServed_Bar_Kitchen_Order_Chitiet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetServed_Bar_Kitchen_Order_ChitietResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetServed_Bar_Kitchen_Order_ChitietResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNVL_Bar_Kitchen_Order_Chitiet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNVL_Bar_Kitchen_Order_ChitietResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNVL_Bar_Kitchen_Order_ChitietResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Winecard">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+            <s:element minOccurs="0" maxOccurs="1" name="ThangNam" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Khachhang" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_WinecardResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Bar_WinecardResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBar_Winecard_ById">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Winecard" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBar_Winecard_ByIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBar_Winecard_ByIdResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Bar_Winecard">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="bar_winecard" type="tns:Bar_Winecard" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Bar_Winecard">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Winecard" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Khachhang" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Nhansu_Lap" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Nhansu_Xnhan" />
+          <s:element minOccurs="0" maxOccurs="1" name="So_Chungtu" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Hanghoa_Ban" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ghichu" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Nhansu_Return" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ngay_Return" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Insert_Bar_WinecardResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Insert_Bar_WinecardResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Winecard">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="bar_winecard" type="tns:Bar_Winecard" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_WinecardResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_WinecardResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_Bar_Winecard">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="bar_winecard" type="tns:Bar_Winecard" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_Bar_WinecardResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Delete_Bar_WinecardResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Winecard_Collection">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsCollection">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Winecard_CollectionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Winecard_CollectionResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Rentcost_Collection">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Class" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Rentcost_CollectionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Bar_Rentcost_CollectionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rentcost_Collection">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsCollection">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rentcost_CollectionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Rentcost_CollectionResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Bar_Rentcost_CheckDate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Bar_Rentcost" type="tns:Bar_Rentcost" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Bar_Rentcost">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Rentcost" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Class" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Rentlevel" />
+          <s:element minOccurs="0" maxOccurs="1" name="Dongia" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Bar_Rentcost_CheckDateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Bar_Rentcost_CheckDateResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Rent_Reserve">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ThangNam" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Rent_ReserveResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Bar_Rent_ReserveResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Rent_Reserve_ByArrivalDate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ThangNam" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Rent_Reserve_ByArrivalDateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Bar_Rent_Reserve_ByArrivalDateResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBar_Rent_Reserve_ById">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Reserve" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBar_Rent_Reserve_ByIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBar_Rent_Reserve_ByIdResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Bar_Rent_Reserve">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Bar_Rent_Reserve" type="tns:Bar_Rent_Reserve" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Bar_Rent_Reserve">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Reserve" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Khachhang" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Class" />
+          <s:element minOccurs="0" maxOccurs="1" name="Soluong_Phong" />
+          <s:element minOccurs="0" maxOccurs="1" name="Soluong_Khach" />
+          <s:element minOccurs="0" maxOccurs="1" name="Reserver_Hoten" />
+          <s:element minOccurs="0" maxOccurs="1" name="Reserver_Cmnd" />
+          <s:element minOccurs="0" maxOccurs="1" name="Reserver_Tel" />
+          <s:element minOccurs="0" maxOccurs="1" name="Chietkhau_Tyle" />
+          <s:element minOccurs="0" maxOccurs="1" name="Chietkhau_Tienmat" />
+          <s:element minOccurs="0" maxOccurs="1" name="Reserver_Email" />
+          <s:element minOccurs="0" maxOccurs="1" name="Thanhtoantruoc" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ngay_Chungtu" />
+          <s:element minOccurs="0" maxOccurs="1" name="So_Chungtu" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Nhansu_Ctu" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ghichu" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          <s:element minOccurs="0" maxOccurs="1" name="Guid_Reserve" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Insert_Bar_Rent_ReserveResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Insert_Bar_Rent_ReserveResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Reserve">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Bar_Rent_Reserve" type="tns:Bar_Rent_Reserve" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_ReserveResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Rent_ReserveResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_Bar_Rent_Reserve">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Bar_Rent_Reserve" type="tns:Bar_Rent_Reserve" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_Bar_Rent_ReserveResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Delete_Bar_Rent_ReserveResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Reserve_Collection">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsCollection">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Reserve_CollectionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Rent_Reserve_CollectionResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Rent_Reserve_Table">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Guid_Reserve" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Rent_Reserve_TableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Bar_Rent_Reserve_TableResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Reserve_Table_Collection">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsCollection">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Reserve_Table_CollectionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Rent_Reserve_Table_CollectionResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Rent_Reserve_Phieuthu">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Guid_Reserve" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Rent_Reserve_PhieuthuResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Bar_Rent_Reserve_PhieuthuResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Reserve_Phieuthu_Collection">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsCollection">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Reserve_Phieuthu_CollectionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Rent_Reserve_Phieuthu_CollectionResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Bar_Rent_Reserve_Table_Lookup">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Bar_Rent_Reserve_Table_LookupResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_Bar_Rent_Reserve_Table_LookupResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Rent_Checkin_Khachhang">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Guid_Checkin" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Rent_Checkin_KhachhangResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Bar_Rent_Checkin_KhachhangResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Bar_Rent_Checkin_Khachhang_SelectByGuid_Checkin_Table">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Guid_Checkin_Table" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Bar_Rent_Checkin_Khachhang_SelectByGuid_Checkin_TableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Bar_Rent_Checkin_Khachhang_SelectByGuid_Checkin_TableResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Checkin_Khachhang_Collection">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsCollection">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Checkin_Khachhang_CollectionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Rent_Checkin_Khachhang_CollectionResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Check_Out">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Checkin" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Check_OutResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Rent_Check_OutResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Bar_Rent_Checkin_Table_Report_Total">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Bar_Rent_Checkin_Table_Report_TotalResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_Bar_Rent_Checkin_Table_Report_TotalResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Bar_Rent_Checkin_Order_Report_Total">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Bar_Rent_Checkin_Order_Report_TotalResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_Bar_Rent_Checkin_Order_Report_TotalResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Rent_Checkin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ThangNam" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+            <s:element minOccurs="0" maxOccurs="1" name="Check_Out" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Rent_CheckinResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Bar_Rent_CheckinResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Rent_Checkin_ByArrivalDate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ThangNam" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Rent_Checkin_ByArrivalDateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Bar_Rent_Checkin_ByArrivalDateResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBar_Rent_Checkin_ById">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Reserve" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBar_Rent_Checkin_ByIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBar_Rent_Checkin_ByIdResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBar_Rent_Checkin_ById4Print">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Reserve" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Rentlevel" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBar_Rent_Checkin_ById4PrintResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBar_Rent_Checkin_ById4PrintResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Bar_Rent_Checkin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Bar_Rent_Checkin" type="tns:Bar_Rent_Checkin" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Bar_Rent_Checkin">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Checkin" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Reserve" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Khachhang" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ngay_Batdau" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ngay_Ketthuc" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Class" />
+          <s:element minOccurs="0" maxOccurs="1" name="Soluong_Phong" />
+          <s:element minOccurs="0" maxOccurs="1" name="Soluong_Khach" />
+          <s:element minOccurs="0" maxOccurs="1" name="Checkin_Hoten" />
+          <s:element minOccurs="0" maxOccurs="1" name="Checkin_Cmnd" />
+          <s:element minOccurs="0" maxOccurs="1" name="Checkin_Tel" />
+          <s:element minOccurs="0" maxOccurs="1" name="Chietkhau_Tyle" />
+          <s:element minOccurs="0" maxOccurs="1" name="Chietkhau_Tienmat" />
+          <s:element minOccurs="0" maxOccurs="1" name="Checkin_Email" />
+          <s:element minOccurs="0" maxOccurs="1" name="Thanhtoantruoc" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ngay_Chungtu" />
+          <s:element minOccurs="0" maxOccurs="1" name="So_Chungtu" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Nhansu_Ctu" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ghichu" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Cuahang_Ban" />
+          <s:element minOccurs="0" maxOccurs="1" name="Guid_Checkin" />
+          <s:element minOccurs="0" maxOccurs="1" name="Check_Out" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id_Rentlevel" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Insert_Bar_Rent_CheckinResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Insert_Bar_Rent_CheckinResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Bar_Rent_Checkin_ByReserved">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Reserved" />
+            <s:element minOccurs="0" maxOccurs="1" name="Sochungtu" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ngay_Chungtu" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_Bar_Rent_Checkin_ByReservedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Insert_Bar_Rent_Checkin_ByReservedResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Checkin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Bar_Rent_Checkin" type="tns:Bar_Rent_Checkin" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_CheckinResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Rent_CheckinResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_Bar_Rent_Checkin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Bar_Rent_Checkin" type="tns:Bar_Rent_Checkin" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_Bar_Rent_CheckinResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Delete_Bar_Rent_CheckinResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Bar_Rent_Checkin_Dathanhtoan_ById_Checkin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Checkin" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Bar_Rent_Checkin_Dathanhtoan_ById_CheckinResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_Bar_Rent_Checkin_Dathanhtoan_ById_CheckinResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Checkin_Collection">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsCollection">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Checkin_CollectionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Rent_Checkin_CollectionResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Rent_Checkin_Table">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Guid_Checkin" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_All_Bar_Rent_Checkin_TableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_All_Bar_Rent_Checkin_TableResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Bar_Rent_Checkin_Table_SelectById_4Print">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Checkin_Table" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Rentlevel" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Bar_Rent_Checkin_Table_SelectById_4PrintResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Bar_Rent_Checkin_Table_SelectById_4PrintResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Bar_Rent_Checkin_Table_ChangeTable">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Checkin_Table" />
+            <s:element minOccurs="0" maxOccurs="1" name="Id_Table_new" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Bar_Rent_Checkin_Table_ChangeTableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Bar_Rent_Checkin_Table_ChangeTableResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Checkin_Table_Collection">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsCollection">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Bar_Rent_Checkin_Table_CollectionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Bar_Rent_Checkin_Table_CollectionResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="Update_Bar_Rent_Checkin_Table_Check_OutSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Checkin_Table_Check_Out" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_Checkin_Table_Check_OutSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Checkin_Table_Check_OutResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_Checkin_Table_Reset_Table_ReservedSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Checkin_Table_Reset_Table_Reserved" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_Checkin_Table_Reset_Table_ReservedSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Checkin_Table_Reset_Table_ReservedResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Rent_Checkin_PhieuthuSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Rent_Checkin_Phieuthu" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Rent_Checkin_PhieuthuSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Rent_Checkin_PhieuthuResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_Checkin_Phieuthu_CollectionSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Checkin_Phieuthu_Collection" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_Checkin_Phieuthu_CollectionSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Checkin_Phieuthu_CollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_Checkin_PhieuThu_TrangthaiSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Checkin_PhieuThu_Trangthai" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_Checkin_PhieuThu_TrangthaiSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Checkin_PhieuThu_TrangthaiResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Rent_Checkin_table_HanghoaSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Rent_Checkin_table_Hanghoa" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Rent_Checkin_table_HanghoaSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Rent_Checkin_table_HanghoaResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_TableSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_Table" />
+  </wsdl:message>
+  <wsdl:message name="Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_TableSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_TableResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_Table_4PrintSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_Table_4Print" />
+  </wsdl:message>
+  <wsdl:message name="Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_Table_4PrintSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_Table_4PrintResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_Bar_Rent_Checkin_Hanghoa_By_Checkin_4PrintSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_Bar_Rent_Checkin_Hanghoa_By_Checkin_4Print" />
+  </wsdl:message>
+  <wsdl:message name="Get_Bar_Rent_Checkin_Hanghoa_By_Checkin_4PrintSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_Bar_Rent_Checkin_Hanghoa_By_Checkin_4PrintResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_Checkin_table_Hanghoa_CollectionSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Checkin_table_Hanghoa_Collection" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_Checkin_table_Hanghoa_CollectionSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Checkin_table_Hanghoa_CollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetServerDateTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetServerDateTime" />
+  </wsdl:message>
+  <wsdl:message name="GetServerDateTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetServerDateTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCurrentTimeZoneSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCurrentTimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetCurrentTimeZoneSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCurrentTimeZoneResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetNew_SochungtuSoapIn">
+    <wsdl:part name="parameters" element="tns:GetNew_Sochungtu" />
+  </wsdl:message>
+  <wsdl:message name="GetNew_SochungtuSoapOut">
+    <wsdl:part name="parameters" element="tns:GetNew_SochungtuResponse" />
+  </wsdl:message>
+  <wsdl:message name="Bar_Table_Order_Update_LockSoapIn">
+    <wsdl:part name="parameters" element="tns:Bar_Table_Order_Update_Lock" />
+  </wsdl:message>
+  <wsdl:message name="Bar_Table_Order_Update_LockSoapOut">
+    <wsdl:part name="parameters" element="tns:Bar_Table_Order_Update_LockResponse" />
+  </wsdl:message>
+  <wsdl:message name="Bar_Table_Order_Xuat_NvlSoapIn">
+    <wsdl:part name="parameters" element="tns:Bar_Table_Order_Xuat_Nvl" />
+  </wsdl:message>
+  <wsdl:message name="Bar_Table_Order_Xuat_NvlSoapOut">
+    <wsdl:part name="parameters" element="tns:Bar_Table_Order_Xuat_NvlResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Table_OrderSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Table_Order" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Table_OrderSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Table_OrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Table_Order_By_Id_CuahangSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Table_Order_By_Id_Cuahang" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Table_Order_By_Id_CuahangSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Table_Order_By_Id_CuahangResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Table_Order_By_Id_Cuahang_And_Id_KhuvucSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Table_Order_By_Id_Cuahang_And_Id_Khuvuc" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Table_Order_By_Id_Cuahang_And_Id_KhuvucSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Table_Order_By_Id_Cuahang_And_Id_KhuvucResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_Finish_Bar_Table_OrderSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_Finish_Bar_Table_Order" />
+  </wsdl:message>
+  <wsdl:message name="Get_Finish_Bar_Table_OrderSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_Finish_Bar_Table_OrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Table_Order_By_DateOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Table_Order_By_DateOrder" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Table_Order_By_DateOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Table_Order_By_DateOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Table_Order_ChitietSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Table_Order_Chitiet" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Table_Order_ChitietSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Table_Order_ChitietResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Table_Order_Chitiet_ById_Nhom_Hanghoa_BanSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Table_Order_Chitiet_ById_Nhom_Hanghoa_Ban" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Table_Order_Chitiet_ById_Nhom_Hanghoa_BanSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Table_Order_Chitiet_ById_Nhom_Hanghoa_BanResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_Book_Bar_Table_Order_ChitietSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_Book_Bar_Table_Order_Chitiet" />
+  </wsdl:message>
+  <wsdl:message name="Get_Book_Bar_Table_Order_ChitietSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_Book_Bar_Table_Order_ChitietResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Table_Order_Chitiet_ServedSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Table_Order_Chitiet_Served" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Table_Order_Chitiet_ServedSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Table_Order_Chitiet_ServedResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Table_Order_Chitiet_ById_OrderSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Table_Order_Chitiet_ById_Order" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Table_Order_Chitiet_ById_OrderSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Table_Order_Chitiet_ById_OrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Table_Order_Chitiet_Log_ById_OrderSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Table_Order_Chitiet_Log_ById_Order" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Table_Order_Chitiet_Log_ById_OrderSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Table_Order_Chitiet_Log_ById_OrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Bar_Table_OrderSoapIn">
+    <wsdl:part name="parameters" element="tns:Insert_Bar_Table_Order" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Bar_Table_OrderSoapOut">
+    <wsdl:part name="parameters" element="tns:Insert_Bar_Table_OrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Bar_Table_Order_For_WebSoapIn">
+    <wsdl:part name="parameters" element="tns:Insert_Bar_Table_Order_For_Web" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Bar_Table_Order_For_WebSoapOut">
+    <wsdl:part name="parameters" element="tns:Insert_Bar_Table_Order_For_WebResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Table_Order_For_WebSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Table_Order_For_Web" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Table_Order_For_WebSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Table_Order_For_WebResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Table_OrderSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Table_Order" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Table_OrderSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Table_OrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Id_Khachhang_Bar_Table_OrderSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Id_Khachhang_Bar_Table_Order" />
+  </wsdl:message>
+  <wsdl:message name="Update_Id_Khachhang_Bar_Table_OrderSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Id_Khachhang_Bar_Table_OrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Table_Order_ChitietSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Table_Order_Chitiet" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Table_Order_ChitietSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Table_Order_ChitietResponse" />
+  </wsdl:message>
+  <wsdl:message name="Delete_Bar_Table_OrderSoapIn">
+    <wsdl:part name="parameters" element="tns:Delete_Bar_Table_Order" />
+  </wsdl:message>
+  <wsdl:message name="Delete_Bar_Table_OrderSoapOut">
+    <wsdl:part name="parameters" element="tns:Delete_Bar_Table_OrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Table_Order_Chitiet_CollectionSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Table_Order_Chitiet_Collection" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Table_Order_Chitiet_CollectionSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Table_Order_Chitiet_CollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Table_Order_Chitiet_Log_CollectionSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Table_Order_Chitiet_Log_Collection" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Table_Order_Chitiet_Log_CollectionSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Table_Order_Chitiet_Log_CollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Table_BookingSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Table_Booking" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Table_BookingSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Table_BookingResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBar_Table_Booking_Tien_Booking_By_Id_BookingSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBar_Table_Booking_Tien_Booking_By_Id_Booking" />
+  </wsdl:message>
+  <wsdl:message name="GetBar_Table_Booking_Tien_Booking_By_Id_BookingSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBar_Table_Booking_Tien_Booking_By_Id_BookingResponse" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Bar_Table_BookingSoapIn">
+    <wsdl:part name="parameters" element="tns:Insert_Bar_Table_Booking" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Bar_Table_BookingSoapOut">
+    <wsdl:part name="parameters" element="tns:Insert_Bar_Table_BookingResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Table_BookingSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Table_Booking" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Table_BookingSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Table_BookingResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Table_Booking_to_FinishSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Table_Booking_to_Finish" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Table_Booking_to_FinishSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Table_Booking_to_FinishResponse" />
+  </wsdl:message>
+  <wsdl:message name="Delete_Bar_Table_BookingSoapIn">
+    <wsdl:part name="parameters" element="tns:Delete_Bar_Table_Booking" />
+  </wsdl:message>
+  <wsdl:message name="Delete_Bar_Table_BookingSoapOut">
+    <wsdl:part name="parameters" element="tns:Delete_Bar_Table_BookingResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAll_Bar_Table_Booking_Chitiet_By_Id_BookingSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAll_Bar_Table_Booking_Chitiet_By_Id_Booking" />
+  </wsdl:message>
+  <wsdl:message name="GetAll_Bar_Table_Booking_Chitiet_By_Id_BookingSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAll_Bar_Table_Booking_Chitiet_By_Id_BookingResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Table_Booking_Chitiet_CollectionSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Table_Booking_Chitiet_Collection" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Table_Booking_Chitiet_CollectionSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Table_Booking_Chitiet_CollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Kitchen_PrinterSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Kitchen_Printer" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Kitchen_PrinterSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Kitchen_PrinterResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Kitchen_Printer_ByPC_CodeSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Kitchen_Printer_ByPC_Code" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Kitchen_Printer_ByPC_CodeSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Kitchen_Printer_ByPC_CodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPrinter_From_Bar_Kitchen_PrinterSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPrinter_From_Bar_Kitchen_Printer" />
+  </wsdl:message>
+  <wsdl:message name="GetPrinter_From_Bar_Kitchen_PrinterSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPrinter_From_Bar_Kitchen_PrinterResponse" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Bar_Kitchen_PrinterSoapIn">
+    <wsdl:part name="parameters" element="tns:Insert_Bar_Kitchen_Printer" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Bar_Kitchen_PrinterSoapOut">
+    <wsdl:part name="parameters" element="tns:Insert_Bar_Kitchen_PrinterResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Kitchen_PrinterSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Kitchen_Printer" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Kitchen_PrinterSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Kitchen_PrinterResponse" />
+  </wsdl:message>
+  <wsdl:message name="Delete_Bar_Kitchen_PrinterSoapIn">
+    <wsdl:part name="parameters" element="tns:Delete_Bar_Kitchen_Printer" />
+  </wsdl:message>
+  <wsdl:message name="Delete_Bar_Kitchen_PrinterSoapOut">
+    <wsdl:part name="parameters" element="tns:Delete_Bar_Kitchen_PrinterResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Kitchen_Printer_CollectionSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Kitchen_Printer_Collection" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Kitchen_Printer_CollectionSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Kitchen_Printer_CollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="FetchPrinter_Bar_Kitchen_Order_ChitietSoapIn">
+    <wsdl:part name="parameters" element="tns:FetchPrinter_Bar_Kitchen_Order_Chitiet" />
+  </wsdl:message>
+  <wsdl:message name="FetchPrinter_Bar_Kitchen_Order_ChitietSoapOut">
+    <wsdl:part name="parameters" element="tns:FetchPrinter_Bar_Kitchen_Order_ChitietResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLog_Bar_Kitchen_Order_ChitietSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLog_Bar_Kitchen_Order_Chitiet" />
+  </wsdl:message>
+  <wsdl:message name="GetLog_Bar_Kitchen_Order_ChitietSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLog_Bar_Kitchen_Order_ChitietResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTopLog_Bar_Kitchen_Order_ChitietSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTopLog_Bar_Kitchen_Order_Chitiet" />
+  </wsdl:message>
+  <wsdl:message name="GetTopLog_Bar_Kitchen_Order_ChitietSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTopLog_Bar_Kitchen_Order_ChitietResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetNotLog_Bar_Kitchen_Order_ChitietSoapIn">
+    <wsdl:part name="parameters" element="tns:GetNotLog_Bar_Kitchen_Order_Chitiet" />
+  </wsdl:message>
+  <wsdl:message name="GetNotLog_Bar_Kitchen_Order_ChitietSoapOut">
+    <wsdl:part name="parameters" element="tns:GetNotLog_Bar_Kitchen_Order_ChitietResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetServed_Bar_Kitchen_Order_ChitietSoapIn">
+    <wsdl:part name="parameters" element="tns:GetServed_Bar_Kitchen_Order_Chitiet" />
+  </wsdl:message>
+  <wsdl:message name="GetServed_Bar_Kitchen_Order_ChitietSoapOut">
+    <wsdl:part name="parameters" element="tns:GetServed_Bar_Kitchen_Order_ChitietResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetNVL_Bar_Kitchen_Order_ChitietSoapIn">
+    <wsdl:part name="parameters" element="tns:GetNVL_Bar_Kitchen_Order_Chitiet" />
+  </wsdl:message>
+  <wsdl:message name="GetNVL_Bar_Kitchen_Order_ChitietSoapOut">
+    <wsdl:part name="parameters" element="tns:GetNVL_Bar_Kitchen_Order_ChitietResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_WinecardSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Winecard" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_WinecardSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_WinecardResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBar_Winecard_ByIdSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBar_Winecard_ById" />
+  </wsdl:message>
+  <wsdl:message name="GetBar_Winecard_ByIdSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBar_Winecard_ByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Bar_WinecardSoapIn">
+    <wsdl:part name="parameters" element="tns:Insert_Bar_Winecard" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Bar_WinecardSoapOut">
+    <wsdl:part name="parameters" element="tns:Insert_Bar_WinecardResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_WinecardSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Winecard" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_WinecardSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_WinecardResponse" />
+  </wsdl:message>
+  <wsdl:message name="Delete_Bar_WinecardSoapIn">
+    <wsdl:part name="parameters" element="tns:Delete_Bar_Winecard" />
+  </wsdl:message>
+  <wsdl:message name="Delete_Bar_WinecardSoapOut">
+    <wsdl:part name="parameters" element="tns:Delete_Bar_WinecardResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Winecard_CollectionSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Winecard_Collection" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Winecard_CollectionSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Winecard_CollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Rentcost_CollectionSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Rentcost_Collection" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Rentcost_CollectionSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Rentcost_CollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rentcost_CollectionSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rentcost_Collection" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rentcost_CollectionSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rentcost_CollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="Bar_Rentcost_CheckDateSoapIn">
+    <wsdl:part name="parameters" element="tns:Bar_Rentcost_CheckDate" />
+  </wsdl:message>
+  <wsdl:message name="Bar_Rentcost_CheckDateSoapOut">
+    <wsdl:part name="parameters" element="tns:Bar_Rentcost_CheckDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Rent_ReserveSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Rent_Reserve" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Rent_ReserveSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Rent_ReserveResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Rent_Reserve_ByArrivalDateSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Rent_Reserve_ByArrivalDate" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Rent_Reserve_ByArrivalDateSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Rent_Reserve_ByArrivalDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBar_Rent_Reserve_ByIdSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBar_Rent_Reserve_ById" />
+  </wsdl:message>
+  <wsdl:message name="GetBar_Rent_Reserve_ByIdSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBar_Rent_Reserve_ByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Bar_Rent_ReserveSoapIn">
+    <wsdl:part name="parameters" element="tns:Insert_Bar_Rent_Reserve" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Bar_Rent_ReserveSoapOut">
+    <wsdl:part name="parameters" element="tns:Insert_Bar_Rent_ReserveResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_ReserveSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Reserve" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_ReserveSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_ReserveResponse" />
+  </wsdl:message>
+  <wsdl:message name="Delete_Bar_Rent_ReserveSoapIn">
+    <wsdl:part name="parameters" element="tns:Delete_Bar_Rent_Reserve" />
+  </wsdl:message>
+  <wsdl:message name="Delete_Bar_Rent_ReserveSoapOut">
+    <wsdl:part name="parameters" element="tns:Delete_Bar_Rent_ReserveResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_Reserve_CollectionSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Reserve_Collection" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_Reserve_CollectionSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Reserve_CollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Rent_Reserve_TableSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Rent_Reserve_Table" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Rent_Reserve_TableSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Rent_Reserve_TableResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_Reserve_Table_CollectionSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Reserve_Table_Collection" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_Reserve_Table_CollectionSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Reserve_Table_CollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Rent_Reserve_PhieuthuSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Rent_Reserve_Phieuthu" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Rent_Reserve_PhieuthuSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Rent_Reserve_PhieuthuResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_Reserve_Phieuthu_CollectionSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Reserve_Phieuthu_Collection" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_Reserve_Phieuthu_CollectionSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Reserve_Phieuthu_CollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_Bar_Rent_Reserve_Table_LookupSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_Bar_Rent_Reserve_Table_Lookup" />
+  </wsdl:message>
+  <wsdl:message name="Get_Bar_Rent_Reserve_Table_LookupSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_Bar_Rent_Reserve_Table_LookupResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Rent_Checkin_KhachhangSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Rent_Checkin_Khachhang" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Rent_Checkin_KhachhangSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Rent_Checkin_KhachhangResponse" />
+  </wsdl:message>
+  <wsdl:message name="Bar_Rent_Checkin_Khachhang_SelectByGuid_Checkin_TableSoapIn">
+    <wsdl:part name="parameters" element="tns:Bar_Rent_Checkin_Khachhang_SelectByGuid_Checkin_Table" />
+  </wsdl:message>
+  <wsdl:message name="Bar_Rent_Checkin_Khachhang_SelectByGuid_Checkin_TableSoapOut">
+    <wsdl:part name="parameters" element="tns:Bar_Rent_Checkin_Khachhang_SelectByGuid_Checkin_TableResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_Checkin_Khachhang_CollectionSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Checkin_Khachhang_Collection" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_Checkin_Khachhang_CollectionSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Checkin_Khachhang_CollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_Check_OutSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Check_Out" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_Check_OutSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Check_OutResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_Bar_Rent_Checkin_Table_Report_TotalSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_Bar_Rent_Checkin_Table_Report_Total" />
+  </wsdl:message>
+  <wsdl:message name="Get_Bar_Rent_Checkin_Table_Report_TotalSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_Bar_Rent_Checkin_Table_Report_TotalResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_Bar_Rent_Checkin_Order_Report_TotalSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_Bar_Rent_Checkin_Order_Report_Total" />
+  </wsdl:message>
+  <wsdl:message name="Get_Bar_Rent_Checkin_Order_Report_TotalSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_Bar_Rent_Checkin_Order_Report_TotalResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Rent_CheckinSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Rent_Checkin" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Rent_CheckinSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Rent_CheckinResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Rent_Checkin_ByArrivalDateSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Rent_Checkin_ByArrivalDate" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Rent_Checkin_ByArrivalDateSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Rent_Checkin_ByArrivalDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBar_Rent_Checkin_ByIdSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBar_Rent_Checkin_ById" />
+  </wsdl:message>
+  <wsdl:message name="GetBar_Rent_Checkin_ByIdSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBar_Rent_Checkin_ByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBar_Rent_Checkin_ById4PrintSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBar_Rent_Checkin_ById4Print" />
+  </wsdl:message>
+  <wsdl:message name="GetBar_Rent_Checkin_ById4PrintSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBar_Rent_Checkin_ById4PrintResponse" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Bar_Rent_CheckinSoapIn">
+    <wsdl:part name="parameters" element="tns:Insert_Bar_Rent_Checkin" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Bar_Rent_CheckinSoapOut">
+    <wsdl:part name="parameters" element="tns:Insert_Bar_Rent_CheckinResponse" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Bar_Rent_Checkin_ByReservedSoapIn">
+    <wsdl:part name="parameters" element="tns:Insert_Bar_Rent_Checkin_ByReserved" />
+  </wsdl:message>
+  <wsdl:message name="Insert_Bar_Rent_Checkin_ByReservedSoapOut">
+    <wsdl:part name="parameters" element="tns:Insert_Bar_Rent_Checkin_ByReservedResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_CheckinSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Checkin" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_CheckinSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_CheckinResponse" />
+  </wsdl:message>
+  <wsdl:message name="Delete_Bar_Rent_CheckinSoapIn">
+    <wsdl:part name="parameters" element="tns:Delete_Bar_Rent_Checkin" />
+  </wsdl:message>
+  <wsdl:message name="Delete_Bar_Rent_CheckinSoapOut">
+    <wsdl:part name="parameters" element="tns:Delete_Bar_Rent_CheckinResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_Bar_Rent_Checkin_Dathanhtoan_ById_CheckinSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_Bar_Rent_Checkin_Dathanhtoan_ById_Checkin" />
+  </wsdl:message>
+  <wsdl:message name="Get_Bar_Rent_Checkin_Dathanhtoan_ById_CheckinSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_Bar_Rent_Checkin_Dathanhtoan_ById_CheckinResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_Checkin_CollectionSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Checkin_Collection" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_Checkin_CollectionSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Checkin_CollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Rent_Checkin_TableSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Rent_Checkin_Table" />
+  </wsdl:message>
+  <wsdl:message name="Get_All_Bar_Rent_Checkin_TableSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_All_Bar_Rent_Checkin_TableResponse" />
+  </wsdl:message>
+  <wsdl:message name="Bar_Rent_Checkin_Table_SelectById_4PrintSoapIn">
+    <wsdl:part name="parameters" element="tns:Bar_Rent_Checkin_Table_SelectById_4Print" />
+  </wsdl:message>
+  <wsdl:message name="Bar_Rent_Checkin_Table_SelectById_4PrintSoapOut">
+    <wsdl:part name="parameters" element="tns:Bar_Rent_Checkin_Table_SelectById_4PrintResponse" />
+  </wsdl:message>
+  <wsdl:message name="Bar_Rent_Checkin_Table_ChangeTableSoapIn">
+    <wsdl:part name="parameters" element="tns:Bar_Rent_Checkin_Table_ChangeTable" />
+  </wsdl:message>
+  <wsdl:message name="Bar_Rent_Checkin_Table_ChangeTableSoapOut">
+    <wsdl:part name="parameters" element="tns:Bar_Rent_Checkin_Table_ChangeTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_Checkin_Table_CollectionSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Checkin_Table_Collection" />
+  </wsdl:message>
+  <wsdl:message name="Update_Bar_Rent_Checkin_Table_CollectionSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Bar_Rent_Checkin_Table_CollectionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="BarServiceSoap">
+    <wsdl:operation name="Update_Bar_Rent_Checkin_Table_Check_Out">
+      <wsdl:input message="tns:Update_Bar_Rent_Checkin_Table_Check_OutSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Rent_Checkin_Table_Check_OutSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Checkin_Table_Reset_Table_Reserved">
+      <wsdl:input message="tns:Update_Bar_Rent_Checkin_Table_Reset_Table_ReservedSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Rent_Checkin_Table_Reset_Table_ReservedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Checkin_Phieuthu">
+      <wsdl:input message="tns:Get_All_Bar_Rent_Checkin_PhieuthuSoapIn" />
+      <wsdl:output message="tns:Get_All_Bar_Rent_Checkin_PhieuthuSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Checkin_Phieuthu_Collection">
+      <wsdl:input message="tns:Update_Bar_Rent_Checkin_Phieuthu_CollectionSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Rent_Checkin_Phieuthu_CollectionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Checkin_PhieuThu_Trangthai">
+      <wsdl:input message="tns:Update_Bar_Rent_Checkin_PhieuThu_TrangthaiSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Rent_Checkin_PhieuThu_TrangthaiSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Checkin_table_Hanghoa">
+      <wsdl:input message="tns:Get_All_Bar_Rent_Checkin_table_HanghoaSoapIn" />
+      <wsdl:output message="tns:Get_All_Bar_Rent_Checkin_table_HanghoaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_Table">
+      <wsdl:input message="tns:Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_TableSoapIn" />
+      <wsdl:output message="tns:Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_TableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_Table_4Print">
+      <wsdl:input message="tns:Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_Table_4PrintSoapIn" />
+      <wsdl:output message="tns:Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_Table_4PrintSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Bar_Rent_Checkin_Hanghoa_By_Checkin_4Print">
+      <wsdl:input message="tns:Get_Bar_Rent_Checkin_Hanghoa_By_Checkin_4PrintSoapIn" />
+      <wsdl:output message="tns:Get_Bar_Rent_Checkin_Hanghoa_By_Checkin_4PrintSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Checkin_table_Hanghoa_Collection">
+      <wsdl:input message="tns:Update_Bar_Rent_Checkin_table_Hanghoa_CollectionSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Rent_Checkin_table_Hanghoa_CollectionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServerDateTime">
+      <wsdl:input message="tns:GetServerDateTimeSoapIn" />
+      <wsdl:output message="tns:GetServerDateTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentTimeZone">
+      <wsdl:input message="tns:GetCurrentTimeZoneSoapIn" />
+      <wsdl:output message="tns:GetCurrentTimeZoneSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNew_Sochungtu">
+      <wsdl:input message="tns:GetNew_SochungtuSoapIn" />
+      <wsdl:output message="tns:GetNew_SochungtuSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Bar_Table_Order_Update_Lock">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">update lại trạng thái lock của bar_table_order</wsdl:documentation>
+      <wsdl:input message="tns:Bar_Table_Order_Update_LockSoapIn" />
+      <wsdl:output message="tns:Bar_Table_Order_Update_LockSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Bar_Table_Order_Xuat_Nvl">
+      <wsdl:input message="tns:Bar_Table_Order_Xuat_NvlSoapIn" />
+      <wsdl:output message="tns:Bar_Table_Order_Xuat_NvlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order</wsdl:documentation>
+      <wsdl:input message="tns:Get_All_Bar_Table_OrderSoapIn" />
+      <wsdl:output message="tns:Get_All_Bar_Table_OrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order_By_Id_Cuahang">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order By Id_Cuahang_Ban</wsdl:documentation>
+      <wsdl:input message="tns:Get_All_Bar_Table_Order_By_Id_CuahangSoapIn" />
+      <wsdl:output message="tns:Get_All_Bar_Table_Order_By_Id_CuahangSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order_By_Id_Cuahang_And_Id_Khuvuc">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order By Id_Cuahang_Ban And Id_Khuvuc</wsdl:documentation>
+      <wsdl:input message="tns:Get_All_Bar_Table_Order_By_Id_Cuahang_And_Id_KhuvucSoapIn" />
+      <wsdl:output message="tns:Get_All_Bar_Table_Order_By_Id_Cuahang_And_Id_KhuvucSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Finish_Bar_Table_Order">
+      <wsdl:input message="tns:Get_Finish_Bar_Table_OrderSoapIn" />
+      <wsdl:output message="tns:Get_Finish_Bar_Table_OrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order_By_DateOrder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order by ngày order or vitri</wsdl:documentation>
+      <wsdl:input message="tns:Get_All_Bar_Table_Order_By_DateOrderSoapIn" />
+      <wsdl:output message="tns:Get_All_Bar_Table_Order_By_DateOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order_Chitiet">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order_Chitiet</wsdl:documentation>
+      <wsdl:input message="tns:Get_All_Bar_Table_Order_ChitietSoapIn" />
+      <wsdl:output message="tns:Get_All_Bar_Table_Order_ChitietSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order_Chitiet_ById_Nhom_Hanghoa_Ban">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order_Chitiet</wsdl:documentation>
+      <wsdl:input message="tns:Get_All_Bar_Table_Order_Chitiet_ById_Nhom_Hanghoa_BanSoapIn" />
+      <wsdl:output message="tns:Get_All_Bar_Table_Order_Chitiet_ById_Nhom_Hanghoa_BanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Book_Bar_Table_Order_Chitiet">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order_Chitiet</wsdl:documentation>
+      <wsdl:input message="tns:Get_Book_Bar_Table_Order_ChitietSoapIn" />
+      <wsdl:output message="tns:Get_Book_Bar_Table_Order_ChitietSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order_Chitiet_Served">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order_Chitiet</wsdl:documentation>
+      <wsdl:input message="tns:Get_All_Bar_Table_Order_Chitiet_ServedSoapIn" />
+      <wsdl:output message="tns:Get_All_Bar_Table_Order_Chitiet_ServedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order_Chitiet_ById_Order">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order</wsdl:documentation>
+      <wsdl:input message="tns:Get_All_Bar_Table_Order_Chitiet_ById_OrderSoapIn" />
+      <wsdl:output message="tns:Get_All_Bar_Table_Order_Chitiet_ById_OrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order_Chitiet_Log_ById_Order">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Table_Order</wsdl:documentation>
+      <wsdl:input message="tns:Get_All_Bar_Table_Order_Chitiet_Log_ById_OrderSoapIn" />
+      <wsdl:output message="tns:Get_All_Bar_Table_Order_Chitiet_Log_ById_OrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Bar_Table_Order">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Insert đối tượng Bar_Table_Order vào DB</wsdl:documentation>
+      <wsdl:input message="tns:Insert_Bar_Table_OrderSoapIn" />
+      <wsdl:output message="tns:Insert_Bar_Table_OrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Bar_Table_Order_For_Web">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Insert đối tượng Bar_Table_Order vào DB</wsdl:documentation>
+      <wsdl:input message="tns:Insert_Bar_Table_Order_For_WebSoapIn" />
+      <wsdl:output message="tns:Insert_Bar_Table_Order_For_WebSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Table_Order_For_Web">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Update đối tượng Bar_Table_Order vào DB</wsdl:documentation>
+      <wsdl:input message="tns:Update_Bar_Table_Order_For_WebSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Table_Order_For_WebSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Table_Order">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Update đối tượng Bar_Table_Order vào DB</wsdl:documentation>
+      <wsdl:input message="tns:Update_Bar_Table_OrderSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Table_OrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Id_Khachhang_Bar_Table_Order">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Update thành tiền km = null khi tách, ghép bàn</wsdl:documentation>
+      <wsdl:input message="tns:Update_Id_Khachhang_Bar_Table_OrderSoapIn" />
+      <wsdl:output message="tns:Update_Id_Khachhang_Bar_Table_OrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Table_Order_Chitiet">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Update đối tượng Bar_Table_Order vào DB</wsdl:documentation>
+      <wsdl:input message="tns:Update_Bar_Table_Order_ChitietSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Table_Order_ChitietSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Bar_Table_Order">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Delete đối tượng Bar_Table_Order vào DB</wsdl:documentation>
+      <wsdl:input message="tns:Delete_Bar_Table_OrderSoapIn" />
+      <wsdl:output message="tns:Delete_Bar_Table_OrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Table_Order_Chitiet_Collection">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Update Collection Bar_Table_Order vào DB</wsdl:documentation>
+      <wsdl:input message="tns:Update_Bar_Table_Order_Chitiet_CollectionSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Table_Order_Chitiet_CollectionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Table_Order_Chitiet_Log_Collection">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Update Collection Bar_Table_Order vào DB</wsdl:documentation>
+      <wsdl:input message="tns:Update_Bar_Table_Order_Chitiet_Log_CollectionSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Table_Order_Chitiet_Log_CollectionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Booking">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">return list all booking</wsdl:documentation>
+      <wsdl:input message="tns:Get_All_Bar_Table_BookingSoapIn" />
+      <wsdl:output message="tns:Get_All_Bar_Table_BookingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBar_Table_Booking_Tien_Booking_By_Id_Booking">
+      <wsdl:input message="tns:GetBar_Table_Booking_Tien_Booking_By_Id_BookingSoapIn" />
+      <wsdl:output message="tns:GetBar_Table_Booking_Tien_Booking_By_Id_BookingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Bar_Table_Booking">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Insert đối tượng Bar_Table_Booking vào DB</wsdl:documentation>
+      <wsdl:input message="tns:Insert_Bar_Table_BookingSoapIn" />
+      <wsdl:output message="tns:Insert_Bar_Table_BookingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Table_Booking">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Update đối tượng Bar_Table_Booking vào DB</wsdl:documentation>
+      <wsdl:input message="tns:Update_Bar_Table_BookingSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Table_BookingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Table_Booking_to_Finish">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Update đối tượng Bar_Table_Booking sau khi kết thúc bàn</wsdl:documentation>
+      <wsdl:input message="tns:Update_Bar_Table_Booking_to_FinishSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Table_Booking_to_FinishSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Bar_Table_Booking">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Delete đối tượng Bar_Table_Booking</wsdl:documentation>
+      <wsdl:input message="tns:Delete_Bar_Table_BookingSoapIn" />
+      <wsdl:output message="tns:Delete_Bar_Table_BookingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAll_Bar_Table_Booking_Chitiet_By_Id_Booking">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">GetAll_Bar_Table_Booking_Chitiet_By_Id_Booking</wsdl:documentation>
+      <wsdl:input message="tns:GetAll_Bar_Table_Booking_Chitiet_By_Id_BookingSoapIn" />
+      <wsdl:output message="tns:GetAll_Bar_Table_Booking_Chitiet_By_Id_BookingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Table_Booking_Chitiet_Collection">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Update Collection Bar_Table_Booking_Chitiet vào DB</wsdl:documentation>
+      <wsdl:input message="tns:Update_Bar_Table_Booking_Chitiet_CollectionSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Table_Booking_Chitiet_CollectionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Kitchen_Printer">
+      <wsdl:input message="tns:Get_All_Bar_Kitchen_PrinterSoapIn" />
+      <wsdl:output message="tns:Get_All_Bar_Kitchen_PrinterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Kitchen_Printer_ByPC_Code">
+      <wsdl:input message="tns:Get_All_Bar_Kitchen_Printer_ByPC_CodeSoapIn" />
+      <wsdl:output message="tns:Get_All_Bar_Kitchen_Printer_ByPC_CodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPrinter_From_Bar_Kitchen_Printer">
+      <wsdl:input message="tns:GetPrinter_From_Bar_Kitchen_PrinterSoapIn" />
+      <wsdl:output message="tns:GetPrinter_From_Bar_Kitchen_PrinterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Bar_Kitchen_Printer">
+      <wsdl:input message="tns:Insert_Bar_Kitchen_PrinterSoapIn" />
+      <wsdl:output message="tns:Insert_Bar_Kitchen_PrinterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Kitchen_Printer">
+      <wsdl:input message="tns:Update_Bar_Kitchen_PrinterSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Kitchen_PrinterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Bar_Kitchen_Printer">
+      <wsdl:input message="tns:Delete_Bar_Kitchen_PrinterSoapIn" />
+      <wsdl:output message="tns:Delete_Bar_Kitchen_PrinterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Kitchen_Printer_Collection">
+      <wsdl:input message="tns:Update_Bar_Kitchen_Printer_CollectionSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Kitchen_Printer_CollectionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FetchPrinter_Bar_Kitchen_Order_Chitiet">
+      <wsdl:input message="tns:FetchPrinter_Bar_Kitchen_Order_ChitietSoapIn" />
+      <wsdl:output message="tns:FetchPrinter_Bar_Kitchen_Order_ChitietSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLog_Bar_Kitchen_Order_Chitiet">
+      <wsdl:input message="tns:GetLog_Bar_Kitchen_Order_ChitietSoapIn" />
+      <wsdl:output message="tns:GetLog_Bar_Kitchen_Order_ChitietSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTopLog_Bar_Kitchen_Order_Chitiet">
+      <wsdl:input message="tns:GetTopLog_Bar_Kitchen_Order_ChitietSoapIn" />
+      <wsdl:output message="tns:GetTopLog_Bar_Kitchen_Order_ChitietSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNotLog_Bar_Kitchen_Order_Chitiet">
+      <wsdl:input message="tns:GetNotLog_Bar_Kitchen_Order_ChitietSoapIn" />
+      <wsdl:output message="tns:GetNotLog_Bar_Kitchen_Order_ChitietSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServed_Bar_Kitchen_Order_Chitiet">
+      <wsdl:input message="tns:GetServed_Bar_Kitchen_Order_ChitietSoapIn" />
+      <wsdl:output message="tns:GetServed_Bar_Kitchen_Order_ChitietSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNVL_Bar_Kitchen_Order_Chitiet">
+      <wsdl:input message="tns:GetNVL_Bar_Kitchen_Order_ChitietSoapIn" />
+      <wsdl:output message="tns:GetNVL_Bar_Kitchen_Order_ChitietSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Winecard">
+      <wsdl:input message="tns:Get_All_Bar_WinecardSoapIn" />
+      <wsdl:output message="tns:Get_All_Bar_WinecardSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBar_Winecard_ById">
+      <wsdl:input message="tns:GetBar_Winecard_ByIdSoapIn" />
+      <wsdl:output message="tns:GetBar_Winecard_ByIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Bar_Winecard">
+      <wsdl:input message="tns:Insert_Bar_WinecardSoapIn" />
+      <wsdl:output message="tns:Insert_Bar_WinecardSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Winecard">
+      <wsdl:input message="tns:Update_Bar_WinecardSoapIn" />
+      <wsdl:output message="tns:Update_Bar_WinecardSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Bar_Winecard">
+      <wsdl:input message="tns:Delete_Bar_WinecardSoapIn" />
+      <wsdl:output message="tns:Delete_Bar_WinecardSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Winecard_Collection">
+      <wsdl:input message="tns:Update_Bar_Winecard_CollectionSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Winecard_CollectionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rentcost_Collection">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Dm_Table</wsdl:documentation>
+      <wsdl:input message="tns:Get_All_Bar_Rentcost_CollectionSoapIn" />
+      <wsdl:output message="tns:Get_All_Bar_Rentcost_CollectionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rentcost_Collection">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Dm_Table</wsdl:documentation>
+      <wsdl:input message="tns:Update_Bar_Rentcost_CollectionSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Rentcost_CollectionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Bar_Rentcost_CheckDate">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Trả về một dataset Bar_Dm_Table</wsdl:documentation>
+      <wsdl:input message="tns:Bar_Rentcost_CheckDateSoapIn" />
+      <wsdl:output message="tns:Bar_Rentcost_CheckDateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Reserve">
+      <wsdl:input message="tns:Get_All_Bar_Rent_ReserveSoapIn" />
+      <wsdl:output message="tns:Get_All_Bar_Rent_ReserveSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Reserve_ByArrivalDate">
+      <wsdl:input message="tns:Get_All_Bar_Rent_Reserve_ByArrivalDateSoapIn" />
+      <wsdl:output message="tns:Get_All_Bar_Rent_Reserve_ByArrivalDateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBar_Rent_Reserve_ById">
+      <wsdl:input message="tns:GetBar_Rent_Reserve_ByIdSoapIn" />
+      <wsdl:output message="tns:GetBar_Rent_Reserve_ByIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Bar_Rent_Reserve">
+      <wsdl:input message="tns:Insert_Bar_Rent_ReserveSoapIn" />
+      <wsdl:output message="tns:Insert_Bar_Rent_ReserveSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Reserve">
+      <wsdl:input message="tns:Update_Bar_Rent_ReserveSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Rent_ReserveSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Bar_Rent_Reserve">
+      <wsdl:input message="tns:Delete_Bar_Rent_ReserveSoapIn" />
+      <wsdl:output message="tns:Delete_Bar_Rent_ReserveSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Reserve_Collection">
+      <wsdl:input message="tns:Update_Bar_Rent_Reserve_CollectionSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Rent_Reserve_CollectionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Reserve_Table">
+      <wsdl:input message="tns:Get_All_Bar_Rent_Reserve_TableSoapIn" />
+      <wsdl:output message="tns:Get_All_Bar_Rent_Reserve_TableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Reserve_Table_Collection">
+      <wsdl:input message="tns:Update_Bar_Rent_Reserve_Table_CollectionSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Rent_Reserve_Table_CollectionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Reserve_Phieuthu">
+      <wsdl:input message="tns:Get_All_Bar_Rent_Reserve_PhieuthuSoapIn" />
+      <wsdl:output message="tns:Get_All_Bar_Rent_Reserve_PhieuthuSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Reserve_Phieuthu_Collection">
+      <wsdl:input message="tns:Update_Bar_Rent_Reserve_Phieuthu_CollectionSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Rent_Reserve_Phieuthu_CollectionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Bar_Rent_Reserve_Table_Lookup">
+      <wsdl:input message="tns:Get_Bar_Rent_Reserve_Table_LookupSoapIn" />
+      <wsdl:output message="tns:Get_Bar_Rent_Reserve_Table_LookupSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Checkin_Khachhang">
+      <wsdl:input message="tns:Get_All_Bar_Rent_Checkin_KhachhangSoapIn" />
+      <wsdl:output message="tns:Get_All_Bar_Rent_Checkin_KhachhangSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Bar_Rent_Checkin_Khachhang_SelectByGuid_Checkin_Table">
+      <wsdl:input message="tns:Bar_Rent_Checkin_Khachhang_SelectByGuid_Checkin_TableSoapIn" />
+      <wsdl:output message="tns:Bar_Rent_Checkin_Khachhang_SelectByGuid_Checkin_TableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Checkin_Khachhang_Collection">
+      <wsdl:input message="tns:Update_Bar_Rent_Checkin_Khachhang_CollectionSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Rent_Checkin_Khachhang_CollectionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Check_Out">
+      <wsdl:input message="tns:Update_Bar_Rent_Check_OutSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Rent_Check_OutSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Bar_Rent_Checkin_Table_Report_Total">
+      <wsdl:input message="tns:Get_Bar_Rent_Checkin_Table_Report_TotalSoapIn" />
+      <wsdl:output message="tns:Get_Bar_Rent_Checkin_Table_Report_TotalSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Bar_Rent_Checkin_Order_Report_Total">
+      <wsdl:input message="tns:Get_Bar_Rent_Checkin_Order_Report_TotalSoapIn" />
+      <wsdl:output message="tns:Get_Bar_Rent_Checkin_Order_Report_TotalSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Checkin">
+      <wsdl:input message="tns:Get_All_Bar_Rent_CheckinSoapIn" />
+      <wsdl:output message="tns:Get_All_Bar_Rent_CheckinSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Checkin_ByArrivalDate">
+      <wsdl:input message="tns:Get_All_Bar_Rent_Checkin_ByArrivalDateSoapIn" />
+      <wsdl:output message="tns:Get_All_Bar_Rent_Checkin_ByArrivalDateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBar_Rent_Checkin_ById">
+      <wsdl:input message="tns:GetBar_Rent_Checkin_ByIdSoapIn" />
+      <wsdl:output message="tns:GetBar_Rent_Checkin_ByIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBar_Rent_Checkin_ById4Print">
+      <wsdl:input message="tns:GetBar_Rent_Checkin_ById4PrintSoapIn" />
+      <wsdl:output message="tns:GetBar_Rent_Checkin_ById4PrintSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Bar_Rent_Checkin">
+      <wsdl:input message="tns:Insert_Bar_Rent_CheckinSoapIn" />
+      <wsdl:output message="tns:Insert_Bar_Rent_CheckinSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Bar_Rent_Checkin_ByReserved">
+      <wsdl:input message="tns:Insert_Bar_Rent_Checkin_ByReservedSoapIn" />
+      <wsdl:output message="tns:Insert_Bar_Rent_Checkin_ByReservedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Checkin">
+      <wsdl:input message="tns:Update_Bar_Rent_CheckinSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Rent_CheckinSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Bar_Rent_Checkin">
+      <wsdl:input message="tns:Delete_Bar_Rent_CheckinSoapIn" />
+      <wsdl:output message="tns:Delete_Bar_Rent_CheckinSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Bar_Rent_Checkin_Dathanhtoan_ById_Checkin">
+      <wsdl:input message="tns:Get_Bar_Rent_Checkin_Dathanhtoan_ById_CheckinSoapIn" />
+      <wsdl:output message="tns:Get_Bar_Rent_Checkin_Dathanhtoan_ById_CheckinSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Checkin_Collection">
+      <wsdl:input message="tns:Update_Bar_Rent_Checkin_CollectionSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Rent_Checkin_CollectionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Checkin_Table">
+      <wsdl:input message="tns:Get_All_Bar_Rent_Checkin_TableSoapIn" />
+      <wsdl:output message="tns:Get_All_Bar_Rent_Checkin_TableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Bar_Rent_Checkin_Table_SelectById_4Print">
+      <wsdl:input message="tns:Bar_Rent_Checkin_Table_SelectById_4PrintSoapIn" />
+      <wsdl:output message="tns:Bar_Rent_Checkin_Table_SelectById_4PrintSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Bar_Rent_Checkin_Table_ChangeTable">
+      <wsdl:input message="tns:Bar_Rent_Checkin_Table_ChangeTableSoapIn" />
+      <wsdl:output message="tns:Bar_Rent_Checkin_Table_ChangeTableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Checkin_Table_Collection">
+      <wsdl:input message="tns:Update_Bar_Rent_Checkin_Table_CollectionSoapIn" />
+      <wsdl:output message="tns:Update_Bar_Rent_Checkin_Table_CollectionSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BarServiceSoap" type="tns:BarServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Update_Bar_Rent_Checkin_Table_Check_Out">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Rent_Checkin_Table_Check_Out" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Checkin_Table_Reset_Table_Reserved">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Rent_Checkin_Table_Reset_Table_Reserved" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Checkin_Phieuthu">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Bar_Rent_Checkin_Phieuthu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Checkin_Phieuthu_Collection">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Rent_Checkin_Phieuthu_Collection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Checkin_PhieuThu_Trangthai">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Rent_Checkin_PhieuThu_Trangthai" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Checkin_table_Hanghoa">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Bar_Rent_Checkin_table_Hanghoa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_Table">
+      <soap:operation soapAction="http://tempuri.org/Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_Table" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_Table_4Print">
+      <soap:operation soapAction="http://tempuri.org/Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_Table_4Print" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Bar_Rent_Checkin_Hanghoa_By_Checkin_4Print">
+      <soap:operation soapAction="http://tempuri.org/Get_Bar_Rent_Checkin_Hanghoa_By_Checkin_4Print" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Checkin_table_Hanghoa_Collection">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Rent_Checkin_table_Hanghoa_Collection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerDateTime">
+      <soap:operation soapAction="http://tempuri.org/GetServerDateTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentTimeZone">
+      <soap:operation soapAction="http://tempuri.org/GetCurrentTimeZone" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNew_Sochungtu">
+      <soap:operation soapAction="http://tempuri.org/GetNew_Sochungtu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Bar_Table_Order_Update_Lock">
+      <soap:operation soapAction="http://tempuri.org/Bar_Table_Order_Update_Lock" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Bar_Table_Order_Xuat_Nvl">
+      <soap:operation soapAction="http://tempuri.org/Bar_Table_Order_Xuat_Nvl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Bar_Table_Order" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order_By_Id_Cuahang">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Bar_Table_Order_By_Id_Cuahang" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order_By_Id_Cuahang_And_Id_Khuvuc">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Bar_Table_Order_By_Id_Cuahang_And_Id_Khuvuc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Finish_Bar_Table_Order">
+      <soap:operation soapAction="http://tempuri.org/Get_Finish_Bar_Table_Order" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order_By_DateOrder">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Bar_Table_Order_By_DateOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order_Chitiet">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Bar_Table_Order_Chitiet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order_Chitiet_ById_Nhom_Hanghoa_Ban">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Bar_Table_Order_Chitiet_ById_Nhom_Hanghoa_Ban" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Book_Bar_Table_Order_Chitiet">
+      <soap:operation soapAction="http://tempuri.org/Get_Book_Bar_Table_Order_Chitiet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order_Chitiet_Served">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Bar_Table_Order_Chitiet_Served" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order_Chitiet_ById_Order">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Bar_Table_Order_Chitiet_ById_Order" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order_Chitiet_Log_ById_Order">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Bar_Table_Order_Chitiet_Log_ById_Order" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Bar_Table_Order">
+      <soap:operation soapAction="http://tempuri.org/Insert_Bar_Table_Order" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Bar_Table_Order_For_Web">
+      <soap:operation soapAction="http://tempuri.org/Insert_Bar_Table_Order_For_Web" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Table_Order_For_Web">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Table_Order_For_Web" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Table_Order">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Table_Order" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Id_Khachhang_Bar_Table_Order">
+      <soap:operation soapAction="http://tempuri.org/Update_Id_Khachhang_Bar_Table_Order" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Table_Order_Chitiet">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Table_Order_Chitiet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Bar_Table_Order">
+      <soap:operation soapAction="http://tempuri.org/Delete_Bar_Table_Order" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Table_Order_Chitiet_Collection">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Table_Order_Chitiet_Collection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Table_Order_Chitiet_Log_Collection">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Table_Order_Chitiet_Log_Collection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Booking">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Bar_Table_Booking" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBar_Table_Booking_Tien_Booking_By_Id_Booking">
+      <soap:operation soapAction="http://tempuri.org/GetBar_Table_Booking_Tien_Booking_By_Id_Booking" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Bar_Table_Booking">
+      <soap:operation soapAction="http://tempuri.org/Insert_Bar_Table_Booking" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Table_Booking">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Table_Booking" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Table_Booking_to_Finish">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Table_Booking_to_Finish" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Bar_Table_Booking">
+      <soap:operation soapAction="http://tempuri.org/Delete_Bar_Table_Booking" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAll_Bar_Table_Booking_Chitiet_By_Id_Booking">
+      <soap:operation soapAction="http://tempuri.org/GetAll_Bar_Table_Booking_Chitiet_By_Id_Booking" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Table_Booking_Chitiet_Collection">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Table_Booking_Chitiet_Collection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Kitchen_Printer">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Bar_Kitchen_Printer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Kitchen_Printer_ByPC_Code">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Bar_Kitchen_Printer_ByPC_Code" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPrinter_From_Bar_Kitchen_Printer">
+      <soap:operation soapAction="http://tempuri.org/GetPrinter_From_Bar_Kitchen_Printer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Bar_Kitchen_Printer">
+      <soap:operation soapAction="http://tempuri.org/Insert_Bar_Kitchen_Printer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Kitchen_Printer">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Kitchen_Printer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Bar_Kitchen_Printer">
+      <soap:operation soapAction="http://tempuri.org/Delete_Bar_Kitchen_Printer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Kitchen_Printer_Collection">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Kitchen_Printer_Collection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FetchPrinter_Bar_Kitchen_Order_Chitiet">
+      <soap:operation soapAction="http://tempuri.org/FetchPrinter_Bar_Kitchen_Order_Chitiet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLog_Bar_Kitchen_Order_Chitiet">
+      <soap:operation soapAction="http://tempuri.org/GetLog_Bar_Kitchen_Order_Chitiet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTopLog_Bar_Kitchen_Order_Chitiet">
+      <soap:operation soapAction="http://tempuri.org/GetTopLog_Bar_Kitchen_Order_Chitiet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNotLog_Bar_Kitchen_Order_Chitiet">
+      <soap:operation soapAction="http://tempuri.org/GetNotLog_Bar_Kitchen_Order_Chitiet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServed_Bar_Kitchen_Order_Chitiet">
+      <soap:operation soapAction="http://tempuri.org/GetServed_Bar_Kitchen_Order_Chitiet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNVL_Bar_Kitchen_Order_Chitiet">
+      <soap:operation soapAction="http://tempuri.org/GetNVL_Bar_Kitchen_Order_Chitiet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Winecard">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Bar_Winecard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBar_Winecard_ById">
+      <soap:operation soapAction="http://tempuri.org/GetBar_Winecard_ById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Bar_Winecard">
+      <soap:operation soapAction="http://tempuri.org/Insert_Bar_Winecard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Winecard">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Winecard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Bar_Winecard">
+      <soap:operation soapAction="http://tempuri.org/Delete_Bar_Winecard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Winecard_Collection">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Winecard_Collection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rentcost_Collection">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Bar_Rentcost_Collection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rentcost_Collection">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Rentcost_Collection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Bar_Rentcost_CheckDate">
+      <soap:operation soapAction="http://tempuri.org/Bar_Rentcost_CheckDate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Reserve">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Bar_Rent_Reserve" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Reserve_ByArrivalDate">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Bar_Rent_Reserve_ByArrivalDate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBar_Rent_Reserve_ById">
+      <soap:operation soapAction="http://tempuri.org/GetBar_Rent_Reserve_ById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Bar_Rent_Reserve">
+      <soap:operation soapAction="http://tempuri.org/Insert_Bar_Rent_Reserve" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Reserve">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Rent_Reserve" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Bar_Rent_Reserve">
+      <soap:operation soapAction="http://tempuri.org/Delete_Bar_Rent_Reserve" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Reserve_Collection">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Rent_Reserve_Collection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Reserve_Table">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Bar_Rent_Reserve_Table" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Reserve_Table_Collection">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Rent_Reserve_Table_Collection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Reserve_Phieuthu">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Bar_Rent_Reserve_Phieuthu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Reserve_Phieuthu_Collection">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Rent_Reserve_Phieuthu_Collection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Bar_Rent_Reserve_Table_Lookup">
+      <soap:operation soapAction="http://tempuri.org/Get_Bar_Rent_Reserve_Table_Lookup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Checkin_Khachhang">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Bar_Rent_Checkin_Khachhang" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Bar_Rent_Checkin_Khachhang_SelectByGuid_Checkin_Table">
+      <soap:operation soapAction="http://tempuri.org/Bar_Rent_Checkin_Khachhang_SelectByGuid_Checkin_Table" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Checkin_Khachhang_Collection">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Rent_Checkin_Khachhang_Collection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Check_Out">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Rent_Check_Out" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Bar_Rent_Checkin_Table_Report_Total">
+      <soap:operation soapAction="http://tempuri.org/Get_Bar_Rent_Checkin_Table_Report_Total" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Bar_Rent_Checkin_Order_Report_Total">
+      <soap:operation soapAction="http://tempuri.org/Get_Bar_Rent_Checkin_Order_Report_Total" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Checkin">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Bar_Rent_Checkin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Checkin_ByArrivalDate">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Bar_Rent_Checkin_ByArrivalDate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBar_Rent_Checkin_ById">
+      <soap:operation soapAction="http://tempuri.org/GetBar_Rent_Checkin_ById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBar_Rent_Checkin_ById4Print">
+      <soap:operation soapAction="http://tempuri.org/GetBar_Rent_Checkin_ById4Print" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Bar_Rent_Checkin">
+      <soap:operation soapAction="http://tempuri.org/Insert_Bar_Rent_Checkin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Bar_Rent_Checkin_ByReserved">
+      <soap:operation soapAction="http://tempuri.org/Insert_Bar_Rent_Checkin_ByReserved" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Checkin">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Rent_Checkin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Bar_Rent_Checkin">
+      <soap:operation soapAction="http://tempuri.org/Delete_Bar_Rent_Checkin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Bar_Rent_Checkin_Dathanhtoan_ById_Checkin">
+      <soap:operation soapAction="http://tempuri.org/Get_Bar_Rent_Checkin_Dathanhtoan_ById_Checkin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Checkin_Collection">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Rent_Checkin_Collection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Checkin_Table">
+      <soap:operation soapAction="http://tempuri.org/Get_All_Bar_Rent_Checkin_Table" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Bar_Rent_Checkin_Table_SelectById_4Print">
+      <soap:operation soapAction="http://tempuri.org/Bar_Rent_Checkin_Table_SelectById_4Print" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Bar_Rent_Checkin_Table_ChangeTable">
+      <soap:operation soapAction="http://tempuri.org/Bar_Rent_Checkin_Table_ChangeTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Checkin_Table_Collection">
+      <soap:operation soapAction="http://tempuri.org/Update_Bar_Rent_Checkin_Table_Collection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BarServiceSoap12" type="tns:BarServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Update_Bar_Rent_Checkin_Table_Check_Out">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Rent_Checkin_Table_Check_Out" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Checkin_Table_Reset_Table_Reserved">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Rent_Checkin_Table_Reset_Table_Reserved" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Checkin_Phieuthu">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Bar_Rent_Checkin_Phieuthu" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Checkin_Phieuthu_Collection">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Rent_Checkin_Phieuthu_Collection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Checkin_PhieuThu_Trangthai">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Rent_Checkin_PhieuThu_Trangthai" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Checkin_table_Hanghoa">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Bar_Rent_Checkin_table_Hanghoa" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_Table">
+      <soap12:operation soapAction="http://tempuri.org/Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_Table" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_Table_4Print">
+      <soap12:operation soapAction="http://tempuri.org/Get_Bar_Rent_Checkin_table_Hanghoa_By_Checkin_Table_4Print" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Bar_Rent_Checkin_Hanghoa_By_Checkin_4Print">
+      <soap12:operation soapAction="http://tempuri.org/Get_Bar_Rent_Checkin_Hanghoa_By_Checkin_4Print" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Checkin_table_Hanghoa_Collection">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Rent_Checkin_table_Hanghoa_Collection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerDateTime">
+      <soap12:operation soapAction="http://tempuri.org/GetServerDateTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentTimeZone">
+      <soap12:operation soapAction="http://tempuri.org/GetCurrentTimeZone" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNew_Sochungtu">
+      <soap12:operation soapAction="http://tempuri.org/GetNew_Sochungtu" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Bar_Table_Order_Update_Lock">
+      <soap12:operation soapAction="http://tempuri.org/Bar_Table_Order_Update_Lock" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Bar_Table_Order_Xuat_Nvl">
+      <soap12:operation soapAction="http://tempuri.org/Bar_Table_Order_Xuat_Nvl" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Bar_Table_Order" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order_By_Id_Cuahang">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Bar_Table_Order_By_Id_Cuahang" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order_By_Id_Cuahang_And_Id_Khuvuc">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Bar_Table_Order_By_Id_Cuahang_And_Id_Khuvuc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Finish_Bar_Table_Order">
+      <soap12:operation soapAction="http://tempuri.org/Get_Finish_Bar_Table_Order" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order_By_DateOrder">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Bar_Table_Order_By_DateOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order_Chitiet">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Bar_Table_Order_Chitiet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order_Chitiet_ById_Nhom_Hanghoa_Ban">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Bar_Table_Order_Chitiet_ById_Nhom_Hanghoa_Ban" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Book_Bar_Table_Order_Chitiet">
+      <soap12:operation soapAction="http://tempuri.org/Get_Book_Bar_Table_Order_Chitiet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order_Chitiet_Served">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Bar_Table_Order_Chitiet_Served" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order_Chitiet_ById_Order">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Bar_Table_Order_Chitiet_ById_Order" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Order_Chitiet_Log_ById_Order">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Bar_Table_Order_Chitiet_Log_ById_Order" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Bar_Table_Order">
+      <soap12:operation soapAction="http://tempuri.org/Insert_Bar_Table_Order" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Bar_Table_Order_For_Web">
+      <soap12:operation soapAction="http://tempuri.org/Insert_Bar_Table_Order_For_Web" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Table_Order_For_Web">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Table_Order_For_Web" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Table_Order">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Table_Order" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Id_Khachhang_Bar_Table_Order">
+      <soap12:operation soapAction="http://tempuri.org/Update_Id_Khachhang_Bar_Table_Order" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Table_Order_Chitiet">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Table_Order_Chitiet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Bar_Table_Order">
+      <soap12:operation soapAction="http://tempuri.org/Delete_Bar_Table_Order" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Table_Order_Chitiet_Collection">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Table_Order_Chitiet_Collection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Table_Order_Chitiet_Log_Collection">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Table_Order_Chitiet_Log_Collection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Table_Booking">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Bar_Table_Booking" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBar_Table_Booking_Tien_Booking_By_Id_Booking">
+      <soap12:operation soapAction="http://tempuri.org/GetBar_Table_Booking_Tien_Booking_By_Id_Booking" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Bar_Table_Booking">
+      <soap12:operation soapAction="http://tempuri.org/Insert_Bar_Table_Booking" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Table_Booking">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Table_Booking" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Table_Booking_to_Finish">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Table_Booking_to_Finish" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Bar_Table_Booking">
+      <soap12:operation soapAction="http://tempuri.org/Delete_Bar_Table_Booking" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAll_Bar_Table_Booking_Chitiet_By_Id_Booking">
+      <soap12:operation soapAction="http://tempuri.org/GetAll_Bar_Table_Booking_Chitiet_By_Id_Booking" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Table_Booking_Chitiet_Collection">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Table_Booking_Chitiet_Collection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Kitchen_Printer">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Bar_Kitchen_Printer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Kitchen_Printer_ByPC_Code">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Bar_Kitchen_Printer_ByPC_Code" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPrinter_From_Bar_Kitchen_Printer">
+      <soap12:operation soapAction="http://tempuri.org/GetPrinter_From_Bar_Kitchen_Printer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Bar_Kitchen_Printer">
+      <soap12:operation soapAction="http://tempuri.org/Insert_Bar_Kitchen_Printer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Kitchen_Printer">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Kitchen_Printer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Bar_Kitchen_Printer">
+      <soap12:operation soapAction="http://tempuri.org/Delete_Bar_Kitchen_Printer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Kitchen_Printer_Collection">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Kitchen_Printer_Collection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FetchPrinter_Bar_Kitchen_Order_Chitiet">
+      <soap12:operation soapAction="http://tempuri.org/FetchPrinter_Bar_Kitchen_Order_Chitiet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLog_Bar_Kitchen_Order_Chitiet">
+      <soap12:operation soapAction="http://tempuri.org/GetLog_Bar_Kitchen_Order_Chitiet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTopLog_Bar_Kitchen_Order_Chitiet">
+      <soap12:operation soapAction="http://tempuri.org/GetTopLog_Bar_Kitchen_Order_Chitiet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNotLog_Bar_Kitchen_Order_Chitiet">
+      <soap12:operation soapAction="http://tempuri.org/GetNotLog_Bar_Kitchen_Order_Chitiet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServed_Bar_Kitchen_Order_Chitiet">
+      <soap12:operation soapAction="http://tempuri.org/GetServed_Bar_Kitchen_Order_Chitiet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNVL_Bar_Kitchen_Order_Chitiet">
+      <soap12:operation soapAction="http://tempuri.org/GetNVL_Bar_Kitchen_Order_Chitiet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Winecard">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Bar_Winecard" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBar_Winecard_ById">
+      <soap12:operation soapAction="http://tempuri.org/GetBar_Winecard_ById" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Bar_Winecard">
+      <soap12:operation soapAction="http://tempuri.org/Insert_Bar_Winecard" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Winecard">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Winecard" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Bar_Winecard">
+      <soap12:operation soapAction="http://tempuri.org/Delete_Bar_Winecard" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Winecard_Collection">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Winecard_Collection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rentcost_Collection">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Bar_Rentcost_Collection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rentcost_Collection">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Rentcost_Collection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Bar_Rentcost_CheckDate">
+      <soap12:operation soapAction="http://tempuri.org/Bar_Rentcost_CheckDate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Reserve">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Bar_Rent_Reserve" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Reserve_ByArrivalDate">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Bar_Rent_Reserve_ByArrivalDate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBar_Rent_Reserve_ById">
+      <soap12:operation soapAction="http://tempuri.org/GetBar_Rent_Reserve_ById" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Bar_Rent_Reserve">
+      <soap12:operation soapAction="http://tempuri.org/Insert_Bar_Rent_Reserve" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Reserve">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Rent_Reserve" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Bar_Rent_Reserve">
+      <soap12:operation soapAction="http://tempuri.org/Delete_Bar_Rent_Reserve" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Reserve_Collection">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Rent_Reserve_Collection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Reserve_Table">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Bar_Rent_Reserve_Table" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Reserve_Table_Collection">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Rent_Reserve_Table_Collection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Reserve_Phieuthu">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Bar_Rent_Reserve_Phieuthu" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Reserve_Phieuthu_Collection">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Rent_Reserve_Phieuthu_Collection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Bar_Rent_Reserve_Table_Lookup">
+      <soap12:operation soapAction="http://tempuri.org/Get_Bar_Rent_Reserve_Table_Lookup" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Checkin_Khachhang">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Bar_Rent_Checkin_Khachhang" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Bar_Rent_Checkin_Khachhang_SelectByGuid_Checkin_Table">
+      <soap12:operation soapAction="http://tempuri.org/Bar_Rent_Checkin_Khachhang_SelectByGuid_Checkin_Table" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Checkin_Khachhang_Collection">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Rent_Checkin_Khachhang_Collection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Check_Out">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Rent_Check_Out" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Bar_Rent_Checkin_Table_Report_Total">
+      <soap12:operation soapAction="http://tempuri.org/Get_Bar_Rent_Checkin_Table_Report_Total" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Bar_Rent_Checkin_Order_Report_Total">
+      <soap12:operation soapAction="http://tempuri.org/Get_Bar_Rent_Checkin_Order_Report_Total" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Checkin">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Bar_Rent_Checkin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Checkin_ByArrivalDate">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Bar_Rent_Checkin_ByArrivalDate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBar_Rent_Checkin_ById">
+      <soap12:operation soapAction="http://tempuri.org/GetBar_Rent_Checkin_ById" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBar_Rent_Checkin_ById4Print">
+      <soap12:operation soapAction="http://tempuri.org/GetBar_Rent_Checkin_ById4Print" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Bar_Rent_Checkin">
+      <soap12:operation soapAction="http://tempuri.org/Insert_Bar_Rent_Checkin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Bar_Rent_Checkin_ByReserved">
+      <soap12:operation soapAction="http://tempuri.org/Insert_Bar_Rent_Checkin_ByReserved" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Checkin">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Rent_Checkin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Bar_Rent_Checkin">
+      <soap12:operation soapAction="http://tempuri.org/Delete_Bar_Rent_Checkin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Bar_Rent_Checkin_Dathanhtoan_ById_Checkin">
+      <soap12:operation soapAction="http://tempuri.org/Get_Bar_Rent_Checkin_Dathanhtoan_ById_Checkin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Checkin_Collection">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Rent_Checkin_Collection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_All_Bar_Rent_Checkin_Table">
+      <soap12:operation soapAction="http://tempuri.org/Get_All_Bar_Rent_Checkin_Table" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Bar_Rent_Checkin_Table_SelectById_4Print">
+      <soap12:operation soapAction="http://tempuri.org/Bar_Rent_Checkin_Table_SelectById_4Print" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Bar_Rent_Checkin_Table_ChangeTable">
+      <soap12:operation soapAction="http://tempuri.org/Bar_Rent_Checkin_Table_ChangeTable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Bar_Rent_Checkin_Table_Collection">
+      <soap12:operation soapAction="http://tempuri.org/Update_Bar_Rent_Checkin_Table_Collection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BarService">
+    <wsdl:port name="BarServiceSoap" binding="tns:BarServiceSoap">
+      <soap:address location="http://localhost:51000/BarService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="BarServiceSoap12" binding="tns:BarServiceSoap12">
+      <soap12:address location="http://localhost:51000/BarService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

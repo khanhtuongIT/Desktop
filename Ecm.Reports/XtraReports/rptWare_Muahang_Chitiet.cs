@@ -1,0 +1,17 @@
+using System;
+using System.Drawing;
+using System.Collections;
+using System.ComponentModel;
+using DevExpress.XtraReports.UI;
+
+namespace Ecm.Reports.XtraReports
+{
+    public partial class rptWare_Muahang_Chitiet : DevExpress.XtraReports.UI.XtraReport
+    {
+        public rptWare_Muahang_Chitiet()
+        {
+            InitializeComponent();
+        }
+
+    }
+}

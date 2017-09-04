@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>2014-01-20T13:21:48.0000000+07:00</TimeStampOfAssociatedLegacyPublishXmlFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Autoupdate/UpdateVersion.xml">
+      <publishTime>08/26/2013 09:27:52</publishTime>
+    </File>
+    <File Include="BarService.asmx">
+      <publishTime>08/26/2013 09:27:52</publishTime>
+    </File>
+    <File Include="bin/Ecm.Domain.dll">
+      <publishTime>01/18/2014 13:37:54</publishTime>
+    </File>
+    <File Include="bin/Ecm.Domain.pdb">
+      <publishTime>01/18/2014 13:37:54</publishTime>
+    </File>
+    <File Include="bin/Ecm.Service.dll">
+      <publishTime>01/18/2014 13:37:55</publishTime>
+    </File>
+    <File Include="bin/Ecm.Service.pdb">
+      <publishTime>01/18/2014 13:37:55</publishTime>
+    </File>
+    <File Include="bin/Ecm.Webservice.dll">
+      <publishTime>01/18/2014 13:37:56</publishTime>
+    </File>
+    <File Include="bin/Ecm.Webservice.pdb">
+      <publishTime>01/18/2014 13:37:56</publishTime>
+    </File>
+    <File Include="bin/FastJSON.dll">
+      <publishTime>08/31/2013 09:04:31</publishTime>
+    </File>
+    <File Include="bin/GoobizFrame.Profile.dll">
+      <publishTime>08/31/2013 09:04:31</publishTime>
+    </File>
+    <File Include="LicenseService.asmx">
+      <publishTime>08/26/2013 09:27:52</publishTime>
+    </File>
+    <File Include="MasterService.asmx">
+      <publishTime>08/26/2013 09:27:52</publishTime>
+    </File>
+    <File Include="PolicyService.asmx">
+      <publishTime>08/26/2013 09:27:52</publishTime>
+    </File>
+    <File Include="ReportService.asmx">
+      <publishTime>08/26/2013 09:27:52</publishTime>
+    </File>
+    <File Include="Resources/Database.config">
+      <publishTime>01/13/2014 10:21:24</publishTime>
+    </File>
+    <File Include="RexService.asmx">
+      <publishTime>08/26/2013 09:27:52</publishTime>
+    </File>
+    <File Include="SystemService.asmx">
+      <publishTime>08/26/2013 09:27:52</publishTime>
+    </File>
+    <File Include="WareService.asmx">
+      <publishTime>08/26/2013 09:27:52</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/18/2014 13:39:14</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

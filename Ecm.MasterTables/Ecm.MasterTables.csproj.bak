@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1971B97A-D2BD-43CD-BE6A-CDB8B907DA5E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ecm.MasterTables</RootNamespace>
+    <AssemblyName>Ecm.MasterTables</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Design.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v15.1.Design, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v15.1.Design, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v15.1.Design, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v15.1.Design, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v15.1.Design, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v15.1.Design, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v15.1.Wizard, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v15.1.UI , Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.CodeParser.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v15.1.Design, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v15.1.Extensions, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Printing.v15.1.Service, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v15.1.Service, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v15.1.Design, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="GoobizFrame.Profile, Version=4.13.5.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExtLib\GoobizFrame.Profile.dll</HintPath>
+    </Reference>
+    <Reference Include="GoobizFrame.Windows, Version=4.13.7.11, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExtLib\GoobizFrame.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataSets\DsWare_Dm_Khachhang.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsWare_Dm_Khachhang.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Accounting\Frmacc_Dm_Nganhang_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Accounting\Frmacc_Dm_Nganhang_Add.Designer.cs">
+      <DependentUpon>Frmacc_Dm_Nganhang_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Rex\Frmrex_Dm_Kynang_Chuyenmon_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Rex\Frmrex_Dm_Kynang_Chuyenmon_Add.Designer.cs">
+      <DependentUpon>Frmrex_Dm_Kynang_Chuyenmon_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Rex\Frmrex_Dm_Tochuc_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Rex\Frmrex_Dm_Tochuc_Add.Designer.cs">
+      <DependentUpon>Frmrex_Dm_Tochuc_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Rex\Frmrex_Dm_Chungchi_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Rex\Frmrex_Dm_Chungchi_Add.Designer.cs">
+      <DependentUpon>Frmrex_Dm_Chungchi_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Rex\Frmrex_Dm_Tinhoc_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Rex\Frmrex_Dm_Tinhoc_Add.Designer.cs">
+      <DependentUpon>Frmrex_Dm_Tinhoc_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Rex\Frmrex_Dm_Tinh_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Rex\Frmrex_Dm_Tinh_Add.Designer.cs">
+      <DependentUpon>Frmrex_Dm_Tinh_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Rex\Frmrex_Dm_Bophan_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Rex\Frmrex_Dm_Bophan_Add.Designer.cs">
+      <DependentUpon>Frmrex_Dm_Bophan_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Rex\Frmrex_Dm_Chuyenmon_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Rex\Frmrex_Dm_Chuyenmon_Add.Designer.cs">
+      <DependentUpon>Frmrex_Dm_Chuyenmon_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Rex\Frmrex_Dm_Dantoc_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Rex\Frmrex_Dm_Dantoc_Add.Designer.cs">
+      <DependentUpon>Frmrex_Dm_Dantoc_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Rex\Frmrex_Dm_Tongiao_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Rex\Frmrex_Dm_Tongiao_Add.Designer.cs">
+      <DependentUpon>Frmrex_Dm_Tongiao_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Rex\Frmrex_Dm_Vanhoa_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Rex\Frmrex_Dm_Vanhoa_Add.Designer.cs">
+      <DependentUpon>Frmrex_Dm_Vanhoa_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Donvitinh_Quydoi_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Donvitinh_Quydoi_Add.Designer.cs">
+      <DependentUpon>Frmware_Dm_Donvitinh_Quydoi_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Khachhang_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Khachhang_Add.designer.cs">
+      <DependentUpon>Frmware_Dm_Khachhang_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Loai_Hanghoa_Ban_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Loai_Hanghoa_Ban_Add.designer.cs">
+      <DependentUpon>Frmware_Dm_Loai_Hanghoa_Ban_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Nhom_Hanghoa_Ban_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Nhom_Hanghoa_Ban_Add.designer.cs">
+      <DependentUpon>Frmware_Dm_Nhom_Hanghoa_Ban_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Phanloai_Nhom_Hanghoa_Ban_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Phanloai_Nhom_Hanghoa_Ban_Add.Designer.cs">
+      <DependentUpon>Frmware_Dm_Phanloai_Nhom_Hanghoa_Ban_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Theocap_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Theocap_Add.Designer.cs">
+      <DependentUpon>Frmware_Dm_Theocap_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Xe_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Xe_Add.Designer.cs">
+      <DependentUpon>Frmware_Dm_Xe_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Dinhluong_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Dinhluong_Add.Designer.cs">
+      <DependentUpon>Frmware_Dm_Dinhluong_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Nhacungcap_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Nhacungcap_Add.Designer.cs">
+      <DependentUpon>Frmware_Dm_Nhacungcap_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Soquy_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Soquy_Add.Designer.cs">
+      <DependentUpon>Frmware_Dm_Soquy_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Khachhang_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Khachhang_Dialog.Designer.cs">
+      <DependentUpon>Frmware_Dm_Khachhang_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Cuahang_Ban_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Cuahang_Ban_Add.Designer.cs">
+      <DependentUpon>Frmware_Dm_Cuahang_Ban_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Donvitinh_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Donvitinh_Add.Designer.cs">
+      <DependentUpon>Frmware_Dm_Donvitinh_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Hanghoa_Ban_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Hanghoa_Ban_Dialog.Designer.cs">
+      <DependentUpon>Frmware_Dm_Hanghoa_Ban_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Hanghoa_Ban_FullEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Hanghoa_Ban_FullEdit.Designer.cs">
+      <DependentUpon>Frmware_Dm_Hanghoa_Ban_FullEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Loai_Hanghoa_Ban_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Loai_Hanghoa_Ban_Dialog.Designer.cs">
+      <DependentUpon>Frmware_Dm_Loai_Hanghoa_Ban_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Nganhang_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Nganhang_Add.designer.cs">
+      <DependentUpon>Frmware_Dm_Nganhang_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Taikhoan_Nganhang_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Taikhoan_Nganhang_Add.designer.cs">
+      <DependentUpon>Frmware_Dm_Taikhoan_Nganhang_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Tiente_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ware\Frmware_Dm_Tiente_Add.designer.cs">
+      <DependentUpon>Frmware_Dm_Tiente_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plugins\Process_Master.cs" />
+    <Compile Include="Plugins\Master.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Plugins\Rex_Master.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plugins\Ware_Master.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Accounting\Frmacc_Dm_Nganhang_Add.resx">
+      <DependentUpon>Frmacc_Dm_Nganhang_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Rex\Frmrex_Dm_Kynang_Chuyenmon_Add.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmrex_Dm_Kynang_Chuyenmon_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Rex\Frmrex_Dm_Bophan_Add.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmrex_Dm_Bophan_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Rex\Frmrex_Dm_Tochuc_Add.resx">
+      <DependentUpon>Frmrex_Dm_Tochuc_Add.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Rex\Frmrex_Dm_Chungchi_Add.resx">
+      <DependentUpon>Frmrex_Dm_Chungchi_Add.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Rex\Frmrex_Dm_Tinhoc_Add.resx">
+      <DependentUpon>Frmrex_Dm_Tinhoc_Add.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Rex\Frmrex_Dm_Tinh_Add.resx">
+      <DependentUpon>Frmrex_Dm_Tinh_Add.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Rex\Frmrex_Dm_Chuyenmon_Add.resx">
+      <DependentUpon>Frmrex_Dm_Chuyenmon_Add.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Rex\Frmrex_Dm_Dantoc_Add.resx">
+      <DependentUpon>Frmrex_Dm_Dantoc_Add.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Rex\Frmrex_Dm_Tongiao_Add.resx">
+      <DependentUpon>Frmrex_Dm_Tongiao_Add.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Rex\Frmrex_Dm_Vanhoa_Add.resx">
+      <DependentUpon>Frmrex_Dm_Vanhoa_Add.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ware\Frmware_Dm_Donvitinh_Quydoi_Add.resx">
+      <DependentUpon>Frmware_Dm_Donvitinh_Quydoi_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ware\Frmware_Dm_Khachhang_Add.resx">
+      <DependentUpon>Frmware_Dm_Khachhang_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ware\Frmware_Dm_Loai_Hanghoa_Ban_Add.resx">
+      <DependentUpon>Frmware_Dm_Loai_Hanghoa_Ban_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ware\Frmware_Dm_Nhom_Hanghoa_Ban_Add.resx">
+      <DependentUpon>Frmware_Dm_Nhom_Hanghoa_Ban_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ware\Frmware_Dm_Phanloai_Nhom_Hanghoa_Ban_Add.resx">
+      <DependentUpon>Frmware_Dm_Phanloai_Nhom_Hanghoa_Ban_Add.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ware\Frmware_Dm_Theocap_Add.resx">
+      <DependentUpon>Frmware_Dm_Theocap_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ware\Frmware_Dm_Xe_Add.resx">
+      <DependentUpon>Frmware_Dm_Xe_Add.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ware\Frmware_Dm_Dinhluong_Add.resx">
+      <DependentUpon>Frmware_Dm_Dinhluong_Add.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ware\Frmware_Dm_Nhacungcap_Add.resx">
+      <DependentUpon>Frmware_Dm_Nhacungcap_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ware\Frmware_Dm_Soquy_Add.resx">
+      <DependentUpon>Frmware_Dm_Soquy_Add.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ware\Frmware_Dm_Khachhang_Dialog.resx">
+      <DependentUpon>Frmware_Dm_Khachhang_Dialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ware\Frmware_Dm_Cuahang_Ban_Add.resx">
+      <DependentUpon>Frmware_Dm_Cuahang_Ban_Add.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ware\Frmware_Dm_Donvitinh_Add.resx">
+      <DependentUpon>Frmware_Dm_Donvitinh_Add.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ware\Frmware_Dm_Hanghoa_Ban_Dialog.resx">
+      <DependentUpon>Frmware_Dm_Hanghoa_Ban_Dialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ware\Frmware_Dm_Hanghoa_Ban_FullEdit.resx">
+      <DependentUpon>Frmware_Dm_Hanghoa_Ban_FullEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ware\Frmware_Dm_Loai_Hanghoa_Ban_Dialog.resx">
+      <DependentUpon>Frmware_Dm_Loai_Hanghoa_Ban_Dialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ware\Frmware_Dm_Nganhang_Add.resx">
+      <DependentUpon>Frmware_Dm_Nganhang_Add.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ware\Frmware_Dm_Taikhoan_Nganhang_Add.resx">
+      <DependentUpon>Frmware_Dm_Taikhoan_Nganhang_Add.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ware\Frmware_Dm_Tiente_Add.resx">
+      <DependentUpon>Frmware_Dm_Tiente_Add.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptWare_Dm_Khachhang.resx" />
+    <EmbeddedResource Include="Reports\rptWare_Khachhang_Barcode.resx">
+      <DependentUpon>rptWare_Khachhang_Barcode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Reports\rptWare_Dm_Khachhang.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptWare_Dm_Khachhang.Designer.cs" />
+    <Compile Include="Reports\rptWare_Khachhang_Barcode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptWare_Khachhang_Barcode.Designer.cs">
+      <DependentUpon>rptWare_Khachhang_Barcode.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\on_off.png" />
+    <None Include="Resources\edit.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\Cancel.png" />
+    <None Include="Resources\delete-icon18.png" />
+    <Content Include="Resources\Ecm.MasterTables.Bar_Master.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Ecm.MasterTables.Master.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Ecm.MasterTables.Rex_Master.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Ecm.MasterTables.Ware_Master.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resources\Ecm.MasterTables.Process_Master.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="DataSets\DsWare_Dm_Khachhang.xsc">
+      <DependentUpon>DsWare_Dm_Khachhang.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsWare_Dm_Khachhang.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsWare_Dm_Khachhang.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DsWare_Dm_Khachhang.xss">
+      <DependentUpon>DsWare_Dm_Khachhang.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ecm.WebReferences\Ecm.WebReferences.csproj">
+      <Project>{80222E88-063C-4DCF-8398-698980E604B7}</Project>
+      <Name>Ecm.WebReferences</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>if /I "$(ConfigurationName)" == "Release" Eazfuscator.NET.exe "$(TargetPath)" --msbuild-project-path "$(ProjectPath)" --msbuild-project-configuration "$(ConfigurationName)" --msbuild-project-platform "$(PlatformName)" --msbuild-solution-path "$(SolutionPath)" -n --newline-flush -v 3.3</PostBuildEvent>
+  </PropertyGroup>
+</Project>

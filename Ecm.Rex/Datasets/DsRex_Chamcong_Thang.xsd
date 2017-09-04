@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsRex_Chamcong_Thang" targetNamespace="http://tempuri.org/DsRex_Chamcong_Thang.xsd" xmlns:mstns="http://tempuri.org/DsRex_Chamcong_Thang.xsd" xmlns="http://tempuri.org/DsRex_Chamcong_Thang.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsRex_Chamcong_Thang" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DsRex_Chamcong_Thang" msprop:Generator_UserDSName="DsRex_Chamcong_Thang">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="rex_chamcong_thang" msprop:Generator_UserTableName="rex_chamcong_thang" msprop:Generator_RowEvArgName="rex_chamcong_thangRowChangeEvent" msprop:Generator_TableVarName="tablerex_chamcong_thang" msprop:Generator_TablePropName="rex_chamcong_thang" msprop:Generator_RowDeletingName="rex_chamcong_thangRowDeleting" msprop:Generator_RowChangingName="rex_chamcong_thangRowChanging" msprop:Generator_RowDeletedName="rex_chamcong_thangRowDeleted" msprop:Generator_TableClassName="rex_chamcong_thangDataTable" msprop:Generator_RowChangedName="rex_chamcong_thangRowChanged" msprop:Generator_RowEvHandlerName="rex_chamcong_thangRowChangeEventHandler" msprop:Generator_RowClassName="rex_chamcong_thangRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_chamcong_thang" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnid_chamcong_thang" msprop:Generator_ColumnPropNameInRow="id_chamcong_thang" msprop:Generator_ColumnPropNameInTable="id_chamcong_thangColumn" msprop:Generator_UserColumnName="id_chamcong_thang" type="xs:long" />
+              <xs:element name="id_nhansu" msprop:Generator_ColumnVarNameInTable="columnid_nhansu" msprop:Generator_ColumnPropNameInRow="id_nhansu" msprop:Generator_ColumnPropNameInTable="id_nhansuColumn" msprop:Generator_UserColumnName="id_nhansu" type="xs:long" minOccurs="0" />
+              <xs:element name="nam_kyluong" msprop:Generator_ColumnVarNameInTable="columnnam_kyluong" msprop:Generator_ColumnPropNameInRow="nam_kyluong" msprop:Generator_ColumnPropNameInTable="nam_kyluongColumn" msprop:Generator_UserColumnName="nam_kyluong" type="xs:int" minOccurs="0" />
+              <xs:element name="thang_kyluong" msprop:Generator_ColumnVarNameInTable="columnthang_kyluong" msprop:Generator_ColumnPropNameInRow="thang_kyluong" msprop:Generator_ColumnPropNameInTable="thang_kyluongColumn" msprop:Generator_UserColumnName="thang_kyluong" type="xs:int" minOccurs="0" />
+              <xs:element name="ngay01" msprop:Generator_ColumnVarNameInTable="columnngay01" msprop:Generator_ColumnPropNameInRow="ngay01" msprop:Generator_ColumnPropNameInTable="ngay01Column" msprop:Generator_UserColumnName="ngay01" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay02" msprop:Generator_ColumnVarNameInTable="columnngay02" msprop:Generator_ColumnPropNameInRow="ngay02" msprop:Generator_ColumnPropNameInTable="ngay02Column" msprop:Generator_UserColumnName="ngay02" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay03" msprop:Generator_ColumnVarNameInTable="columnngay03" msprop:Generator_ColumnPropNameInRow="ngay03" msprop:Generator_ColumnPropNameInTable="ngay03Column" msprop:Generator_UserColumnName="ngay03" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay04" msprop:Generator_ColumnVarNameInTable="columnngay04" msprop:Generator_ColumnPropNameInRow="ngay04" msprop:Generator_ColumnPropNameInTable="ngay04Column" msprop:Generator_UserColumnName="ngay04" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay05" msprop:Generator_ColumnVarNameInTable="columnngay05" msprop:Generator_ColumnPropNameInRow="ngay05" msprop:Generator_ColumnPropNameInTable="ngay05Column" msprop:Generator_UserColumnName="ngay05" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay06" msprop:Generator_ColumnVarNameInTable="columnngay06" msprop:Generator_ColumnPropNameInRow="ngay06" msprop:Generator_ColumnPropNameInTable="ngay06Column" msprop:Generator_UserColumnName="ngay06" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay07" msprop:Generator_ColumnVarNameInTable="columnngay07" msprop:Generator_ColumnPropNameInRow="ngay07" msprop:Generator_ColumnPropNameInTable="ngay07Column" msprop:Generator_UserColumnName="ngay07" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay08" msprop:Generator_ColumnVarNameInTable="columnngay08" msprop:Generator_ColumnPropNameInRow="ngay08" msprop:Generator_ColumnPropNameInTable="ngay08Column" msprop:Generator_UserColumnName="ngay08" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay09" msprop:Generator_ColumnVarNameInTable="columnngay09" msprop:Generator_ColumnPropNameInRow="ngay09" msprop:Generator_ColumnPropNameInTable="ngay09Column" msprop:Generator_UserColumnName="ngay09" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay10" msprop:Generator_ColumnVarNameInTable="columnngay10" msprop:Generator_ColumnPropNameInRow="ngay10" msprop:Generator_ColumnPropNameInTable="ngay10Column" msprop:Generator_UserColumnName="ngay10" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay11" msprop:Generator_ColumnVarNameInTable="columnngay11" msprop:Generator_ColumnPropNameInRow="ngay11" msprop:Generator_ColumnPropNameInTable="ngay11Column" msprop:Generator_UserColumnName="ngay11" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay12" msprop:Generator_ColumnVarNameInTable="columnngay12" msprop:Generator_ColumnPropNameInRow="ngay12" msprop:Generator_ColumnPropNameInTable="ngay12Column" msprop:Generator_UserColumnName="ngay12" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay13" msprop:Generator_ColumnVarNameInTable="columnngay13" msprop:Generator_ColumnPropNameInRow="ngay13" msprop:Generator_ColumnPropNameInTable="ngay13Column" msprop:Generator_UserColumnName="ngay13" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay14" msprop:Generator_ColumnVarNameInTable="columnngay14" msprop:Generator_ColumnPropNameInRow="ngay14" msprop:Generator_ColumnPropNameInTable="ngay14Column" msprop:Generator_UserColumnName="ngay14" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay15" msprop:Generator_ColumnVarNameInTable="columnngay15" msprop:Generator_ColumnPropNameInRow="ngay15" msprop:Generator_ColumnPropNameInTable="ngay15Column" msprop:Generator_UserColumnName="ngay15" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay16" msprop:Generator_ColumnVarNameInTable="columnngay16" msprop:Generator_ColumnPropNameInRow="ngay16" msprop:Generator_ColumnPropNameInTable="ngay16Column" msprop:Generator_UserColumnName="ngay16" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay17" msprop:Generator_ColumnVarNameInTable="columnngay17" msprop:Generator_ColumnPropNameInRow="ngay17" msprop:Generator_ColumnPropNameInTable="ngay17Column" msprop:Generator_UserColumnName="ngay17" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay18" msprop:Generator_ColumnVarNameInTable="columnngay18" msprop:Generator_ColumnPropNameInRow="ngay18" msprop:Generator_ColumnPropNameInTable="ngay18Column" msprop:Generator_UserColumnName="ngay18" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay19" msprop:Generator_ColumnVarNameInTable="columnngay19" msprop:Generator_ColumnPropNameInRow="ngay19" msprop:Generator_ColumnPropNameInTable="ngay19Column" msprop:Generator_UserColumnName="ngay19" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay20" msprop:Generator_ColumnVarNameInTable="columnngay20" msprop:Generator_ColumnPropNameInRow="ngay20" msprop:Generator_ColumnPropNameInTable="ngay20Column" msprop:Generator_UserColumnName="ngay20" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay21" msprop:Generator_ColumnVarNameInTable="columnngay21" msprop:Generator_ColumnPropNameInRow="ngay21" msprop:Generator_ColumnPropNameInTable="ngay21Column" msprop:Generator_UserColumnName="ngay21" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay22" msprop:Generator_ColumnVarNameInTable="columnngay22" msprop:Generator_ColumnPropNameInRow="ngay22" msprop:Generator_ColumnPropNameInTable="ngay22Column" msprop:Generator_UserColumnName="ngay22" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay23" msprop:Generator_ColumnVarNameInTable="columnngay23" msprop:Generator_ColumnPropNameInRow="ngay23" msprop:Generator_ColumnPropNameInTable="ngay23Column" msprop:Generator_UserColumnName="ngay23" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay24" msprop:Generator_ColumnVarNameInTable="columnngay24" msprop:Generator_ColumnPropNameInRow="ngay24" msprop:Generator_ColumnPropNameInTable="ngay24Column" msprop:Generator_UserColumnName="ngay24" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay25" msprop:Generator_ColumnVarNameInTable="columnngay25" msprop:Generator_ColumnPropNameInRow="ngay25" msprop:Generator_ColumnPropNameInTable="ngay25Column" msprop:Generator_UserColumnName="ngay25" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay26" msprop:Generator_ColumnVarNameInTable="columnngay26" msprop:Generator_ColumnPropNameInRow="ngay26" msprop:Generator_ColumnPropNameInTable="ngay26Column" msprop:Generator_UserColumnName="ngay26" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay27" msprop:Generator_ColumnVarNameInTable="columnngay27" msprop:Generator_ColumnPropNameInRow="ngay27" msprop:Generator_ColumnPropNameInTable="ngay27Column" msprop:Generator_UserColumnName="ngay27" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay28" msprop:Generator_ColumnVarNameInTable="columnngay28" msprop:Generator_ColumnPropNameInRow="ngay28" msprop:Generator_ColumnPropNameInTable="ngay28Column" msprop:Generator_UserColumnName="ngay28" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay29" msprop:Generator_ColumnVarNameInTable="columnngay29" msprop:Generator_ColumnPropNameInRow="ngay29" msprop:Generator_ColumnPropNameInTable="ngay29Column" msprop:Generator_UserColumnName="ngay29" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay30" msprop:Generator_ColumnVarNameInTable="columnngay30" msprop:Generator_ColumnPropNameInRow="ngay30" msprop:Generator_ColumnPropNameInTable="ngay30Column" msprop:Generator_UserColumnName="ngay30" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngay31" msprop:Generator_ColumnVarNameInTable="columnngay31" msprop:Generator_ColumnPropNameInRow="ngay31" msprop:Generator_ColumnPropNameInTable="ngay31Column" msprop:Generator_UserColumnName="ngay31" type="xs:decimal" minOccurs="0" />
+              <xs:element name="giocong" msprop:Generator_ColumnVarNameInTable="columngiocong" msprop:Generator_ColumnPropNameInRow="giocong" msprop:Generator_ColumnPropNameInTable="giocongColumn" msprop:Generator_UserColumnName="giocong" type="xs:decimal" minOccurs="0" />
+              <xs:element name="giophep_huongluong" msprop:Generator_ColumnVarNameInTable="columngiophep_huongluong" msprop:Generator_ColumnPropNameInRow="giophep_huongluong" msprop:Generator_ColumnPropNameInTable="giophep_huongluongColumn" msprop:Generator_UserColumnName="giophep_huongluong" type="xs:decimal" minOccurs="0" />
+              <xs:element name="giophep_khongluong" msprop:Generator_ColumnVarNameInTable="columngiophep_khongluong" msprop:Generator_ColumnPropNameInRow="giophep_khongluong" msprop:Generator_ColumnPropNameInTable="giophep_khongluongColumn" msprop:Generator_UserColumnName="giophep_khongluong" type="xs:decimal" minOccurs="0" />
+              <xs:element name="uid" msprop:Generator_ColumnVarNameInTable="columnuid" msprop:Generator_ColumnPropNameInRow="uid" msprop:Generator_ColumnPropNameInTable="uidColumn" msprop:Generator_UserColumnName="uid" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="date_create" msprop:Generator_ColumnVarNameInTable="columndate_create" msprop:Generator_ColumnPropNameInRow="date_create" msprop:Generator_ColumnPropNameInTable="date_createColumn" msprop:Generator_UserColumnName="date_create" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="date_modify" msprop:Generator_ColumnVarNameInTable="columndate_modify" msprop:Generator_ColumnPropNameInRow="date_modify" msprop:Generator_ColumnPropNameInTable="date_modifyColumn" msprop:Generator_UserColumnName="date_modify" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ma_nhansu" msprop:Generator_ColumnVarNameInTable="columnma_nhansu" msprop:Generator_ColumnPropNameInRow="ma_nhansu" msprop:Generator_ColumnPropNameInTable="ma_nhansuColumn" msprop:Generator_UserColumnName="ma_nhansu" type="xs:string" minOccurs="0" />
+              <xs:element name="ho_nhansu" msprop:Generator_ColumnVarNameInTable="columnho_nhansu" msprop:Generator_ColumnPropNameInRow="ho_nhansu" msprop:Generator_ColumnPropNameInTable="ho_nhansuColumn" msprop:Generator_UserColumnName="ho_nhansu" type="xs:string" minOccurs="0" />
+              <xs:element name="ten_nhansu" msprop:Generator_ColumnVarNameInTable="columnten_nhansu" msprop:Generator_ColumnPropNameInRow="ten_nhansu" msprop:Generator_ColumnPropNameInTable="ten_nhansuColumn" msprop:Generator_UserColumnName="ten_nhansu" type="xs:string" minOccurs="0" />
+              <xs:element name="ten_bophan" msprop:Generator_ColumnVarNameInTable="columnten_bophan" msprop:Generator_ColumnPropNameInRow="ten_bophan" msprop:Generator_ColumnPropNameInTable="ten_bophanColumn" msprop:Generator_UserColumnName="ten_bophan" type="xs:string" minOccurs="0" />
+              <xs:element name="hoten_nhansu" msprop:Generator_ColumnVarNameInTable="columnhoten_nhansu" msprop:Generator_ColumnPropNameInRow="hoten_nhansu" msprop:Generator_ColumnPropNameInTable="hoten_nhansuColumn" msprop:Generator_UserColumnName="hoten_nhansu" type="xs:string" minOccurs="0" />
+              <xs:element name="tongsogio" msprop:Generator_ColumnVarNameInTable="columntongsogio" msprop:Generator_ColumnPropNameInRow="tongsogio" msprop:Generator_ColumnPropNameInTable="tongsogioColumn" msprop:Generator_UserColumnName="tongsogio" type="xs:string" minOccurs="0" />
+              <xs:element name="ngaycong" msprop:Generator_ColumnVarNameInTable="columnngaycong" msprop:Generator_ColumnPropNameInRow="ngaycong" msprop:Generator_ColumnPropNameInTable="ngaycongColumn" msprop:Generator_UserColumnName="ngaycong" type="xs:string" minOccurs="0" />
+              <xs:element name="Ma_Bophan" msprop:Generator_ColumnVarNameInTable="columnMa_Bophan" msprop:Generator_ColumnPropNameInRow="Ma_Bophan" msprop:Generator_ColumnPropNameInTable="Ma_BophanColumn" msprop:Generator_UserColumnName="Ma_Bophan" type="xs:string" minOccurs="0" />
+              <xs:element name="Ten_Bophan" msprop:Generator_ColumnVarNameInTable="columnTen_Bophan" msprop:Generator_ColumnPropNameInRow="Ten_Bophan" msprop:Generator_ColumnPropNameInTable="Ten_BophanColumn" msprop:Generator_UserColumnName="Ten_Bophan" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:rex_chamcong_thang" />
+      <xs:field xpath="mstns:id_chamcong_thang" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

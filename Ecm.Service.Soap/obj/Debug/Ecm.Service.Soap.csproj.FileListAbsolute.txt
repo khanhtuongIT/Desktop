@@ -1,0 +1,17 @@
+D:\ECM\Tan_Camau\Ecm.Service.Soap\bin\Debug\Ecm.Service.Soap.dll
+D:\ECM\Tan_Camau\Ecm.Service.Soap\bin\Debug\Ecm.Service.Soap.pdb
+D:\ECM\Tan_Camau\Ecm.Service.Soap\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\ECM\Tan_Camau\Ecm.Service.Soap\obj\Debug\Ecm.Service.Soap.csprojResolveAssemblyReference.cache
+D:\ECM\Tan_Camau\Ecm.Service.Soap\obj\Debug\Ecm.Service.Soap.dll
+D:\ECM\Tan_Camau\Ecm.Service.Soap\obj\Debug\Ecm.Service.Soap.pdb
+D:\Tan_Camau\Ecm.Service.Soap\bin\Debug\Ecm.Service.Soap.dll
+D:\Tan_Camau\Ecm.Service.Soap\bin\Debug\Ecm.Service.Soap.pdb
+D:\Tan_Camau\Ecm.Service.Soap\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Tan_Camau\Ecm.Service.Soap\obj\Debug\Ecm.Service.Soap.csprojResolveAssemblyReference.cache
+D:\Tan_Camau\Ecm.Service.Soap\obj\Debug\Ecm.Service.Soap.dll
+D:\Tan_Camau\Ecm.Service.Soap\obj\Debug\Ecm.Service.Soap.pdb
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Service.Soap\bin\Debug\Ecm.Service.Soap.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Service.Soap\bin\Debug\Ecm.Service.Soap.pdb
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Service.Soap\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Service.Soap\obj\Debug\Ecm.Service.Soap.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.Service.Soap\obj\Debug\Ecm.Service.Soap.pdb

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsDutru_Muahang" targetNamespace="http://tempuri.org/dsDutru_Muahang.xsd" xmlns:mstns="http://tempuri.org/dsDutru_Muahang.xsd" xmlns="http://tempuri.org/dsDutru_Muahang.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Settings)" PropertyReference="ApplicationSettings.Ecm.Ware.Properties.Settings.GlobalReference.Default.ConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsDutru_Muahang" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsDutru_Muahang" msprop:Generator_UserDSName="dsDutru_Muahang">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ware_donmuahang_chitiet" msprop:Generator_UserTableName="ware_donmuahang_chitiet" msprop:Generator_RowEvArgName="ware_donmuahang_chitietRowChangeEvent" msprop:Generator_TableVarName="tableware_donmuahang_chitiet" msprop:Generator_TablePropName="ware_donmuahang_chitiet" msprop:Generator_RowDeletingName="ware_donmuahang_chitietRowDeleting" msprop:Generator_RowChangingName="ware_donmuahang_chitietRowChanging" msprop:Generator_RowDeletedName="ware_donmuahang_chitietRowDeleted" msprop:Generator_TableClassName="ware_donmuahang_chitietDataTable" msprop:Generator_RowChangedName="ware_donmuahang_chitietRowChanged" msprop:Generator_RowEvHandlerName="ware_donmuahang_chitietRowChangeEventHandler" msprop:Generator_RowClassName="ware_donmuahang_chitietRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_donmuahang_chitiet" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnid_donmuahang_chitiet" msprop:Generator_ColumnPropNameInRow="id_donmuahang_chitiet" msprop:Generator_ColumnPropNameInTable="id_donmuahang_chitietColumn" msprop:Generator_UserColumnName="id_donmuahang_chitiet" type="xs:long" />
+              <xs:element name="id_donmuahang" msprop:Generator_ColumnVarNameInTable="columnid_donmuahang" msprop:Generator_ColumnPropNameInRow="id_donmuahang" msprop:Generator_ColumnPropNameInTable="id_donmuahangColumn" msprop:Generator_UserColumnName="id_donmuahang" type="xs:long" minOccurs="0" />
+              <xs:element name="id_hanghoa_ban" msprop:Generator_ColumnVarNameInTable="columnid_hanghoa_ban" msprop:Generator_ColumnPropNameInRow="id_hanghoa_ban" msprop:Generator_ColumnPropNameInTable="id_hanghoa_banColumn" msprop:Generator_UserColumnName="id_hanghoa_ban" type="xs:long" minOccurs="0" />
+              <xs:element name="soluong" msprop:Generator_ColumnVarNameInTable="columnsoluong" msprop:Generator_ColumnPropNameInRow="soluong" msprop:Generator_ColumnPropNameInTable="soluongColumn" msprop:Generator_UserColumnName="soluong" type="xs:decimal" minOccurs="0" />
+              <xs:element name="id_donvitinh" msprop:Generator_ColumnVarNameInTable="columnid_donvitinh" msprop:Generator_ColumnPropNameInRow="id_donvitinh" msprop:Generator_ColumnPropNameInTable="id_donvitinhColumn" msprop:Generator_UserColumnName="id_donvitinh" type="xs:long" minOccurs="0" />
+              <xs:element name="dongia" msprop:Generator_ColumnVarNameInTable="columndongia" msprop:Generator_ColumnPropNameInRow="dongia" msprop:Generator_ColumnPropNameInTable="dongiaColumn" msprop:Generator_UserColumnName="dongia" type="xs:decimal" minOccurs="0" />
+              <xs:element name="thanhtien" msprop:Generator_ColumnVarNameInTable="columnthanhtien" msprop:Generator_ColumnPropNameInRow="thanhtien" msprop:Generator_ColumnPropNameInTable="thanhtienColumn" msprop:Generator_UserColumnName="thanhtien" type="xs:decimal" minOccurs="0" />
+              <xs:element name="id_nhacungcap" msprop:Generator_ColumnVarNameInTable="columnid_nhacungcap" msprop:Generator_ColumnPropNameInRow="id_nhacungcap" msprop:Generator_ColumnPropNameInTable="id_nhacungcapColumn" msprop:Generator_UserColumnName="id_nhacungcap" type="xs:long" minOccurs="0" />
+              <xs:element name="quycach" msprop:Generator_ColumnVarNameInTable="columnquycach" msprop:Generator_ColumnPropNameInRow="quycach" msprop:Generator_ColumnPropNameInTable="quycachColumn" msprop:Generator_UserColumnName="quycach" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1073741823" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ten_donvitinh" msprop:Generator_ColumnVarNameInTable="columnten_donvitinh" msprop:Generator_ColumnPropNameInRow="ten_donvitinh" msprop:Generator_ColumnPropNameInTable="ten_donvitinhColumn" msprop:Generator_UserColumnName="ten_donvitinh" type="xs:string" minOccurs="0" />
+              <xs:element name="ten_hanghoa_ban" msprop:Generator_ColumnVarNameInTable="columnten_hanghoa_ban" msprop:Generator_ColumnPropNameInRow="ten_hanghoa_ban" msprop:Generator_ColumnPropNameInTable="ten_hanghoa_banColumn" msprop:Generator_UserColumnName="ten_hanghoa_ban" type="xs:string" minOccurs="0" />
+              <xs:element name="ten_nhacungcap" msprop:Generator_ColumnVarNameInTable="columnten_nhacungcap" msprop:Generator_ColumnPropNameInRow="ten_nhacungcap" msprop:Generator_ColumnPropNameInTable="ten_nhacungcapColumn" msprop:Generator_UserColumnName="ten_nhacungcap" type="xs:string" minOccurs="0" />
+              <xs:element name="ma_hanghoa_ban" msprop:Generator_ColumnVarNameInTable="columnma_hanghoa_ban" msprop:Generator_ColumnPropNameInRow="ma_hanghoa_ban" msprop:Generator_ColumnPropNameInTable="ma_hanghoa_banColumn" msprop:Generator_UserColumnName="ma_hanghoa_ban" type="xs:string" minOccurs="0" />
+              <xs:element name="stt" msprop:Generator_ColumnVarNameInTable="columnstt" msprop:Generator_ColumnPropNameInRow="stt" msprop:Generator_ColumnPropNameInTable="sttColumn" msprop:Generator_UserColumnName="stt" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ware_donmuahang_chitiet" />
+      <xs:field xpath="mstns:id_donmuahang_chitiet" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

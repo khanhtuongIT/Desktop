@@ -1,0 +1,29 @@
+D:\ECM\Tan_Camau\Ecm.WebReferences\bin\Debug\Ecm.WebReferences.dll.config
+D:\ECM\Tan_Camau\Ecm.WebReferences\bin\Debug\Ecm.WebReferences.dll
+D:\ECM\Tan_Camau\Ecm.WebReferences\bin\Debug\Ecm.WebReferences.pdb
+D:\ECM\Tan_Camau\Ecm.WebReferences\bin\Debug\GoobizFrame.Windows.dll
+D:\ECM\Tan_Camau\Ecm.WebReferences\bin\Debug\GoobizFrame.Profile.dll
+D:\ECM\Tan_Camau\Ecm.WebReferences\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\ECM\Tan_Camau\Ecm.WebReferences\bin\Debug\FastJSON.dll
+D:\ECM\Tan_Camau\Ecm.WebReferences\obj\Debug\Ecm.WebReferences.dll
+D:\ECM\Tan_Camau\Ecm.WebReferences\obj\Debug\Ecm.WebReferences.pdb
+D:\Tan_Camau\Ecm.WebReferences\bin\Debug\Ecm.WebReferences.dll.config
+D:\Tan_Camau\Ecm.WebReferences\bin\Debug\Ecm.WebReferences.dll
+D:\Tan_Camau\Ecm.WebReferences\bin\Debug\Ecm.WebReferences.pdb
+D:\Tan_Camau\Ecm.WebReferences\bin\Debug\GoobizFrame.Windows.dll
+D:\Tan_Camau\Ecm.WebReferences\bin\Debug\GoobizFrame.Profile.dll
+D:\Tan_Camau\Ecm.WebReferences\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Tan_Camau\Ecm.WebReferences\bin\Debug\FastJSON.dll
+D:\Tan_Camau\Ecm.WebReferences\obj\Debug\Ecm.WebReferences.csprojResolveAssemblyReference.cache
+D:\Tan_Camau\Ecm.WebReferences\obj\Debug\Ecm.WebReferences.dll
+D:\Tan_Camau\Ecm.WebReferences\obj\Debug\Ecm.WebReferences.pdb
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.WebReferences\bin\Debug\Ecm.WebReferences.dll.config
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.WebReferences\bin\Debug\Ecm.WebReferences.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.WebReferences\bin\Debug\Ecm.WebReferences.pdb
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.WebReferences\bin\Debug\GoobizFrame.Windows.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.WebReferences\bin\Debug\GoobizFrame.Profile.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.WebReferences\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.WebReferences\bin\Debug\FastJSON.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.WebReferences\obj\Debug\Ecm.WebReferences.dll
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.WebReferences\obj\Debug\Ecm.WebReferences.pdb
+E:\Luan Van Tot Nghiep CNTT\Tan_Camau\Ecm.WebReferences\obj\Debug\Ecm.WebReferences.csprojResolveAssemblyReference.cache

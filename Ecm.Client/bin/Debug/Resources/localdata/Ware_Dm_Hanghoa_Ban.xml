@@ -1,0 +1,3416 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="GridTable">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Id_Hanghoa_Ban" type="xs:long" minOccurs="0" />
+                <xs:element name="Ma_Hanghoa_Ban" type="xs:string" minOccurs="0" />
+                <xs:element name="Ma_Hanghoa_Ban1" type="xs:string" minOccurs="0" />
+                <xs:element name="Ten_Hanghoa_Ban" type="xs:string" minOccurs="0" />
+                <xs:element name="Id_Loai_Hanghoa_Ban" type="xs:long" minOccurs="0" />
+                <xs:element name="Dongia_Ban" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Id_Donvitinh" type="xs:long" minOccurs="0" />
+                <xs:element name="Barcode_Txt" type="xs:string" minOccurs="0" />
+                <xs:element name="Id_Nhom_Hanghoa_Ban" type="xs:long" minOccurs="0" />
+                <xs:element name="Ten_Donvitinh" type="xs:string" minOccurs="0" />
+                <xs:element name="Id_Khachhang" type="xs:long" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <GridTable>
+    <Id_Hanghoa_Ban>528</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>888001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>888001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì 999 cam đặc biệt</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>62</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>888001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>529</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>888003</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>888003</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì địa cầu hoàng kim</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>62</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>888003</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>530</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Men 7 màu lạt ( thùng/10kg )</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>3</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>531</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887002</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887002</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Men 7 màu ngọt ( thùng/10kg )</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>3</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887002</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>532</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887003</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887003</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Men lạt Gloripan ( thùng/10kg )</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>3</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887003</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>533</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887004</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887004</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Men ngọt Angel ( thùng/10kg )</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>62</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887004</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>534</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887005</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887005</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Phụ gia lạt 999 ( thùng/10kg )</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>3</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887005</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>535</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887006</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887006</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Phụ gia ngọt 999 ( thùng/10kg )</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>62</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887006</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>536</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887007</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887007</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bơ BOSS 337 ( thùng 17kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>62</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887007</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>537</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>888002</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>888002</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì 999 xanh</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>62</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>888002</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>538</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>888004</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>888004</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì 888 cam ( Bao 25kg )</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>2</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>888004</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>539</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>888017</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>888017</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì địa cầu (10kg/bao)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>2</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>888017</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>540</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>888018</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>888018</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì địa cầu (1kg/bao)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>2</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>888018</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>541</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>888010</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>888010</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì địa cầu xanh lá</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>62</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>888010</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>542</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>880011</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>880011</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì địa cầu hồng</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>2</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>880011</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>543</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>888009</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>888009</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì IFV - LG</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>2</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>888009</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>544</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887008</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887008</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Chất ổn định SP ( Cake Gel )  </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>3</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887008</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>545</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTD0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTD0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Thẻ Đen - D003</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTD0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>546</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTD0004</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTD0004</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Thẻ Đen - D026</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTD0004</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>547</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTT0008</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTT0008</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Thẻ Trắng - W003</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTT0008</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>548</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTT0009</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTT0009</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Thẻ Trắng - W014</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTT0009</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>549</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTD0002</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTD0002</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Thẻ Đen 2kg - D013</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTD0002</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>550</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTT0010</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTT0010</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Thẻ Trắng 2kg - W007</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTT0010</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>551</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>888012</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>888012</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì địa cầu nâu</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>2</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>888012</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>552</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>888013</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>888013</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì Phượng Hoàng</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>2</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>888013</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>553</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>888014</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>888014</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì địa cầu đỏ</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>2</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>888014</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>554</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>888015</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>888015</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì địa cầu trắng</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>2</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>888015</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>555</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>888016</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>888016</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì thăng long (Bao 40kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>2</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>888016</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>556</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>888019</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>888019</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì thăng long (Bao 25kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>2</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>888019</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>557</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>888005</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>888005</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì 888 cam ( Bao 40kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>2</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>888005</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>558</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>888020</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>888020</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì IFV - GP</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>2</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>888020</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>559</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>888021</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>888021</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì Bạch Hổ</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>2</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>888021</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>560</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887009</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887009</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Men lạt Angel ( thùng /10kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>62</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887009</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>561</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887010</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887010</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Men ngọt Gloripan ( thùng/10kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>3</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887010</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>562</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887011</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887011</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Tinh sữa 1kg (thùng/10kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>3</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887011</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>563</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887012</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887012</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Tinh sữa 5kg (thùng/10kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>3</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887012</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>564</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887013</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887013</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Vitamin C - nắp đỏ (1 thùng/50chai)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>3</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>11</Id_Donvitinh>
+    <Barcode_Txt>887013</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>chai</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>565</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887014</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887014</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Men khô lạt - Prime ( thùng/10kg )</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>3</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887014</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>566</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887015</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887015</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Men khô ngọt - Prime ( thùng/10kg )</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>3</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887015</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>568</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887016</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887016</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Phụ gia ngọt Mauri ( thùng/10kg )</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>3</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887016</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>569</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887017</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887017</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Men Mauri ( Men con chuột) ( thùng/10kg )</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>3</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887017</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>570</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887018</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887018</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Chất béo làm bánh ( thùng/18kg )</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>3</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887018</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>571</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887019</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887019</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Nhân đậu xanh ( bịch/3kg/thùng/15kg )</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>3</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887019</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>572</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887020</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887020</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Nhân khoai môn ( bịch/3kg/thùng/15kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>3</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887020</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>573</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCSD0002</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCSD0002</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Sệt Đen - D014 </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCSD0002</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>574</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCSD0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCSD0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Sệt Đen - D015</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCSD0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>575</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCSM0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCSM0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Sệt Nâu GP - M017</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCSM0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>576</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCST0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCST0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Sệt Trắng GP - W012</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCST0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>577</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCCD0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCCD0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Chip Đen GP - D07C</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCCD0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>578</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCCT0002</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCCT0002</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Chip Trắng GP - W13C</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCCT0002</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>579</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTT0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTT0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Trang Trí - D013</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTT0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>580</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTT0002</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTT0002</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Trang Trí - D046</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTT0002</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>581</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTT0003</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTT0003</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Trang Trí - D050</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTT0003</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>582</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTT0004</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTT0004</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Trang Trí - D307</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTT0004</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>583</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTT0005</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTT0005</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Trang Trí - D502</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTT0005</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>584</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTBD001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTBD001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Trái Banh Đen - ERD</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTBD001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>585</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTBT001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTBT001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Trái Banh Trắng - ERW</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTBT001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>586</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>MUPB0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>MUPB0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Mứt phủ bóng dùng giữ độ ẩm trái cây tươi 5kg/pail</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>57</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>MUPB0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>587</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>MUCH0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>MUCH0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Mứt Chanh 3kg/pail</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>57</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>MUCH0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>588</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>MUCA0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>MUCA0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Mứt Cam 3kg/pail</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>57</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>MUCA0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>589</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>MUDT0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>MUDT0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Mứt Dâu Tây 3kg/pail</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>57</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>MUDT0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>592</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>MUCH0002</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>MUCH0002</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Mứt Chuối 3kg/pail</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>57</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>MUCH0002</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>593</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>MUXO0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>MUXO0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Mứt Xoài 3kg/pai</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>57</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>MUXO0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>594</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>MUTA0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>MUTA0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Mứt tofil Táo (Mứt có xác táo) 5kg/pail</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>57</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>MUTA0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>595</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>BTMFM001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>BTMFM001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột trộn sẵn Muffin Socola ẩm (Moist) 5kg/bag</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>55</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>BTMFM001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>596</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>BTMFA001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>BTMFA001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột Muffin trắng (Allegro New) 10kg/bag</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>55</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>BTMFA001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>597</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>BTSTSV01</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>BTSTSV01</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột trộn sẵn Satin Vanila 5kg/bag</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>55</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>BTSTSV01</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>598</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>BTSTSC01</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>BTSTSC01</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột trộn sẵn Satin Socola 5kg/bag</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>55</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>BTSTSC01</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>599</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>BTKS0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>BTKS0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột kem su - Cremyvit (su 1) 5kg/bag</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>55</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>BTKS0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>600</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>BTKS0002</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>BTKS0002</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột kem su - Cremycol (su 2) 5kg/bag</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>55</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>BTKS0002</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>601</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>BTSP0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>BTSP0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột trộn sẵn ( SUPPER ) 1kg/bag</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>55</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>BTSP0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>602</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887021</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887021</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bơ Aristo (Bơ cán lớp) 2kg/bag</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>62</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887021</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>603</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887022</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887022</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bơ Micram 10kg/bag</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>62</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887022</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>604</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887023</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887023</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột nổi 1kg/bag/thùng/10kg</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>3</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887023</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>605</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>MUHF0004</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>MUHF0004</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Mứt hotfil - Dâu Tây 5kg/pail</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>57</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>MUHF0004</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>606</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCDC0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCDC0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Deco trang trí</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCDC0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>607</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCDD0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCDD0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Dark đen đậm</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCDD0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>608</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCMN0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCMN0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Milk Nâu </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCMN0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>609</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCDE0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCDE0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola đen 55%</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCDE0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>610</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCDE0002</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCDE0002</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola đen nguyên chất GPD -58%</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCDE0002</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>611</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCDE0003</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCDE0003</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola đen 65%</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCDE0003</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>612</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCDE0004</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCDE0004</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola đen nguyên chất GPD - 72%</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCDE0004</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>613</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCNA0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCNA0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola nâu 38%</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCNA0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>614</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTR0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTR0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola trăng 38%</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTR0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>615</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCCDNC01</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCCDNC01</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Chíp đen nguyên chất D38C</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCCDNC01</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>616</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTLN001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTLN001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola thanh den làm nhân D632 </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTLN001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>617</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTLN002</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTLN002</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola thanh làm nhân (nguyên chất)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTLN002</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>618</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887024</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887024</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Phụ gia GOALPLUS 1kg/bag/thùng/10kg</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>3</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887024</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>619</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887025</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887025</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Phụ gia S500 Ultra 1kg/bag/thùng/10kg</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>62</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887025</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>620</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887026</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887026</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Phụ gia ủ đông 1kg/bag/thùng/10kg</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>3</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887026</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>621</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887028</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887028</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Phụ gia S 500 A+ 1kg/bag/thùng/10kg</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>62</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887028</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>622</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTT0006</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTT0006</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Trang Trí  041</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTT0006</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>623</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTT0007</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTT0007</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Trang Trí  018</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTT0007</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>624</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887027</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887027</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bơ Mauri ( thùng/18kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>3</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887027</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>625</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>DPHN0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>DPHN0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Đường Nhuyễn Phụng Hiệp </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>56</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>DPHN0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>626</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>888022</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>888022</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì CCC</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>2</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>888022</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>629</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>888023</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>888023</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì BBB</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>2</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>888023</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>630</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>MUDL0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>MUDL0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Mứt dưa lưới 3kg/pail</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>57</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>MUDL0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>638</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTNC001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTNC001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola trắng NC GPW- 040</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTNC001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>639</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>STTLJ001 - ST</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>STTLJ001 - ST</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì TLJ </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>58</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>STTLJ001 - ST</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>640</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>STWM0001 - ST</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>STWM0001 - ST</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì WHOLE MEAL</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>58</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>STWM0001 - ST</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>641</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>STDCD001 - ST</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>STDCD001 - ST</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì địa cầu đỏ </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>58</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>STDCD001 - ST</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>642</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>STDCHK01 - ST</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>STDCHK01 - ST</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì địa cầu hoàng kim </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>58</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>STDCHK01 - ST</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>643</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>STDCXL01 - ST</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>STDCXL01 - ST</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì địa cầu xanh lá </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>58</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>STDCXL01 - ST</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>644</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>STTL0001 - ST</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>STTL0001 - ST</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì thăng long 25kg </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>58</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>STTL0001 - ST</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>645</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>MUDR0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>MUDR0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Mứt dâu rừng 3kg/pail</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>57</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>MUDR0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>646</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>DVTT0002</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>DVTT0002</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Đường A1-N (Con kiến xanh) bao 50kg</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>56</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>DVTT0002</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>647</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>DVTN0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>DVTN0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Đường Nhuyễn Vị Thanh </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>62</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>DVTN0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>648</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>DCDN0003</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>DCDN0003</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Đường Nhuyễn đẹp</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>56</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>DCDN0003</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>649</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>DCDN0004</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>DCDN0004</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Đường Nhuyễn Hồng </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>56</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>DCDN0004</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>650</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>DPHT0002</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>DPHT0002</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Đường A1-N (Kim cương xanh) bao 50kg</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>56</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>DPHT0002</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>651</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>BTNC0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>BTNC0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột ngũ cốc </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>55</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>BTNC0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>652</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>BTMD0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>BTMD0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì đen </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>55</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>BTMD0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>653</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887029</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887029</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bơ BOS - UNIBOS B - G.B.C.O  thùng/17kg</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>3</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887029</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>654</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>MUMB001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>MUMB001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Mứt mơ Brillo Apricot </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>57</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>MUMB001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>655</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>MUHF0005</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>MUHF0005</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Mứt hotfil - Cam 5kg/pail</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>57</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>MUHF0005</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>656</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>888024</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>888024</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì Hồng Hạc</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>2</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>888024</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>658</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>DHT0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>DHT0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Đường hạt to</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>56</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>DHT0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>659</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTT0011</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTT0011</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola trang trí D019</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTT0011</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>660</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTT0012</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTT0012</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola trang trí D025</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTT0012</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>661</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTT0013</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTT0013</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola trang trí D026</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTT0013</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>662</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>BTWH001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>BTWH001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì WHOLE MEAL</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>55</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>BTWH001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>663</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887030</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887030</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Phu gia S500 1kg/bag/thùng/10kg</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>62</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887030</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>664</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>888025</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>888025</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì địa cầu vàng</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>2</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>888025</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>665</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>888007</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>888007</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì IFV - AL</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>2</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>888007</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>666</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTT014</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTT014</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola thẻ trăng W019</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTT014</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>667</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCSD0004</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCSD0004</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola sệt đen nhúng kem M01</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCSD0004</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>668</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>MUTF001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>MUTF001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Mứt topfil - Dâu rừng </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>57</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>MUTF001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>669</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>887031</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>887031</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Phụ gia lạt New 999 ( thùng/10kg )</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>3</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>887031</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>670</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>888008</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>888008</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì Minh Long</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>2</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>888008</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>671</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>888006</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>888006</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột mì Long Thành </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>2</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>888006</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>672</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>MUKS001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>MUKS001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kem sữa - Creamfil Vani </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>57</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>MUKS001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>673</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>MUVQ001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>MUVQ001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Mứt Việt quất - Coldfil blueberry</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>57</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>MUVQ001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>674</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTD0006</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTD0006</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola đen GPD 037</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTD0006</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>675</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>BTRVR001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>BTRVR001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột trộn sẵn Red velvet L.5kg</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>55</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>BTRVR001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>676</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>BTTSD001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>BTTSD001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột trộn sẵn Tegral Soft'r Donut 10kg</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>55</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>BTTSD001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>677</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>BTRVR002</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>BTRVR002</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột trộn sẵn Red velvet L.1kg</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>55</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>BTRVR002</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>678</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>BTTSD002</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>BTTSD002</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột trộn sẵn Tegral Soft'r Donut 1kg</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>55</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>BTTSD002</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>679</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>MUKS002</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>MUKS002</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kem sữa - Creamfil Classic Durian</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>57</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>MUKS002</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>680</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>MUTX001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>MUTX001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Mứt táo xanh - Hotfil green Apple 5kg</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>57</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>MUTX001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>681</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030004</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030004</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Joker dâu cây 95g - 5,7kg</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>13</Id_Donvitinh>
+    <Barcode_Txt>65030004</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Cây</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>682</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030005</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030005</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Joker socola cây 95g - 5,7kg </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>13</Id_Donvitinh>
+    <Barcode_Txt>65030005</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Cây</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>683</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCTT0015</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCTT0015</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola trắng GPW-019 (Rainbow)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCTT0015</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>684</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCSD0003</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCSD0003</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Sệt đen - D080 (1kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCSD0003</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>685</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCSN0003</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCSN0003</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Sệt nâu - M081 (1kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCSN0003</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>686</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCST0003</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCST0003</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola Sệt trắng - W082 (1kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCST0003</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>687</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>SCGN0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>SCGN0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Choco Ganache</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>51</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>SCGN0001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>688</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030200</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030200</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Creamy dâu hộp 260g (2,6kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030200</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>689</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030199</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030199</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Creamy socola hộp 260g (2,6kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030199</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>690</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030002</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030002</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh chú hề trái cây quai xách 320g (4,8kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65030002</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>691</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030006</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030006</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Joker cafe cây 95g ( 5,7kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>13</Id_Donvitinh>
+    <Barcode_Txt>65030006</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Cây</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>692</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030141</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030141</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Goody cao cấp hộp thiếc 681g </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030141</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>693</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030188</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030188</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Emily nơ xanh hộp nhựa 300g ( 3kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030188</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>694</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030189</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030189</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Emily ngàn hoa hộp nhựa 300g ( 3kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030189</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>695</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030190</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030190</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Warmly hoa hướng dương hộp thiếc 350g (3,5kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030190</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>696</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030206</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030206</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Warmly lâu đài hộp thiếc 350g (3,5kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030206</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>697</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030216</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030216</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Cindy sắc màu hộp giấy 330g (3,96kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030216</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>698</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030208</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030208</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Happy cối xay gió hộp thiếc 700g (4,2kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030208</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>699</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030209</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030209</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Happy hoa xuân hộp thiếc 700g (4,2kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030209</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>700</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030184</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030184</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Happy con ngựa hộp thiếc 700g (4,2kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030184</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>701</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030137</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030137</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Happy trái tim hộp thiếc 700g (4,2kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030137</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>702</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030224</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030224</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh lạc việt nhũ vàng hộp thiếc 800g (4,8kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030224</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>703</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030225</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030225</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh lạc việt đồng đỏ hộp thiếc 800g (4,8kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030225</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>704</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65020065</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65020065</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Hura deli 2 hương bơ - sữa HG 336g ( 2,688kg) 8H</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65020065</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>705</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65020042</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65020042</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Hura deli 2 hương cốm - dừa HG 336g (2,688kg) 8H</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65020042</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>706</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65020064</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65020064</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Hura deli 2 hương sữa - dâu HG 336g (2,688kg) 8H</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65020064</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>707</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65020035</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65020035</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Hura bơ sữa hộp Demi 300g (3,6kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65020035</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>708</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65020057</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65020057</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Hura swissroll bơ sữa hốp Demi 360g-18g (4,32kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65020057</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>709</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65020053</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65020053</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Hura swissroll cốm hốp Demi 360g-18g (4,32kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65020053</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>710</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65020052</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65020052</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Hura swissroll dâu hốp Demi 360g-18g (4,32kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65020052</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>711</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65020055</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65020055</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Hura swissroll cam + C hốp Demi 360g-18g (4,32kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65020055</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>712</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65020090</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65020090</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Hura swissroll cốm hốp 288g (2,304kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65020090</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>713</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65020089</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65020089</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Hura swissroll dâu hốp 288g (2,304kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65020089</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>714</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65010002</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65010002</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh lotte pie hộp 360g (3,6kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65010002</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>715</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65010022</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65010022</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh sữa orienko hộp 396g (3,168kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65010022</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>716</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100007</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100007</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo migita me túi 400g (8kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100007</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>717</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100002</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100002</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo migita bạc hà túi 70g (5,6kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100002</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>718</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo migita me túi 70g (8kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>719</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100003</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100003</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo migita gừng túi 70g (5,6kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100003</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>720</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100004</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100004</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo migita me túi 140g (7kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100004</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>721</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100014</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100014</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo sữa cafe túi 400g (8kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100014</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>722</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100015</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100015</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo sữa cafe túi 140g (7kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100015</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>723</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100045</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100045</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo trái cây nhân tứ quí túi 400g (8kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100045</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>724</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100029</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100029</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo tú quí túi 140g (7kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100029</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>725</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100028</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100028</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo tú quí túi 70g (5,6kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100028</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>726</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100016</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100016</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo trái cây bốn mùa túi 650g (7,8kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100016</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>727</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100044</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100044</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo trái cây bốn mùa túi 70g (5,6kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100044</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>728</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100058</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100058</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo trái cây hỗn hợp welly túi (6kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100058</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>729</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100068</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100068</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo welly cam túi 90g (7,2kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100068</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>730</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100076</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100076</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo welly chanh túi 90g (7,2kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100076</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>731</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100073</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100073</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo mút welly cam - dâu - ổi - cola túi 396g (7,92kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100073</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>732</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100074</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100074</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo mút welly cam - dâu - ổi - cola hũ 594g (7,128kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100074</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>733</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100077</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100077</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo welly cola túi 90g (7,2kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100077</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>734</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100069</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100069</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo welly dâu túi 90g (7,2kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100069</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>735</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100070</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100070</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo welly ổi túi 90g (7,2kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100070</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>736</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100094</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100094</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo welly hương vải túi 90g (7,2kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100094</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>737</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100078</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100078</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo welly nho đen túi 90g (7,2kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100078</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>738</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100048</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100048</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo bạc hà sữa nhân socola túi 100g (5kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100048</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>739</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65120005</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65120005</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo Zoo túi 16g (4,8kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65120005</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>740</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65120001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65120001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo Zoo áo dầu túi 100g (6kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65120001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>741</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65120002</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65120002</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo Zoo áo dầu túi 200g (6kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65120002</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>742</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65110013</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65110013</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo cheery cam hũ 780g (9,36kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65110013</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>743</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65110014</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65110014</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo cheery dâu hũ 780g (9,36kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65110014</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>744</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65110015</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65110015</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo cheery sữa hũ 780g (9,36kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65110015</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>745</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65110008</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65110008</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo sumika socola sữa túi 140g (7kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65110008</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>746</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65110006</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65110006</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo sumika socola sữa túi 350g (7kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65110006</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>747</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65110001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65110001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo sumika sữa túi 70g (5,6kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65110001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>748</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65110004</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65110004</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo sumika sữa túi 350g (7kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65110004</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>749</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65110007</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65110007</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo sumika sữa túi 140g (7kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65110007</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>750</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65110052</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65110052</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo quê hương hỗn hợp túi 600g (7,2kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65110052</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>751</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65110003</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65110003</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo sumika socola sữa túi 70g (5,6kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65110003</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>752</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65110009</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65110009</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo sumika sữa dâu túi 140g (7kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65110009</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>753</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65110005</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65110005</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo sumika sữa dâu túi 350g (7kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65110005</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>754</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65300012</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65300012</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Growsure cam hộp 168g (2,016kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65300012</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>755</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65300011</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65300011</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Growsure đậu xanh hộp 168g (2,016kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65300011</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>756</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65300010</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65300010</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Growsure tự nhiên hộp 168g (2,016kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65300010</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>757</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65300004</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65300004</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh quy Quasure light sữa hộp 140g (3,36kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65300004</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>758</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65300006</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65300006</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Mumsure cam hộp 165g (2,64kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65300006</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>759</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65300005</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65300005</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Mumsure sữa hộp 165g (2,64kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65300005</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>760</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65300002</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65300002</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh bông lan Quasure light cốm hộp 140g (2,8kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65300002</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>761</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65020071</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65020071</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Hura deli sữa - dâu hộp 168g (1,68kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65020071</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>762</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65020092</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65020092</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Hura deli hương cốm-dừa,sữa - dâu 504g </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65020092</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>763</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65020095</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65020095</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Hura deli cốm hộp 390g (3,12kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65020095</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>764</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65020094</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65020094</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Hura deli dâu hộp 390g (3,12kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65020094</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>765</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65020041</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65020041</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Hura deli cốm hộp 336g (2,688kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65020041</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>766</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65310002</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65310002</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Sữa bột Quasure light hương vani hộp 400g (4,8kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65310002</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>767</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65310003</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65310003</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Sữa bột Quasure light vani 400g (4,8kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65310003</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>768</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65320001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65320001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột ngũ cốc Quasure light sữa túi 400g (4,8kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65320001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>769</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030133</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030133</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Glory chữ xanh hộp thiếc 350g</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030133</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>770</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030107</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030107</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Glory cao cấp hộp thiếc 908g (7,264kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030107</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>771</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030109</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030109</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Glory cao cấp hộp thiếc 454g (5,448kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030109</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>772</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100035</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100035</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo phát tài hộp nhựa 150g </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65100035</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>773</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65300001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65300001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh bông lan Quasure light dâu hộp 140g (2,8kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65300001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>774</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65020026</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65020026</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Hura dâu hộp demi 180g (3,24kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65020026</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>775</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030003</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030003</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh chú hề socola - cafe xách 320g (4,8kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65030003</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>776</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100013</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100013</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo sữa cafe túi 70g (5,6kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100013</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>777</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030168</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030168</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh chocochip dừa hộp 144g (2,88kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030168</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>778</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030169</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030169</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh chocochip hạt điều hộp 144g (2,88kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030169</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>779</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030170</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030170</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh chocochip nho hộp 144g (2,88kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030170</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>780</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65090007</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65090007</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Jamy nhân mứt dâu hộp 200g (2kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65090007</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>781</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65090008</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65090008</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Jamy nhân mứt nho hộp 200g (2kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65090008</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>782</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65090009</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65090009</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Jamy nhân mứt cam hộp 200g (2kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65090009</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>783</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65010021</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65010021</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh sữa Orienko hộp 264g (2,64kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65010021</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>784</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100087</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100087</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Keo mứt sữa Michoco hỗn hợp túi 28,5g ( 28,5kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100087</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>785</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100082</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100082</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Keo mứt sữa Michoco hỗn hợp hũ 475g ( 3,8kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>16</Id_Donvitinh>
+    <Barcode_Txt>65100082</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hũ </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>786</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100075</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100075</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Keo Michoco sữa cà phê hũ nhựa 600g ( 3,6kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>16</Id_Donvitinh>
+    <Barcode_Txt>65100075</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hũ </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>787</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030205</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030205</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Warmly nhũ vàng hộp thiếc 350g (3,5kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030205</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>788</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65120003</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65120003</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo Zoo áo dầu túi 500g (6kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65120003</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>789</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030130</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030130</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Warmly Hoa hồng đỏ hộp thiếc 350g(3.5kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030130</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>790</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030135</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030135</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Warmly xanh hộp thiếc 350g(3.5kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030135</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>791</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030217</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030217</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Cindy nền trắng hộp giấy 330g (3,96kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030217</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>792</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030218</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030218</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Cindy trái cây hộp giấy 330g (3,96kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030218</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>793</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030219</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030219</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Cindy hoa hồng hộp giấy 330g (3,96kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030219</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>794</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030220</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030220</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Cindy nghệ thuật hộp giấy 330g (3,96kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030220</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>795</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030221</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030221</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Cindy nền đỏ hộp giấy 330g (3,96kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030221</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>796</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030234</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030234</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Happy Italy hộp thiếc 600g (3,6kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030234</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>797</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030235</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030235</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Happy Hà Nội - Sài Gòn hộp thiếc 600g (3,6kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030235</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>798</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030236</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030236</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Happy Phố cổ hộp thiếc 600g (3,6kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030236</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>799</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030237</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030237</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Lạc Việt Nhũ Vàng hộp thiếc 600g (4,8kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030237</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>800</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65020020</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65020020</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Hura cốm hốp Demi 360g-18g (4,32kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65020020</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>801</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65120007</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65120007</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo Zoo áo đường túi 200g (6kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65120007</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>802</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>999991</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>999991</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>VIVO TOPPING ACE - NEW</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>60</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>999991</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>803</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>999992</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>999992</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>VIVO TOPPING ACE - P</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>60</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>999992</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>804</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>DVTT0003</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>DVTT0003</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Đường A1-N (Con kiến xanh) bao 12kg</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>56</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>DVTT0003</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>805</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>DVTT0004</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>DVTT0004</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Đường A1-N túi 1kg, bao 20kg</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>56</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>DVTT0004</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>806</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>DVTT0005</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>DVTT0005</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Đường A1-N túi 1kg, thùng 5kg</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>56</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>DVTT0005</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>807</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030215</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030215</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Emily nền vàng hộp nhựa 300g (3kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030215</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>808</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030128</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030128</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Emily nơ đỏ hộp nhựa 300g (3kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030128</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>809</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100084</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100084</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo Phát tài thỏi vàng hộp nhựa 68g (2,04kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65100084</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>810</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100085</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100085</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo Phát tài thỏi vàng hộp giấy 99,99g (2,9997kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65100085</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>811</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65110046</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65110046</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo Michoco lồng đèn hộp giấy 150g ( 2,25kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65110046</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>812</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65110047</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65110047</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo Quê hương hộp giấy đỏ chữ nhật 150g (3kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65110047</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>813</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100086</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100086</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo Phát tài hộp giấy vàng bát giác 120g (3,6kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65100086</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>814</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65110053</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65110053</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo Quê hương hộp giấy xanh chữ nhật 150g (3kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65110053</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>815</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030232</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030232</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Warmly hòa nhạc hộp thiếc 350g (3,5kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030232</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>816</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030233</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030233</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Warmly lâu đài vàng hộp thiếc 350g (3,5kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030233</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>817</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100061</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100061</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo Phát tài hộp giấy đỏ bát giác 120g (3,6kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65100061</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>818</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65120025</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65120025</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo dẻo Quế hương hũ nhựa 300g ( 6kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>16</Id_Donvitinh>
+    <Barcode_Txt>65120025</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hũ </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>819</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030207</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030207</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Warmly sọc caro hộp thiếc 350g (3,5kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030207</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>820</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65020070</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65020070</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Hura Deli hương cốm - dừa 168g</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65020070</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>821</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65320015</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65320015</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bột ngũ cốc Quasure light túi 400g - Khuyến mãi đĩa thủy tinh</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65320015</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>822</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65020054</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65020054</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Hura swissroll Cốm hộp Demi 360g-18g (4.32kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65020054</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>823</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100047</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100047</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo Volcano Bạc hà Sữa nhân Socola túi 100g (5kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>14</Id_Donvitinh>
+    <Barcode_Txt>65100047</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Túi</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>824</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65010023</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65010023</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Socola Orienko hộp 264g (2.64kg)	</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65010023</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>825</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65010025</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65010025</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Cranberry Orienko hộp 264g (2.64kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65010025</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>826</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65010026</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65010026</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Cranberry Orienko hộp 396g (3.168kg)	</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65010026</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>827</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>00001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>00001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola hình đũa </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>61</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>00001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>828</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>00002</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>00002</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola hình nơ</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>61</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>00002</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>829</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>00003</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>00003</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola hình dây xoắn </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>61</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>00003</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>830</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>00004</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>00004</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola ốp thành cong</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>61</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>00004</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>831</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>00005</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>00005</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola ốp thành tròn </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>61</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>00005</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>832</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>00006 </Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>00006 </Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola đổ khuân tam giác </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>61</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>00006 </Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>833</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>00007</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>00007</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola hình hoa loa kèn </Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>61</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>00007</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>834</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>00008</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>00008</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Socola hình quạt nhọn</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>61</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>00008</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>835</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65030167</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65030167</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Chocochip Socola hộp 144g (2.88kg)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65030167</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>836</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65010027</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65010027</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bánh Orienko hộp 462g (3.696kg)(A027)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65010027</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>837</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65110049</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65110049</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo Quê hương oval hộp nhựa 150g (6kg)(G049)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65110049</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>838</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65110050</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65110050</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo Quê hương lục giác hộp nhựa 170g (5.1kg)(G050)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>12</Id_Donvitinh>
+    <Barcode_Txt>65110050</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hộp </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>839</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65110062</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65110062</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo ngũ quả hỗn hợp hũ 600g (7.2kg)(G062)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>16</Id_Donvitinh>
+    <Barcode_Txt>65110062</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hũ </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>840</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>65100101</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>65100101</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Kẹo Michoco dừa giòn nước cốt dừa hũ 560g (3.36kg)(G101)</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>59</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>16</Id_Donvitinh>
+    <Barcode_Txt>65100101</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Hũ </Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>841</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>CF001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>CF001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Ca Phe</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>63</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>CF001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>10841</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>BM001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>BM001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bot mi</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>63</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>6</Id_Donvitinh>
+    <Barcode_Txt>BM001</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Kg</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>20841</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>DG0001</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>DG0001</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bàn học đa năng Tashuan</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>10063</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>15</Id_Donvitinh>
+    <Barcode_Txt>TS-5245</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Cái</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>20842</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>DG0002</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>DG0002</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Ghế văn phòng lưng cao ROF</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>10063</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>15</Id_Donvitinh>
+    <Barcode_Txt>HC10114-U1</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Cái</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>20843</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>DG0003</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>DG0003</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bộ ghế đệm hơi kèm bơm điện Index</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>10063</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>20</Id_Donvitinh>
+    <Barcode_Txt>68564SE</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Bộ</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>20844</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>DG0004</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>DG0004</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bàn laptop xoay 360 độ Gicoly</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>10063</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>15</Id_Donvitinh>
+    <Barcode_Txt>BQ41-DO</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Cái</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>20845</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>DG0005</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>DG0005</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Tủ áo Bellasofa</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>10063</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>15</Id_Donvitinh>
+    <Barcode_Txt>BL304-1</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Cái</Ten_Donvitinh>
+  </GridTable>
+  <GridTable>
+    <Id_Hanghoa_Ban>20846</Id_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban>DG0006</Ma_Hanghoa_Ban>
+    <Ma_Hanghoa_Ban1>DG0006</Ma_Hanghoa_Ban1>
+    <Ten_Hanghoa_Ban>Bộ giường tủ MA0198</Ten_Hanghoa_Ban>
+    <Id_Loai_Hanghoa_Ban>10063</Id_Loai_Hanghoa_Ban>
+    <Id_Donvitinh>20</Id_Donvitinh>
+    <Barcode_Txt>MA0198</Barcode_Txt>
+    <Id_Nhom_Hanghoa_Ban>3</Id_Nhom_Hanghoa_Ban>
+    <Ten_Donvitinh>Bộ</Ten_Donvitinh>
+  </GridTable>
+</NewDataSet>
